@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "mode": "roi",
+      "exit_code": 0,
+      "wall_time_seconds": 25.375,
+      "checkpoint_load_mismatches": [
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "scheduled_model_tiles": [
+        "9"
+      ],
+      "log_sha256": "add23c3b7ff36398d448aa96ede57cad799f77f15c30d0b6b56610114d86dad4"
+    },
+    {
+      "mode": "full-masked",
+      "exit_code": 0,
+      "wall_time_seconds": 41.578000000008615,
+      "checkpoint_load_mismatches": [
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "scheduled_model_tiles": [
+        "9"
+      ],
+      "log_sha256": "3430615d0ba0b2c56830fc3a6ffbc1c6d1a18e122574d9bb3bcff03dfb6b9082"
+    }
+  ],
+  "checkpoint_predictions_added": 18,
+  "total_recorded_checkpoint_predictions": 254,
+  "original_cap": 256,
+  "roi_pixels_equal_frozen_v1": true,
+  "full_pixels_equal_main_masked": true,
+  "stale_frame_absent_after_full_overwrite": true,
+  "scope": "One reused, already-frozen native context; actual v2 checkpoint lifecycle replay, not new independent efficacy or timing evidence."
+}

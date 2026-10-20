@@ -1,0 +1,69 @@
+{
+  "schema": "vesuvius-faithful-roi-fresh-test-v1",
+  "motivation": "The prior physical test exposed small-canvas inference failure. Padding-normalization is known prior art(#1481,#1483,#1646,#1773). Development shows normalization repair alone does not reliably recover full-context ink. Preserve actual parent CT context and global patch identities instead.",
+  "target_change": "New modular ink ROI preparation/inference tool. It does not convert the old GrowPatch grid bound into an anatomical or general ink superiority claim.",
+  "candidate": "faithful_roi.plan_roi + infer_roi: all parent-global128x128 tiles intersecting the requested80x80 rectangle, stride64, stock floored-Hann weights, fixed reader and checkpoint; preserve all contributing tile identities/normalization context; crop only the final accumulator.",
+  "candidate_source_sha256": "36230d5e2c9e398683146594c47915c51edb66b14b7f2dd7c9515253006162ee",
+  "primary_comparisons": [
+    "Current Main normalize-all-zero-padded local80x80 input,128 model patch",
+    "Existing PR1483/1773 training-consistent normalization on observed80x80, with normalized padding0",
+    "Full-frame masked inference on the parent grid; strong quality-equivalence baseline, not a claimed accuracy improvement over it"
+  ],
+  "secondary_comparisons": [
+    "Normalize80x80 then constant minimum padding",
+    "Reflect raw80x80 then stock normalization",
+    "Edge raw80x80 then stock normalization"
+  ],
+  "reader": {
+    "repo": "scrollprize/ink_9um",
+    "revision": "7109667e2607db1b90c37c8b09cb876ea7fe7bb1",
+    "file": "hybrid_3d2d-seed42/step-075000.pth",
+    "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+    "fixed": true,
+    "training": false,
+    "scope": "PHerc0139 trained; PHerc0841 absent from embedded training datasets and data provenance. Source label transfer for0841 has annotated_on unknown; report that limit."
+  },
+  "sources_metadata_sha256": "afc862874d994aa3d952eca3f0af14db9f1f996f85f9ab6d7db2bf088d616efa",
+  "selection": {
+    "cases": [
+      [
+        "PHerc0139",
+        "20260317000000-w035_2026031718",
+        2
+      ],
+      [
+        "PHerc0139",
+        "20260302000000-w039_2026030210",
+        2
+      ],
+      [
+        "PHerc0841",
+        "20260220213127-w00",
+        4
+      ]
+    ],
+    "rule": "Use only reference arrays and source metadata: grid centres64,192,...(stride128) in model-resolution canvas; rank candidates by SHA256(sample|segment|centre|seed20261020); require >=90% supervised pixels and >=128 positive and128 negative in central64x64. Choose requested count with disjoint contributing source CT chunk sets from older acquisitions and from earlier chosen cases. No score/CT-intensity selection. If insufficient, retain unavailable count.",
+    "inputs": "80x80 at centre, scored64x64 centre(+8); no post-hoc label XY/normal/depth search or replacement after CT/model outputs.",
+    "reference0139": "Use native full-resolution public annotation/supervision arrays from the prior experiment, but fresh CT contexts; label exposure is explicit.",
+    "reference0841": "Resolve coarse label metadata/preview to shortlist, then decode exact full-resolution label and supervision crops. At each model-grid pixel pool4x4 label pixels: require all16 supervised; positive if ink fraction>=.75, negative only if fraction==0, ambiguous pixels abstain. Not a new3D registration reference.",
+    "CT0841": "Published2.403um surface-volume XY level2(4x block means), mean-pool Z in nonoverlapping4-plane blocks from0, discard incomplete trailing block. Select central17 of floor(Z/4), rounded uint8. Model sampling9.612um; no fitted transfer."
+  },
+  "freshness": "No required CT object in any older workspace acquisition ledger or chosen prior physical published-surface CT receipts. This is recorded local exposure, not a universal globally-unused claim.",
+  "metrics": {
+    "primary": "Tie-correct AUC on identical qualified reference support; all cases and exclusions retained",
+    "fidelity": "Compare crop tool with independently enumerated current Main parent-global masked schedule and full-frame accumulation on the same tile probabilities. Max float32 difference<=1e-6 and encoded uint8 ROI exact. Also check nesting80->96->80 exact.",
+    "cost": "Report actual fetched bytes, inferred tiles, accumulator/output bytes. Full-parent tile-count savings are analytic unless actually run. Existing mask baseline can already save model tiles; claim only additional ROI-sized output/accumulator and avoiding mask-image requirement against it.",
+    "controls": "Frozen half-width cyclic labels and transpose; compare proper-context model to labels and null, no selection by null maximum.",
+    "benefit_gate": "At least6 qualified cases with>=3PHerc0841. Mean AUC gain>=.10 versus current naive crop and>=.05 versus existing observed-normalization/zero-padding fix; nonnegative mean gain on each scroll. Every fidelity/nesting/full-tile identity gate must pass. No IID pixel p-values or worldwide priority/prize award inference.",
+    "secondary": "All optional padding modes reported; no choosing the best post-hoc as the primary method."
+  },
+  "budget": {
+    "new_CT_download_cap_bytes": 256000000,
+    "cases_max": 8,
+    "predictions_max": 256,
+    "threads": 2,
+    "no_new_native_GrowPatch_runs": true
+  },
+  "admission": "Materialize arrays/receipts, then score in a separate process without candidate imports. Old negative gates remain unchanged. A successful test is bounded to this new workflow and references.",
+  "submission": "Prepare code, exact examples, source/competitor attribution, reproducible package and practical limitations. No external sending, publication, peer review or human attestation fabricated."
+}

@@ -1,0 +1,46 @@
+{
+  "rows": [
+    {
+      "case": "PHerc0139-20260317000000-0",
+      "normalized_tensor_exact": true,
+      "max_float32_delta": 0.0
+    },
+    {
+      "case": "PHerc0139-20260317000000-1",
+      "normalized_tensor_exact": true,
+      "max_float32_delta": 0.0
+    },
+    {
+      "case": "PHerc0139-20260302000000-0",
+      "normalized_tensor_exact": true,
+      "max_float32_delta": 0.0
+    },
+    {
+      "case": "PHerc0139-20260302000000-1",
+      "normalized_tensor_exact": true,
+      "max_float32_delta": 0.0
+    },
+    {
+      "case": "PHerc0841-20260220213127-0",
+      "normalized_tensor_exact": true,
+      "max_float32_delta": 0.0
+    },
+    {
+      "case": "PHerc0841-20260220213127-1",
+      "normalized_tensor_exact": true,
+      "max_float32_delta": 0.0
+    },
+    {
+      "case": "PHerc0841-20260220213127-2",
+      "normalized_tensor_exact": true,
+      "max_float32_delta": 0.0
+    },
+    {
+      "case": "PHerc0841-20260220213127-3",
+      "normalized_tensor_exact": true,
+      "max_float32_delta": 0.0
+    }
+  ],
+  "PR1646_PR1773_source_byte_equal": true,
+  "scope": "Exact standard80x80,17observed-depth condition used here. This does not claim all boundary/short-depth behaviors of the PRs are identical."
+}

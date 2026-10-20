@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "scalar_model_grid_points": 64,
+  "source_uint16_values_checked": 1728,
+  "source_URLs_ETag_consistent": 51,
+  "partial_source_hashes_verified": true,
+  "observed_byte_orders": [
+    "big"
+  ],
+  "observed_strip_offsets": [
+    260,
+    262
+  ],
+  "scope": "Independent classic-TIFF header interpretation, direct scalar extraction from materialized HTTP range bodies and integer pooling; no candidate/producer imports or new downloads. Not validation of the supplied physical CT/IR registration."
+}

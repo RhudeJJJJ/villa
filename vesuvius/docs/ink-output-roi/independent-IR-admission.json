@@ -1,0 +1,80 @@
+{
+  "protocol_sha256": "239cb1db688397e34513b8cd8de0044ab223a15a4d6b4be77184bae099ac405b",
+  "production_sha256": "cdcb0eb4c943fb50a9caea33ccf57acf9381e1164c738df7a055f5fc943e5d6d",
+  "rows": [
+    {
+      "case": "PHercParis2Fr47-0",
+      "centre_rc": [
+        1728,
+        320
+      ],
+      "counts": {
+        "positive": 3013,
+        "negative": 989,
+        "abstain": 94
+      },
+      "AUC": {
+        "faithful": 0.5077632919968978,
+        "main-naive": 0.27178619645170893,
+        "prior-zero": 0.6730792786365252,
+        "prior-min": 0.4169045695816947,
+        "reflect": 0.37296621951993,
+        "edge": 0.7600190210469832
+      },
+      "fidelity": {
+        "max_float32_delta": 0.0,
+        "encoded_exact": true
+      },
+      "controls": {
+        "half_width_roll": 0.3746134462157077,
+        "transpose": 0.8388135739399575
+      }
+    },
+    {
+      "case": "PHercParis2Fr47-1",
+      "centre_rc": [
+        1728,
+        1216
+      ],
+      "counts": {
+        "positive": 3086,
+        "negative": 969,
+        "abstain": 41
+      },
+      "AUC": {
+        "faithful": 0.28709017119826746,
+        "main-naive": 0.932077152585631,
+        "prior-zero": 0.7789601429138016,
+        "prior-min": 0.8885081064523227,
+        "reflect": 0.7557861429525933,
+        "edge": 0.7654133284108063
+      },
+      "fidelity": {
+        "max_float32_delta": 0.0,
+        "encoded_exact": true
+      },
+      "controls": {
+        "half_width_roll": 0.6931931349474674,
+        "transpose": 0.6449762802416051
+      }
+    }
+  ],
+  "mean_AUC": {
+    "faithful": 0.3974267315975827,
+    "main-naive": 0.6019316745186699,
+    "prior-zero": 0.7260197107751634,
+    "prior-min": 0.6527063380170087,
+    "reflect": 0.5643761812362617,
+    "edge": 0.7627161747288947
+  },
+  "gates": {
+    "both_frozen_cases": true,
+    "mean_AUC_at_least_point70": false,
+    "mean_gain_vs_main_at_least_point05": false,
+    "mean_gain_vs_prior_at_least_point05": false,
+    "both_parent_fidelity": true
+  },
+  "independent_IR_benefit_gate_passed": false,
+  "reference_scope": "Published2023 IR-derived fragment labels at fixed supplied alignment; no fitted registration. Fragment1 absent from recorded training datasets. Two selected reference-qualified CT contexts are not a random population study or independent3D anatomy.",
+  "distribution": "Raw CT/IR/reference pixels remain local/private due data-server redistribution restriction; this aggregate report contains no new transcription."
+}

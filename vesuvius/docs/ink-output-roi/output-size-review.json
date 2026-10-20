@@ -1,0 +1,27 @@
+{
+  "rows": [
+    {
+      "case": "PHerc0139-20260317000000-0",
+      "masked_tiff_bytes": 415490,
+      "roi_tiff_bytes": 4571,
+      "roi_sidecar_bytes": 562,
+      "masked_to_roi_TIFF_ratio": 90.89695908991467,
+      "masked_to_roi_and_sidecar_ratio": 80.94486654977597,
+      "existing_input_mask_bytes": 103672,
+      "equal_regional_pixels_previously_verified": true,
+      "source_receipt_sha256": "e1124a4e2465619cb46a390361664005d444abaadcbba48f7956b8cd39fa1fb8"
+    },
+    {
+      "case": "PHerc0841-20260220213127-0",
+      "masked_tiff_bytes": 270633,
+      "roi_tiff_bytes": 4696,
+      "roi_sidecar_bytes": 562,
+      "masked_to_roi_TIFF_ratio": 57.63053662691652,
+      "masked_to_roi_and_sidecar_ratio": 51.47071129707113,
+      "existing_input_mask_bytes": 65387,
+      "equal_regional_pixels_previously_verified": true,
+      "source_receipt_sha256": "e1124a4e2465619cb46a390361664005d444abaadcbba48f7956b8cd39fa1fb8"
+    }
+  ],
+  "scope": "Existing actual encoded TIFFs, not logical shapes or peak-RAM/timing measurements."
+}

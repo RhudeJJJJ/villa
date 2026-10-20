@@ -1,0 +1,161 @@
+{
+  "schema": "independent-IR-followup-v1",
+  "reason": "Original8-case public0841 annotations were transferred with unknown annotation scan. This follow-up tests against the pre-existing2023 fragment infrared-derived reference, without revising that earlier gate.",
+  "reference": "EduceLab-Scrolls PHercParis2Fr47 (Fragment1), aligned2023 inklabels.png and ir.png; released before tested2026 checkpoint. Fixed published registration, no fitted CT/IR alignment.",
+  "source_metadata_sha256": "066128f69fff77a0a2990d9600ac819f23461aca07c89aa9b940a03e2dc0529d",
+  "cases": [
+    {
+      "name": "PHercParis2Fr47-0",
+      "centre_rc": [
+        1728,
+        320
+      ],
+      "roi_yxyx": [
+        1688,
+        1768,
+        280,
+        360
+      ],
+      "context_yxyx": [
+        1600,
+        1856,
+        192,
+        448
+      ],
+      "parent_shape_yx": [
+        2727,
+        2110
+      ],
+      "parent_origins_rc": [
+        [
+          1600,
+          192
+        ],
+        [
+          1600,
+          256
+        ],
+        [
+          1600,
+          320
+        ],
+        [
+          1664,
+          192
+        ],
+        [
+          1664,
+          256
+        ],
+        [
+          1664,
+          320
+        ],
+        [
+          1728,
+          192
+        ],
+        [
+          1728,
+          256
+        ],
+        [
+          1728,
+          320
+        ]
+      ],
+      "reference_counts": {
+        "positive": 3013,
+        "negative": 989,
+        "abstain": 94
+      },
+      "selection_rank_checked": 9,
+      "labels_sha256": "03ffa6cec177fba8803038772b85ba132e9aaacd75906dd75ea922e49813d30d",
+      "supervision_sha256": "59424a138729536c55dd8b1cf67ac0d55a4f0af377e78b8fdf0ff262d958edd3"
+    },
+    {
+      "name": "PHercParis2Fr47-1",
+      "centre_rc": [
+        1728,
+        1216
+      ],
+      "roi_yxyx": [
+        1688,
+        1768,
+        1176,
+        1256
+      ],
+      "context_yxyx": [
+        1600,
+        1856,
+        1088,
+        1344
+      ],
+      "parent_shape_yx": [
+        2727,
+        2110
+      ],
+      "parent_origins_rc": [
+        [
+          1600,
+          1088
+        ],
+        [
+          1600,
+          1152
+        ],
+        [
+          1600,
+          1216
+        ],
+        [
+          1664,
+          1088
+        ],
+        [
+          1664,
+          1152
+        ],
+        [
+          1664,
+          1216
+        ],
+        [
+          1728,
+          1088
+        ],
+        [
+          1728,
+          1152
+        ],
+        [
+          1728,
+          1216
+        ]
+      ],
+      "reference_counts": {
+        "positive": 3086,
+        "negative": 969,
+        "abstain": 41
+      },
+      "selection_rank_checked": 10,
+      "labels_sha256": "c2e16020aa46ef75fd6622a8dfde5b1d2a0a5267b2c1742b9a6def4dc0811a36",
+      "supervision_sha256": "59424a138729536c55dd8b1cf67ac0d55a4f0af377e78b8fdf0ff262d958edd3"
+    }
+  ],
+  "sampling": "Isotropic3x3x3 block mean of original3.24um uint16 CT ->9.72um; Z blocks from0:floor65/3=21, central17 coarse blocks2:19 =>fine layers6:57; round pooled values/257 to uint8. No depth/orientation/intensity search.",
+  "reference_rule": "Pool3x3 native IR-derived binary label pixels. All9 mask pixels required; positive fraction>=.75, negative fraction0, intermediate abstains. Central64x64 of80x80 ROI,>=90% supervised,>=128 positives/negatives. SHA256-ranked stride128 centres, first2disjoint contexts. No CT/model score selection.",
+  "candidate_sha256": "31100124122c1c236fdec098fdb2d42ab52b283ba38a2079739612253d3c1621",
+  "model_sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+  "comparisons": [
+    "Main naive cropped input",
+    "Existing PR1773 observed normalization +zero padding",
+    "Same parent schedule/oracle",
+    "all min/reflect/edge controls"
+  ],
+  "additional_gate": "Both cases retained; mean proper-context AUC>=.70, mean gain>=.05 against each Main-naive and prior-zero, exact parent schedule/fidelity on both. No IID-pixel significance or new decipherment claim.",
+  "budget": "Two cases,28 model tiles+control predictions; cumulative112primary+74CLI+28IR=214, leaves42 within original256prediction cap. Whole new-source cache remains capped256MB. At most4 concurrent bounded HTTP range workers.",
+  "distribution": "Fragment raw CT/IR/label pixels remain local private evidence; source server prohibits redistribution without written approval. Public software package includes code/provenance/aggregate results only for this follow-up.",
+  "CT_arrays_decoded_at_freeze": 0,
+  "fragment_predictions_at_freeze": 0
+}

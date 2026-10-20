@@ -1,0 +1,784 @@
+{
+  "protocol_sha256": "7f8bfced976d1e379e4b6ea7ae52aa63f4a4c909a1124caada75a163e1210507",
+  "cases": [
+    {
+      "name": "PHerc0139-20260317000000-0",
+      "spec_index": 0,
+      "sample": "PHerc0139",
+      "segment": "20260317000000-w035_2026031718",
+      "centre_rc": [
+        2368,
+        2752
+      ],
+      "roi_yxyx": [
+        2328,
+        2408,
+        2712,
+        2792
+      ],
+      "core_global_yxyx": [
+        2336,
+        2400,
+        2720,
+        2784
+      ],
+      "source_label_bounds_yxyx": [
+        2336,
+        2400,
+        2720,
+        2784
+      ],
+      "context_yxyx": [
+        2240,
+        2496,
+        2624,
+        2880
+      ],
+      "parent_tile_origins_yx": [
+        [
+          2240,
+          2624
+        ],
+        [
+          2240,
+          2688
+        ],
+        [
+          2240,
+          2752
+        ],
+        [
+          2304,
+          2624
+        ],
+        [
+          2304,
+          2688
+        ],
+        [
+          2304,
+          2752
+        ],
+        [
+          2368,
+          2624
+        ],
+        [
+          2368,
+          2688
+        ],
+        [
+          2368,
+          2752
+        ]
+      ],
+      "required_CT_urls": [
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/17/20",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/17/21",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/17/22",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/18/20",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/18/21",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/18/22",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/19/20",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/19/21",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/19/22"
+      ],
+      "no_old_CT_object_overlap": true,
+      "no_other_test_case_CT_object_overlap": true,
+      "reference_counts": {
+        "supervised": 4096,
+        "positive": 3390,
+        "negative": 706,
+        "ambiguous_or_unsupervised": 0
+      },
+      "reference_hashes": {
+        "ink-fraction.npy": "4cc4943be57c7a056f40d43fc186868cafe5f7c4721bb8bf5a4d63f3102d09bc",
+        "labels.npy": "fc9098f9112513092efebc3f74200137ee4901cbee9a7f9d45b001f1d4b97d14",
+        "supervision.npy": "59424a138729536c55dd8b1cf67ac0d55a4f0af377e78b8fdf0ff262d958edd3"
+      },
+      "selection_rank_checked": 255
+    },
+    {
+      "name": "PHerc0139-20260317000000-1",
+      "spec_index": 0,
+      "sample": "PHerc0139",
+      "segment": "20260317000000-w035_2026031718",
+      "centre_rc": [
+        960,
+        704
+      ],
+      "roi_yxyx": [
+        920,
+        1000,
+        664,
+        744
+      ],
+      "core_global_yxyx": [
+        928,
+        992,
+        672,
+        736
+      ],
+      "source_label_bounds_yxyx": [
+        928,
+        992,
+        672,
+        736
+      ],
+      "context_yxyx": [
+        832,
+        1088,
+        576,
+        832
+      ],
+      "parent_tile_origins_yx": [
+        [
+          832,
+          576
+        ],
+        [
+          832,
+          640
+        ],
+        [
+          832,
+          704
+        ],
+        [
+          896,
+          576
+        ],
+        [
+          896,
+          640
+        ],
+        [
+          896,
+          704
+        ],
+        [
+          960,
+          576
+        ],
+        [
+          960,
+          640
+        ],
+        [
+          960,
+          704
+        ]
+      ],
+      "required_CT_urls": [
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/6/4",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/6/5",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/6/6",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/7/4",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/7/5",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/7/6",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/8/4",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/8/5",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/8/6"
+      ],
+      "no_old_CT_object_overlap": true,
+      "no_other_test_case_CT_object_overlap": true,
+      "reference_counts": {
+        "supervised": 4096,
+        "positive": 2644,
+        "negative": 1452,
+        "ambiguous_or_unsupervised": 0
+      },
+      "reference_hashes": {
+        "ink-fraction.npy": "d2985e40d3c0dfb9161c2c89a1f9a2c524a24428ca0c02d6315b71f3e7f95636",
+        "labels.npy": "63fd6f1500dc8967d97c8b9ccb428d6c87007b43ec95d8f0bc64e1a592b0222a",
+        "supervision.npy": "59424a138729536c55dd8b1cf67ac0d55a4f0af377e78b8fdf0ff262d958edd3"
+      },
+      "selection_rank_checked": 548
+    },
+    {
+      "name": "PHerc0139-20260302000000-0",
+      "spec_index": 1,
+      "sample": "PHerc0139",
+      "segment": "20260302000000-w039_2026030210",
+      "centre_rc": [
+        4672,
+        4928
+      ],
+      "roi_yxyx": [
+        4632,
+        4712,
+        4888,
+        4968
+      ],
+      "core_global_yxyx": [
+        4640,
+        4704,
+        4896,
+        4960
+      ],
+      "source_label_bounds_yxyx": [
+        4640,
+        4704,
+        4896,
+        4960
+      ],
+      "context_yxyx": [
+        4544,
+        4800,
+        4800,
+        5056
+      ],
+      "parent_tile_origins_yx": [
+        [
+          4544,
+          4800
+        ],
+        [
+          4544,
+          4864
+        ],
+        [
+          4544,
+          4928
+        ],
+        [
+          4608,
+          4800
+        ],
+        [
+          4608,
+          4864
+        ],
+        [
+          4608,
+          4928
+        ],
+        [
+          4672,
+          4800
+        ],
+        [
+          4672,
+          4864
+        ],
+        [
+          4672,
+          4928
+        ]
+      ],
+      "required_CT_urls": [
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/35/37",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/35/38",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/35/39",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/36/37",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/36/38",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/36/39",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/37/37",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/37/38",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/37/39"
+      ],
+      "no_old_CT_object_overlap": true,
+      "no_other_test_case_CT_object_overlap": true,
+      "reference_counts": {
+        "supervised": 4096,
+        "positive": 1679,
+        "negative": 2417,
+        "ambiguous_or_unsupervised": 0
+      },
+      "reference_hashes": {
+        "ink-fraction.npy": "63bfde7c39d2553668eee9cced514b1e888396e56c0967eedef9afab1c3e5f85",
+        "labels.npy": "a78711c16e19e1469f5117548bf1a94513abcb9f7b86e26a204de2616c9bad34",
+        "supervision.npy": "59424a138729536c55dd8b1cf67ac0d55a4f0af377e78b8fdf0ff262d958edd3"
+      },
+      "selection_rank_checked": 332
+    },
+    {
+      "name": "PHerc0139-20260302000000-1",
+      "spec_index": 1,
+      "sample": "PHerc0139",
+      "segment": "20260302000000-w039_2026030210",
+      "centre_rc": [
+        4672,
+        2880
+      ],
+      "roi_yxyx": [
+        4632,
+        4712,
+        2840,
+        2920
+      ],
+      "core_global_yxyx": [
+        4640,
+        4704,
+        2848,
+        2912
+      ],
+      "source_label_bounds_yxyx": [
+        4640,
+        4704,
+        2848,
+        2912
+      ],
+      "context_yxyx": [
+        4544,
+        4800,
+        2752,
+        3008
+      ],
+      "parent_tile_origins_yx": [
+        [
+          4544,
+          2752
+        ],
+        [
+          4544,
+          2816
+        ],
+        [
+          4544,
+          2880
+        ],
+        [
+          4608,
+          2752
+        ],
+        [
+          4608,
+          2816
+        ],
+        [
+          4608,
+          2880
+        ],
+        [
+          4672,
+          2752
+        ],
+        [
+          4672,
+          2816
+        ],
+        [
+          4672,
+          2880
+        ]
+      ],
+      "required_CT_urls": [
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/35/21",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/35/22",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/35/23",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/36/21",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/36/22",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/36/23",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/37/21",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/37/22",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/37/23"
+      ],
+      "no_old_CT_object_overlap": true,
+      "no_other_test_case_CT_object_overlap": true,
+      "reference_counts": {
+        "supervised": 4096,
+        "positive": 533,
+        "negative": 3563,
+        "ambiguous_or_unsupervised": 0
+      },
+      "reference_hashes": {
+        "ink-fraction.npy": "704706235d5e8b6f5207357687f3caf73a060573f1269a2ce86da20e64c044a1",
+        "labels.npy": "02e0b4833d56e2b6449e0fbe19061773c09682594f63244ade69d242c58a9f41",
+        "supervision.npy": "59424a138729536c55dd8b1cf67ac0d55a4f0af377e78b8fdf0ff262d958edd3"
+      },
+      "selection_rank_checked": 418
+    },
+    {
+      "name": "PHerc0841-20260220213127-0",
+      "spec_index": 2,
+      "sample": "PHerc0841",
+      "segment": "20260220213127-w00",
+      "centre_rc": [
+        2368,
+        3392
+      ],
+      "roi_yxyx": [
+        2328,
+        2408,
+        3352,
+        3432
+      ],
+      "core_global_yxyx": [
+        2336,
+        2400,
+        3360,
+        3424
+      ],
+      "source_label_bounds_yxyx": [
+        9344,
+        9600,
+        13440,
+        13696
+      ],
+      "context_yxyx": [
+        2240,
+        2496,
+        3264,
+        3520
+      ],
+      "parent_tile_origins_yx": [
+        [
+          2240,
+          3264
+        ],
+        [
+          2240,
+          3328
+        ],
+        [
+          2240,
+          3392
+        ],
+        [
+          2304,
+          3264
+        ],
+        [
+          2304,
+          3328
+        ],
+        [
+          2304,
+          3392
+        ],
+        [
+          2368,
+          3264
+        ],
+        [
+          2368,
+          3328
+        ],
+        [
+          2368,
+          3392
+        ]
+      ],
+      "required_CT_urls": [
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/17/25",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/17/26",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/17/27",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/18/25",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/18/26",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/18/27",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/19/25",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/19/26",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/19/27"
+      ],
+      "no_old_CT_object_overlap": true,
+      "no_other_test_case_CT_object_overlap": true,
+      "reference_counts": {
+        "supervised": 4096,
+        "positive": 2522,
+        "negative": 1533,
+        "ambiguous_or_unsupervised": 41
+      },
+      "reference_hashes": {
+        "ink-fraction.npy": "82ec4713759ffafdb137afa5c81b4603fbd434c3a91a4013ecf152c20397602a",
+        "labels.npy": "9a60944e68e4e71a920f5021f27876216bbb0e12d1a7bb4973ca0fee11319e48",
+        "supervision.npy": "59424a138729536c55dd8b1cf67ac0d55a4f0af377e78b8fdf0ff262d958edd3"
+      },
+      "selection_rank_checked": 16
+    },
+    {
+      "name": "PHerc0841-20260220213127-1",
+      "spec_index": 2,
+      "sample": "PHerc0841",
+      "segment": "20260220213127-w00",
+      "centre_rc": [
+        576,
+        3648
+      ],
+      "roi_yxyx": [
+        536,
+        616,
+        3608,
+        3688
+      ],
+      "core_global_yxyx": [
+        544,
+        608,
+        3616,
+        3680
+      ],
+      "source_label_bounds_yxyx": [
+        2176,
+        2432,
+        14464,
+        14720
+      ],
+      "context_yxyx": [
+        448,
+        704,
+        3520,
+        3776
+      ],
+      "parent_tile_origins_yx": [
+        [
+          448,
+          3520
+        ],
+        [
+          448,
+          3584
+        ],
+        [
+          448,
+          3648
+        ],
+        [
+          512,
+          3520
+        ],
+        [
+          512,
+          3584
+        ],
+        [
+          512,
+          3648
+        ],
+        [
+          576,
+          3520
+        ],
+        [
+          576,
+          3584
+        ],
+        [
+          576,
+          3648
+        ]
+      ],
+      "required_CT_urls": [
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/3/27",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/3/28",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/3/29",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/4/27",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/4/28",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/4/29",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/5/27",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/5/28",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/5/29"
+      ],
+      "no_old_CT_object_overlap": true,
+      "no_other_test_case_CT_object_overlap": true,
+      "reference_counts": {
+        "supervised": 4096,
+        "positive": 3649,
+        "negative": 414,
+        "ambiguous_or_unsupervised": 33
+      },
+      "reference_hashes": {
+        "ink-fraction.npy": "3fa6408972f451c1408daa206cdf7fc142e1c6808a7a95d10916a1aec124963c",
+        "labels.npy": "5440e013b98c981f50862cf2c3a3c14ac754860d80f3cd4e8fb0b12978491a24",
+        "supervision.npy": "59424a138729536c55dd8b1cf67ac0d55a4f0af377e78b8fdf0ff262d958edd3"
+      },
+      "selection_rank_checked": 38
+    },
+    {
+      "name": "PHerc0841-20260220213127-2",
+      "spec_index": 2,
+      "sample": "PHerc0841",
+      "segment": "20260220213127-w00",
+      "centre_rc": [
+        2368,
+        3008
+      ],
+      "roi_yxyx": [
+        2328,
+        2408,
+        2968,
+        3048
+      ],
+      "core_global_yxyx": [
+        2336,
+        2400,
+        2976,
+        3040
+      ],
+      "source_label_bounds_yxyx": [
+        9344,
+        9600,
+        11904,
+        12160
+      ],
+      "context_yxyx": [
+        2240,
+        2496,
+        2880,
+        3136
+      ],
+      "parent_tile_origins_yx": [
+        [
+          2240,
+          2880
+        ],
+        [
+          2240,
+          2944
+        ],
+        [
+          2240,
+          3008
+        ],
+        [
+          2304,
+          2880
+        ],
+        [
+          2304,
+          2944
+        ],
+        [
+          2304,
+          3008
+        ],
+        [
+          2368,
+          2880
+        ],
+        [
+          2368,
+          2944
+        ],
+        [
+          2368,
+          3008
+        ]
+      ],
+      "required_CT_urls": [
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/17/22",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/17/23",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/17/24",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/18/22",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/18/23",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/18/24",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/19/22",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/19/23",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/19/24"
+      ],
+      "no_old_CT_object_overlap": true,
+      "no_other_test_case_CT_object_overlap": true,
+      "reference_counts": {
+        "supervised": 4096,
+        "positive": 834,
+        "negative": 3218,
+        "ambiguous_or_unsupervised": 44
+      },
+      "reference_hashes": {
+        "ink-fraction.npy": "deb262050ed9ecc94d9b997d2b50d8e959d4714de7e450853494cab9a7fba31b",
+        "labels.npy": "d87b44248920fee495bb135019f2b9c2ac9d2800102cc4881b997d7911c05276",
+        "supervision.npy": "59424a138729536c55dd8b1cf67ac0d55a4f0af377e78b8fdf0ff262d958edd3"
+      },
+      "selection_rank_checked": 146
+    },
+    {
+      "name": "PHerc0841-20260220213127-3",
+      "spec_index": 2,
+      "sample": "PHerc0841",
+      "segment": "20260220213127-w00",
+      "centre_rc": [
+        1728,
+        3776
+      ],
+      "roi_yxyx": [
+        1688,
+        1768,
+        3736,
+        3816
+      ],
+      "core_global_yxyx": [
+        1696,
+        1760,
+        3744,
+        3808
+      ],
+      "source_label_bounds_yxyx": [
+        6784,
+        7040,
+        14976,
+        15232
+      ],
+      "context_yxyx": [
+        1600,
+        1856,
+        3648,
+        3904
+      ],
+      "parent_tile_origins_yx": [
+        [
+          1600,
+          3648
+        ],
+        [
+          1600,
+          3712
+        ],
+        [
+          1600,
+          3776
+        ],
+        [
+          1664,
+          3648
+        ],
+        [
+          1664,
+          3712
+        ],
+        [
+          1664,
+          3776
+        ],
+        [
+          1728,
+          3648
+        ],
+        [
+          1728,
+          3712
+        ],
+        [
+          1728,
+          3776
+        ]
+      ],
+      "required_CT_urls": [
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/12/28",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/12/29",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/12/30",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/13/28",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/13/29",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/13/30",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/14/28",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/14/29",
+        "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/2/0/14/30"
+      ],
+      "no_old_CT_object_overlap": true,
+      "no_other_test_case_CT_object_overlap": true,
+      "reference_counts": {
+        "supervised": 3981,
+        "positive": 471,
+        "negative": 3477,
+        "ambiguous_or_unsupervised": 148
+      },
+      "reference_hashes": {
+        "ink-fraction.npy": "9d6bb1b444eac1db03bf2d587356914e8b442fc29e0e9aca8821544d1879ce90",
+        "labels.npy": "c6f35817a66ebebff74d8b42f1e676b983ea7095737af40002211cb04d85b4ca",
+        "supervision.npy": "4675b97b4a9ff61e9f458fcc45bb7d93a118a41d5a301579e51aa65da18b65a0"
+      },
+      "selection_rank_checked": 166
+    }
+  ],
+  "unavailable": [],
+  "new_CT_arrays_acquired": 0,
+  "reference_only_selection": "Exact input labels, source metadata and exposure ledger only; no model/CT outcome access"
+}

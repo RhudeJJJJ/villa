@@ -1,0 +1,647 @@
+{
+  "schema": "vesuvius-faithful-roi-admission-v1",
+  "protocol_sha256": "f5a3234ff24968ad4774c7fe60e39be4e357abcf63fbb2aefb34c829f504547f",
+  "production_sha256": "fdaf15e30a1b1ddab51806cd915bbbfd2f8c99cc0e1ad92b81438b13ee1a97ce",
+  "rows": [
+    {
+      "name": "PHerc0139-20260317000000-0",
+      "sample": "PHerc0139",
+      "centre_rc": [
+        2368,
+        2752
+      ],
+      "reference_counts": {
+        "supervised": 4096,
+        "positive": 3390,
+        "negative": 706,
+        "ambiguous_or_unsupervised": 0
+      },
+      "scores": {
+        "faithful": {
+          "AUC": 0.9995261851638296,
+          "AUC_pair_definition": 0.9995261851638296,
+          "encoded_AUC": 0.999522633641689
+        },
+        "main-naive": {
+          "AUC": 0.06662195927030844,
+          "AUC_pair_definition": 0.06662195927030844,
+          "encoded_AUC": 0.06794939289862702
+        },
+        "prior-zero": {
+          "AUC": 0.2194101130637519,
+          "AUC_pair_definition": 0.2194101130637519,
+          "encoded_AUC": 0.22015843967008447
+        },
+        "prior-min": {
+          "AUC": 0.13686668003710295,
+          "AUC_pair_definition": 0.13686668003710295,
+          "encoded_AUC": 0.13886869395906976
+        },
+        "reflect": {
+          "AUC": 0.9987929002983279,
+          "AUC_pair_definition": 0.9987929002983279,
+          "encoded_AUC": 0.9987949894289988
+        },
+        "edge": {
+          "AUC": 0.6156559452480633,
+          "AUC_pair_definition": 0.6156559452480633,
+          "encoded_AUC": 0.6158387441817711
+        }
+      },
+      "gain_vs_main_naive": 0.9329042258935212,
+      "gain_vs_prior_zero": 0.7801160721000777,
+      "fidelity": {
+        "main-masked-full-frame": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "stock-minimal-context": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "nested96": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        }
+      },
+      "fidelity_passed": true,
+      "negative_controls": {
+        "half_width_roll_labels": 0.9757819616101348,
+        "transpose_labels": 0.583034169821254
+      },
+      "recorded_CT_fresh": true
+    },
+    {
+      "name": "PHerc0139-20260317000000-1",
+      "sample": "PHerc0139",
+      "centre_rc": [
+        960,
+        704
+      ],
+      "reference_counts": {
+        "supervised": 4096,
+        "positive": 2644,
+        "negative": 1452,
+        "ambiguous_or_unsupervised": 0
+      },
+      "scores": {
+        "faithful": {
+          "AUC": 0.9994631537490154,
+          "AUC_pair_definition": 0.9994631537490154,
+          "encoded_AUC": 0.999461200160038
+        },
+        "main-naive": {
+          "AUC": 0.9706008301971718,
+          "AUC_pair_definition": 0.9706008301971718,
+          "encoded_AUC": 0.9707336742476338
+        },
+        "prior-zero": {
+          "AUC": 0.9877661048665725,
+          "AUC_pair_definition": 0.9877661048665725,
+          "encoded_AUC": 0.9863000014586798
+        },
+        "prior-min": {
+          "AUC": 0.9824697949096244,
+          "AUC_pair_definition": 0.9824697949096244,
+          "encoded_AUC": 0.9819369860758597
+        },
+        "reflect": {
+          "AUC": 0.9915967021334233,
+          "AUC_pair_definition": 0.9915967021334233,
+          "encoded_AUC": 0.9915064463226683
+        },
+        "edge": {
+          "AUC": 0.7675389311211412,
+          "AUC_pair_definition": 0.7675389311211412,
+          "encoded_AUC": 0.7672240125779872
+        }
+      },
+      "gain_vs_main_naive": 0.028862323551843594,
+      "gain_vs_prior_zero": 0.01169704888244294,
+      "fidelity": {
+        "main-masked-full-frame": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "stock-minimal-context": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "nested96": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        }
+      },
+      "fidelity_passed": true,
+      "negative_controls": {
+        "half_width_roll_labels": 0.13826460867789434,
+        "transpose_labels": 0.5347228300054596
+      },
+      "recorded_CT_fresh": true
+    },
+    {
+      "name": "PHerc0139-20260302000000-0",
+      "sample": "PHerc0139",
+      "centre_rc": [
+        4672,
+        4928
+      ],
+      "reference_counts": {
+        "supervised": 4096,
+        "positive": 1679,
+        "negative": 2417,
+        "ambiguous_or_unsupervised": 0
+      },
+      "scores": {
+        "faithful": {
+          "AUC": 0.9986326258093912,
+          "AUC_pair_definition": 0.9986326258093912,
+          "encoded_AUC": 0.9986320097640718
+        },
+        "main-naive": {
+          "AUC": 0.9675622569239182,
+          "AUC_pair_definition": 0.9675622569239182,
+          "encoded_AUC": 0.967502377318887
+        },
+        "prior-zero": {
+          "AUC": 0.982044003870736,
+          "AUC_pair_definition": 0.982044003870736,
+          "encoded_AUC": 0.9820141872772842
+        },
+        "prior-min": {
+          "AUC": 0.9863279830208054,
+          "AUC_pair_definition": 0.9863279830208054,
+          "encoded_AUC": 0.9862823956671808
+        },
+        "reflect": {
+          "AUC": 0.9905422258407355,
+          "AUC_pair_definition": 0.9905422258407355,
+          "encoded_AUC": 0.9905359421784792
+        },
+        "edge": {
+          "AUC": 0.9968956244272319,
+          "AUC_pair_definition": 0.9968956244272319,
+          "encoded_AUC": 0.9968952548000403
+        }
+      },
+      "gain_vs_main_naive": 0.031070368885472988,
+      "gain_vs_prior_zero": 0.01658862193865518,
+      "fidelity": {
+        "main-masked-full-frame": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "stock-minimal-context": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "nested96": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        }
+      },
+      "fidelity_passed": true,
+      "negative_controls": {
+        "half_width_roll_labels": 0.1700190210152772,
+        "transpose_labels": 0.7281428968865808
+      },
+      "recorded_CT_fresh": true
+    },
+    {
+      "name": "PHerc0139-20260302000000-1",
+      "sample": "PHerc0139",
+      "centre_rc": [
+        4672,
+        2880
+      ],
+      "reference_counts": {
+        "supervised": 4096,
+        "positive": 533,
+        "negative": 3563,
+        "ambiguous_or_unsupervised": 0
+      },
+      "scores": {
+        "faithful": {
+          "AUC": 0.998576678484676,
+          "AUC_pair_definition": 0.998576678484676,
+          "encoded_AUC": 0.9985740456294867
+        },
+        "main-naive": {
+          "AUC": 0.9915969793778985,
+          "AUC_pair_definition": 0.9915969793778985,
+          "encoded_AUC": 0.9915969793778985
+        },
+        "prior-zero": {
+          "AUC": 0.9896049611416903,
+          "AUC_pair_definition": 0.9896049611416903,
+          "encoded_AUC": 0.98956573159937
+        },
+        "prior-min": {
+          "AUC": 0.8209023953189941,
+          "AUC_pair_definition": 0.8209023953189941,
+          "encoded_AUC": 0.8185041275270802
+        },
+        "reflect": {
+          "AUC": 0.97597098382953,
+          "AUC_pair_definition": 0.97597098382953,
+          "encoded_AUC": 0.9759838848199575
+        },
+        "edge": {
+          "AUC": 0.9541335563186155,
+          "AUC_pair_definition": 0.9541335563186155,
+          "encoded_AUC": 0.9541238147544152
+        }
+      },
+      "gain_vs_main_naive": 0.006979699106777537,
+      "gain_vs_prior_zero": 0.008971717342985741,
+      "fidelity": {
+        "main-masked-full-frame": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "stock-minimal-context": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "nested96": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        }
+      },
+      "fidelity_passed": true,
+      "negative_controls": {
+        "half_width_roll_labels": 0.9809360221454716,
+        "transpose_labels": 0.592338707341822
+      },
+      "recorded_CT_fresh": true
+    },
+    {
+      "name": "PHerc0841-20260220213127-0",
+      "sample": "PHerc0841",
+      "centre_rc": [
+        2368,
+        3392
+      ],
+      "reference_counts": {
+        "supervised": 4096,
+        "positive": 2522,
+        "negative": 1533,
+        "ambiguous_or_unsupervised": 41
+      },
+      "scores": {
+        "faithful": {
+          "AUC": 0.8549409682724186,
+          "AUC_pair_definition": 0.8549409682724186,
+          "encoded_AUC": 0.8548376375307599
+        },
+        "main-naive": {
+          "AUC": 0.42053051218423343,
+          "AUC_pair_definition": 0.42053051218423343,
+          "encoded_AUC": 0.4235643493163617
+        },
+        "prior-zero": {
+          "AUC": 0.25076263001697263,
+          "AUC_pair_definition": 0.25076263001697263,
+          "encoded_AUC": 0.2515208629811087
+        },
+        "prior-min": {
+          "AUC": 0.19819547538090118,
+          "AUC_pair_definition": 0.19819547538090118,
+          "encoded_AUC": 0.20062614032392312
+        },
+        "reflect": {
+          "AUC": 0.8730056132259211,
+          "AUC_pair_definition": 0.8730056132259211,
+          "encoded_AUC": 0.8715924780393076
+        },
+        "edge": {
+          "AUC": 0.9192636436669765,
+          "AUC_pair_definition": 0.9192636436669765,
+          "encoded_AUC": 0.9190715959180865
+        }
+      },
+      "gain_vs_main_naive": 0.4344104560881852,
+      "gain_vs_prior_zero": 0.604178338255446,
+      "fidelity": {
+        "main-masked-full-frame": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "stock-minimal-context": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "nested96": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        }
+      },
+      "fidelity_passed": true,
+      "negative_controls": {
+        "half_width_roll_labels": 0.35471206287475177,
+        "transpose_labels": 0.8160293785205521
+      },
+      "recorded_CT_fresh": true
+    },
+    {
+      "name": "PHerc0841-20260220213127-1",
+      "sample": "PHerc0841",
+      "centre_rc": [
+        576,
+        3648
+      ],
+      "reference_counts": {
+        "supervised": 4096,
+        "positive": 3649,
+        "negative": 414,
+        "ambiguous_or_unsupervised": 33
+      },
+      "scores": {
+        "faithful": {
+          "AUC": 0.971509632047957,
+          "AUC_pair_definition": 0.971509632047957,
+          "encoded_AUC": 0.9714920903483583
+        },
+        "main-naive": {
+          "AUC": 0.11052131283403699,
+          "AUC_pair_definition": 0.11052131283403699,
+          "encoded_AUC": 0.11066263935721916
+        },
+        "prior-zero": {
+          "AUC": 0.19904996802777017,
+          "AUC_pair_definition": 0.19904996802777017,
+          "encoded_AUC": 0.19906684777644063
+        },
+        "prior-min": {
+          "AUC": 0.18612868590825624,
+          "AUC_pair_definition": 0.18612868590825624,
+          "encoded_AUC": 0.18626604072586891
+        },
+        "reflect": {
+          "AUC": 0.8780501043896614,
+          "AUC_pair_definition": 0.8780501043896614,
+          "encoded_AUC": 0.8777849930428957
+        },
+        "edge": {
+          "AUC": 0.6283089272026087,
+          "AUC_pair_definition": 0.6283089272026087,
+          "encoded_AUC": 0.6286170653597107
+        }
+      },
+      "gain_vs_main_naive": 0.86098831921392,
+      "gain_vs_prior_zero": 0.7724596640201868,
+      "fidelity": {
+        "main-masked-full-frame": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "stock-minimal-context": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "nested96": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        }
+      },
+      "fidelity_passed": true,
+      "negative_controls": {
+        "half_width_roll_labels": 0.5421027268406539,
+        "transpose_labels": 0.957135367640926
+      },
+      "recorded_CT_fresh": true
+    },
+    {
+      "name": "PHerc0841-20260220213127-2",
+      "sample": "PHerc0841",
+      "centre_rc": [
+        2368,
+        3008
+      ],
+      "reference_counts": {
+        "supervised": 4096,
+        "positive": 834,
+        "negative": 3218,
+        "ambiguous_or_unsupervised": 44
+      },
+      "scores": {
+        "faithful": {
+          "AUC": 0.9616541695170898,
+          "AUC_pair_definition": 0.9616541695170898,
+          "encoded_AUC": 0.9616560325387918
+        },
+        "main-naive": {
+          "AUC": 0.6175853599283407,
+          "AUC_pair_definition": 0.6175853599283407,
+          "encoded_AUC": 0.6174607237764791
+        },
+        "prior-zero": {
+          "AUC": 0.605534590351336,
+          "AUC_pair_definition": 0.605534590351336,
+          "encoded_AUC": 0.6054524310942794
+        },
+        "prior-min": {
+          "AUC": 0.7301595640827301,
+          "AUC_pair_definition": 0.7301595640827301,
+          "encoded_AUC": 0.7304788860024473
+        },
+        "reflect": {
+          "AUC": 0.8174514459284034,
+          "AUC_pair_definition": 0.8174514459284034,
+          "encoded_AUC": 0.8174020758533012
+        },
+        "edge": {
+          "AUC": 0.6433597062685463,
+          "AUC_pair_definition": 0.6433597062685463,
+          "encoded_AUC": 0.6425099820702791
+        }
+      },
+      "gain_vs_main_naive": 0.3440688095887491,
+      "gain_vs_prior_zero": 0.35611957916575376,
+      "fidelity": {
+        "main-masked-full-frame": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "stock-minimal-context": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "nested96": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        }
+      },
+      "fidelity_passed": true,
+      "negative_controls": {
+        "half_width_roll_labels": 0.35901993135137633,
+        "transpose_labels": 0.42035917567996567
+      },
+      "recorded_CT_fresh": true
+    },
+    {
+      "name": "PHerc0841-20260220213127-3",
+      "sample": "PHerc0841",
+      "centre_rc": [
+        1728,
+        3776
+      ],
+      "reference_counts": {
+        "supervised": 3981,
+        "positive": 471,
+        "negative": 3477,
+        "ambiguous_or_unsupervised": 148
+      },
+      "scores": {
+        "faithful": {
+          "AUC": 0.9987549361378106,
+          "AUC_pair_definition": 0.9987549361378106,
+          "encoded_AUC": 0.9987592105110502
+        },
+        "main-naive": {
+          "AUC": 0.9567354046946052,
+          "AUC_pair_definition": 0.9567354046946052,
+          "encoded_AUC": 0.9564349773183437
+        },
+        "prior-zero": {
+          "AUC": 0.9914616341417395,
+          "AUC_pair_definition": 0.9914616341417395,
+          "encoded_AUC": 0.9914485057096467
+        },
+        "prior-min": {
+          "AUC": 0.9887968677392901,
+          "AUC_pair_definition": 0.9887968677392901,
+          "encoded_AUC": 0.988736721201563
+        },
+        "reflect": {
+          "AUC": 0.9749790403055077,
+          "AUC_pair_definition": 0.9749790403055077,
+          "encoded_AUC": 0.9748941634654664
+        },
+        "edge": {
+          "AUC": 0.9553883664994165,
+          "AUC_pair_definition": 0.9553883664994165,
+          "encoded_AUC": 0.9553266933998181
+        }
+      },
+      "gain_vs_main_naive": 0.04201953144320547,
+      "gain_vs_prior_zero": 0.007293301996071144,
+      "fidelity": {
+        "main-masked-full-frame": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "stock-minimal-context": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        },
+        "nested96": {
+          "max_float32_difference": 0.0,
+          "encoded_uint8_exact": true,
+          "float32_bit_exact": true
+        }
+      },
+      "fidelity_passed": true,
+      "negative_controls": {
+        "half_width_roll_labels": 0.25616257761803835,
+        "transpose_labels": 0.34514709034254215
+      },
+      "recorded_CT_fresh": true
+    }
+  ],
+  "mean_AUC": {
+    "faithful": 0.9728822936477736,
+    "main-naive": 0.6377193269263142,
+    "prior-zero": 0.653204250685071,
+    "prior-min": 0.6287309307997131,
+    "reflect": 0.9375486269939388,
+    "edge": 0.810068087594075
+  },
+  "scroll_mean_AUC": {
+    "PHerc0139": {
+      "cases": 4,
+      "faithful": 0.999049660801728,
+      "main-naive": 0.7490955064423241,
+      "prior-zero": 0.7947062957356876,
+      "prior-min": 0.7316417133216317,
+      "reflect": 0.9892257030255042,
+      "edge": 0.833556014278763
+    },
+    "PHerc0841": {
+      "cases": 4,
+      "faithful": 0.946714926493819,
+      "main-naive": 0.5263431474103041,
+      "prior-zero": 0.5117022056344547,
+      "prior-min": 0.5258201482777944,
+      "reflect": 0.8858715509623734,
+      "edge": 0.786580160909387
+    }
+  },
+  "mean_gain_vs_main": 0.3351629667214594,
+  "mean_gain_vs_prior": 0.3196780429627025,
+  "gates": {
+    "at_least_six_cases": true,
+    "at_least_three_model_unseen_scroll_cases": true,
+    "mean_gain_main_at_least_point10": true,
+    "mean_gain_prior_at_least_point05": true,
+    "nonnegative_gain_each_scroll": true,
+    "all_fidelity_and_nesting": true,
+    "all_recorded_CT_fresh": true
+  },
+  "benefit_gate_passed": true,
+  "cost": {
+    "new_raw_CT_bytes": 80805888,
+    "actual_parent_context_model_tiles": 72,
+    "actual_all_condition_predictions": 112,
+    "full_parent_tiles_analytic_unexecuted": 64932,
+    "ROI_accumulator_logical_bytes_each": 51200,
+    "ROI_output_raw_uint8_bytes_each": 6400,
+    "parent_output_raw_uint8_bytes": [
+      30496800,
+      30496800,
+      66083200,
+      66083200,
+      19093600,
+      19093600,
+      19093600,
+      19093600
+    ],
+    "parent_accumulator_logical_bytes": [
+      243974400,
+      243974400,
+      528665600,
+      528665600,
+      152748800,
+      152748800,
+      152748800,
+      152748800
+    ],
+    "masked_baseline_tile_savings_claim": false,
+    "limit": "Logical shape/storage comparison, not a measured RAM/peak-CPU or full-parent timing benchmark; stock chunk buffers already limit active RAM."
+  },
+  "scope": "Eight reference-qualified fresh local CT contexts; fixed model, no trained weights or fitted alignment. PHerc0139 is model-seen; PHerc0841 absent from recorded training datasets. Public0841 labels are transferred with unknown original annotation scan. No independent3D registration, human review, new deciphered text or general whole-scroll superiority established.",
+  "admission_separation": "Independent process, NumPy only, saved arrays; no candidate or producer imports. Shared model probabilities in schedule oracle isolate scheduling/aggregation; they are not independent-model accuracy validation."
+}
