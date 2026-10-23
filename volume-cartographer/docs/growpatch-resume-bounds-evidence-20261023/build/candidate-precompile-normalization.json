@@ -1,0 +1,9 @@
+{
+  "observed_utc": "2026-10-23T20:48:06.429297+00:00",
+  "candidate_bytes": 218283,
+  "candidate_sha256": "fd28ac6f9eca5aaa60e637f303256e65a08eac1a6e2c82fcbcec0c4bbe818097",
+  "initial_binding_candidate_sha256": "eab34f8c0155a423afb82cc738e4e1b9a61a4369b293803e3d7099790bcc2ffa",
+  "reason": "Parent normalized transport-added extra EOF LF before candidate compilation; functional source change unchanged. Initial binding retained as earlier snapshot. Parent declares source frozen after normalization.",
+  "candidate_object_files_at_observation": [],
+  "build_receipt_exists": true
+}

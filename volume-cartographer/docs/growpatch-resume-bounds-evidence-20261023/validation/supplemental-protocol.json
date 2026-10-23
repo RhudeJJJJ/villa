@@ -1,0 +1,95 @@
+{
+  "status": "PREPARED_NOT_RUN",
+  "date_client": "2026-10-23",
+  "purpose": "Independent supplemental controls for the standalone requested-resume-grid fix on current Main.",
+  "source_head": "e2254ebe0168a232e5ba7b94997c749b4e6a4544",
+  "script": "<workspace>/work/growpatch-20261023/supplemental-tests/check_supplemental.py",
+  "python": "C:/Users/jonas/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "baseline_binary_after_build": "<workspace>/work/growpatch-20261023/build-current/bin/vc_grow_seg_from_seed_baseline.exe",
+  "fixed_binary_after_build": "<workspace>/work/growpatch-20261023/build-current/bin/vc_grow_seg_from_seed_fixed.exe",
+  "fixture_root": "<fixture>",
+  "suggested_output_new_directory": "<workspace>/work/growpatch-20261023/supplemental-tests/results",
+  "path_prepend": [
+    "<toolchain>/bin",
+    "C:/msys64/ucrt64/bin"
+  ],
+  "prerequisites": [
+    "Both current native binaries already exist; this protocol performs no build, install, download or foreign process control.",
+    "NumPy and Pillow are importable in the selected Python runtime.",
+    "Verify every entry of portable-data/manifest.json before use; hash the actual volume, resume, parameters, manifest and both binaries before and after."
+  ],
+  "native_processes_planned": 4,
+  "execution_order": [
+    "disabled-positive-extra/baseline",
+    "disabled-positive-extra/fixed",
+    "fresh-seed/baseline",
+    "fresh-seed/fixed"
+  ],
+  "rng_seed": 2104,
+  "omp_threads": 1,
+  "default_timeout_seconds_per_process": 120,
+  "timeout_action": "Kill and reap only the Popen child created by this script; retain exit code, PID, argv, hashes, stdout, stderr and timeout marker.",
+  "profiles": {
+    "disabled-positive-extra": {
+      "input": "fixtures/development, a fully valid 5x5 crop; prediction data from portable-data/prediction-roi.zarr",
+      "mode": "resume",
+      "growth_scale": 0,
+      "inpaint": false,
+      "resume_opt": "skip",
+      "rewind_gen": -1,
+      "disable_grid_expansion": true,
+      "grow_extra_cols": 1,
+      "grow_extra_rows": 0,
+      "grow_max_extra_cols": 4,
+      "grow_max_extra_rows": 4,
+      "growth_directions": ["right"],
+      "generations": "max(input generations)+4",
+      "coordinate_rule": "Output TIFF index minus metadata grid_offset [column,row] gives an index in the input resume grid.",
+      "fixed_gates": [
+        "All original 25 grid locations remain valid.",
+        "Every valid point has row in [0,5) and column in [0,6).",
+        "At least one actual new point is in column 5; no requirement of all five new points before execution.",
+        "Every valid point has nonzero generation; new points have generation later than the input maximum.",
+        "CLI metadata confirms resume mode."
+      ],
+      "baseline_gate": "At least one valid point outside that requested region reproduces the baseline overrun; all actual baseline violations are retained.",
+      "xyz_policy": "Original XYZ are not required to remain fixed during positive growth; the existing solver may adjust them."
+    },
+    "fresh-seed": {
+      "mode_parameter": "seed",
+      "cli_mode_expected": "explicit_seed",
+      "resume_argument": null,
+      "seed_xyz": [310.347412109375, 244.2255859375, 383.3359375],
+      "seed_origin": "Exact Float32 XYZ at the center of fixtures/development; checked before running.",
+      "growth_scale": 0,
+      "inpaint": false,
+      "disable_grid_expansion": true,
+      "grow_extra_cols": 0,
+      "grow_extra_rows": 0,
+      "grow_max_extra_cols": 0,
+      "grow_max_extra_rows": 0,
+      "growth_directions": ["all"],
+      "generations": 4,
+      "gates": [
+        "Both outputs contain at least the four initialized valid vertices with generations in [1,4).",
+        "Metadata confirms explicit_seed mode, the requested seed, a valid positive two-axis scale, and absence of resume grid_offset.",
+        "Baseline and fixed x.tif, y.tif, z.tif and generations.tif have identical raw file SHA256 values.",
+        "The corresponding decoded arrays have identical dtype, shape and complete bytes, including invalid cells.",
+        "Surface scale metadata is identical."
+      ],
+      "optional_observation": "Record whether valid points exceed four; if not, claim only initialization/equality control, not positive fresh growth.",
+      "metadata_scope": "Do not require whole meta.json equality: UUID, elapsed time, paths and incidental fields are not equality targets."
+    }
+  },
+  "adjudication": {
+    "exit_0": "All declared gates met after four completed native processes and unchanged inputs/binaries.",
+    "exit_1": "A declared completed-output gate was unmet; inspect exact per-profile findings before assigning a cause.",
+    "exit_2": "Input, native execution, timeout or decoding error; no completed regression result is implied."
+  },
+  "limits": [
+    "One public PHerc0139 fixture and one prediction carrier, not four independent datasets.",
+    "No measurement of physical sheet assignment, ink, readability, accuracy or generalization.",
+    "No GUI, neural, inpaint, growth_scale>0, Linux/macOS or full application acceptance claim.",
+    "Paired wide-control comparison belongs to the separate main-suite analysis and is not performed by this script."
+  ]
+}

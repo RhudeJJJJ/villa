@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "<workspace>\work\growpatch-20261023\supplemental-tests\prepare\current_suite.py", line 82, in invoke_checker
+    code = namespace["main"]()
+           ^^^^^^^^^^^^^^^^^^^
+  File "<workspace>\work\growpatch-20261023\candidate\check_growpatch_requested_bounds.py", line 209, in main
+    raise RuntimeError("Native run failed/timed out; inspect " + str(run / "process.json"))
+RuntimeError: Native run failed/timed out; inspect <workspace>\work\growpatch-20261023\verification-runs\main\development\baseline\fill-zero\process.json

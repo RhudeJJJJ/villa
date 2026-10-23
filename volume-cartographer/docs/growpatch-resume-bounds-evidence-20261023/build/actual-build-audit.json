@@ -1,0 +1,31 @@
+{
+  "status": "PASS_ACTUAL_BUILD_AUDIT",
+  "actual_c_cpp_translation_unit_objects": 79,
+  "unique_c_cpp_sources": 78,
+  "actual_repository_dependency_files": 179,
+  "ninja_deps_exit_code": 0,
+  "ninja_deps_full_output_sha256": "4cc945c063889eb6375be26938aa9e53faba3875b692dc2180c60c9725c0d8d6",
+  "resolved_paired_compile_arguments_identical": true,
+  "include_path_equivalence_rule": "Resolve the sole core/../libs/edt versus libs/edt directory spelling; keep argument order and all other tokens.",
+  "candidate_frozen_sha256": "fd28ac6f9eca5aaa60e637f303256e65a08eac1a6e2c82fcbcec0c4bbe818097",
+  "map_checks": {
+    "baseline": {
+      "no_old_build_graph_path_in_linkmap": true,
+      "map_sha256": "eb31ff9ac919fedd117fe9618d3e65b074f17fcecfb4570895b37713e0e31e9d"
+    },
+    "fixed": {
+      "no_old_build_graph_path_in_linkmap": true,
+      "map_sha256": "f6ff3fef41655c38f2fba93fc96204bf5cb8e1293e005e59e9869f80d6e196e2"
+    }
+  },
+  "translation_unit_inventory_sha256": "c2b9b5d153c17ab61db3c95b9d36da4103fb3336f5238b124a9a09a4bef6d09e",
+  "repository_dependency_inventory_sha256": "4edf13223a94089607cd81b6aff093060e6ec5f430b592cb8813e6b0ff76ad19",
+  "own_directories_logical_bytes": {
+    "build-current": 429793620,
+    "build-tools": 28403,
+    "build-receipts": 5511906
+  },
+  "observed_free_bytes_after": 243659808768,
+  "storage_scope": "Logical own-file bytes and global observed free space; not allocated-byte measurements or attribution of concurrent foreign writes.",
+  "scope": "Observed Ninja objects and dependencies after the successful current native build. Hash identity does not establish runtime correctness or supported-platform portability."
+}

@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "<workspace>\\work\\growpatch-20261023\\build-current\\bin\\vc_grow_seg_from_seed_baseline.exe",
+    "--volume",
+    "<fixture>\\portable-data\\prediction-roi.zarr",
+    "--target-dir",
+    "<workspace>\\work\\growpatch-20261023\\verification-runs\\main\\development\\baseline\\fill-zero\\surface",
+    "--params",
+    "<workspace>\\work\\growpatch-20261023\\verification-runs\\main\\development\\baseline\\fill-zero\\params.json",
+    "--resume",
+    "<fixture>\\fixtures\\development",
+    "--resume-opt",
+    "skip",
+    "--segment-name",
+    "requested-bounds-regression",
+    "--rng-seed",
+    "2104"
+  ],
+  "binary_sha256": "119d0ed8fc73bef70ecfda4cb9450c6bc00bf908d1c27ac8965b817ed15fa6fd",
+  "params_sha256": "78cce8bcea96348fc8aa54adc68d26b119a369ac2ea35c673249a0205abfa667",
+  "status": "COMPLETED",
+  "pid": 37192,
+  "timed_out_killed_and_reaped": true,
+  "exit_code": 1,
+  "wall_seconds": 120.38999999999942
+}

@@ -1,0 +1,19 @@
+{
+  "frozen_before_execution": true,
+  "date_utc": "2026-10-23",
+  "purpose": "After the primary 22-process regression suite passes, execute the exact publicly documented three-profile checker command on the freshly downloaded/reconstructed fixture with the fixed current CLI.",
+  "new_reason_for_repetition": "The new public fetcher reconstructs local metadata and parameters. Original downloads and 15 fixture TIFF/meta files already match their byte hashes, and parameter JSON values match all three archived crop configurations. An actual CLI forward replay is still needed to test that public artifact path end to end; source/serialization checks alone do not prove native consumption.",
+  "input": "release-draft/fresh-fixture-final-validation",
+  "binary": "build-current/bin/vc_grow_seg_from_seed_fixed.exe",
+  "checker": "candidate/check_growpatch_requested_bounds.py",
+  "output": "public-forward-replay",
+  "planned_additional_native_processes": 3,
+  "gates": [
+    "Checker exit 0",
+    "All three native processes complete exit 0 without timeout",
+    "All public-fixture input bytes unchanged",
+    "Same requested-grid and positive-control gates as the main checker"
+  ],
+  "counting_rule": "Three additional artifact-forward-replay processes, reusing the same development crop and prediction carrier. They are not new independent scientific efficacy observations and do not change the primary suite's 22-process identity.",
+  "scope": "No new GUI, platform, coarse-grid, inpaint, physical accuracy or readability claim. Do not execute a further replay after PASS without a concrete new reason."
+}

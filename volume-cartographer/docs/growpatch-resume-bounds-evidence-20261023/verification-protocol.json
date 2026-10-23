@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "frozen_before_execution": true,
+  "source_commit": "e2254ebe0168a232e5ba7b94997c749b4e6a4544",
+  "source_blob": "ce39699972362f96a4a320252405bf528acc3d10",
+  "date": "2026-10-23",
+  "question": "Does current main still admit resumed candidates into the 25-cell optimization margin, and does the minimal common-admission guard enforce the extent already selected by existing policy?",
+  "counting_rule": "One contribution is the standalone requested resume-grid guard; multiple cases and processes are technical checks on three crops of one public carrier, not independent scrolls or multiple prize contributions.",
+  "data": "Original PHerc0139 w023 published mesh; public prediction ROI from 20250728140407, 9.362um. Archived attack_20261020 portable-data manifest and fixture bytes hashed before/after. These are real prediction/mesh data, not raw CT or an independent ink test.",
+  "build": {
+    "platform": "Windows UCRT64 GCC16.1",
+    "configuration": "Debug -O0 -g0, no fast math, one build job",
+    "graph": "Fresh current core/tracer plus official CLI source via isolated headless CMake target. Existing installed third-party prefix reused read-only. Current vc_delta3d v0.2.0 required.",
+    "old_binaries_eligible": false
+  },
+  "execution": {
+    "threads": 1,
+    "rng_seed": 2104,
+    "native_timeout_seconds": 600,
+    "growth_scale": 0,
+    "inpaint": false,
+    "resume_opt": "skip"
+  },
+  "cases": [
+    {
+      "profile": "fill-zero",
+      "gate": "No valid point outside imported rectangle; retain every input vertex bitwise."
+    },
+    {
+      "profile": "right-one",
+      "gate": "No new rows or columns outside selected one-column horizontal allowance; actual new point in first right column; input validity retained."
+    },
+    {
+      "profile": "wide-control",
+      "gate": "Actual outside-original growth; no point outside allowance. Paired baseline/fixed decoded xyz/generations must be identical."
+    },
+    {
+      "profile": "disable-positive-extra",
+      "gate": "disable=true ignores max4 but retains grow_extra_cols1 / rows0; actual right growth, no point outside request."
+    },
+    {
+      "profile": "fresh-seed",
+      "gate": "Baseline/fixed decoded xyz/generations exactly equal with explicit real-fixture center seed. Report actual valid-point counts."
+    }
+  ],
+  "replication": "Three main profiles on development crop; after successful development gates, same predefined profiles on two existing neighboring crops of same published carrier. Supplemental two profiles on development input only.",
+  "decision_gate": "Submit only if fresh current native baseline reproduces a requested-grid violation, fixed passes bounded cases, positive controls grow, wide and fresh pairs remain identical, and input hashes unchanged. Keep any failures explicit; do not replace current proof with old execution.",
+  "scope_limits": [
+    "No first-discovery claim: PR2133 already describes the rectangle limitation; PR2134 is related prior boundary work.",
+    "No adoption, acceptance, award, readability, anatomy, segmentation accuracy or speedup claim.",
+    "No GUI execution, coarse-growth/inpaint/mask runtime guarantees or Linux/macOS execution from this Windows check.",
+    "Automated tests/review do not attest personal human verification."
+  ],
+  "protocol_revision": 2,
+  "revision": {
+    "previous_sha256": "70b90b796bcf6bae7dd908a7c2a1a7e21988c26de9180f134877314907ac876f",
+    "reason": "First development baseline made progress (25 to 49 points) but hit the external 120-second limit. Extend only wall timeout; preserve source, binaries, data, numerical parameters, profiles and gates. Earlier native CLI observed 50 seconds; current slowdown cause not established.",
+    "prior_attempt": "verification-runs/summary.json",
+    "prior_attempt_status": "INFRASTRUCTURE_ERROR; one native process killed and reaped at timeout; no completed scientific comparison"
+  }
+}

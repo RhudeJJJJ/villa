@@ -1,0 +1,33 @@
+{
+  "status": "SCOPED_READ_ONLY_COMPARISON_COMPLETE",
+  "question": "Did the first120s timeout establish a new numerical workload or optimization regression?",
+  "observations": {
+    "first_attempt": {
+      "native_attempts": 1,
+      "exit0": 0,
+      "timed_out_killed_and_reaped": true,
+      "active_progress": "25 -> 49 valid points; generation3 started",
+      "conclusion": "Infrastructure timeout; no completed before/after outcome"
+    },
+    "second_attempt_first_profile": {
+      "exit0": true,
+      "seconds": 103.687,
+      "valid_points": 81,
+      "outside_requested_grid": 56
+    },
+    "historical_cli": {
+      "combined_fill_seconds": 50,
+      "bounded_fill_seconds": 0.438,
+      "exit0": true
+    },
+    "comparison": {
+      "parameters": "Only growth_directions=[all] added relative to old official CLI; equivalent to default parser value",
+      "loss_and_edt": "SPACELINE1, SDIR1, EDT threshold170 steps5 invert0 in both; no newly activated EDT/SDIR identified",
+      "compiler_arguments": "Ordered non-path flags equal for old/new executed GrowPatch TU and CLI object; both -O0 -g0",
+      "compiler_sha256": "99cb5be9e61564feaa6b002de64ff01fc72e518777e240f29f72396a6fd98bf0",
+      "dependencies": "Fresh current source graph deliberately differs from historical graph; comparison does not isolate cause"
+    }
+  },
+  "cause": "NOT_ESTABLISHED",
+  "action": "Preserve failed attempt and original protocol; extend only external wall timeout120->600 before second attempt. No performance claim."
+}

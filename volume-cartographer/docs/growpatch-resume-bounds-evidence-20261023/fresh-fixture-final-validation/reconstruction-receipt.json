@@ -1,0 +1,610 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "617e64cc972e048dab69da17b775815731e66ef4bffd54bd75a1064f69c8d177",
+  "phase": 1,
+  "previous_receipt": null,
+  "planned_download_files": 43,
+  "planned_download_bytes": 10919380,
+  "download_results": [
+    {
+      "path": "portable-data/source-metadata/.zgroup",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/.zgroup",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 24,
+      "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+      "response_headers": {
+        "Content-Length": "24",
+        "ETag": "\"e20297935e73dd0154104d4ea53040ab\"",
+        "Last-Modified": "Wed, 13 May 2026 15:09:10 GMT"
+      },
+      "wall_seconds": 1.4059999999990396
+    },
+    {
+      "path": "portable-data/source-metadata/.zattrs",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/.zattrs",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 3018,
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+      "response_headers": {
+        "Content-Length": "3018",
+        "ETag": "\"c792decadf526e26820c786d48dcddf0\"",
+        "Last-Modified": "Wed, 13 May 2026 15:09:10 GMT"
+      },
+      "wall_seconds": 1.4059999999990396
+    },
+    {
+      "path": "portable-data/source-metadata/0/.zarray",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/.zarray",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 402,
+      "sha256": "bfa5674dd57fdfc8f1c1a19b48374797227ac7d27c899a0d4bdb7105c8cbe730",
+      "response_headers": {
+        "Content-Length": "402",
+        "ETag": "\"8c9168eaa2f51f8bbaba6fc86f4d7251\"",
+        "Last-Modified": "Wed, 13 May 2026 15:09:10 GMT"
+      },
+      "wall_seconds": 1.0779999999977008
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/0/0/0",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/22/18/18",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 243017,
+      "sha256": "74bbaf8e98ae9a3ef037be7c51b461c9100e985f507c6d5c4572b1fb2292caa9",
+      "response_headers": {
+        "Content-Length": "243017",
+        "ETag": "\"ea7a563fa4f2f99e095964d74975b2f9\"",
+        "Last-Modified": "Wed, 13 May 2026 15:10:57 GMT"
+      },
+      "wall_seconds": 1.610000000000582
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/0/1/0",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/22/19/18",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 191230,
+      "sha256": "2f045ccbbf5ecdefe4227eafc0063361d85f0e334c7c3e059f34c390054252fe",
+      "response_headers": {
+        "Content-Length": "191230",
+        "ETag": "\"9c95404ff90c9cb0c7e6ad163b73ea9c\"",
+        "Last-Modified": "Wed, 13 May 2026 15:10:58 GMT"
+      },
+      "wall_seconds": 2.562999999998283
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/0/0/1",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/22/18/19",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 167749,
+      "sha256": "050d197d30270e8d8b1a7acd1b7b77f877925cfd50b7aac52b9b87a7529c9664",
+      "response_headers": {
+        "Content-Length": "167749",
+        "ETag": "\"cc0928b6eea2169f02bfd44ce12572d4\"",
+        "Last-Modified": "Wed, 13 May 2026 15:10:57 GMT"
+      },
+      "wall_seconds": 3.235000000000582
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/0/0/2",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/22/18/20",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 244273,
+      "sha256": "ae525da9b7f1fe6b75f72deec77d5c072b9127106d4ebe137b01721ecf971c90",
+      "response_headers": {
+        "Content-Length": "244273",
+        "ETag": "\"53d2f52a2ba80df6c3507ef25f927c38\"",
+        "Last-Modified": "Wed, 13 May 2026 15:10:57 GMT"
+      },
+      "wall_seconds": 3.0159999999996217
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/0/1/1",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/22/19/19",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 236390,
+      "sha256": "deb3af49789e0ecaf49653bf0f11497bd58b73f0aa261bd2e3318df0a0badbc1",
+      "response_headers": {
+        "Content-Length": "236390",
+        "ETag": "\"c0d0b69416a88760df8257c5bf54137b\"",
+        "Last-Modified": "Wed, 13 May 2026 15:10:58 GMT"
+      },
+      "wall_seconds": 3.2190000000009604
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/0/1/2",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/22/19/20",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 339142,
+      "sha256": "01ed007905035d89eddfa3e7b9db93ed91b85386f1b578596384e41ec95ff8ad",
+      "response_headers": {
+        "Content-Length": "339142",
+        "ETag": "\"f2e4da02c22345b3cbe1196bdde5c9a0\"",
+        "Last-Modified": "Wed, 13 May 2026 15:10:58 GMT"
+      },
+      "wall_seconds": 3.389999999999418
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/0/2/0",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/22/20/18",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 230420,
+      "sha256": "8a8ee3ff85fdcbee47f28bd8f48c82eea553fc2ec45e520493b06d90a13b4f76",
+      "response_headers": {
+        "Content-Length": "230420",
+        "ETag": "\"d1d52b2e2f61f8df40beda99f3d896b2\"",
+        "Last-Modified": "Wed, 13 May 2026 15:10:58 GMT"
+      },
+      "wall_seconds": 4.125
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/0/2/2",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/22/20/20",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 173649,
+      "sha256": "4b31dba898a9f5dab0c43707f345c6521bef4314b89bf9e6cb663927d271bd25",
+      "response_headers": {
+        "Content-Length": "173649",
+        "ETag": "\"2d3b07dfadb774bbc8f37bbd1475dd57\"",
+        "Last-Modified": "Wed, 13 May 2026 15:10:58 GMT"
+      },
+      "wall_seconds": 3.110000000000582
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/0/2/1",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/22/20/19",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 317539,
+      "sha256": "494d77e740304bfa1bbaa755b29ed4e38995650610ec294c2d689f5c10fe2d31",
+      "response_headers": {
+        "Content-Length": "317539",
+        "ETag": "\"3e1528150700dcf183ab106dfd878c8f\"",
+        "Last-Modified": "Wed, 13 May 2026 15:10:58 GMT"
+      },
+      "wall_seconds": 4.7040000000015425
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/1/0/1",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/23/18/19",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 165519,
+      "sha256": "d9188c65ae5d853aba35c30bcde411c9bcab34c275a8616665e676a0e3fe306c",
+      "response_headers": {
+        "Content-Length": "165519",
+        "ETag": "\"52cc8893d0e4895e420f5deb70b9d629\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:02 GMT"
+      },
+      "wall_seconds": 2.0459999999984575
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/1/1/0",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/23/19/18",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 199774,
+      "sha256": "942aff2876acc4987ba08c94807d251b89b6cdbe92344545aa0e605fe3a84e44",
+      "response_headers": {
+        "Content-Length": "199774",
+        "ETag": "\"a5c97d0c8dc6744b8fff8df664eab335\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:02 GMT"
+      },
+      "wall_seconds": 2.0459999999984575
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/1/0/2",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/23/18/20",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 264159,
+      "sha256": "31585fbbfce89c44058c40a238e995e63617d22d006f9903862774e8f8ce980c",
+      "response_headers": {
+        "Content-Length": "264159",
+        "ETag": "\"786c7f63c67aa7f1277b6a28ebedb5d9\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:02 GMT"
+      },
+      "wall_seconds": 2.639999999999418
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/1/0/0",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/23/18/18",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 288384,
+      "sha256": "c17839a54a453c1494ed17ea18285809ac3b84b4e72561aec3a546573d8ac2ae",
+      "response_headers": {
+        "Content-Length": "288384",
+        "ETag": "\"683fa89a4a927610e9e16008480c10f3\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:01 GMT"
+      },
+      "wall_seconds": 6.0
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/1/2/0",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/23/20/18",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 238902,
+      "sha256": "2df406f37b5f256cd647de1cfc733fa47491378accd51216bff8efd568b5c411",
+      "response_headers": {
+        "Content-Length": "238902",
+        "ETag": "\"8a11013781105b6eafacf6b55a270615\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:02 GMT"
+      },
+      "wall_seconds": 2.235000000000582
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/1/1/1",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/23/19/19",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 218189,
+      "sha256": "a9e336ee8dae044e9389849a5ba5b70a4f7379b4ae22f2916b59216c6d2c0e5b",
+      "response_headers": {
+        "Content-Length": "218189",
+        "ETag": "\"c8f91fb3f21ac1ba6bb0500c235d59be\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:02 GMT"
+      },
+      "wall_seconds": 2.860000000000582
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/1/2/1",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/23/20/19",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 320928,
+      "sha256": "62f83d1fb6774ef9bc2f4278666f45bde553b9aa4e1dc2617d36618bc62fb1bf",
+      "response_headers": {
+        "Content-Length": "320928",
+        "ETag": "\"563ee9ded9629cdb23f924dfde3d71f4\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:02 GMT"
+      },
+      "wall_seconds": 2.687000000001717
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/1/2/2",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/23/20/20",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 215129,
+      "sha256": "42fa9ada1efd3e397a3fea1541da7fc2396bde241b832aeeda8fe1eaf0ce5f61",
+      "response_headers": {
+        "Content-Length": "215129",
+        "ETag": "\"2af5908a2e636041abd9f6698c9376e9\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:02 GMT"
+      },
+      "wall_seconds": 2.889999999999418
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/2/0/0",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/24/18/18",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 182139,
+      "sha256": "03aba290a2c8c3c60dec119cbce3468d28ad58172692c72da7e55decaf1a5b3b",
+      "response_headers": {
+        "Content-Length": "182139",
+        "ETag": "\"e1a76bc13237c88f876fafbad2b6945f\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:06 GMT"
+      },
+      "wall_seconds": 3.0
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/1/1/2",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/23/19/20",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 369211,
+      "sha256": "0e5b7bee9ec0ec863fef4f96cd25d588e1a39a9e8d574ac0c68e617d4fc8d289",
+      "response_headers": {
+        "Content-Length": "369211",
+        "ETag": "\"256741fe95263b7b3677ac1b6e42328a\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:02 GMT"
+      },
+      "wall_seconds": 6.14100000000326
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/2/0/2",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/24/18/20",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 328741,
+      "sha256": "570afc24dd9fd9d45f245ea41b71d45d5e95831b12f46ea31e331b6d675e24da",
+      "response_headers": {
+        "Content-Length": "328741",
+        "ETag": "\"2926a8733789406b08ceb5606823a010\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:06 GMT"
+      },
+      "wall_seconds": 2.1570000000028813
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/2/0/1",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/24/18/19",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 230200,
+      "sha256": "dbee4296c90f98dda7bbf35ec9bb587b9484970816675b77d5a9e709d65dc91d",
+      "response_headers": {
+        "Content-Length": "230200",
+        "ETag": "\"267a07de0a0efc96213241cfd3943fc6\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:06 GMT"
+      },
+      "wall_seconds": 2.452999999997701
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/2/1/0",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/24/19/18",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 310154,
+      "sha256": "54b2efcd381d4f85c6be0ef03c7e478d36cf84c56a08afd0cf0496788b310681",
+      "response_headers": {
+        "Content-Length": "310154",
+        "ETag": "\"95299c5fe418fbb9761d77f558a3a755\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:06 GMT"
+      },
+      "wall_seconds": 2.735000000000582
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/2/1/1",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/24/19/19",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 167972,
+      "sha256": "3f6c6acfe1758bfa403f659cdcba5ebbdfc2339c1bdb621ea3e0727fcc4c3b77",
+      "response_headers": {
+        "Content-Length": "167972",
+        "ETag": "\"30d01203ee20371d78857b0dbe737d22\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:06 GMT"
+      },
+      "wall_seconds": 2.2179999999971187
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/2/2/0",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/24/20/18",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 170172,
+      "sha256": "2c9c7c1e60114f2910ba0ab82404c4bb8ba19ac0d4af33631636088118afb48f",
+      "response_headers": {
+        "Content-Length": "170172",
+        "ETag": "\"726b2ed6efd8662fc24fe8307ad35e01\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:06 GMT"
+      },
+      "wall_seconds": 1.6410000000032596
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/2/1/2",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/24/19/20",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 372958,
+      "sha256": "f6d8d8cfb2494b167ea10fa303a0291a5d2591551684eba4b62ff0dfabf79c5c",
+      "response_headers": {
+        "Content-Length": "372958",
+        "ETag": "\"81efa79210dd160dd4a175fa71f277f3\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:06 GMT"
+      },
+      "wall_seconds": 2.125
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/2/2/1",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/24/20/19",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 354369,
+      "sha256": "6c0825736c37bd63f050df2a7bdf7685dbcb3083419e25de971a068ee7d8cb6e",
+      "response_headers": {
+        "Content-Length": "354369",
+        "ETag": "\"2f47ee74ae18cb95ab44f097700dc035\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:06 GMT"
+      },
+      "wall_seconds": 2.4070000000028813
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/3/0/0",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/25/18/18",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 150856,
+      "sha256": "603b2a0e5070449f30ff86b2dae082e125b8ca037cfb370e7ceb9c264460c008",
+      "response_headers": {
+        "Content-Length": "150856",
+        "ETag": "\"b156b483ed1b1decba7c67b2cabee314\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:11 GMT"
+      },
+      "wall_seconds": 2.0469999999986612
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/2/2/2",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/24/20/20",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 314840,
+      "sha256": "bdfc7a2a42e7acbac120e50f0f2958a1b513a8b62aa88617f31febf395ff447e",
+      "response_headers": {
+        "Content-Length": "314840",
+        "ETag": "\"673df2fd7e002ea49f72a9b485812c69\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:06 GMT"
+      },
+      "wall_seconds": 2.9059999999990396
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/3/0/1",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/25/18/19",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 277524,
+      "sha256": "1563bf6199b9d9c7ddfef81130b8fa868e21c3612446f0173a45f0c3bd1374ae",
+      "response_headers": {
+        "Content-Length": "277524",
+        "ETag": "\"a034dabb54751cce19e853288d4535a3\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:11 GMT"
+      },
+      "wall_seconds": 4.109000000000378
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/3/0/2",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/25/18/20",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 314702,
+      "sha256": "466e9718beeffd73554e5dbc9ee2cfcda03ccdfe8c7bbdf2fcf1b7a2cb78621b",
+      "response_headers": {
+        "Content-Length": "314702",
+        "ETag": "\"f787587112461ac57cc48c85299a51c4\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:11 GMT"
+      },
+      "wall_seconds": 3.514999999999418
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/3/1/1",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/25/19/19",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 150513,
+      "sha256": "0a0b1aff86f71a1158c151d7d2929954eea7b6a18f6726196bd86e525237bb51",
+      "response_headers": {
+        "Content-Length": "150513",
+        "ETag": "\"c11247392165d42f76ec391b89f71fff\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:11 GMT"
+      },
+      "wall_seconds": 2.985000000000582
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/3/1/0",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/25/19/18",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 368935,
+      "sha256": "0dbda8c8eaa6c320b3bbca8ac1dec27432b48edc6437f55623db31e382f5ab10",
+      "response_headers": {
+        "Content-Length": "368935",
+        "ETag": "\"9fce9b3dd6d2acca4a853f5991da9a20\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:11 GMT"
+      },
+      "wall_seconds": 3.686999999998079
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/3/2/0",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/25/20/18",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 253285,
+      "sha256": "02b55f98edea2830983fde9534efb433fae2802e15a42cc420550f7aaa14cc04",
+      "response_headers": {
+        "Content-Length": "253285",
+        "ETag": "\"219fc5b6dc224f50446d3411aea5645a\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:11 GMT"
+      },
+      "wall_seconds": 2.6559999999990396
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/3/2/1",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/25/20/19",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 370413,
+      "sha256": "6cd202c6ab5267683b4abef4eb6e902f5fbedfed4486944615711926b0131765",
+      "response_headers": {
+        "Content-Length": "370413",
+        "ETag": "\"856fa72b8ca8e1192a7d610e39c47542\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:11 GMT"
+      },
+      "wall_seconds": 3.0
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/3/1/2",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/25/19/20",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 447093,
+      "sha256": "7956d9e006a6776758b9b1d0576f79efabb6ddc882324b73b2a342583469def9",
+      "response_headers": {
+        "Content-Length": "447093",
+        "ETag": "\"9ec7cc247dda1be2827a81321105a7bd\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:11 GMT"
+      },
+      "wall_seconds": 3.7969999999986612
+    },
+    {
+      "path": "portable-data/published-mesh/meta.json",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/segments/20260311000000-w023_202603112281/mesh/20260311000000-on-20250728140407-9.362um.tifxyz/meta.json",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 419,
+      "sha256": "f20b860c7623898bf3995067337264449799c312932c6778a5e67539ed7159b6",
+      "response_headers": {
+        "Content-Length": "419",
+        "ETag": "\"a584724f201caba0c27c831ba0ebbed4\"",
+        "Last-Modified": "Wed, 15 Jul 2026 15:36:02 GMT"
+      },
+      "wall_seconds": 1.4380000000019209
+    },
+    {
+      "path": "portable-data/prediction-roi.zarr/0/3/2/2",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/25/20/20",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 398329,
+      "sha256": "d46e178cb634263f10b9aba56162c93bb045cd6cc9a4b19b54635203e0ac1f49",
+      "response_headers": {
+        "Content-Length": "398329",
+        "ETag": "\"8fa205858e50720d1849a98fbacb31f5\"",
+        "Last-Modified": "Wed, 13 May 2026 15:11:11 GMT"
+      },
+      "wall_seconds": 3.6410000000032596
+    },
+    {
+      "path": "portable-data/published-mesh/y.tif",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/segments/20260311000000-w023_202603112281/mesh/20260311000000-on-20250728140407-9.362um.tifxyz/y.tif",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 442906,
+      "sha256": "b62860d242e3febeeffcf674180871eaf2e206b3a33e76c53d570fb18e648005",
+      "response_headers": {
+        "Content-Length": "442906",
+        "ETag": "\"c0d46b0987107589a53ef2fa73d28b78\"",
+        "Last-Modified": "Wed, 15 Jul 2026 15:36:03 GMT"
+      },
+      "wall_seconds": 3.062000000001717
+    },
+    {
+      "path": "portable-data/published-mesh/x.tif",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/segments/20260311000000-w023_202603112281/mesh/20260311000000-on-20250728140407-9.362um.tifxyz/x.tif",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 442906,
+      "sha256": "ac664704d9b2e427e3c10b3ec25a546beff0bf265835461d4559c64ca0dba33d",
+      "response_headers": {
+        "Content-Length": "442906",
+        "ETag": "\"4158333aac8d446885dc09eb3d8e19f7\"",
+        "Last-Modified": "Wed, 15 Jul 2026 15:36:02 GMT"
+      },
+      "wall_seconds": 3.1090000000003783
+    },
+    {
+      "path": "portable-data/published-mesh/z.tif",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/segments/20260311000000-w023_202603112281/mesh/20260311000000-on-20250728140407-9.362um.tifxyz/z.tif",
+      "status": "FETCHED_HASH_VERIFIED",
+      "bytes": 442906,
+      "sha256": "0b74b361c1ba974a8247fd7b25f9a68f3bea25eb82aa836cecaad7f04c9b7a10",
+      "response_headers": {
+        "Content-Length": "442906",
+        "ETag": "\"3301aa27dd167b4b1fd4049d31763f25\"",
+        "Last-Modified": "Wed, 15 Jul 2026 15:36:03 GMT"
+      },
+      "wall_seconds": 5.936999999998079
+    }
+  ],
+  "failures": [],
+  "crop_results": [
+    {
+      "label": "development",
+      "source_center_rc": [
+        157,
+        177
+      ],
+      "decoded_xyz_sha256": "0a68284478113370e7c597f956a179e27ac1c65b75af21d3cbf6401ce5034d19",
+      "exact_source_xyz_reconstruction": true,
+      "all_five_serialized_files_byteidentical": true
+    },
+    {
+      "label": "new-crop-1",
+      "source_center_rc": [
+        147,
+        177
+      ],
+      "decoded_xyz_sha256": "37fee0396a386cb4ffcd97bf30792f54218830bccefaa2a0295f6533e8cf9d72",
+      "exact_source_xyz_reconstruction": true,
+      "all_five_serialized_files_byteidentical": true
+    },
+    {
+      "label": "new-crop-2",
+      "source_center_rc": [
+        157,
+        187
+      ],
+      "decoded_xyz_sha256": "74ac4cfda992b4a2d2a7002362ab4c3eb519be4cebe61ee32d598b1f9653c41a",
+      "exact_source_xyz_reconstruction": true,
+      "all_five_serialized_files_byteidentical": true
+    }
+  ],
+  "limits": "No prediction volume decoding or tracing; three crops share one carrier.",
+  "wall_seconds": 52.09399999999732,
+  "downloaded_hash_verified_files": 43,
+  "downloaded_hash_verified_bytes": 10919380,
+  "existing_rehash_verified_files": 0,
+  "existing_rehash_verified_bytes": 0,
+  "total_hash_verified_source_files": 43,
+  "total_hash_verified_source_bytes": 10919380
+}

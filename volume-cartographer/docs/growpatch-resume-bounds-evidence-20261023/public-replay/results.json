@@ -1,0 +1,63 @@
+{
+  "results": [
+    {
+      "profile": "fill-zero",
+      "valid_points": 25,
+      "new_points": 0,
+      "outside_requested_grid": 0,
+      "grid_offset": [
+        2,
+        2
+      ],
+      "original_grid_extent_rc": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "violations": [],
+      "passed": true,
+      "wall_seconds": 4.375
+    },
+    {
+      "profile": "right-one",
+      "valid_points": 30,
+      "new_points": 5,
+      "outside_requested_grid": 0,
+      "grid_offset": [
+        2,
+        2
+      ],
+      "original_grid_extent_rc": [
+        0,
+        4,
+        0,
+        5
+      ],
+      "violations": [],
+      "passed": true,
+      "wall_seconds": 40.36000000000058
+    },
+    {
+      "profile": "wide-control",
+      "valid_points": 81,
+      "new_points": 56,
+      "outside_requested_grid": 0,
+      "grid_offset": [
+        4,
+        4
+      ],
+      "original_grid_extent_rc": [
+        -2,
+        6,
+        -2,
+        6
+      ],
+      "violations": [],
+      "passed": true,
+      "wall_seconds": 204.06300000000192
+    }
+  ],
+  "input_bytes_unchanged": true,
+  "scope": "Requested-grid contract on caller-supplied real input; growth_scale=0, no inpaint. No accuracy/generalization claim."
+}

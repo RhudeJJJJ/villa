@@ -1,0 +1,6 @@
+{
+  "status": "SYNTAX_AND_PROTOCOL_VALIDATED_NOT_RUN",
+  "script_sha256": "b21608cb7f70dad30b39574d6c5ad2bad2b20ff35620b5e2840011ca4cb3c2d3",
+  "protocol_sha256": "adcb383eb747734bc6cc61c7afdfdefbc29ade5e0118727794641f2e01048e45",
+  "planned_native_processes": 4
+}

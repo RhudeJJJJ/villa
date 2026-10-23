@@ -1,0 +1,258 @@
+{
+  "<fixture>\\portable-data\\prediction-roi.zarr\\.zattrs": {
+    "bytes": 1089,
+    "sha256": "71aceb5c68d0e8cf50679cd3cbdf3ca0e52de6b2f0cca5bd05baf5876def9c01"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\.zgroup": {
+    "bytes": 20,
+    "sha256": "42cae3c5269412c1f5fe1938d68a837991bfb6eea538ed1e8c53067895d5fc8a"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\.zarray": {
+    "bytes": 256,
+    "sha256": "46eae56e01e4ace5c6f0c544f4fed15d5e0ed4cdbc2eafee241fd298a6912888"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\0\\0\\0": {
+    "bytes": 243017,
+    "sha256": "74bbaf8e98ae9a3ef037be7c51b461c9100e985f507c6d5c4572b1fb2292caa9"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\0\\0\\1": {
+    "bytes": 167749,
+    "sha256": "050d197d30270e8d8b1a7acd1b7b77f877925cfd50b7aac52b9b87a7529c9664"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\0\\0\\2": {
+    "bytes": 244273,
+    "sha256": "ae525da9b7f1fe6b75f72deec77d5c072b9127106d4ebe137b01721ecf971c90"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\0\\1\\0": {
+    "bytes": 191230,
+    "sha256": "2f045ccbbf5ecdefe4227eafc0063361d85f0e334c7c3e059f34c390054252fe"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\0\\1\\1": {
+    "bytes": 236390,
+    "sha256": "deb3af49789e0ecaf49653bf0f11497bd58b73f0aa261bd2e3318df0a0badbc1"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\0\\1\\2": {
+    "bytes": 339142,
+    "sha256": "01ed007905035d89eddfa3e7b9db93ed91b85386f1b578596384e41ec95ff8ad"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\0\\2\\0": {
+    "bytes": 230420,
+    "sha256": "8a8ee3ff85fdcbee47f28bd8f48c82eea553fc2ec45e520493b06d90a13b4f76"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\0\\2\\1": {
+    "bytes": 317539,
+    "sha256": "494d77e740304bfa1bbaa755b29ed4e38995650610ec294c2d689f5c10fe2d31"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\0\\2\\2": {
+    "bytes": 173649,
+    "sha256": "4b31dba898a9f5dab0c43707f345c6521bef4314b89bf9e6cb663927d271bd25"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\1\\0\\0": {
+    "bytes": 288384,
+    "sha256": "c17839a54a453c1494ed17ea18285809ac3b84b4e72561aec3a546573d8ac2ae"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\1\\0\\1": {
+    "bytes": 165519,
+    "sha256": "d9188c65ae5d853aba35c30bcde411c9bcab34c275a8616665e676a0e3fe306c"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\1\\0\\2": {
+    "bytes": 264159,
+    "sha256": "31585fbbfce89c44058c40a238e995e63617d22d006f9903862774e8f8ce980c"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\1\\1\\0": {
+    "bytes": 199774,
+    "sha256": "942aff2876acc4987ba08c94807d251b89b6cdbe92344545aa0e605fe3a84e44"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\1\\1\\1": {
+    "bytes": 218189,
+    "sha256": "a9e336ee8dae044e9389849a5ba5b70a4f7379b4ae22f2916b59216c6d2c0e5b"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\1\\1\\2": {
+    "bytes": 369211,
+    "sha256": "0e5b7bee9ec0ec863fef4f96cd25d588e1a39a9e8d574ac0c68e617d4fc8d289"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\1\\2\\0": {
+    "bytes": 238902,
+    "sha256": "2df406f37b5f256cd647de1cfc733fa47491378accd51216bff8efd568b5c411"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\1\\2\\1": {
+    "bytes": 320928,
+    "sha256": "62f83d1fb6774ef9bc2f4278666f45bde553b9aa4e1dc2617d36618bc62fb1bf"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\1\\2\\2": {
+    "bytes": 215129,
+    "sha256": "42fa9ada1efd3e397a3fea1541da7fc2396bde241b832aeeda8fe1eaf0ce5f61"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\2\\0\\0": {
+    "bytes": 182139,
+    "sha256": "03aba290a2c8c3c60dec119cbce3468d28ad58172692c72da7e55decaf1a5b3b"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\2\\0\\1": {
+    "bytes": 230200,
+    "sha256": "dbee4296c90f98dda7bbf35ec9bb587b9484970816675b77d5a9e709d65dc91d"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\2\\0\\2": {
+    "bytes": 328741,
+    "sha256": "570afc24dd9fd9d45f245ea41b71d45d5e95831b12f46ea31e331b6d675e24da"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\2\\1\\0": {
+    "bytes": 310154,
+    "sha256": "54b2efcd381d4f85c6be0ef03c7e478d36cf84c56a08afd0cf0496788b310681"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\2\\1\\1": {
+    "bytes": 167972,
+    "sha256": "3f6c6acfe1758bfa403f659cdcba5ebbdfc2339c1bdb621ea3e0727fcc4c3b77"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\2\\1\\2": {
+    "bytes": 372958,
+    "sha256": "f6d8d8cfb2494b167ea10fa303a0291a5d2591551684eba4b62ff0dfabf79c5c"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\2\\2\\0": {
+    "bytes": 170172,
+    "sha256": "2c9c7c1e60114f2910ba0ab82404c4bb8ba19ac0d4af33631636088118afb48f"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\2\\2\\1": {
+    "bytes": 354369,
+    "sha256": "6c0825736c37bd63f050df2a7bdf7685dbcb3083419e25de971a068ee7d8cb6e"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\2\\2\\2": {
+    "bytes": 314840,
+    "sha256": "bdfc7a2a42e7acbac120e50f0f2958a1b513a8b62aa88617f31febf395ff447e"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\3\\0\\0": {
+    "bytes": 150856,
+    "sha256": "603b2a0e5070449f30ff86b2dae082e125b8ca037cfb370e7ceb9c264460c008"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\3\\0\\1": {
+    "bytes": 277524,
+    "sha256": "1563bf6199b9d9c7ddfef81130b8fa868e21c3612446f0173a45f0c3bd1374ae"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\3\\0\\2": {
+    "bytes": 314702,
+    "sha256": "466e9718beeffd73554e5dbc9ee2cfcda03ccdfe8c7bbdf2fcf1b7a2cb78621b"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\3\\1\\0": {
+    "bytes": 368935,
+    "sha256": "0dbda8c8eaa6c320b3bbca8ac1dec27432b48edc6437f55623db31e382f5ab10"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\3\\1\\1": {
+    "bytes": 150513,
+    "sha256": "0a0b1aff86f71a1158c151d7d2929954eea7b6a18f6726196bd86e525237bb51"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\3\\1\\2": {
+    "bytes": 447093,
+    "sha256": "7956d9e006a6776758b9b1d0576f79efabb6ddc882324b73b2a342583469def9"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\3\\2\\0": {
+    "bytes": 253285,
+    "sha256": "02b55f98edea2830983fde9534efb433fae2802e15a42cc420550f7aaa14cc04"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\3\\2\\1": {
+    "bytes": 370413,
+    "sha256": "6cd202c6ab5267683b4abef4eb6e902f5fbedfed4486944615711926b0131765"
+  },
+  "<fixture>\\portable-data\\prediction-roi.zarr\\0\\3\\2\\2": {
+    "bytes": 398329,
+    "sha256": "d46e178cb634263f10b9aba56162c93bb045cd6cc9a4b19b54635203e0ac1f49"
+  },
+  "<fixture>\\portable-data\\manifest.json": {
+    "bytes": 7664,
+    "sha256": "ae8c30a63680f11cc6b84829f3ebbefe7be40d67f5a0b57144cbdf4857dba7fb"
+  },
+  "<workspace>\\work\\growpatch-20261023\\verification-protocol.json": {
+    "bytes": 3949,
+    "sha256": "0159cb02b2c2e5655939e569f9edb2d942a3a3e9aea34dd524f5ab7de7a45fde"
+  },
+  "<workspace>\\work\\growpatch-20261023\\candidate\\check_growpatch_requested_bounds.py": {
+    "bytes": 11748,
+    "sha256": "d5b2438df5ad213c705a8551571e9600b42aae33e126b56706457a395d0ebda9"
+  },
+  "<workspace>\\work\\growpatch-20261023\\supplemental-tests\\check_supplemental.py": {
+    "bytes": 15203,
+    "sha256": "b21608cb7f70dad30b39574d6c5ad2bad2b20ff35620b5e2840011ca4cb3c2d3"
+  },
+  "<workspace>\\work\\growpatch-20261023\\supplemental-tests\\prepare\\current_suite.py": {
+    "bytes": 15153,
+    "sha256": "7c9ddae222b279ba710670ec7cbcb29f8f13796c7b46740523994250d7113b77"
+  },
+  "<fixture>\\fixtures\\development\\generations.tif": {
+    "bytes": 210,
+    "sha256": "050946b0dc2d873ad2c1bfa51ea15a250dd56eb4a68531633196b5c55a15b164"
+  },
+  "<fixture>\\fixtures\\development\\meta.json": {
+    "bytes": 720,
+    "sha256": "53f1d627ca42c2222a26dd1695eb11dbe0dd966a05f6cca8f6337bdf46255532"
+  },
+  "<fixture>\\fixtures\\development\\x.tif": {
+    "bytes": 260,
+    "sha256": "fe55e030b54e4a43cf8a03e25d5140617f968d2b407d4ce9f0db8c1e6965776a"
+  },
+  "<fixture>\\fixtures\\development\\y.tif": {
+    "bytes": 260,
+    "sha256": "6789fb69d51320358a9f61bbe4ed6c7ad6ea421acbc523efee531e2bbe82c7f6"
+  },
+  "<fixture>\\fixtures\\development\\z.tif": {
+    "bytes": 260,
+    "sha256": "2a450869f499f41b0c3cde82d39f5847f824008c1089bf6cac1acbedcf652a99"
+  },
+  "<fixture>\\fixtures\\new-crop-1\\generations.tif": {
+    "bytes": 210,
+    "sha256": "050946b0dc2d873ad2c1bfa51ea15a250dd56eb4a68531633196b5c55a15b164"
+  },
+  "<fixture>\\fixtures\\new-crop-1\\meta.json": {
+    "bytes": 720,
+    "sha256": "197414c2b80c1f74fe5a8b3529e35bdf9fe14e172b5ba8fc08ace5406a9eb89f"
+  },
+  "<fixture>\\fixtures\\new-crop-1\\x.tif": {
+    "bytes": 260,
+    "sha256": "6ddb22b07596a8bdf0b6991fe0d612402682faec86eea9b4b8507e15478371e9"
+  },
+  "<fixture>\\fixtures\\new-crop-1\\y.tif": {
+    "bytes": 260,
+    "sha256": "9ced743ef81585bd5e8d4b58c7c18574fbad42090e383926bfdb26e4d583b8bf"
+  },
+  "<fixture>\\fixtures\\new-crop-1\\z.tif": {
+    "bytes": 260,
+    "sha256": "19b826d91166692a3090360d7a45ce4b7de857e292d97460321784733ba45868"
+  },
+  "<fixture>\\fixtures\\new-crop-2\\generations.tif": {
+    "bytes": 210,
+    "sha256": "050946b0dc2d873ad2c1bfa51ea15a250dd56eb4a68531633196b5c55a15b164"
+  },
+  "<fixture>\\fixtures\\new-crop-2\\meta.json": {
+    "bytes": 717,
+    "sha256": "fd2d6d83169e3507ed75082d640f0c8e750fd6d554b08efc1e1dbeb9bc1a1afd"
+  },
+  "<fixture>\\fixtures\\new-crop-2\\x.tif": {
+    "bytes": 260,
+    "sha256": "a1c9bfc532f5fc3eca628be9069bb0427a14d1dda7dc9a1e0014b6772f7dfb1f"
+  },
+  "<fixture>\\fixtures\\new-crop-2\\y.tif": {
+    "bytes": 260,
+    "sha256": "0792093312359b435c2e648d50d061ce560eaa85df7f30087b39a843a594e0bd"
+  },
+  "<fixture>\\fixtures\\new-crop-2\\z.tif": {
+    "bytes": 260,
+    "sha256": "770bd295f69cd436dd35fceeb09e020cbb4879f42d990de9991ee013fae0fed1"
+  },
+  "<fixture>\\fixtures\\development-fill-zero.json": {
+    "bytes": 764,
+    "sha256": "a5f442514482f756240c08515c40ea2472166671b5e8c11f1e9d960cde418c54"
+  },
+  "<fixture>\\fixtures\\new-crop-1-fill-zero.json": {
+    "bytes": 764,
+    "sha256": "a5f442514482f756240c08515c40ea2472166671b5e8c11f1e9d960cde418c54"
+  },
+  "<fixture>\\fixtures\\new-crop-2-fill-zero.json": {
+    "bytes": 764,
+    "sha256": "a5f442514482f756240c08515c40ea2472166671b5e8c11f1e9d960cde418c54"
+  },
+  "<workspace>\\work\\growpatch-20261023\\build-current\\bin\\vc_grow_seg_from_seed_baseline.exe": {
+    "bytes": 32990509,
+    "sha256": "119d0ed8fc73bef70ecfda4cb9450c6bc00bf908d1c27ac8965b817ed15fa6fd"
+  },
+  "<workspace>\\work\\growpatch-20261023\\build-current\\bin\\vc_grow_seg_from_seed_fixed.exe": {
+    "bytes": 32990497,
+    "sha256": "66f88696885c14f992749fc09b0b3579fe0137e1cdf04f29727df2e065f51396"
+  }
+}

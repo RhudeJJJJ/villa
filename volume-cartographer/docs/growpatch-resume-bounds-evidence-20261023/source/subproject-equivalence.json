@@ -1,0 +1,101 @@
+{
+  "repository_full_name": "ScrollPrize/villa",
+  "base": "e2254ebe0168a232e5ba7b94997c749b4e6a4544",
+  "head": "6f2024569404a46b0f008eee292773945c07a684",
+  "status": "ahead",
+  "ahead_by": 1,
+  "behind_by": 0,
+  "total_commits": 1,
+  "too_large": null,
+  "base_commit": {
+    "sha": "e2254ebe0168a232e5ba7b94997c749b4e6a4544",
+    "url": "https://api.github.com/repos/ScrollPrize/villa/commits/e2254ebe0168a232e5ba7b94997c749b4e6a4544",
+    "html_url": "https://github.com/ScrollPrize/villa/commit/e2254ebe0168a232e5ba7b94997c749b4e6a4544"
+  },
+  "merge_base_commit": {
+    "sha": "e2254ebe0168a232e5ba7b94997c749b4e6a4544",
+    "url": "https://api.github.com/repos/ScrollPrize/villa/commits/e2254ebe0168a232e5ba7b94997c749b4e6a4544",
+    "html_url": "https://github.com/ScrollPrize/villa/commit/e2254ebe0168a232e5ba7b94997c749b4e6a4544"
+  },
+  "files": [
+    {
+      "filename": "foundation/photogrammetry-docs/INSTRUCTIONS.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "changes": 6,
+      "previous_filename": null
+    },
+    {
+      "filename": "foundation/photogrammetry-tools/scrollcase_qa.py",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 19,
+      "changes": 45,
+      "previous_filename": null
+    },
+    {
+      "filename": "foundation/scrollcase/README.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "changes": 4,
+      "previous_filename": null
+    },
+    {
+      "filename": "foundation/scrollcase/scripts/stl_generator.py",
+      "status": "modified",
+      "additions": 63,
+      "deletions": 10,
+      "changes": 73,
+      "previous_filename": null
+    },
+    {
+      "filename": "foundation/scrollcase/src/scrollcase/case.py",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 2,
+      "changes": 44,
+      "previous_filename": null
+    },
+    {
+      "filename": "foundation/scrollcase/src/scrollcase/curved_divider_wall.py",
+      "status": "modified",
+      "additions": 92,
+      "deletions": 3,
+      "changes": 95,
+      "previous_filename": null
+    },
+    {
+      "filename": "foundation/scrollcase/src/scrollcase/mesh.py",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "changes": 42,
+      "previous_filename": null
+    },
+    {
+      "filename": "foundation/scrollcase/tests/test_split_rotation.py",
+      "status": "added",
+      "additions": 60,
+      "deletions": 0,
+      "changes": 60,
+      "previous_filename": null
+    },
+    {
+      "filename": "foundation/scrollcase/tests/test_stl_generator.py",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 1,
+      "changes": 42,
+      "previous_filename": null
+    }
+  ],
+  "observed_date": "2026-10-23",
+  "built_pin": "e2254ebe0168a232e5ba7b94997c749b4e6a4544",
+  "publication_base": "6f2024569404a46b0f008eee292773945c07a684",
+  "identical_volume_cartographer_tree": "c48bb8937fd96bc0a6852e13fccc8f4968301326",
+  "publication_base_root_tree": "0a66fc6d105873cc169f811591beba3ccf98876f",
+  "comparison_rule": "Entire volume-cartographer Git subtree identity; all nine changed files belong to foundation/. This establishes code identity for the relevant subproject, not equality of root revision metadata embedded by CMake.",
+  "build_scope": "Fresh build of e2254ebe sources. Current 6f202456 has the same relevant source subtree; no claim that root-version metadata was rebuilt at the later pin."
+}

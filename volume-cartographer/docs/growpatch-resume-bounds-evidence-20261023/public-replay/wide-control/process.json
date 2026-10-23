@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "<workspace>\\work\\growpatch-20261023\\build-current\\bin\\vc_grow_seg_from_seed_fixed.exe",
+    "--volume",
+    "<workspace>\\work\\growpatch-20261023\\release-draft\\fresh-fixture-final-validation\\portable-data\\prediction-roi.zarr",
+    "--target-dir",
+    "<workspace>\\work\\growpatch-20261023\\public-forward-replay\\wide-control\\surface",
+    "--params",
+    "<workspace>\\work\\growpatch-20261023\\public-forward-replay\\wide-control\\params.json",
+    "--resume",
+    "<workspace>\\work\\growpatch-20261023\\release-draft\\fresh-fixture-final-validation\\fixtures\\development",
+    "--resume-opt",
+    "skip",
+    "--segment-name",
+    "requested-bounds-regression",
+    "--rng-seed",
+    "2104"
+  ],
+  "binary_sha256": "66f88696885c14f992749fc09b0b3579fe0137e1cdf04f29727df2e065f51396",
+  "params_sha256": "4320d81d18acf13a9bbb08bf950a32c5d02f55965da478571d424df5ee1b5a1c",
+  "status": "COMPLETED",
+  "pid": 17920,
+  "exit_code": 0,
+  "wall_seconds": 204.06300000000192
+}

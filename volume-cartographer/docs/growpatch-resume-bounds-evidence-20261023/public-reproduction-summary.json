@@ -1,0 +1,160 @@
+{
+  "status": "PASS_CLEAN_FINAL_RUN_WITH_PRESERVED_PRELIMINARY_PHASES",
+  "final_public_manifest": "fixture-sources.json",
+  "final_public_manifest_sha256": "617e64cc972e048dab69da17b775815731e66ef4bffd54bd75a1064f69c8d177",
+  "manifest_correction": "Only serialization prose corrected from LF to explicit historical CRLF; source records and fixture expected hashes unchanged.",
+  "phases": [
+    {
+      "phase": 1,
+      "receipt": "fresh-fixture-replay/reconstruction-receipt.phase-1.json",
+      "receipt_sha256": "032dd151aaa4f42c5c8fe8208465873aa9eb7f04af648305e2458293a4aee62d",
+      "status": "FAILED",
+      "new_network_files": 42,
+      "new_network_bytes": 10919356,
+      "error": "At least one original source could not be downloaded and hash-verified",
+      "wall_seconds": 32.7029999999977
+    },
+    {
+      "phase": 2,
+      "receipt": "fresh-fixture-replay/reconstruction-receipt.phase-2.json",
+      "receipt_sha256": "b26015ebdbe97e8fbe27abfb284992e8ff7d5452cebd0daf1ca89005e171d327",
+      "status": "FAILED",
+      "new_network_files": 1,
+      "new_network_bytes": 24,
+      "error": "Byte/hash mismatch: development/meta.json",
+      "wall_seconds": 20.70300000000134
+    },
+    {
+      "phase": 3,
+      "receipt": "fresh-fixture-replay/reconstruction-receipt.json",
+      "receipt_sha256": "1316a430f7c37dc39ede431a866612beb4523e3736e15d18e52b582dfad3023e",
+      "status": "PASS",
+      "new_network_files": 0,
+      "new_network_bytes": 0,
+      "error": null,
+      "wall_seconds": 19.81199999999808
+    }
+  ],
+  "all_43_originals_currently_available_and_bytehash_verified": true,
+  "all_15_reconstructed_fixture_files_match_historical_bytes": true,
+  "all_3_decoded_xyz_hashes_match": true,
+  "generation_channel_scope": "Initialized to 1 for this test, not public original tracing history.",
+  "geometry_scope": "Unmodified real public Float32 XYZ crop under exactly reversible integer translation; no inserted geometry holes.",
+  "final_script_sha256": "226c95f71bac1ba18000b1ec00290a73d7906db5a1058e8e89743ca6fbce2401",
+  "final_script_followup": "The final source and corrected public manifest were frozen and cleanly executed with a new output directory after the three preliminary phases. No further downloads or reconstruction repeat after PASS.",
+  "limits": "Three crops share one real prediction carrier. No raw CT or physical quality claim.",
+  "preliminary_network_unique_original_files": 43,
+  "preliminary_network_original_bytes": 10919380,
+  "final_clean_run": {
+    "status": "PASS",
+    "receipt": "fresh-fixture-final-validation/reconstruction-receipt.json",
+    "receipt_sha256": "6d01a82678dbe4e74cccf265f66c8ff3f909c60dc562a1218b0d43b024b339bf",
+    "process_receipt": "final-fetch-process.json",
+    "process_receipt_sha256": "df149e8b4160ff46583025601cd95ff71a3b633694f4d7d298d2c89b24790b45",
+    "pid": 37132,
+    "exit_code": 0,
+    "wall_seconds": 57.95300000000134,
+    "source_files_downloaded": 43,
+    "source_bytes_downloaded": 10919380,
+    "crops": 3,
+    "script_sha256": "226c95f71bac1ba18000b1ec00290a73d7906db5a1058e8e89743ca6fbce2401",
+    "fixture_sources_sha256": "617e64cc972e048dab69da17b775815731e66ef4bffd54bd75a1064f69c8d177",
+    "script_and_manifest_unchanged_during_run": true,
+    "independent_actual_file_comparisons": [
+      {
+        "path": "fixtures/development/x.tif",
+        "bytes": 260,
+        "sha256": "fe55e030b54e4a43cf8a03e25d5140617f968d2b407d4ce9f0db8c1e6965776a",
+        "equals_historical_fixture": true
+      },
+      {
+        "path": "fixtures/development/y.tif",
+        "bytes": 260,
+        "sha256": "6789fb69d51320358a9f61bbe4ed6c7ad6ea421acbc523efee531e2bbe82c7f6",
+        "equals_historical_fixture": true
+      },
+      {
+        "path": "fixtures/development/z.tif",
+        "bytes": 260,
+        "sha256": "2a450869f499f41b0c3cde82d39f5847f824008c1089bf6cac1acbedcf652a99",
+        "equals_historical_fixture": true
+      },
+      {
+        "path": "fixtures/development/generations.tif",
+        "bytes": 210,
+        "sha256": "050946b0dc2d873ad2c1bfa51ea15a250dd56eb4a68531633196b5c55a15b164",
+        "equals_historical_fixture": true
+      },
+      {
+        "path": "fixtures/development/meta.json",
+        "bytes": 720,
+        "sha256": "53f1d627ca42c2222a26dd1695eb11dbe0dd966a05f6cca8f6337bdf46255532",
+        "equals_historical_fixture": true
+      },
+      {
+        "path": "fixtures/new-crop-1/x.tif",
+        "bytes": 260,
+        "sha256": "6ddb22b07596a8bdf0b6991fe0d612402682faec86eea9b4b8507e15478371e9",
+        "equals_historical_fixture": true
+      },
+      {
+        "path": "fixtures/new-crop-1/y.tif",
+        "bytes": 260,
+        "sha256": "9ced743ef81585bd5e8d4b58c7c18574fbad42090e383926bfdb26e4d583b8bf",
+        "equals_historical_fixture": true
+      },
+      {
+        "path": "fixtures/new-crop-1/z.tif",
+        "bytes": 260,
+        "sha256": "19b826d91166692a3090360d7a45ce4b7de857e292d97460321784733ba45868",
+        "equals_historical_fixture": true
+      },
+      {
+        "path": "fixtures/new-crop-1/generations.tif",
+        "bytes": 210,
+        "sha256": "050946b0dc2d873ad2c1bfa51ea15a250dd56eb4a68531633196b5c55a15b164",
+        "equals_historical_fixture": true
+      },
+      {
+        "path": "fixtures/new-crop-1/meta.json",
+        "bytes": 720,
+        "sha256": "197414c2b80c1f74fe5a8b3529e35bdf9fe14e172b5ba8fc08ace5406a9eb89f",
+        "equals_historical_fixture": true
+      },
+      {
+        "path": "fixtures/new-crop-2/x.tif",
+        "bytes": 260,
+        "sha256": "a1c9bfc532f5fc3eca628be9069bb0427a14d1dda7dc9a1e0014b6772f7dfb1f",
+        "equals_historical_fixture": true
+      },
+      {
+        "path": "fixtures/new-crop-2/y.tif",
+        "bytes": 260,
+        "sha256": "0792093312359b435c2e648d50d061ce560eaa85df7f30087b39a843a594e0bd",
+        "equals_historical_fixture": true
+      },
+      {
+        "path": "fixtures/new-crop-2/z.tif",
+        "bytes": 260,
+        "sha256": "770bd295f69cd436dd35fceeb09e020cbb4879f42d990de9991ee013fae0fed1",
+        "equals_historical_fixture": true
+      },
+      {
+        "path": "fixtures/new-crop-2/generations.tif",
+        "bytes": 210,
+        "sha256": "050946b0dc2d873ad2c1bfa51ea15a250dd56eb4a68531633196b5c55a15b164",
+        "equals_historical_fixture": true
+      },
+      {
+        "path": "fixtures/new-crop-2/meta.json",
+        "bytes": 717,
+        "sha256": "fd2d6d83169e3507ed75082d640f0c8e750fd6d554b08efc1e1dbeb9bc1a1afd",
+        "equals_historical_fixture": true
+      }
+    ]
+  },
+  "network_total_files_transferred_across_preliminary_and_final_runs": 86,
+  "network_total_bytes_transferred_across_preliminary_and_final_runs": 21838760,
+  "preliminary_source_manifest_used": "fixture-sources.run-input.json",
+  "preliminary_source_manifest_used_sha256": "91f70fe6e8886668521f9cbad659d0962014809aa6e2df0c628e72ffe91cc553"
+}

@@ -1,0 +1,25 @@
+zarr dataset size for scale group 0 [768, 576, 576]
+chunk shape shape [192, 192, 192]
+mode: resume
+step size: 20
+min_area_cm: 0
+voxelsize: 9.362
+tgt_overlap_count: 20
+GrowPatch loss weights:
+  DIST: 1 STRAIGHT: 0.2 DIRECTION: 0 SNAP: 0 NORMAL: 0 NORMAL3DLINE: 0 REFERENCE_RAY: 0 SURFACE_SDT: 0 SPACELINE: 1 SDIR: 1
+empty space tracing
+GrowPatch work grid 57x55 (resume=5x5, extra_cols=1, extra_rows=0, disable_grid_expansion=0)
+Space-line loss EDT enabled (threshold=170, steps=5, invert=0)
+seed val [0, 0, 0] 0
+search & optimization ...lets go! 
+resuime! 
+Resuming from generation 1 with 25 points. Initial loss count: 0
+lets start fringe: 25
+gen 2 processing 5 fringe cands (total done 25 fringe: 25)
+cands 5
+-> done 30 | fringe 5 | area 1.05 mm^2 (0.000001 m^2) | avg speed 0.00 mm^2/s (0.000427 m^2/day) | current speed 0.00 mm^2/s
+gen 3 processing 0 fringe cands (total done 30 fringe: 5)
+cands 0
+-> done 30 | fringe 0 | area 1.05 mm^2 (0.000001 m^2) | avg speed 0.00 mm^2/s (0.000425 m^2/day) | current speed 0.00 mm^2/s
+generated surface 8050.203124 vx^2 (0.007056 cm^2)
+saving <workspace>\work\growpatch-20261023\public-forward-replay\right-one\surface

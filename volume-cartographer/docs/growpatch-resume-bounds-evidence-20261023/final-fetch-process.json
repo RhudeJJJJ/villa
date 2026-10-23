@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETED",
+  "started_utc": "2026-10-23T21:06:33.763504+00:00",
+  "argv_display": [
+    "python",
+    "-B",
+    "-X",
+    "utf8",
+    "fetch_real_fixture.py",
+    "--output",
+    "fresh-fixture-final-validation"
+  ],
+  "script_sha256": "226c95f71bac1ba18000b1ec00290a73d7906db5a1058e8e89743ca6fbce2401",
+  "fixture_sources_sha256": "617e64cc972e048dab69da17b775815731e66ef4bffd54bd75a1064f69c8d177",
+  "python_executable_sha256": "ceabb31054d429f57cb3825775677eeaf0db35fdabbc5ff6aef661c037154b00",
+  "scope": "Exactly one new-output happy-path run after containment/CRLF corrections; prior three phases preserved separately.",
+  "pid": 37132,
+  "exit_code": 0,
+  "wall_seconds": 57.95300000000134,
+  "script_bytes_unchanged": true,
+  "manifest_bytes_unchanged": true
+}

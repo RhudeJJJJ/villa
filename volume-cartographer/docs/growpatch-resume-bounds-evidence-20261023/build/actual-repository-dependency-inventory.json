@@ -1,0 +1,718 @@
+{
+  "libs/c3d/c3d.c": {
+    "bytes": 222855,
+    "sha256": "22ad4af4c5151d69328c8a31ee6428fa01ad7579e0584731d032620d9f052332"
+  },
+  "libs/c3d/c3d.h": {
+    "bytes": 16947,
+    "sha256": "de6f0deda9ef984383407bdcb726cc417a88bce6661f4d818bcf52ba7ba5f467"
+  },
+  "libs/volcomp/volcomp_lib.c": {
+    "bytes": 2873,
+    "sha256": "c75892a8486d784d7d1ed2e1544ae54c9d57db88c134946bd6b7b7a816d4dd67"
+  },
+  "libs/volcomp/volcomp_lib.h": {
+    "bytes": 4940,
+    "sha256": "11ce2af84fe4ff3304d7fa086270a20c4914aaaad29d7410550899bf8af052eb"
+  },
+  "libs/volcomp/volcomp.h": {
+    "bytes": 203649,
+    "sha256": "9f2706223f7c58391c32707f6351d7cfd1e77a21df13a2c618583d0911d61e1d"
+  },
+  "utils/src/zarr.cpp": {
+    "bytes": 110340,
+    "sha256": "089b70b25dc78230e01647c5c96fade1a5a147c70dc477e2b5c84e1b9e9c408a"
+  },
+  "utils/include/utils/zarr.hpp": {
+    "bytes": 50066,
+    "sha256": "1e85088871ec0f127ac0f501d901a20162405fafd9a1297da927f4d023d63f34"
+  },
+  "utils/include/utils/Json.hpp": {
+    "bytes": 6361,
+    "sha256": "ba01937602ca141a71f3db8613f516a00397bbe5266a0e0aa2cfe02cfd3aa13c"
+  },
+  "utils/include/utils/http_fetch.hpp": {
+    "bytes": 7937,
+    "sha256": "9f8485c39d5f1cb49a223385c3b5a96fcc54b22409ea8e7b334b1a36f7e454ca"
+  },
+  "utils/include/utils/sftp_fetch.hpp": {
+    "bytes": 852,
+    "sha256": "09432485bb5d4f56084fa9bc84bfc43dd4efd15a84af4420891147906026b33a"
+  },
+  "utils/src/Json.cpp": {
+    "bytes": 13620,
+    "sha256": "13f115e98a4504d1660f8147930b6db5449ecd7367fa7414f2dc2ce97b3d9760"
+  },
+  "utils/src/aws_auth.cpp": {
+    "bytes": 7099,
+    "sha256": "bafe9dfcb7abeee25d8b9b97d44a619755765c830790d24892d6e62bf1a2a087"
+  },
+  "utils/src/http_fetch.cpp": {
+    "bytes": 23579,
+    "sha256": "6b14e6f6f2d92e70419e5c178fa1441c5d0226bae1787cc7cf131bd900756ee1"
+  },
+  "utils/src/sftp_fetch.cpp": {
+    "bytes": 17375,
+    "sha256": "a7d231700ef321c205d9ea3c5f2a6b0f89d697417a10d2004154f3a3529325a2"
+  },
+  "utils/src/c3d_codec.cpp": {
+    "bytes": 7944,
+    "sha256": "382e2f0f5defb31aee36647ee1896a9e78ca25dc54b0ac1a87f6d2175cb8cd11"
+  },
+  "utils/include/utils/c3d_codec.hpp": {
+    "bytes": 2532,
+    "sha256": "7ad9c160288c5511cc6eede357fe027757af1a4b0a8bb4e4300e646a77b05799"
+  },
+  "utils/src/volcomp_codec.cpp": {
+    "bytes": 6041,
+    "sha256": "c3b697e47c76668debeb74ea19f9ff2f908dcd8a9a464a995fcdb9d13ce51d79"
+  },
+  "utils/include/utils/volcomp_codec.hpp": {
+    "bytes": 4512,
+    "sha256": "ab07ea332cb5961d0d3ce4a72aaa47cc5f06a6f7011de584669006768c1d2435"
+  },
+  "core/src/PolylineObj.cpp": {
+    "bytes": 1598,
+    "sha256": "1f7f573dd957e5f3ef76861fd97bf3de2a1c95fbf20c559d97b6d4ad8cba0bf4"
+  },
+  "core/include/vc/core/io/PolylineObj.hpp": {
+    "bytes": 511,
+    "sha256": "a000c7bae7c436b0cd0d2349d702e5ac61642589dcf4bb1fc2dca0f264d276ab"
+  },
+  "core/src/AtomicFile.cpp": {
+    "bytes": 8791,
+    "sha256": "634c43a809492e42e899be4fa7bc95c7af9c18114931f0fb066338ba95e3db64"
+  },
+  "core/include/vc/core/util/AtomicFile.hpp": {
+    "bytes": 1443,
+    "sha256": "cc1d4c32fb85387c89503134ad382e1427e7684020407d71b4f875294bf3ef78"
+  },
+  "core/src/TexturedMesh.cpp": {
+    "bytes": 3108,
+    "sha256": "bc35442f85e5a91714120af0ac55088adced0e2c33bd5feb22b1495a238aa541"
+  },
+  "core/include/vc/core/util/TexturedMesh.hpp": {
+    "bytes": 812,
+    "sha256": "afba2a48a562f3f761a0b079a0fe4e768037a6cba1c993984df2e7e427f64f5d"
+  },
+  "core/src/SurfaceTexture.cpp": {
+    "bytes": 3375,
+    "sha256": "f8beffff8a657421fa782092537bba571e2c62f87b005b572c5a6410963d9485"
+  },
+  "core/include/vc/core/util/SurfaceTexture.hpp": {
+    "bytes": 457,
+    "sha256": "fcda60071a158349052ca9b92f2f879bea9a98a4a58365852434d181150fe155"
+  },
+  "core/include/vc/core/render/ChunkedPlaneSampler.hpp": {
+    "bytes": 14214,
+    "sha256": "b04922c73400172b3afb43ae94dc67f7521a65885ad2f49503db10db1e44cb11"
+  },
+  "core/include/vc/core/render/IChunkedArray.hpp": {
+    "bytes": 5666,
+    "sha256": "aa1778ebc2ca71399582f72f116e0ca8a1a19b6fbf27a936cb0ef29bcd02acad"
+  },
+  "core/include/vc/core/render/ChunkFetch.hpp": {
+    "bytes": 7364,
+    "sha256": "0e40e21d3ec38310d0e5cb4c2b32369faec1924cf35d418fea6af2f9a35394d4"
+  },
+  "core/include/vc/core/types/Sampling.hpp": {
+    "bytes": 120,
+    "sha256": "19317e636ab09f9550df5892f483d2f3de1e52b98bb65313908ccf1c3382443d"
+  },
+  "core/include/vc/core/types/Volume.hpp": {
+    "bytes": 13237,
+    "sha256": "7fd8f530ebc5d44c3e1e65b5fce95088ef4d100c96d8c51fb6bfb9e928e86610"
+  },
+  "core/include/vc/core/types/SampleParams.hpp": {
+    "bytes": 814,
+    "sha256": "4e15f927f6a1e3966c2184734b2996bc2f8db6d9e898db7c9d02645546914ec5"
+  },
+  "core/include/vc/core/util/Compositing.hpp": {
+    "bytes": 4428,
+    "sha256": "be95f8d2b21f55e433ddbdaa380dd74c93d21263f062f72c1bb9c7de97f597e3"
+  },
+  "core/include/vc/core/util/PostProcess.hpp": {
+    "bytes": 852,
+    "sha256": "8c1c7c8662530beadba80f2e53f0405135e04a7b65701d51367777fb1a479226"
+  },
+  "core/include/vc/core/types/Array3D.hpp": {
+    "bytes": 2173,
+    "sha256": "f6df81e56e00e467c49c7c52a77fab5403acc492258b5e37c5b01fb27d653b68"
+  },
+  "core/include/vc/core/render/ChunkCache.hpp": {
+    "bytes": 39542,
+    "sha256": "e76f3699575889f533f375c789efbd6a9e27dca00742839b9b3d195e47b58d18"
+  },
+  "core/include/vc/core/render/DecodedChunkCacheBudget.hpp": {
+    "bytes": 2232,
+    "sha256": "64a46fce3fe872dc610c89b93c9c56d66acccc627b6d862fb74090ca75e466d7"
+  },
+  "core/include/vc/core/util/RemoteAuth.hpp": {
+    "bytes": 2381,
+    "sha256": "f7fcbbcff118b57a74265659f63be059ad4d1a0740853866a03b8c962f3bcdce"
+  },
+  "core/src/GridStore.cpp": {
+    "bytes": 44056,
+    "sha256": "4cf380e5e3d5be78b6076592411d9b4e28153399570e9028de257c37ac708f0c"
+  },
+  "core/include/vc/core/util/GridStore.hpp": {
+    "bytes": 2522,
+    "sha256": "6cb6b1eb600290f0a684908bad0a5ecd2a98619e229de8cca603486fb75d1984"
+  },
+  "core/include/vc/core/util/LineSegList.hpp": {
+    "bytes": 3407,
+    "sha256": "0e08e6c5e9c1d87bf964b083a048a6021202a94e24c4d144d7df781f30ab8284"
+  },
+  "core/include/vc/core/util/MemMap.hpp": {
+    "bytes": 2313,
+    "sha256": "e0a2e1a0e2bc420acc7a8aeb430e78ddf00952ab7b6a990cf47d4d99bf838cfe"
+  },
+  "core/src/NormalGridVolume.cpp": {
+    "bytes": 36062,
+    "sha256": "d2c196bce06066c04f1a1e9bc149c061986a348fae938eb6954918b1241f2bcb"
+  },
+  "core/include/vc/core/util/NormalGridVolume.hpp": {
+    "bytes": 2177,
+    "sha256": "dad1c9d47ece782e1d9ed0cac2adf4ecbd23fbd71f3719a0353b955f99d96fa0"
+  },
+  "core/include/vc/core/util/HashFunctions.hpp": {
+    "bytes": 2770,
+    "sha256": "9d0bcd7e474731492cad2d515be03a16e5dca0a3df30e52eb5fafecd2dd447fa"
+  },
+  "core/src/normalgridtools.cpp": {
+    "bytes": 23741,
+    "sha256": "4978450ab4edd9355377247819ef1c0ad3f875a828eb2352bd30aea8a4551d9f"
+  },
+  "core/include/vc/core/util/normalgridtools.hpp": {
+    "bytes": 3158,
+    "sha256": "5fa8347ce03df0e7f43338fa1eb459842192dcc46df11110ed60522812b9c284"
+  },
+  "core/src/Segmentation.cpp": {
+    "bytes": 6502,
+    "sha256": "762a4c883a019a9779a4026d5db2212158a449fcf7cc422b63666a6263ef6e30"
+  },
+  "core/include/vc/core/types/Segmentation.hpp": {
+    "bytes": 1971,
+    "sha256": "ba88d7f768926a024272440d5117aa0c04b8fa944957d2d2d18c34f316d7126e"
+  },
+  "core/include/vc/core/util/QuadSurface.hpp": {
+    "bytes": 28227,
+    "sha256": "c605108bc623a70dfe2d16ca9d0499df783dbc4cbaf6624980b80fcf256a2b95"
+  },
+  "core/include/vc/core/util/Surface.hpp": {
+    "bytes": 2053,
+    "sha256": "a6f25225fac47100959a7eccaf3cfc7e69a5b3ef882d2244a2080aa31364b76a"
+  },
+  "core/include/vc/core/util/Rect3D.hpp": {
+    "bytes": 858,
+    "sha256": "ce051ac0a1817b0f7633d9b30bc96e0cdb721591a911d755d4255b04a1aeb40e"
+  },
+  "core/include/vc/core/util/LoadJson.hpp": {
+    "bytes": 1392,
+    "sha256": "7121cf2a992900197257f78f4f2456cb43d623f52be482cd3b30bbefa4aa9bf2"
+  },
+  "core/include/vc/core/util/Logging.hpp": {
+    "bytes": 2430,
+    "sha256": "ce04e6c5b333c9b0170d3c45239cf0c723dac154daea37b284ec8995993a4af4"
+  },
+  "core/include/vc/core/util/Uuid.hpp": {
+    "bytes": 1349,
+    "sha256": "0ba40d5bca5cf7445f48fee866788e6ef5ab68d0eea408249d21e2301e13af48"
+  },
+  "core/src/Volume.cpp": {
+    "bytes": 88764,
+    "sha256": "e55765ea147101d33491e8d5316105aa10a238029a624ba151352eaffaac6ab3"
+  },
+  "core/include/vc/core/util/Slicing.hpp": {
+    "bytes": 2948,
+    "sha256": "951f90f9348f2a337e6440773c1491d77e1eb87005ca56398c0a9b6cc2876f55"
+  },
+  "core/include/vc/core/types/VcDataset.hpp": {
+    "bytes": 5313,
+    "sha256": "64c7d1ebd14d3d7cc2f72b509cafa75b6db4e40630d6f7feb06b4dd024b2ba4c"
+  },
+  "core/include/vc/core/render/ZarrChunkFetcher.hpp": {
+    "bytes": 4570,
+    "sha256": "19610820998b522bfd6a428c90e7e9daee3078a93647ebbe305ec4fd962f9b44"
+  },
+  "core/include/vc/core/util/RemoteUrl.hpp": {
+    "bytes": 1868,
+    "sha256": "ff9e128240705199afa45654a71ca752903b4241587a7982045077159905f320"
+  },
+  "core/include/vc/core/render/PersistentZarrCacheBudget.hpp": {
+    "bytes": 6631,
+    "sha256": "066e586d10078d0baf80ab3019dfbf6d08b2e7ce225f637158f169ecd52c4a89"
+  },
+  "core/include/vc/core/util/HttpFetch.hpp": {
+    "bytes": 574,
+    "sha256": "ccf2845d378c3846c3bf471b1618d6e9bb094706e8e4e0488dd83804af5e806f"
+  },
+  "core/include/vc/core/util/RemoteFileCache.hpp": {
+    "bytes": 2118,
+    "sha256": "f63dadd0c527e827fc60266cb3056c5dd80ca749dc5f52ed08c58b29fa9c8156"
+  },
+  "core/include/vc/core/util/RemoteCacheSettings.hpp": {
+    "bytes": 575,
+    "sha256": "179049bb50a8ce8c60eedbf363f180379a0b91fafb5c9f5029c60cd5e25baf14"
+  },
+  "core/include/vc/core/util/VoxelSizeMetadata.hpp": {
+    "bytes": 3554,
+    "sha256": "42334d743daf5247a4f2a25a336598a39ac1ed738474ac3cb5757367cbc992f7"
+  },
+  "utils/include/utils/hash.hpp": {
+    "bytes": 5376,
+    "sha256": "9c50a9d637aa413907792a4a3c7794e65174ec4cf97fd3bb0048658441ec38ed"
+  },
+  "core/src/VolumePkg.cpp": {
+    "bytes": 92866,
+    "sha256": "31f07d55a1ff7e66e240094920e8a096b140dd580575a55f7150827ffe916aff"
+  },
+  "core/include/vc/core/types/VolumePkg.hpp": {
+    "bytes": 13569,
+    "sha256": "c577a93d5efdbe015ead1ad3cec0f32626b2b03fe9e9aeb1c7bb532fba222487"
+  },
+  "core/src/SurfacePatchIndex.cpp": {
+    "bytes": 143101,
+    "sha256": "66e951810be3b5e5dfbc54e9e0d8632156c1ba7440a9ddb011ee307b2b1dea98"
+  },
+  "core/include/vc/core/util/SurfacePatchIndex.hpp": {
+    "bytes": 7076,
+    "sha256": "9b0466942bc70ccbb36725d73f76e3602631570f8b892688b9307feced6c2dd5"
+  },
+  "core/include/vc/core/util/PlaneSurface.hpp": {
+    "bytes": 2499,
+    "sha256": "57d38c6a4bdc5220717da33065b026f05ef423ad629d3ad4797edca9a0d11a7e"
+  },
+  "core/src/PointIndex.cpp": {
+    "bytes": 9721,
+    "sha256": "1d437ecaad6ec35924d9fc40c054f9a6b5154170ea5e16be4c4b6a9d22ec9812"
+  },
+  "core/include/vc/core/util/PointIndex.hpp": {
+    "bytes": 1699,
+    "sha256": "9ad406f4bfe1b7e41d9ce97bc923143b9402fbbd7120bea9e5c51f5af033589f"
+  },
+  "core/src/Logging.cpp": {
+    "bytes": 4455,
+    "sha256": "c7ffbfb7d039dfb21e3218fadac01b149e7c785dc54d6106756d224d5423497a"
+  },
+  "core/src/CrashHandler.cpp": {
+    "bytes": 34558,
+    "sha256": "06f1312d098b677fda4a7ee602de0ca8e487783500b10cf4626c00b464d9cd1e"
+  },
+  "core/include/vc/core/util/CrashHandler.hpp": {
+    "bytes": 63,
+    "sha256": "bef744abc8652c20432ae78fdfca9dc70184ca89927154db344e0fdf7b7b8d72"
+  },
+  "core/src/MemMap.cpp": {
+    "bytes": 5831,
+    "sha256": "08501aff061965d331373521d088f4217e4282c974735e7bb40f0b37eb315044"
+  },
+  "core/src/UnixSocket.cpp": {
+    "bytes": 1848,
+    "sha256": "fde64be9265578ef3266c6e9d4b6754e77031c4bd9dd42eb4e32614abfde2d6e"
+  },
+  "core/include/vc/core/util/UnixSocket.hpp": {
+    "bytes": 1233,
+    "sha256": "07226a2e5a136ec11c2419c6f683ebb119f88ee43d357f02879c6d2ff14c5e91"
+  },
+  "core/src/VolpkgConvert.cpp": {
+    "bytes": 5583,
+    "sha256": "f22e8df9daeb312c411fed35a85198b7f9f8e9a94bd8ed3f3425aef9ff17e75a"
+  },
+  "core/include/vc/core/util/VolpkgConvert.hpp": {
+    "bytes": 337,
+    "sha256": "92b17348b7c57a927807f440af42e2f3a44468bf7fac6364f3f80aead97a620b"
+  },
+  "core/src/VoxelSizeMetadata.cpp": {
+    "bytes": 11788,
+    "sha256": "19017093c502990f11d479346201dd480b549bfa8e036f397063d664262f7ab0"
+  },
+  "core/src/SparseChunkSpool.cpp": {
+    "bytes": 11414,
+    "sha256": "3acfd32a40a64a2a45f4c6e67c1b7482ddfecdcb41d6efc155f0fa367b23ba97"
+  },
+  "core/include/vc/core/util/SparseChunkSpool.hpp": {
+    "bytes": 2583,
+    "sha256": "8c3942ba8f048df394a86244da930f74b5b431eee2619ca295ba9da5f4014d20"
+  },
+  "core/src/Slicing.cpp": {
+    "bytes": 36013,
+    "sha256": "b99e250faccfb583317a86251ce5e70724ebf7b9d61344c1a4618d52b3da0019"
+  },
+  "core/include/vc/core/util/CubicInterpolation.hpp": {
+    "bytes": 2823,
+    "sha256": "461bcc131c7ee100d4321d80d92d6467f787dab378da853ae26b0f9b3f741fdc"
+  },
+  "core/src/Compositing.cpp": {
+    "bytes": 3449,
+    "sha256": "aac8a996fc3bdd28e15abf41d84c72fa9d14cba9febbd79580e26a3f53af96ec"
+  },
+  "utils/include/utils/compositing.hpp": {
+    "bytes": 8036,
+    "sha256": "ce913163620f795f4427e874c5546c82bd856e273c397de85c623a7369927894"
+  },
+  "core/src/AffineTransform.cpp": {
+    "bytes": 17142,
+    "sha256": "c717b015dc689743cf15e2910d54b212af80ee40cfc1b836025b3a5c0e1c6626"
+  },
+  "core/include/vc/core/util/AffineTransform.hpp": {
+    "bytes": 2510,
+    "sha256": "b90b9e62b0f7be369fdff29ef35d8144cd14e24c9d59f50d21f30713adaab043"
+  },
+  "core/src/ScaleTifxyz.cpp": {
+    "bytes": 13035,
+    "sha256": "d9ef55f36b4f073943f85c18444796c2b85933bc73c60805e36fea48d37b6b39"
+  },
+  "core/include/vc/core/util/SurfaceIdentity.hpp": {
+    "bytes": 494,
+    "sha256": "789a9013dabb7f5a6285ad6b88177fc9bf87e1626dc186afbc918894d62df588"
+  },
+  "core/src/PlaneSurface.cpp": {
+    "bytes": 14744,
+    "sha256": "ced524687718dd4b434bc6d72e791ed8a7038f0690a100701ccb0283a1c58884"
+  },
+  "core/include/vc/core/util/Geometry.hpp": {
+    "bytes": 1712,
+    "sha256": "1e422bd2cafb44fc83ba9a57c395dc9b02e1ea1026cfdb14c578788798ff78d6"
+  },
+  "core/src/Surface.cpp": {
+    "bytes": 71,
+    "sha256": "d1e6afc0b953ef8565fc8da7ecaa312cfd6baef8bc16faa716a3ac097a3d8c79"
+  },
+  "core/src/QuadSurface.cpp": {
+    "bytes": 147124,
+    "sha256": "3e57a86cd6bc348cd1bab06a6c62b4a6ab4b1bd58253c096e0c7977ca9d16a27"
+  },
+  "core/include/vc/core/util/Tiff.hpp": {
+    "bytes": 4815,
+    "sha256": "987b00392362c4f96bbefcc73a63adad4775ef9d44b134a22cd7d0bd1dfe141c"
+  },
+  "core/src/Render.cpp": {
+    "bytes": 4650,
+    "sha256": "86d8d7294fd65e1717c238acb89d750c34120c01089b90059e5227c0c93e518c"
+  },
+  "core/src/Tiff.cpp": {
+    "bytes": 21455,
+    "sha256": "cc42abe97be71694bb684503a5ac6667d1bf3cf345911377dee093e831ec3042"
+  },
+  "core/src/Zarr.cpp": {
+    "bytes": 21700,
+    "sha256": "4fc55439bb43174065933ee69faa768c26c5ad3153fcc1651fba8921960ff7c9"
+  },
+  "core/include/vc/core/util/Zarr.hpp": {
+    "bytes": 7702,
+    "sha256": "0c5b102b8adc68f7274b2475d9ed26d15a7c526f6f9ac5e78f1a7f6470740dc1"
+  },
+  "core/src/VcDataset.cpp": {
+    "bytes": 47777,
+    "sha256": "a17730ab36fa5feeeff8451582a08facb67872759ad5fa865a61246cbac11b6b"
+  },
+  "core/include/vc/core/util/CacheCompression.hpp": {
+    "bytes": 3777,
+    "sha256": "fe0c6771a11906f7ffbfbb582d0badf786fdd04a6d2d8d033dc7c8222ed31717"
+  },
+  "core/src/LoadJson.cpp": {
+    "bytes": 2501,
+    "sha256": "7bf9243c2d658dd55e81921d978eba9ef14011a76b9e07efe178702c820c5ed7"
+  },
+  "core/src/RemoteUrl.cpp": {
+    "bytes": 7682,
+    "sha256": "8ddf9412d8a04b6c7535002f36e53f10fbbb4fb8cb0bb3b612e375c82e296ef2"
+  },
+  "core/src/RemoteFileCache.cpp": {
+    "bytes": 22612,
+    "sha256": "3195ed17e7d2871f65d2ebf7f9002ee780fd3f30a84bcf0b3305aa5a9cefab3f"
+  },
+  "core/include/vc/core/util/S3AuthFallback.hpp": {
+    "bytes": 1231,
+    "sha256": "b8e021d079ba4e9a9792669a19d0c339749b24f907d05a7f1b234173b64d1820"
+  },
+  "core/src/RemoteCacheSettings.cpp": {
+    "bytes": 7861,
+    "sha256": "ad5c4446137e58240249219c1e194a9f156f9e4da51b26cc388ba081cd844d9a"
+  },
+  "core/include/vc/core/util/GlobalCacheRoot.hpp": {
+    "bytes": 2529,
+    "sha256": "e709b7fdfe0672c182b814e25315941b159c2637037a59ff25299eaf8963e65d"
+  },
+  "core/src/HttpFetch.cpp": {
+    "bytes": 5188,
+    "sha256": "9ebc8dd1f3f6fecbdb806cb7e1e62534d8e526d7415ed53851e52964a04e9d68"
+  },
+  "core/src/S3AuthFallback.cpp": {
+    "bytes": 3272,
+    "sha256": "6ac918a4ada84fb5670bbfe71468c7dbaf5685c28c988d7eb4796f505ec56062"
+  },
+  "core/src/PostProcess.cpp": {
+    "bytes": 3515,
+    "sha256": "018541621765ab54fb89fc20d7cccac86080220d8ec292184801c25b3f18c0d5"
+  },
+  "core/src/Geometry.cpp": {
+    "bytes": 11383,
+    "sha256": "1f21146c8fc3cdafc0229d213ed1edba26907e899fc0e12062b636f3ea9ab53d"
+  },
+  "core/src/PointCollections.cpp": {
+    "bytes": 29675,
+    "sha256": "132ef4b555769fd7bded5f927dd582114df9707a946fa62b37fe1305c9b2fc4c"
+  },
+  "core/include/vc/core/PointCollections.hpp": {
+    "bytes": 6324,
+    "sha256": "b90d96576bf88a4686d613e0a1268c6eaeb3b65c0fd93301f04034bc91faa86b"
+  },
+  "core/src/surface_metrics.cpp": {
+    "bytes": 9487,
+    "sha256": "5de2509c84828e2fab5dad1bd63e1f44bb30f525660407e68ea9bcdf8329f475"
+  },
+  "core/include/vc/ui/surface_metrics.hpp": {
+    "bytes": 434,
+    "sha256": "779eb3f2220c2155767129ecc1f7e436fec89d71fb86cd877877c82d0217b4fb"
+  },
+  "core/src/Thinning.cpp": {
+    "bytes": 13226,
+    "sha256": "578c22f289f9e54f58efb4a9e9fdd193b0a7f21a0b171c2ac0ea507cecd362df"
+  },
+  "core/include/vc/core/util/Thinning.hpp": {
+    "bytes": 3230,
+    "sha256": "c7e99dc757df35e53f83ad6c4e97b707665bea5715bd907dac27f616e5b60a03"
+  },
+  "core/include/vc/core/util/OpenCvCompat.hpp": {
+    "bytes": 474,
+    "sha256": "00830d10feddbae577e9c3a5fcf8d4c436313adff54d0ae3469b16aad31b9b6e"
+  },
+  "core/src/Umbilicus.cpp": {
+    "bytes": 21462,
+    "sha256": "2623a874573f95f321c29b32e361278ee8782f804a782374023c1ea026b4d0e0"
+  },
+  "core/include/vc/core/util/Umbilicus.hpp": {
+    "bytes": 5033,
+    "sha256": "3517d85d4fb6029bfcf9b0ad9b1e909e79c476dd9c4c941558ad0a0691971281"
+  },
+  "core/src/ScrollUmbilicus.cpp": {
+    "bytes": 27821,
+    "sha256": "ed7aef7208b2ab11cb97ea9dbfe2e1af7dff04eab4ad1bd7e6e088e7a0d4e37a"
+  },
+  "core/include/vc/core/util/ScrollUmbilicus.hpp": {
+    "bytes": 15739,
+    "sha256": "1a2ffb84cfd6784605fff9cf0c0dfb4b76550c0d60bb1e6d61a0635dad2defc0"
+  },
+  "core/src/render/ChunkCache.cpp": {
+    "bytes": 234898,
+    "sha256": "8ac4494780dbb228f6132f33ba67e314e23b46a76afa45139072c5c81d6fed88"
+  },
+  "core/src/render/ChunkCache.hpp": {
+    "bytes": 58,
+    "sha256": "56bed46e8e25fa557e65f9cff1483905cd2e5a318f8cb3a0ff40bf71fc0c5071"
+  },
+  "core/src/render/SamplingWaitProfile.hpp": {
+    "bytes": 1506,
+    "sha256": "9b53f071aa56f39d747ae36e79ce1bbe06d9d1877a4b5c90ba9d2fa2d2015767"
+  },
+  "utils/include/utils/thread_pool.hpp": {
+    "bytes": 16071,
+    "sha256": "17f3fe62618afea67032dbc4127f27a747cd138094bbecabe78f458659168add"
+  },
+  "core/include/vc/core/render/ChunkRequestScheduler.hpp": {
+    "bytes": 7586,
+    "sha256": "e751e1e22116b88b244f34acbae47a0517dd5e0e9417a452664fbaed0112040d"
+  },
+  "core/src/render/ChunkRequestScheduler.cpp": {
+    "bytes": 53080,
+    "sha256": "4eb0b7cef1bb2a24780f5ad874909fed8ba33d9252056c6d9f20198b998efaac"
+  },
+  "core/src/render/DecodedChunkCacheBudget.cpp": {
+    "bytes": 4596,
+    "sha256": "914cc5a3f70b96c3d76daaf1bab68bf00c0e9391ac008c1eb547237621c8a4fa"
+  },
+  "core/src/render/PersistentZarrCacheBudget.cpp": {
+    "bytes": 40639,
+    "sha256": "90d203dbaa68dce2e02d9fc57807f74b2f5c9a57d7d1d1c10b7657c1cd32d5df"
+  },
+  "core/include/vc/core/render/detail/CacheAgeBuckets.hpp": {
+    "bytes": 4810,
+    "sha256": "a9f305191a890f5db7c8c9723a0c20fef2d8e26d22889cea83b3229a6abe3aa9"
+  },
+  "core/src/render/ChunkedPlaneSampler.cpp": {
+    "bytes": 117566,
+    "sha256": "7838f02d90497835216f81c674710ad67fb134e927c9803909c3af2cc9bfce27"
+  },
+  "core/include/vc/core/render/LocalChunkCache.hpp": {
+    "bytes": 3295,
+    "sha256": "c00660828db54f17d65e3efef53ebca3f335eb49396ec83e7aeab0d2b9e96a2a"
+  },
+  "core/include/vc/core/render/PinnedChunkRegion.hpp": {
+    "bytes": 2200,
+    "sha256": "9dc70437e0b9c628736fcedf4116abbccf8092031b40080554f4c1b7a5021d78"
+  },
+  "core/src/render/PinnedChunkRegion.cpp": {
+    "bytes": 2694,
+    "sha256": "9bef2ff0151cc3d887b2ede393d286d833d1d3e0aafe239350cd8ff3a26b7c6c"
+  },
+  "core/src/render/SamplingWaitProfile.cpp": {
+    "bytes": 1447,
+    "sha256": "0ecd3e5be846456be0e0b79fe69be11adc93a9aa7f91b16fd45f5da68b70b24e"
+  },
+  "core/src/render/SurfaceCache.cpp": {
+    "bytes": 69044,
+    "sha256": "8ec68beccc13d8bc1fa8d6ea0d0fa1f54cac0c71389633bffdda55e5eef56b3b"
+  },
+  "core/include/vc/core/render/SurfaceCache.hpp": {
+    "bytes": 10586,
+    "sha256": "ef952cf30afd002a48492c57984a6e216f02d5c13e86ae5a6ed7f2c9305ade3e"
+  },
+  "core/src/render/Colormaps.cpp": {
+    "bytes": 9354,
+    "sha256": "8f2d5a81ec72fb6ae4340fb1b4230aed138e9eb1129435a7ef4ce787ed0d3e31"
+  },
+  "core/include/vc/core/render/Colormaps.hpp": {
+    "bytes": 2533,
+    "sha256": "337ea4d60f24705792544031ae97611896fd6bc18a727a6ac72f7071fb9cbfe3"
+  },
+  "core/src/render/PostProcess.cpp": {
+    "bytes": 5621,
+    "sha256": "bd3553b666febb34d592929c78f1379ea588d704de4d9b93f6f29e220981e242"
+  },
+  "core/include/vc/core/render/PostProcess.hpp": {
+    "bytes": 2602,
+    "sha256": "7c1141596e02080c9d7de8a8c17bd437dac77ddd6f1954e884373ca1a4538773"
+  },
+  "core/src/render/ZarrDownloadBenchmark.cpp": {
+    "bytes": 15066,
+    "sha256": "c2319f4bf988d8eeb958537482795eea88f47e1a236f4d237a687e8c792865a0"
+  },
+  "core/include/vc/core/render/ZarrDownloadBenchmark.hpp": {
+    "bytes": 3298,
+    "sha256": "0cf491b5dbfab3e806a19cc5f6125c0bbcf68f69bb3f5db7353886c5a1881e9d"
+  },
+  "core/src/render/ZarrChunkFetcher.cpp": {
+    "bytes": 51623,
+    "sha256": "32e3dfc1d708a04e618ec61529b8b8092fb375b7dcd677d36e9fa7310d3a5045"
+  },
+  "apps/src/vc_merge_tifxyz_grid.cpp": {
+    "bytes": 6120,
+    "sha256": "050b5eac1cbb8bc2dabbf9cc7beab7c652cb7762ea175e3ffeb079d5e8f81c94"
+  },
+  "apps/src/vc_merge_tifxyz_grid.hpp": {
+    "bytes": 1452,
+    "sha256": "d927497f94edfb4c1b4d613930c1fe7e588f8dbae0b3e002d7c3bf33bad4b7cd"
+  },
+  "core/include/vc/core/Version.hpp": {
+    "bytes": 1055,
+    "sha256": "9b21865ba30ca09d00ea1641264a5286004697bf750993d73286d3e2ecd27926"
+  },
+  "core/src/ABFFlattening.cpp": {
+    "bytes": 99351,
+    "sha256": "398c72d16fa942e2df251b9d08f052c0bbc5aa068fbc3a28ae5aea4186945f26"
+  },
+  "core/include/vc/flattening/ABFFlattening.hpp": {
+    "bytes": 3977,
+    "sha256": "f134a44b794214a1d92bc3d540f5c104a39a0933f7df7e3ed6adf44c3069ae50"
+  },
+  "libs/OpenABF/include/OpenABF/OpenABF.hpp": {
+    "bytes": 123069,
+    "sha256": "1653a0847c0ca49e634e61d51da8aade0f89f3bdb4e5fa865ebf64edf3b8f15c"
+  },
+  "core/src/GrowPatch.cpp": {
+    "bytes": 222942,
+    "sha256": "9e126582691f2ee7ac7494024a374ac7f728fb891407d4103b36276b52576282"
+  },
+  "core/include/vc/core/util/GrowthMask.hpp": {
+    "bytes": 1641,
+    "sha256": "417c123b4cdb8ae8becc81e0c8ff23c2e5be549ff9eca83e1f5f45b3221915b0"
+  },
+  "core/include/vc/tracer/SurfaceModeling.hpp": {
+    "bytes": 450,
+    "sha256": "a6c649a3336c9bee7d38431c984b77548a118d226cf5921620951bee9f3f5f2d"
+  },
+  "core/include/vc/tracer/CostFunctions.hpp": {
+    "bytes": 75270,
+    "sha256": "c3e695f0221b6fb68bfa8578ac52ffb750d324b273c573c27c101191b8cb3f6f"
+  },
+  "core/include/vc/core/types/ChunkedTensor.hpp": {
+    "bytes": 26197,
+    "sha256": "474031b1211e618eca7179e08f14ee61108dc82e13e5bb00670c89a4d60be06e"
+  },
+  "core/include/vc/core/util/SurfaceArea.hpp": {
+    "bytes": 11822,
+    "sha256": "50ab1d3fc0388f8e6b0b69436066bc0789143e531e90261e49325d6f52fabd87"
+  },
+  "core/include/vc/core/util/OMPThreadPointCollection.hpp": {
+    "bytes": 2169,
+    "sha256": "f2761e835fe79e8e98068233fc62785a932f04a9ee58e416a34636cde6f76d37"
+  },
+  "core/include/vc/core/util/LifeTime.hpp": {
+    "bytes": 1522,
+    "sha256": "7457b135039128ec07fad2eac1849b29c635256ed460c83eb3aeaaff942b2976"
+  },
+  "libs/edt/edt.hpp": {
+    "bytes": 25250,
+    "sha256": "d11ec2d831efea06fe2e3680e6c7edba9a0a0c90329e13189f9dedf01c9427bc"
+  },
+  "libs/edt/threadpool.h": {
+    "bytes": 4140,
+    "sha256": "2eba89462f31828156d11f130fcd9844de47530a91a9b1f40abe9d7e04bdae54"
+  },
+  "core/include/vc/tracer/Tracer.hpp": {
+    "bytes": 1603,
+    "sha256": "91a4e10f31573aa0ea3b160e0c6d95a7522fe50019e4bca96d893565dde54f87"
+  },
+  "core/include/vc/tracer/NeuralTracerConnection.h": {
+    "bytes": 935,
+    "sha256": "52d1a4ce3d8db62436dd9708c0ddb787d40fb162589e44c6d5249e673c695320"
+  },
+  "core/src/GrowSurface.cpp": {
+    "bytes": 170855,
+    "sha256": "8896b58e36cbb62fc5c33398fd30bbb233fb99d7791927bfc3dd5e66621cd6be"
+  },
+  "core/include/vc/core/util/DateTime.hpp": {
+    "bytes": 833,
+    "sha256": "1060d6dd63f3f6bbaddd607fa723f5f536458a2112e397915d584100e4612cc2"
+  },
+  "core/src/growth_strategies/CandidateOrdering.hpp": {
+    "bytes": 889,
+    "sha256": "6550d9f22125b5f1691f858c21651e15146f3901ffa2c8b6c17170af0d357593"
+  },
+  "core/src/growth_strategies/GrowthConfig.hpp": {
+    "bytes": 1268,
+    "sha256": "b9b86c03e6d22a0df3e63d4932a43666d73423ae315fec9443f2c83102a1ede1"
+  },
+  "core/src/SurfTrackerData.hpp": {
+    "bytes": 1913,
+    "sha256": "77fde7102a588c10d650b8f27a6c44cfac0e9d2eb3bc2abfa04e805caff6d449"
+  },
+  "core/src/SurfTrackerData.cpp": {
+    "bytes": 5280,
+    "sha256": "4f2e2585652b7d633ad05375400966990b47b7c023b945b3ce78083db55a4168"
+  },
+  "core/src/NeuralTracerConnection.cpp": {
+    "bytes": 4507,
+    "sha256": "871b709c168d219a67e86dfc4757d91608bc6b7ee04e29e0ea65f204b2d2697b"
+  },
+  "core/src/ChunkedTensor.cpp": {
+    "bytes": 1314,
+    "sha256": "8e8770bf4661498217056e66db68c17b7b43dbdb4399bb78e492dac91e2d3c2e"
+  },
+  "core/src/growth_strategies/CandidateOrdering.cpp": {
+    "bytes": 1658,
+    "sha256": "59b2ea3325223ce3a4de8de5f0a1086f982799572f684b0a64763ad05a737963"
+  },
+  "core/src/growth_strategies/ComponentPruning.cpp": {
+    "bytes": 3264,
+    "sha256": "b8ed34d6f5884f5b4c84595a73f386f25ae71ce2c7fd300a4db7f29bcca8c05c"
+  },
+  "core/src/growth_strategies/ComponentPruning.hpp": {
+    "bytes": 799,
+    "sha256": "348063dbf49e7e9050af19413867c6e2d421cc9763087c1fe8f69aeb5b3c4136"
+  },
+  "core/src/growth_strategies/GrowthConfig.cpp": {
+    "bytes": 7001,
+    "sha256": "23468bce0a144386a79e287af6fb098cf67d84a8804b77b4ed657118d5dd1ef4"
+  },
+  "apps/src/vc_grow_seg_from_seed.cpp": {
+    "bytes": 71069,
+    "sha256": "1ba765108a0efd3ad92546536f58f012a60e34c4c1639f2281013a69943e0191"
+  },
+  "core/include/vc/core/util/StreamOperators.hpp": {
+    "bytes": 993,
+    "sha256": "28386f181c0667cfc9f0140afc38babc1b8651b0f782cd8d0057ca77b40d6863"
+  }
+}

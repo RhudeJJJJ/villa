@@ -1,0 +1,634 @@
+{
+  "status": "PREPARED_CODE_AND_EVIDENCE; no upstream PR or prize form submission yet",
+  "base_commit": "6f2024569404a46b0f008eee292773945c07a684",
+  "observed_at_utc": "2026-10-23T22:26:06.389Z",
+  "evidence": [
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/DATA-ATTRIBUTION.md",
+      "bytes": 3318,
+      "sha256": "26af14f6efeb26f4919eb45022530684b3b3db4c7f4e16c6aa6c10bc66a13803",
+      "git_sha": "d1317b69d396e6d74a47a92f930e363ecc3d5890"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/INPUT_MEMBER_PLAN.json",
+      "bytes": 28247,
+      "sha256": "6af453a93eaf334e15b0cf0fc654b05346cef7bac300fbbefa9a783108e50103",
+      "git_sha": "cf7335086d14ce5a1744b709413b81392616dbd8"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/LICENSE-NOTICE.md",
+      "bytes": 774,
+      "sha256": "c7f19d31c380aeb23f45c8ab4e1e64723b5d2af4340af287921c367106bee6e1",
+      "git_sha": "6d22d36ec79fe549ad18dd70b001be0c84b578b0"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/LICENSE-ROOT-MIT.txt",
+      "bytes": 1075,
+      "sha256": "87070eec603117b5365e2172999e81b08890aef91c1673383cf9779ee9c89976",
+      "git_sha": "f8512279210f3ba1acc3101a4a1e80eaf79aa4cc"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/LICENSE-VOLUME-CARTOGRAPHER-GPLv3.txt",
+      "bytes": 35158,
+      "sha256": "7243392431c702199701a29f34e84530f2884a4fe37aba54c0ee2ccd361d052b",
+      "git_sha": "b72ac20848e340c4e6abaf67c1ebdc51ee1c76be"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/MANIFEST.json",
+      "bytes": 150769,
+      "sha256": "cfd7a4447b0757f4fc73f5884121ccf56229fbc406882960a3a0d68847474b03",
+      "git_sha": "8c3fc7ceddd3a83d0c847e5b1b0e789305474102"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/README.md",
+      "bytes": 11614,
+      "sha256": "25fd3816c9f37f23941dbcbe0009d4bee92689e3ebe330c0608deee30f92163a",
+      "git_sha": "8471aaec227c6f5e11a0125afbaeb2b067df7066"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/GrowPatch-compile-argument-comparison.json",
+      "bytes": 4685,
+      "sha256": "4da443ffb9337f0a3a7142ca7373982c32e493c7f527b558c7ff09f4747472f2",
+      "git_sha": "7518576a659750d79987b133f3153062eb9e693b"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/README.txt",
+      "bytes": 2850,
+      "sha256": "3e868c271981207cbf65e9751c9d6fdfb32e0177dd2b0b023306c6bd59c86408",
+      "git_sha": "077bf09707b8a5b0717f323e122d750e46e85624"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/actual-build-audit.json",
+      "bytes": 1705,
+      "sha256": "c25221fb3cc02c5cf766d218e66cd79ded9744277cc3cc240c90a94f90eb95b5",
+      "git_sha": "86b569a0454109881f7ca939f0880c5572a59107"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/actual-built-translation-units.json",
+      "bytes": 34611,
+      "sha256": "b5b1559b9f7538f7072689c08216fc5783c545d23d333a71e3ba3e967e0af5be",
+      "git_sha": "3db3819542ef1f604fc1c217f0951420bac35e07"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/actual-repository-dependency-inventory.json",
+      "bytes": 27205,
+      "sha256": "4edf13223a94089607cd81b6aff093060e6ec5f430b592cb8813e6b0ff76ad19",
+      "git_sha": "7afc4153cd4614c9baeb33f09d0a5203364ce017"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/adapter-output-correction.json",
+      "bytes": 566,
+      "sha256": "c0a0b6adcd2bc9066949a5cf21cfffda5aa238a385a873a41b1612cfdead3160",
+      "git_sha": "aedfcc9a7b1d6dab153c8dbae735a4c12bf75a33"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/binding.json",
+      "bytes": 2976,
+      "sha256": "b4ce19fe24313695c340bdba562d4d63d3e42bd4298d9e23a7094ec4ccd4674d",
+      "git_sha": "52c236ef19995f309d27c68a9b3e21791bfb8679"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/build.json",
+      "bytes": 775,
+      "sha256": "560e5fae7a630058dc8f65d1aa091e8743d51ab59ce8cb7729160be4ba89557a",
+      "git_sha": "a15ecc26a4bca2195fcc5a57fecf831f78a90c39"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/build.log",
+      "bytes": 10645,
+      "sha256": "5158d30a3434ccdf643334327772ac3ffc2fe07a14d3285d6a6d7acb88a81b7a",
+      "git_sha": "b2fc98b256e699ecd16e7c3b668fa6274be35a66"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/build_current.executed-20261023.py",
+      "bytes": 8289,
+      "sha256": "183f3626ecf6ceeaebc2f04f517f212cae2b40efc25baf51fc4f7d290636d9a4",
+      "git_sha": "74ca5ec3b15b0b42e4d2509cdff81341742e3674"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/build_current.py",
+      "bytes": 8892,
+      "sha256": "0aa958ed44e21e0bf29872a7f659573f1f0913294c4f105f26982d0765579a7f",
+      "git_sha": "313b363ebb1b473281729f29e41e560fdd749de7"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/candidate-precompile-normalization.json",
+      "bytes": 595,
+      "sha256": "d2baca9b0e245e4bdb3a17254edee5568e0c4847ed57a531f84fa1412d09543e",
+      "git_sha": "b0644cc8a8ec431454494131cb1e9e3c497a733b"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/configure.json",
+      "bytes": 1602,
+      "sha256": "b873c4616a7812b03462380ef2ae88a65f3dc08723759d15abf7a41fe2769032",
+      "git_sha": "af398927648f7486b3f32f58ca2b41d9c44a2cbd"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/configure.log",
+      "bytes": 4950,
+      "sha256": "a843a4fec85be6f26660dcb11ad7d19a8d4447d02549e45be0ee43a4dabfba3a",
+      "git_sha": "85a59f464ad166f02d7b8a3bd28a91603986b6ac"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/post_build_audit.py",
+      "bytes": 4647,
+      "sha256": "ec54a6295b18afef221b776544c613d68b3d5835ceaf7d9481d6ba9a7bb0602a",
+      "git_sha": "93cc5329538b86ade473da84f253fc079426613d"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/build/verification-targets.cmake",
+      "bytes": 1681,
+      "sha256": "18cfe9dbe37af9bcd1e311109682dc1d68ff13446223a332cb515656fb37f102",
+      "git_sha": "9f4b87d06deb5e7acd8a5c8e4736683917a7169c"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/captured-cli-output.html",
+      "bytes": 3312,
+      "sha256": "87e333cec871b83d9950efd575b50fd817005a523bf14962cb74b84b1b9ef6ae",
+      "git_sha": "becc3b75398d914ac04606592f316a1c9f85db24"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/check_growpatch_requested_bounds.py",
+      "bytes": 11748,
+      "sha256": "d5b2438df5ad213c705a8551571e9600b42aae33e126b56706457a395d0ebda9",
+      "git_sha": "e40c94bdf124da2c31a8a762ee16b85c96ed03c8"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/development-stdout.txt",
+      "bytes": 1194,
+      "sha256": "8c207600bd7e99549cfc1d39e7df9431aaec62ca555bce1fb68d1d18a2f30b5a",
+      "git_sha": "7326d96daf5ca2f1c6f72186e5629f0274e1c37a"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/fetch_real_fixture.py",
+      "bytes": 16131,
+      "sha256": "226c95f71bac1ba18000b1ec00290a73d7906db5a1058e8e89743ca6fbce2401",
+      "git_sha": "7b17f7dcf858bfa47171c7f93e6bd81caa786aab"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/final-fetch-process.json",
+      "bytes": 807,
+      "sha256": "df149e8b4160ff46583025601cd95ff71a3b633694f4d7d298d2c89b24790b45",
+      "git_sha": "ead20ffe7245d067427bdf1f08b7f2ff547ffd43"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/final-fetch.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/final-fetch.stdout.txt",
+      "bytes": 5422,
+      "sha256": "b4296001aed7bff9e20a59b8edad1fbd425b255ba2851387eecf858604550e4b",
+      "git_sha": "82b982ca1925db0d5f5439e20619f4e8be2f4fa3"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/first-attempt/inputs-after.json",
+      "bytes": 11064,
+      "sha256": "22c5a8ceb2b2ad8a31fb979cd77ecd561d32b5d7fd0e9f986a7f75e9defe2e0b",
+      "git_sha": "9b15f77d21163b345aaf1c50615cfe811a1d55ce"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/first-attempt/inputs-before.json",
+      "bytes": 11064,
+      "sha256": "22c5a8ceb2b2ad8a31fb979cd77ecd561d32b5d7fd0e9f986a7f75e9defe2e0b",
+      "git_sha": "9b15f77d21163b345aaf1c50615cfe811a1d55ce"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/first-attempt/invocation-stderr.txt",
+      "bytes": 577,
+      "sha256": "bea491a7e94e05f0eadcca082e404dab1028a55cedf70af5715edfe0d1cba3a1",
+      "git_sha": "6a3a74dcc46092d5b7cd37806744c1942cdb3b1f"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/first-attempt/invocation.json",
+      "bytes": 1038,
+      "sha256": "336131f4bbc51a8e3fe0378ae8a7ccdcc87c47c720b06c8d13d3491c9bc6ae5a",
+      "git_sha": "dd0d3fb75a4e067976a97693f486684a2e5689ad"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/first-attempt/params.json",
+      "bytes": 828,
+      "sha256": "78cce8bcea96348fc8aa54adc68d26b119a369ac2ea35c673249a0205abfa667",
+      "git_sha": "83eb0681c716cea84b9a2e530d94694366ba2f0b"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/first-attempt/process.json",
+      "bytes": 966,
+      "sha256": "dcccd2d2003138131c31ddd39dc483043fc1206093f351c40c1655f198a0d463",
+      "git_sha": "cf14b90b5d9e84f491743b01a28b89ffb35400fc"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/first-attempt/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/first-attempt/stdout.txt",
+      "bytes": 908,
+      "sha256": "0c04c1f41208a4347138e3450446477c8fb930ff5f249b6b032b81611f173784",
+      "git_sha": "ef7b4e1e65a34b695405ce87bd75f3797693ab26"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/first-attempt/summary.json",
+      "bytes": 1398,
+      "sha256": "605b8113199e62ab8235479d89327dcea173e9d4ff377fda28ae9e2eb41aea7a",
+      "git_sha": "c062ec2c1a805ca818bc2d2c92395d2608f3a4bb"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/fixture-sources.json",
+      "bytes": 30345,
+      "sha256": "617e64cc972e048dab69da17b775815731e66ef4bffd54bd75a1064f69c8d177",
+      "git_sha": "fca58119dd46b86f33e204e141e40f31229d3d33"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/fixture-sources.run-input.json",
+      "bytes": 30262,
+      "sha256": "91f70fe6e8886668521f9cbad659d0962014809aa6e2df0c628e72ffe91cc553",
+      "git_sha": "15cfcabba1bd1ace4d608ce9f8f7848b476f1af6"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/fresh-fixture-final-validation/reconstruction-receipt.json",
+      "bytes": 29429,
+      "sha256": "6d01a82678dbe4e74cccf265f66c8ff3f909c60dc562a1218b0d43b024b339bf",
+      "git_sha": "e4f8f4e20893bdb1ef2ceea901517f440517a2b2"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/fresh-fixture-replay/reconstruction-receipt.json",
+      "bytes": 19632,
+      "sha256": "1316a430f7c37dc39ede431a866612beb4523e3736e15d18e52b582dfad3023e",
+      "git_sha": "5f20f323dc48d545bfc870eb277481f353625b72"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/fresh-fixture-replay/reconstruction-receipt.phase-1.json",
+      "bytes": 28047,
+      "sha256": "032dd151aaa4f42c5c8fe8208465873aa9eb7f04af648305e2458293a4aee62d",
+      "git_sha": "e84717d1acc50a327fc0c7502a4b2db453973a0b"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/fresh-fixture-replay/reconstruction-receipt.phase-2.json",
+      "bytes": 18982,
+      "sha256": "b26015ebdbe97e8fbe27abfb284992e8ff7d5452cebd0daf1ca89005e171d327",
+      "git_sha": "70ef874aa7aa719d6c23dd5f2e1437cf7d2ff97b"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/native-inputs-after.json",
+      "bytes": 11064,
+      "sha256": "e414ec3e075d51351068919256396c25b94d668fe0ae2a84498be2e78e9fac94",
+      "git_sha": "cc12b609fa69df302a0c9ea8b43ce47b6a829083"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/native-inputs-before.json",
+      "bytes": 11064,
+      "sha256": "e414ec3e075d51351068919256396c25b94d668fe0ae2a84498be2e78e9fac94",
+      "git_sha": "cc12b609fa69df302a0c9ea8b43ce47b6a829083"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/native-results.zip",
+      "bytes": 196899,
+      "sha256": "c5eeddf8869c68bdfee56fdd76e702d8759828ba3cd094c50d11cb3f4ef0c7ce",
+      "git_sha": "82b1d10fce3dbb5d24ca36836c07341169cf95db"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/native-summary.json",
+      "bytes": 32704,
+      "sha256": "22f361acf991d1c1613945a60c4bf617ab5387eace50974e4f849affb8495ed0",
+      "git_sha": "b653cfe4d8d9cc9fc866de66f8d2d96b30489519"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/protocol-history/current_suite.executed-r1.py",
+      "bytes": 14956,
+      "sha256": "c477df184847ba9fc3b430de067df79e03097419cda57ab0405d94aedca553c8",
+      "git_sha": "ef9d84f41136d92f7f2b54848e6fea339ae56586"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/protocol-history/public-replay-protocol.r1.json",
+      "bytes": 1613,
+      "sha256": "ca9a0edfd97289ed33d0d9a0302c1b6a57d97d63a9e0f8afa4975664b83a183e",
+      "git_sha": "86bd1525456b21d00dc2151ef1a9a46207657829"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/protocol-history/verification-protocol.r1.json",
+      "bytes": 3324,
+      "sha256": "70b90b796bcf6bae7dd908a7c2a1a7e21988c26de9180f134877314907ac876f",
+      "git_sha": "362d0ec1ccd2c728fdbff41ae46a1e2b49f4cfd1"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/fill-zero/params.json",
+      "bytes": 828,
+      "sha256": "78cce8bcea96348fc8aa54adc68d26b119a369ac2ea35c673249a0205abfa667",
+      "git_sha": "83eb0681c716cea84b9a2e530d94694366ba2f0b"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/fill-zero/process.json",
+      "bytes": 1010,
+      "sha256": "2b417b491962e52384c9ce43c34f72f5eac9db0365d87f827a1f5691e32f1ea6",
+      "git_sha": "4846e5a35490ddf38a919ce1fcbfb435fb51db2c"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/fill-zero/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/fill-zero/stdout.txt",
+      "bytes": 970,
+      "sha256": "447fa59494680a544f77dba9e7abdac5e399951f152354f8cbee2d3ea8078ef0",
+      "git_sha": "270aa09aa4a6d82abb5fecc13d7bfd0ebd6caae2"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/fill-zero/surface/generations.tif",
+      "bytes": 348,
+      "sha256": "d3388f46cc62152eee43424db8d5bfef2b96941066594455f410eb0cf31a0094",
+      "git_sha": "5483bdfe58f5d5584c0c02c1700ad97812e35cbe"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/fill-zero/surface/meta.json",
+      "bytes": 1936,
+      "sha256": "46c349b27446d5430bf1651beeb461524fb26b0c778b10e12e9aa254e0f0cbed",
+      "git_sha": "056c745aa8700c01b97c3811f7129e20770de63e"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/fill-zero/surface/x.tif",
+      "bytes": 510,
+      "sha256": "708ac12bee5be0d0d6288787a7e621f54d6c0f0cced14f3052fa2b15bed8265e",
+      "git_sha": "c00c422931580daef8270e29e59910f9ffa42b31"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/fill-zero/surface/y.tif",
+      "bytes": 510,
+      "sha256": "05d7909cc80fcba532302af63e841d225b3788fe1952940b5a612d30bdf34581",
+      "git_sha": "33e32aadef42d839e76b8fa4f58f546e762f9563"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/fill-zero/surface/z.tif",
+      "bytes": 510,
+      "sha256": "076ce5cf1f356d51bdb66c2b3272e1b3aa7d6e6ab0cba66d0dfbe045102156e0",
+      "git_sha": "0f22f8f5db60f8fbf9e4abfa219dcd80784e6e33"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/inputs-after.json",
+      "bytes": 11412,
+      "sha256": "a45e4fa8e8f9be6cc80abcb26c636f4717f9b5c42309187ba67276b410501d0a",
+      "git_sha": "9e77edb716fde41f5713a1759e68cebb1e73e19b"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/inputs-before.json",
+      "bytes": 11412,
+      "sha256": "a45e4fa8e8f9be6cc80abcb26c636f4717f9b5c42309187ba67276b410501d0a",
+      "git_sha": "9e77edb716fde41f5713a1759e68cebb1e73e19b"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/protocol.json",
+      "bytes": 1816,
+      "sha256": "5a5ffa91e8a5b7ededee58f2cadb3811203f59aab98aa5e4386aafe84a3d32ed",
+      "git_sha": "dad9255331066c7c62fc0d5212c41038d7aa1ad2"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/results.json",
+      "bytes": 1303,
+      "sha256": "167a19d8e0b4857a24e8abb2bb7dc62f9e5b3ba3162a46eb21264ebfd8e6da54",
+      "git_sha": "d5a045990622fbf6dc20c0f5e1b82873f2181352"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/right-one/params.json",
+      "bytes": 831,
+      "sha256": "8e4e810c9f75c04b1a79fadf01958328e7a5943eb9dd8f29f09aad243674030c",
+      "git_sha": "5ff17936519c6026f87e6e27154bcd222ce5d17f"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/right-one/process.json",
+      "bytes": 1022,
+      "sha256": "5d063fba8791d6c057a3d61245f2e27307973d152dd187735646628499ca06ed",
+      "git_sha": "5fbf29ccd8894bf70b7694682dad796de54a955d"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/right-one/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/right-one/stdout.txt",
+      "bytes": 1161,
+      "sha256": "3940fe1cf720da8ee0873c5743500f39ec6baaa9bd1c4d95154c91884f3d64dd",
+      "git_sha": "d873124bae749d0eea0888e97962cd7393175f24"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/right-one/surface/generations.tif",
+      "bytes": 366,
+      "sha256": "ba91600e61692fa1249593d20c8c77b06beab22850a01d2a9d2a1bc804f9b7f4",
+      "git_sha": "cbdc5a921f9059b6dffd3ee16614d5ca9859b64d"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/right-one/surface/meta.json",
+      "bytes": 1946,
+      "sha256": "1f123116e848c025661b277de9b211a811c5871bf4b4582c38cad5962227900c",
+      "git_sha": "c2db93dac478881ccfe600b2c5091aaa97ed0361"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/right-one/surface/x.tif",
+      "bytes": 546,
+      "sha256": "80e255f95e3751656238422e8b29af254872ac26f8edff25b4265cbb18888e7b",
+      "git_sha": "7906e6e85ec015a5577fe791060cd128c9275a0d"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/right-one/surface/y.tif",
+      "bytes": 546,
+      "sha256": "2689e88d5c12810bb7321436fe0d4b58b1c2a63f3ee09e90ba7d7b67c069b18a",
+      "git_sha": "2db3f57a5aa7bf4ac20f9751def8a193bd946b32"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/right-one/surface/z.tif",
+      "bytes": 546,
+      "sha256": "deda81df60c30e166806f9cd9c85cf68df1cab4fc9c808eff15ce1a262832268",
+      "git_sha": "e7139a39a6db1ee1cc30ef8e5e1e7f5b4fbab57f"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/wide-control/params.json",
+      "bytes": 829,
+      "sha256": "4320d81d18acf13a9bbb08bf950a32c5d02f55965da478571d424df5ee1b5a1c",
+      "git_sha": "0cfd6f94efd90d7dbb092fa027a0c667193eadb4"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/wide-control/process.json",
+      "bytes": 1029,
+      "sha256": "ed0c1adfa109df490f9c48fbb27fa0ddeb2482be95426b78a79e19b3653a8fe7",
+      "git_sha": "c051cb847731672e475dcf4021791b2d7f42cc97"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/wide-control/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/wide-control/stdout.txt",
+      "bytes": 1172,
+      "sha256": "d30a17b7bd02dda54ea8f12da636de2cb4312f4806f6516f26984f43e012ef4c",
+      "git_sha": "8154edebf610f43bfc879f99b6ec5c2efa9bb575"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/wide-control/surface/generations.tif",
+      "bytes": 524,
+      "sha256": "c2e491f4d83743ea5539f21cdeb7df80d7da70d0e88f8815e3cb79575332b41a",
+      "git_sha": "4c0bf8469277c9630ea17c62fc5b68cd68049f19"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/wide-control/surface/meta.json",
+      "bytes": 1954,
+      "sha256": "717d05e145f353fdb1ceb1a3da4ef0416285cadd72fbaa4c8ea6ccb41d0f77c6",
+      "git_sha": "d2aaa79172fc0e9b4b01b177abce8286969785bb"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/wide-control/surface/x.tif",
+      "bytes": 862,
+      "sha256": "8cbe0672db990b2d71aaaba494d01e68753d888b8ec2d594125662c01ec6d431",
+      "git_sha": "ff8dc5c8992e7c2e24d119e4cf8b3c7d4b01de42"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/wide-control/surface/y.tif",
+      "bytes": 862,
+      "sha256": "9747102769a180bbfcbfac136eb1392d2f7cb6e4c3771d11090f549b71dc9eaa",
+      "git_sha": "84f963b365cd161e15b8b4a86bad3f155f589e7c"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-replay/wide-control/surface/z.tif",
+      "bytes": 862,
+      "sha256": "eba69ff8afdfc5502756a0b46eab3b4b02ee82cf4baa43afe88c2898e7566c9b",
+      "git_sha": "71879f99dd2c824c9a8df66887eaf1e2d45acbaa"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/public-reproduction-summary.json",
+      "bytes": 7043,
+      "sha256": "4cd36dbb7f60752b7c6b040b650598be85ccce44fec3888afa4239e271f2f68b",
+      "git_sha": "4dbf31734317ab69e07085174f96c187bd176ab5"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/requested-resume-bounds.patch",
+      "bytes": 1841,
+      "sha256": "f00e1acc04b2ccb85c69a123fbec89f7d4123e7292749c5a4eace57bceac2964",
+      "git_sha": "02e2310ef26fbd2989caa66952c77dd63a1b1907"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/requested-support.svg",
+      "bytes": 33273,
+      "sha256": "c70b2d0f7dde1a85b40d079bf0c6714c246046e595654f7bcb3c727f05236786",
+      "git_sha": "1f930becf4d2473bb5052f67bc33bda63b7748fd"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/review-assets-original-manifest.json",
+      "bytes": 413,
+      "sha256": "81f76316de0a4537584a70fc1576ccb7501bad8b4cc23e001ff70da7240b7bba",
+      "git_sha": "2369afe753d3d4b23052dc4b4d3fd2154fcefdd2"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/review.html",
+      "bytes": 9778,
+      "sha256": "9a54927a95ea8ee5c8f353b7b8f4460f44db7878a90c89030dfe214c7b57aebf",
+      "git_sha": "203d4d9c821b44f59ada2399842e63882758fa4f"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/runtime-timeout-review.json",
+      "bytes": 1529,
+      "sha256": "b604193dced4d9eb936b47778e9e37ed9eb46724579cf567241c8ceaf0dd4dd0",
+      "git_sha": "fb7f46753457bcb08d5f873d359422c91974edf7"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/source/main-movement.json",
+      "bytes": 3188,
+      "sha256": "18ba12e2fce5a7e46acdbecfeeb7be25f1ded5222dd3ebaeeeaf035ab292c5bc",
+      "git_sha": "96a29104ac68e98ab0e444ef49a62be3fadf807f"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/source/subproject-equivalence.json",
+      "bytes": 3454,
+      "sha256": "51835473741ad21dc728b796098f24a6ec0869cec9c051fef50a769c483a7ef8",
+      "git_sha": "a25e663a29c9c184c5bd73ac44ddb857fa609dd7"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/validation/check_supplemental.py",
+      "bytes": 15203,
+      "sha256": "b21608cb7f70dad30b39574d6c5ad2bad2b20ff35620b5e2840011ca4cb3c2d3",
+      "git_sha": "f9f14ced3d6a004715bbeb781f66cf92d1e87fd2"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/validation/current_suite.py",
+      "bytes": 14956,
+      "sha256": "f9c11e8b9eb0d497636284b09ce3661f0a8178a85faa23810fdd1e8093c388fb",
+      "git_sha": "9232806a9d07133b0b426c3cdb8ab39db9f17939"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/validation/supplemental-preparation-receipt.json",
+      "bytes": 271,
+      "sha256": "1de67eac3beb4994d7e12afcf77af6ffc4d6425730e5c012f7ffbcc7a51342e5",
+      "git_sha": "a49a70d6e382ff7591aaf8c11c8157e34fb09a62"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/validation/supplemental-protocol.json",
+      "bytes": 5289,
+      "sha256": "f879a2a5c732cfc679ed846c541171fc01c18335f0d6c05796415c8aa75d3fc3",
+      "git_sha": "e614378eb44fbd712c31f78655f68a8e4f4544e8"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/verification-completion.json",
+      "bytes": 951,
+      "sha256": "e3011201e62100d30be9948653dad172ed93c53823d7421443959769201b938f",
+      "git_sha": "f9b7dfa2f5fb7efc28aebd02ff0dabc750cff6b3"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/verification-protocol.json",
+      "bytes": 3949,
+      "sha256": "0159cb02b2c2e5655939e569f9edb2d942a3a3e9aea34dd524f5ab7de7a45fde",
+      "git_sha": "af281c6b6624f42015fe7ff2b473df0a35f049eb"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/requested-support.png",
+      "bytes": 57026,
+      "sha256": "29a10598e0137cfd3791ef818e91f8e30210aba13b805d1dc02be770e6607d16",
+      "git_sha": "fb89f0b2a08f2efa71ed220997f377689cabf894"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/render-receipt.json",
+      "bytes": 383,
+      "sha256": "ce87891e5c000fb89791939f2015a283a6b4ad73ecd453a23d63b42b9c73dc75",
+      "git_sha": "81eb8d887825c26cd8d2d234724c7e238f523bff"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/render_support.py",
+      "bytes": 2054,
+      "sha256": "4923c7e4d3f08385e4f2cf9bf6bbb3f9e35f08f2f1ff824b0e4f37fc0d6d43f3",
+      "git_sha": "06d692ae231ab2fc9e76aa42c38a07ab57c3937c"
+    },
+    {
+      "path": "volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/make_review.py",
+      "bytes": 10601,
+      "sha256": "c417c88a6271c9aeef90c51fea285e6b01e44eaf07068f0cdb4b16f16ad3c6b2",
+      "git_sha": "3bdaa8449444452f50727b96c768b3903915b51f"
+    }
+  ],
+  "code": [
+    {
+      "path": "volume-cartographer/core/src/GrowPatch.cpp",
+      "bytes": 218283,
+      "sha256": "fd28ac6f9eca5aaa60e637f303256e65a08eac1a6e2c82fcbcec0c4bbe818097",
+      "git_sha": "9d6f06de099a39a80506e793c4892bfd18312907"
+    },
+    {
+      "path": "volume-cartographer/scripts/evaluation/check_growpatch_requested_bounds.py",
+      "bytes": 11748,
+      "sha256": "d5b2438df5ad213c705a8551571e9600b42aae33e126b56706457a395d0ebda9",
+      "git_sha": "e40c94bdf124da2c31a8a762ee16b85c96ed03c8"
+    },
+    {
+      "path": "volume-cartographer/scripts/evaluation/REPRODUCING_GROWPATCH_REQUESTED_BOUNDS.md",
+      "bytes": 2234,
+      "sha256": "33281f25645bda2ac3abbd2f9581b861b2e1773672c7b7b450b92c8d819b6bf2",
+      "git_sha": "f6029d1eba9a0359ea1eca3d9c8b7439d20477cd"
+    }
+  ],
+  "scope": "Published delivery inventory; excludes this manifest itself. Original local stage remains unchanged; four explicit local-plot source/raster artifacts are additional. No personal-review, application or prize-acceptance attestation."
+}

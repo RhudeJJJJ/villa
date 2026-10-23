@@ -1,0 +1,14 @@
+{
+  "captured-cli-output.html": {
+    "bytes": 3418,
+    "sha256": "3e727b83f2c66bfb1aab9a16b0f56e1b1d0db4a97b8d98225686942791a18c57"
+  },
+  "requested-support.svg": {
+    "bytes": 33273,
+    "sha256": "c70b2d0f7dde1a85b40d079bf0c6714c246046e595654f7bcb3c727f05236786"
+  },
+  "review.html": {
+    "bytes": 9778,
+    "sha256": "9a54927a95ea8ee5c8f353b7b8f4460f44db7878a90c89030dfe214c7b57aebf"
+  }
+}

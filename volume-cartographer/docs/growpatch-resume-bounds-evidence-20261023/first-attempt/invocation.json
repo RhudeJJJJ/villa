@@ -1,0 +1,27 @@
+{
+  "script": "<workspace>\\work\\growpatch-20261023\\candidate\\check_growpatch_requested_bounds.py",
+  "script_sha256": "d5b2438df5ad213c705a8551571e9600b42aae33e126b56706457a395d0ebda9",
+  "argv": [
+    "<workspace>\\work\\growpatch-20261023\\candidate\\check_growpatch_requested_bounds.py",
+    "--binary",
+    "<workspace>\\work\\growpatch-20261023\\build-current\\bin\\vc_grow_seg_from_seed_baseline.exe",
+    "--volume",
+    "<fixture>\\portable-data\\prediction-roi.zarr",
+    "--resume",
+    "<fixture>\\fixtures\\development",
+    "--params",
+    "<fixture>\\fixtures\\development-fill-zero.json",
+    "--output",
+    "<workspace>\\work\\growpatch-20261023\\verification-runs\\main\\development\\baseline",
+    "--timeout",
+    "120",
+    "--path-prepend",
+    "<toolchain>/bin",
+    "--path-prepend",
+    "C:/msys64/ucrt64/bin"
+  ],
+  "status": "COMPLETED",
+  "execution": "in-process checker main(); native Popen children belong to checker",
+  "exit_code": 2,
+  "wall_seconds": 121.46900000000096
+}

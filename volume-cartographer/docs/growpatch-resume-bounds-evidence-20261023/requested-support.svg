@@ -1,0 +1,569 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="940" viewBox="0 0 1320 940">
+<rect width="1320" height="940" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#17232d}.title{font-size:25px;font-weight:bold}.sub{font-size:16px}.small{font-size:13px}.case{font-size:18px;font-weight:bold}</style>
+<text x="30" y="38" class="title">Unmasked CLI resume: actual saved grid cells</text>
+<text x="30" y="66" class="sub">PHerc0139 · real m7 prediction + published mesh · development 5 × 5 crop · RNG 2104 · one thread</text>
+<text x="34" y="100" class="case">baseline / fill-zero</text>
+<text x="34" y="124" class="sub">81 valid · 56 outside request</text>
+<line x1="84" y1="151" x2="354" y2="151" stroke="#e5e9ed"/>
+<line x1="84" y1="151" x2="84" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="169" x2="354" y2="169" stroke="#e5e9ed"/>
+<line x1="102" y1="151" x2="102" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="187" x2="354" y2="187" stroke="#e5e9ed"/>
+<line x1="120" y1="151" x2="120" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="205" x2="354" y2="205" stroke="#e5e9ed"/>
+<line x1="138" y1="151" x2="138" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="223" x2="354" y2="223" stroke="#e5e9ed"/>
+<line x1="156" y1="151" x2="156" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="241" x2="354" y2="241" stroke="#e5e9ed"/>
+<line x1="174" y1="151" x2="174" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="259" x2="354" y2="259" stroke="#e5e9ed"/>
+<line x1="192" y1="151" x2="192" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="277" x2="354" y2="277" stroke="#e5e9ed"/>
+<line x1="210" y1="151" x2="210" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="295" x2="354" y2="295" stroke="#e5e9ed"/>
+<line x1="228" y1="151" x2="228" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="313" x2="354" y2="313" stroke="#e5e9ed"/>
+<line x1="246" y1="151" x2="246" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="331" x2="354" y2="331" stroke="#e5e9ed"/>
+<line x1="264" y1="151" x2="264" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="349" x2="354" y2="349" stroke="#e5e9ed"/>
+<line x1="282" y1="151" x2="282" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="367" x2="354" y2="367" stroke="#e5e9ed"/>
+<line x1="300" y1="151" x2="300" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="385" x2="354" y2="385" stroke="#e5e9ed"/>
+<line x1="318" y1="151" x2="318" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="403" x2="354" y2="403" stroke="#e5e9ed"/>
+<line x1="336" y1="151" x2="336" y2="421" stroke="#e5e9ed"/>
+<line x1="84" y1="421" x2="354" y2="421" stroke="#e5e9ed"/>
+<line x1="354" y1="151" x2="354" y2="421" stroke="#e5e9ed"/>
+<rect x="165.0" y="232.0" width="90" height="90" fill="#f2f7fa" stroke="#52677a" stroke-width="1.5"/>
+<rect x="165.0" y="232.0" width="90" height="90" fill="none" stroke="#132c45" stroke-width="2"/>
+<circle cx="138" cy="205" r="4.3" fill="#cf2e2e"/>
+<circle cx="156" cy="205" r="4.3" fill="#cf2e2e"/>
+<circle cx="174" cy="205" r="4.3" fill="#cf2e2e"/>
+<circle cx="192" cy="205" r="4.3" fill="#cf2e2e"/>
+<circle cx="210" cy="205" r="4.3" fill="#cf2e2e"/>
+<circle cx="228" cy="205" r="4.3" fill="#cf2e2e"/>
+<circle cx="246" cy="205" r="4.3" fill="#cf2e2e"/>
+<circle cx="264" cy="205" r="4.3" fill="#cf2e2e"/>
+<circle cx="282" cy="205" r="4.3" fill="#cf2e2e"/>
+<circle cx="138" cy="223" r="4.3" fill="#cf2e2e"/>
+<circle cx="156" cy="223" r="4.3" fill="#cf2e2e"/>
+<circle cx="174" cy="223" r="4.3" fill="#cf2e2e"/>
+<circle cx="192" cy="223" r="4.3" fill="#cf2e2e"/>
+<circle cx="210" cy="223" r="4.3" fill="#cf2e2e"/>
+<circle cx="228" cy="223" r="4.3" fill="#cf2e2e"/>
+<circle cx="246" cy="223" r="4.3" fill="#cf2e2e"/>
+<circle cx="264" cy="223" r="4.3" fill="#cf2e2e"/>
+<circle cx="282" cy="223" r="4.3" fill="#cf2e2e"/>
+<circle cx="138" cy="241" r="4.3" fill="#cf2e2e"/>
+<circle cx="156" cy="241" r="4.3" fill="#cf2e2e"/>
+<circle cx="174" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="192" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="210" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="228" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="246" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="264" cy="241" r="4.3" fill="#cf2e2e"/>
+<circle cx="282" cy="241" r="4.3" fill="#cf2e2e"/>
+<circle cx="138" cy="259" r="4.3" fill="#cf2e2e"/>
+<circle cx="156" cy="259" r="4.3" fill="#cf2e2e"/>
+<circle cx="174" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="192" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="210" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="228" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="246" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="264" cy="259" r="4.3" fill="#cf2e2e"/>
+<circle cx="282" cy="259" r="4.3" fill="#cf2e2e"/>
+<circle cx="138" cy="277" r="4.3" fill="#cf2e2e"/>
+<circle cx="156" cy="277" r="4.3" fill="#cf2e2e"/>
+<circle cx="174" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="192" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="210" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="228" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="246" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="264" cy="277" r="4.3" fill="#cf2e2e"/>
+<circle cx="282" cy="277" r="4.3" fill="#cf2e2e"/>
+<circle cx="138" cy="295" r="4.3" fill="#cf2e2e"/>
+<circle cx="156" cy="295" r="4.3" fill="#cf2e2e"/>
+<circle cx="174" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="192" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="210" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="228" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="246" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="264" cy="295" r="4.3" fill="#cf2e2e"/>
+<circle cx="282" cy="295" r="4.3" fill="#cf2e2e"/>
+<circle cx="138" cy="313" r="4.3" fill="#cf2e2e"/>
+<circle cx="156" cy="313" r="4.3" fill="#cf2e2e"/>
+<circle cx="174" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="192" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="210" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="228" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="246" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="264" cy="313" r="4.3" fill="#cf2e2e"/>
+<circle cx="282" cy="313" r="4.3" fill="#cf2e2e"/>
+<circle cx="138" cy="331" r="4.3" fill="#cf2e2e"/>
+<circle cx="156" cy="331" r="4.3" fill="#cf2e2e"/>
+<circle cx="174" cy="331" r="4.3" fill="#cf2e2e"/>
+<circle cx="192" cy="331" r="4.3" fill="#cf2e2e"/>
+<circle cx="210" cy="331" r="4.3" fill="#cf2e2e"/>
+<circle cx="228" cy="331" r="4.3" fill="#cf2e2e"/>
+<circle cx="246" cy="331" r="4.3" fill="#cf2e2e"/>
+<circle cx="264" cy="331" r="4.3" fill="#cf2e2e"/>
+<circle cx="282" cy="331" r="4.3" fill="#cf2e2e"/>
+<circle cx="138" cy="349" r="4.3" fill="#cf2e2e"/>
+<circle cx="156" cy="349" r="4.3" fill="#cf2e2e"/>
+<circle cx="174" cy="349" r="4.3" fill="#cf2e2e"/>
+<circle cx="192" cy="349" r="4.3" fill="#cf2e2e"/>
+<circle cx="210" cy="349" r="4.3" fill="#cf2e2e"/>
+<circle cx="228" cy="349" r="4.3" fill="#cf2e2e"/>
+<circle cx="246" cy="349" r="4.3" fill="#cf2e2e"/>
+<circle cx="264" cy="349" r="4.3" fill="#cf2e2e"/>
+<circle cx="282" cy="349" r="4.3" fill="#cf2e2e"/>
+<text x="79" y="445" class="small">column → / row ↓ · original grid coordinates</text>
+<text x="469" y="100" class="case">baseline / right-one</text>
+<text x="469" y="124" class="sub">40 valid · 10 outside request</text>
+<line x1="519" y1="151" x2="789" y2="151" stroke="#e5e9ed"/>
+<line x1="519" y1="151" x2="519" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="169" x2="789" y2="169" stroke="#e5e9ed"/>
+<line x1="537" y1="151" x2="537" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="187" x2="789" y2="187" stroke="#e5e9ed"/>
+<line x1="555" y1="151" x2="555" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="205" x2="789" y2="205" stroke="#e5e9ed"/>
+<line x1="573" y1="151" x2="573" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="223" x2="789" y2="223" stroke="#e5e9ed"/>
+<line x1="591" y1="151" x2="591" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="241" x2="789" y2="241" stroke="#e5e9ed"/>
+<line x1="609" y1="151" x2="609" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="259" x2="789" y2="259" stroke="#e5e9ed"/>
+<line x1="627" y1="151" x2="627" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="277" x2="789" y2="277" stroke="#e5e9ed"/>
+<line x1="645" y1="151" x2="645" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="295" x2="789" y2="295" stroke="#e5e9ed"/>
+<line x1="663" y1="151" x2="663" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="313" x2="789" y2="313" stroke="#e5e9ed"/>
+<line x1="681" y1="151" x2="681" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="331" x2="789" y2="331" stroke="#e5e9ed"/>
+<line x1="699" y1="151" x2="699" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="349" x2="789" y2="349" stroke="#e5e9ed"/>
+<line x1="717" y1="151" x2="717" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="367" x2="789" y2="367" stroke="#e5e9ed"/>
+<line x1="735" y1="151" x2="735" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="385" x2="789" y2="385" stroke="#e5e9ed"/>
+<line x1="753" y1="151" x2="753" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="403" x2="789" y2="403" stroke="#e5e9ed"/>
+<line x1="771" y1="151" x2="771" y2="421" stroke="#e5e9ed"/>
+<line x1="519" y1="421" x2="789" y2="421" stroke="#e5e9ed"/>
+<line x1="789" y1="151" x2="789" y2="421" stroke="#e5e9ed"/>
+<rect x="600.0" y="232.0" width="108" height="90" fill="#f2f7fa" stroke="#52677a" stroke-width="1.5"/>
+<rect x="600.0" y="232.0" width="90" height="90" fill="none" stroke="#132c45" stroke-width="2"/>
+<circle cx="609" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="627" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="645" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="663" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="681" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="699" cy="241" r="4.3" fill="#1b8657"/>
+<circle cx="717" cy="241" r="4.3" fill="#cf2e2e"/>
+<circle cx="735" cy="241" r="4.3" fill="#cf2e2e"/>
+<circle cx="609" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="627" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="645" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="663" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="681" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="699" cy="259" r="4.3" fill="#1b8657"/>
+<circle cx="717" cy="259" r="4.3" fill="#cf2e2e"/>
+<circle cx="735" cy="259" r="4.3" fill="#cf2e2e"/>
+<circle cx="609" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="627" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="645" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="663" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="681" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="699" cy="277" r="4.3" fill="#1b8657"/>
+<circle cx="717" cy="277" r="4.3" fill="#cf2e2e"/>
+<circle cx="735" cy="277" r="4.3" fill="#cf2e2e"/>
+<circle cx="609" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="627" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="645" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="663" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="681" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="699" cy="295" r="4.3" fill="#1b8657"/>
+<circle cx="717" cy="295" r="4.3" fill="#cf2e2e"/>
+<circle cx="735" cy="295" r="4.3" fill="#cf2e2e"/>
+<circle cx="609" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="627" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="645" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="663" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="681" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="699" cy="313" r="4.3" fill="#1b8657"/>
+<circle cx="717" cy="313" r="4.3" fill="#cf2e2e"/>
+<circle cx="735" cy="313" r="4.3" fill="#cf2e2e"/>
+<text x="514" y="445" class="small">column → / row ↓ · original grid coordinates</text>
+<text x="904" y="100" class="case">baseline / wide-control</text>
+<text x="904" y="124" class="sub">81 valid · 0 outside request</text>
+<line x1="954" y1="151" x2="1224" y2="151" stroke="#e5e9ed"/>
+<line x1="954" y1="151" x2="954" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="169" x2="1224" y2="169" stroke="#e5e9ed"/>
+<line x1="972" y1="151" x2="972" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="187" x2="1224" y2="187" stroke="#e5e9ed"/>
+<line x1="990" y1="151" x2="990" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="205" x2="1224" y2="205" stroke="#e5e9ed"/>
+<line x1="1008" y1="151" x2="1008" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="223" x2="1224" y2="223" stroke="#e5e9ed"/>
+<line x1="1026" y1="151" x2="1026" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="241" x2="1224" y2="241" stroke="#e5e9ed"/>
+<line x1="1044" y1="151" x2="1044" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="259" x2="1224" y2="259" stroke="#e5e9ed"/>
+<line x1="1062" y1="151" x2="1062" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="277" x2="1224" y2="277" stroke="#e5e9ed"/>
+<line x1="1080" y1="151" x2="1080" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="295" x2="1224" y2="295" stroke="#e5e9ed"/>
+<line x1="1098" y1="151" x2="1098" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="313" x2="1224" y2="313" stroke="#e5e9ed"/>
+<line x1="1116" y1="151" x2="1116" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="331" x2="1224" y2="331" stroke="#e5e9ed"/>
+<line x1="1134" y1="151" x2="1134" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="349" x2="1224" y2="349" stroke="#e5e9ed"/>
+<line x1="1152" y1="151" x2="1152" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="367" x2="1224" y2="367" stroke="#e5e9ed"/>
+<line x1="1170" y1="151" x2="1170" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="385" x2="1224" y2="385" stroke="#e5e9ed"/>
+<line x1="1188" y1="151" x2="1188" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="403" x2="1224" y2="403" stroke="#e5e9ed"/>
+<line x1="1206" y1="151" x2="1206" y2="421" stroke="#e5e9ed"/>
+<line x1="954" y1="421" x2="1224" y2="421" stroke="#e5e9ed"/>
+<line x1="1224" y1="151" x2="1224" y2="421" stroke="#e5e9ed"/>
+<rect x="963.0" y="160.0" width="234" height="234" fill="#f2f7fa" stroke="#52677a" stroke-width="1.5"/>
+<rect x="1035.0" y="232.0" width="90" height="90" fill="none" stroke="#132c45" stroke-width="2"/>
+<circle cx="1008" cy="205" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="205" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="205" r="4.3" fill="#1b8657"/>
+<circle cx="1062" cy="205" r="4.3" fill="#1b8657"/>
+<circle cx="1080" cy="205" r="4.3" fill="#1b8657"/>
+<circle cx="1098" cy="205" r="4.3" fill="#1b8657"/>
+<circle cx="1116" cy="205" r="4.3" fill="#1b8657"/>
+<circle cx="1134" cy="205" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="205" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="223" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="223" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="223" r="4.3" fill="#1b8657"/>
+<circle cx="1062" cy="223" r="4.3" fill="#1b8657"/>
+<circle cx="1080" cy="223" r="4.3" fill="#1b8657"/>
+<circle cx="1098" cy="223" r="4.3" fill="#1b8657"/>
+<circle cx="1116" cy="223" r="4.3" fill="#1b8657"/>
+<circle cx="1134" cy="223" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="223" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="241" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="241" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="1062" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="1080" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="1098" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="1116" cy="241" r="4.3" fill="#1764a0"/>
+<circle cx="1134" cy="241" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="241" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="259" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="259" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="1062" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="1080" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="1098" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="1116" cy="259" r="4.3" fill="#1764a0"/>
+<circle cx="1134" cy="259" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="259" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="277" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="277" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="1062" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="1080" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="1098" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="1116" cy="277" r="4.3" fill="#1764a0"/>
+<circle cx="1134" cy="277" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="277" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="295" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="295" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="1062" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="1080" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="1098" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="1116" cy="295" r="4.3" fill="#1764a0"/>
+<circle cx="1134" cy="295" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="295" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="313" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="313" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="1062" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="1080" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="1098" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="1116" cy="313" r="4.3" fill="#1764a0"/>
+<circle cx="1134" cy="313" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="313" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="331" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="331" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="331" r="4.3" fill="#1b8657"/>
+<circle cx="1062" cy="331" r="4.3" fill="#1b8657"/>
+<circle cx="1080" cy="331" r="4.3" fill="#1b8657"/>
+<circle cx="1098" cy="331" r="4.3" fill="#1b8657"/>
+<circle cx="1116" cy="331" r="4.3" fill="#1b8657"/>
+<circle cx="1134" cy="331" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="331" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="349" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="349" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="349" r="4.3" fill="#1b8657"/>
+<circle cx="1062" cy="349" r="4.3" fill="#1b8657"/>
+<circle cx="1080" cy="349" r="4.3" fill="#1b8657"/>
+<circle cx="1098" cy="349" r="4.3" fill="#1b8657"/>
+<circle cx="1116" cy="349" r="4.3" fill="#1b8657"/>
+<circle cx="1134" cy="349" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="349" r="4.3" fill="#1b8657"/>
+<text x="949" y="445" class="small">column → / row ↓ · original grid coordinates</text>
+<text x="34" y="460" class="case">fixed / fill-zero</text>
+<text x="34" y="484" class="sub">25 valid · 0 outside request</text>
+<line x1="84" y1="511" x2="354" y2="511" stroke="#e5e9ed"/>
+<line x1="84" y1="511" x2="84" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="529" x2="354" y2="529" stroke="#e5e9ed"/>
+<line x1="102" y1="511" x2="102" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="547" x2="354" y2="547" stroke="#e5e9ed"/>
+<line x1="120" y1="511" x2="120" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="565" x2="354" y2="565" stroke="#e5e9ed"/>
+<line x1="138" y1="511" x2="138" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="583" x2="354" y2="583" stroke="#e5e9ed"/>
+<line x1="156" y1="511" x2="156" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="601" x2="354" y2="601" stroke="#e5e9ed"/>
+<line x1="174" y1="511" x2="174" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="619" x2="354" y2="619" stroke="#e5e9ed"/>
+<line x1="192" y1="511" x2="192" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="637" x2="354" y2="637" stroke="#e5e9ed"/>
+<line x1="210" y1="511" x2="210" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="655" x2="354" y2="655" stroke="#e5e9ed"/>
+<line x1="228" y1="511" x2="228" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="673" x2="354" y2="673" stroke="#e5e9ed"/>
+<line x1="246" y1="511" x2="246" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="691" x2="354" y2="691" stroke="#e5e9ed"/>
+<line x1="264" y1="511" x2="264" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="709" x2="354" y2="709" stroke="#e5e9ed"/>
+<line x1="282" y1="511" x2="282" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="727" x2="354" y2="727" stroke="#e5e9ed"/>
+<line x1="300" y1="511" x2="300" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="745" x2="354" y2="745" stroke="#e5e9ed"/>
+<line x1="318" y1="511" x2="318" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="763" x2="354" y2="763" stroke="#e5e9ed"/>
+<line x1="336" y1="511" x2="336" y2="781" stroke="#e5e9ed"/>
+<line x1="84" y1="781" x2="354" y2="781" stroke="#e5e9ed"/>
+<line x1="354" y1="511" x2="354" y2="781" stroke="#e5e9ed"/>
+<rect x="165.0" y="592.0" width="90" height="90" fill="#f2f7fa" stroke="#52677a" stroke-width="1.5"/>
+<rect x="165.0" y="592.0" width="90" height="90" fill="none" stroke="#132c45" stroke-width="2"/>
+<circle cx="174" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="192" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="210" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="228" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="246" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="174" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="192" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="210" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="228" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="246" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="174" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="192" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="210" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="228" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="246" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="174" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="192" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="210" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="228" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="246" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="174" cy="673" r="4.3" fill="#1764a0"/>
+<circle cx="192" cy="673" r="4.3" fill="#1764a0"/>
+<circle cx="210" cy="673" r="4.3" fill="#1764a0"/>
+<circle cx="228" cy="673" r="4.3" fill="#1764a0"/>
+<circle cx="246" cy="673" r="4.3" fill="#1764a0"/>
+<text x="79" y="805" class="small">column → / row ↓ · original grid coordinates</text>
+<text x="469" y="460" class="case">fixed / right-one</text>
+<text x="469" y="484" class="sub">30 valid · 0 outside request</text>
+<line x1="519" y1="511" x2="789" y2="511" stroke="#e5e9ed"/>
+<line x1="519" y1="511" x2="519" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="529" x2="789" y2="529" stroke="#e5e9ed"/>
+<line x1="537" y1="511" x2="537" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="547" x2="789" y2="547" stroke="#e5e9ed"/>
+<line x1="555" y1="511" x2="555" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="565" x2="789" y2="565" stroke="#e5e9ed"/>
+<line x1="573" y1="511" x2="573" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="583" x2="789" y2="583" stroke="#e5e9ed"/>
+<line x1="591" y1="511" x2="591" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="601" x2="789" y2="601" stroke="#e5e9ed"/>
+<line x1="609" y1="511" x2="609" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="619" x2="789" y2="619" stroke="#e5e9ed"/>
+<line x1="627" y1="511" x2="627" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="637" x2="789" y2="637" stroke="#e5e9ed"/>
+<line x1="645" y1="511" x2="645" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="655" x2="789" y2="655" stroke="#e5e9ed"/>
+<line x1="663" y1="511" x2="663" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="673" x2="789" y2="673" stroke="#e5e9ed"/>
+<line x1="681" y1="511" x2="681" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="691" x2="789" y2="691" stroke="#e5e9ed"/>
+<line x1="699" y1="511" x2="699" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="709" x2="789" y2="709" stroke="#e5e9ed"/>
+<line x1="717" y1="511" x2="717" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="727" x2="789" y2="727" stroke="#e5e9ed"/>
+<line x1="735" y1="511" x2="735" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="745" x2="789" y2="745" stroke="#e5e9ed"/>
+<line x1="753" y1="511" x2="753" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="763" x2="789" y2="763" stroke="#e5e9ed"/>
+<line x1="771" y1="511" x2="771" y2="781" stroke="#e5e9ed"/>
+<line x1="519" y1="781" x2="789" y2="781" stroke="#e5e9ed"/>
+<line x1="789" y1="511" x2="789" y2="781" stroke="#e5e9ed"/>
+<rect x="600.0" y="592.0" width="108" height="90" fill="#f2f7fa" stroke="#52677a" stroke-width="1.5"/>
+<rect x="600.0" y="592.0" width="90" height="90" fill="none" stroke="#132c45" stroke-width="2"/>
+<circle cx="609" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="627" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="645" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="663" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="681" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="699" cy="601" r="4.3" fill="#1b8657"/>
+<circle cx="609" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="627" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="645" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="663" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="681" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="699" cy="619" r="4.3" fill="#1b8657"/>
+<circle cx="609" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="627" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="645" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="663" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="681" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="699" cy="637" r="4.3" fill="#1b8657"/>
+<circle cx="609" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="627" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="645" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="663" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="681" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="699" cy="655" r="4.3" fill="#1b8657"/>
+<circle cx="609" cy="673" r="4.3" fill="#1764a0"/>
+<circle cx="627" cy="673" r="4.3" fill="#1764a0"/>
+<circle cx="645" cy="673" r="4.3" fill="#1764a0"/>
+<circle cx="663" cy="673" r="4.3" fill="#1764a0"/>
+<circle cx="681" cy="673" r="4.3" fill="#1764a0"/>
+<circle cx="699" cy="673" r="4.3" fill="#1b8657"/>
+<text x="514" y="805" class="small">column → / row ↓ · original grid coordinates</text>
+<text x="904" y="460" class="case">fixed / wide-control</text>
+<text x="904" y="484" class="sub">81 valid · 0 outside request</text>
+<line x1="954" y1="511" x2="1224" y2="511" stroke="#e5e9ed"/>
+<line x1="954" y1="511" x2="954" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="529" x2="1224" y2="529" stroke="#e5e9ed"/>
+<line x1="972" y1="511" x2="972" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="547" x2="1224" y2="547" stroke="#e5e9ed"/>
+<line x1="990" y1="511" x2="990" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="565" x2="1224" y2="565" stroke="#e5e9ed"/>
+<line x1="1008" y1="511" x2="1008" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="583" x2="1224" y2="583" stroke="#e5e9ed"/>
+<line x1="1026" y1="511" x2="1026" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="601" x2="1224" y2="601" stroke="#e5e9ed"/>
+<line x1="1044" y1="511" x2="1044" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="619" x2="1224" y2="619" stroke="#e5e9ed"/>
+<line x1="1062" y1="511" x2="1062" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="637" x2="1224" y2="637" stroke="#e5e9ed"/>
+<line x1="1080" y1="511" x2="1080" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="655" x2="1224" y2="655" stroke="#e5e9ed"/>
+<line x1="1098" y1="511" x2="1098" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="673" x2="1224" y2="673" stroke="#e5e9ed"/>
+<line x1="1116" y1="511" x2="1116" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="691" x2="1224" y2="691" stroke="#e5e9ed"/>
+<line x1="1134" y1="511" x2="1134" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="709" x2="1224" y2="709" stroke="#e5e9ed"/>
+<line x1="1152" y1="511" x2="1152" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="727" x2="1224" y2="727" stroke="#e5e9ed"/>
+<line x1="1170" y1="511" x2="1170" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="745" x2="1224" y2="745" stroke="#e5e9ed"/>
+<line x1="1188" y1="511" x2="1188" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="763" x2="1224" y2="763" stroke="#e5e9ed"/>
+<line x1="1206" y1="511" x2="1206" y2="781" stroke="#e5e9ed"/>
+<line x1="954" y1="781" x2="1224" y2="781" stroke="#e5e9ed"/>
+<line x1="1224" y1="511" x2="1224" y2="781" stroke="#e5e9ed"/>
+<rect x="963.0" y="520.0" width="234" height="234" fill="#f2f7fa" stroke="#52677a" stroke-width="1.5"/>
+<rect x="1035.0" y="592.0" width="90" height="90" fill="none" stroke="#132c45" stroke-width="2"/>
+<circle cx="1008" cy="565" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="565" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="565" r="4.3" fill="#1b8657"/>
+<circle cx="1062" cy="565" r="4.3" fill="#1b8657"/>
+<circle cx="1080" cy="565" r="4.3" fill="#1b8657"/>
+<circle cx="1098" cy="565" r="4.3" fill="#1b8657"/>
+<circle cx="1116" cy="565" r="4.3" fill="#1b8657"/>
+<circle cx="1134" cy="565" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="565" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="583" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="583" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="583" r="4.3" fill="#1b8657"/>
+<circle cx="1062" cy="583" r="4.3" fill="#1b8657"/>
+<circle cx="1080" cy="583" r="4.3" fill="#1b8657"/>
+<circle cx="1098" cy="583" r="4.3" fill="#1b8657"/>
+<circle cx="1116" cy="583" r="4.3" fill="#1b8657"/>
+<circle cx="1134" cy="583" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="583" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="601" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="601" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="1062" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="1080" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="1098" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="1116" cy="601" r="4.3" fill="#1764a0"/>
+<circle cx="1134" cy="601" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="601" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="619" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="619" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="1062" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="1080" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="1098" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="1116" cy="619" r="4.3" fill="#1764a0"/>
+<circle cx="1134" cy="619" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="619" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="637" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="637" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="1062" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="1080" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="1098" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="1116" cy="637" r="4.3" fill="#1764a0"/>
+<circle cx="1134" cy="637" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="637" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="655" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="655" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="1062" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="1080" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="1098" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="1116" cy="655" r="4.3" fill="#1764a0"/>
+<circle cx="1134" cy="655" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="655" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="673" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="673" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="673" r="4.3" fill="#1764a0"/>
+<circle cx="1062" cy="673" r="4.3" fill="#1764a0"/>
+<circle cx="1080" cy="673" r="4.3" fill="#1764a0"/>
+<circle cx="1098" cy="673" r="4.3" fill="#1764a0"/>
+<circle cx="1116" cy="673" r="4.3" fill="#1764a0"/>
+<circle cx="1134" cy="673" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="673" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="691" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="691" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="691" r="4.3" fill="#1b8657"/>
+<circle cx="1062" cy="691" r="4.3" fill="#1b8657"/>
+<circle cx="1080" cy="691" r="4.3" fill="#1b8657"/>
+<circle cx="1098" cy="691" r="4.3" fill="#1b8657"/>
+<circle cx="1116" cy="691" r="4.3" fill="#1b8657"/>
+<circle cx="1134" cy="691" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="691" r="4.3" fill="#1b8657"/>
+<circle cx="1008" cy="709" r="4.3" fill="#1b8657"/>
+<circle cx="1026" cy="709" r="4.3" fill="#1b8657"/>
+<circle cx="1044" cy="709" r="4.3" fill="#1b8657"/>
+<circle cx="1062" cy="709" r="4.3" fill="#1b8657"/>
+<circle cx="1080" cy="709" r="4.3" fill="#1b8657"/>
+<circle cx="1098" cy="709" r="4.3" fill="#1b8657"/>
+<circle cx="1116" cy="709" r="4.3" fill="#1b8657"/>
+<circle cx="1134" cy="709" r="4.3" fill="#1b8657"/>
+<circle cx="1152" cy="709" r="4.3" fill="#1b8657"/>
+<text x="949" y="805" class="small">column → / row ↓ · original grid coordinates</text>
+<text x="30" y="860" class="sub">Blue: original vertices · Green: permitted new cells · Red: new cells beyond the request</text>
+<text x="30" y="886" class="small">Outline: imported 5 × 5 grid; shaded rectangle: requested extent (including the right-only direction).</text>
+<text x="30" y="910" class="small">This figure shows grid admission, not physical sheet accuracy, ink or readable text. Three crops share one carrier.</text>
+</svg>

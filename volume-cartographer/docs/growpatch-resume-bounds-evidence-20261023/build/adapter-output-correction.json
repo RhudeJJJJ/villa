@@ -1,0 +1,6 @@
+{
+  "recorded_utc": "2026-10-23T21:33:45.040618+00:00",
+  "executed_adapter_archive": "work\\growpatch-20261023\\build-tools\\build_current.executed-20261023.py",
+  "executed_adapter_sha256": "183f3626ecf6ceeaebc2f04f517f212cae2b40efc25baf51fc4f7d290636d9a4",
+  "reason": "After successful completed build, preserve executed adapter before changing only oversized audit stdout to a compact summary. Linkmaps and original completion.json remain complete and unchanged. Transport truncation of original stdout does not establish full delivery of that stdout."
+}

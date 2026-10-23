@@ -1,0 +1,77 @@
+{
+    "area_cm2": 0.022534488859596177,
+    "area_vx2": 25710.492437347602,
+    "bbox": [
+        [
+            239.58319091796875,
+            175.49227905273438,
+            303.0638122558594
+        ],
+        [
+            379.3764343261719,
+            310.6555480957031,
+            465.7999572753906
+        ]
+    ],
+    "elapsed_time_s": 195.0215833,
+    "format": "tifxyz",
+    "grid_offset": [
+        4,
+        4
+    ],
+    "max_gen": 4,
+    "scale": [
+        0.05000000074505806,
+        0.05000000074505806
+    ],
+    "seed": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "seed_surface_id": "development",
+    "source": "vc_grow_seg_from_seed",
+    "target_volume": "prediction-roi.zarr",
+    "type": "seg",
+    "uuid": "2424a01e-e6d1-4ad2-b46d-6b8407332dfa",
+    "vc_gsfs_mode": "resume",
+    "vc_gsfs_params": {
+        "cache_size": 67108864,
+        "cell_reopt_mode": false,
+        "direction_weight": 0.0,
+        "disable_grid_expansion": false,
+        "dist_weight": 1.0,
+        "generations": 4,
+        "grow_extra_cols": 4,
+        "grow_extra_rows": 4,
+        "grow_max_extra_cols": 4,
+        "grow_max_extra_rows": 4,
+        "growth_directions": [
+            "all"
+        ],
+        "growth_scale": 0,
+        "inpaint": false,
+        "min_area_cm": 0.0,
+        "mode": "resume",
+        "normal_weight": 0.0,
+        "resume_opt": "skip",
+        "rewind_gen": -1,
+        "sdt_weight": 0.0,
+        "snap_weight": 0.0,
+        "snapshot-interval": 0,
+        "space_line_steps": 5,
+        "space_line_threshold": 170.0,
+        "space_line_weight": 1.0,
+        "step_size": 20.0,
+        "straight_weight": 0.2,
+        "thread_limit": 1,
+        "voxelsize": 9.362,
+        "x_max": 574,
+        "x_min": 1,
+        "y_max": 574,
+        "y_min": 1,
+        "z_max": 766,
+        "z_min": 1
+    },
+    "vc_gsfs_version": "dev"
+}

@@ -1,0 +1,91 @@
+-- The C compiler identification is GNU 16.1.0
+-- The CXX compiler identification is GNU 16.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/ucrt64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/msys64/ucrt64/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found AMD headers in: <toolchain>/include/suitesparse
+-- Found AMD library: <toolchain>/lib/libamd.dll.a
+-- Found CAMD headers in: <toolchain>/include/suitesparse
+-- Found CAMD library: <toolchain>/lib/libcamd.dll.a
+-- Found CCOLAMD headers in: <toolchain>/include/suitesparse
+-- Found CCOLAMD library: <toolchain>/lib/libccolamd.dll.a
+-- Found CHOLMOD headers in: <toolchain>/include/suitesparse
+-- Found CHOLMOD library: <toolchain>/lib/libcholmod.dll.a
+-- Found COLAMD headers in: <toolchain>/include/suitesparse
+-- Found COLAMD library: <toolchain>/lib/libcolamd.dll.a
+-- Found SPQR headers in: <toolchain>/include/suitesparse
+-- Found SPQR library: <toolchain>/lib/libspqr.dll.a
+-- Found Config headers in: <toolchain>/include/suitesparse
+-- Found Config library: <toolchain>/lib/libsuitesparseconfig.dll.a
+-- Found Intel Thread Building Blocks (TBB) library (2023.1 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - not found
+-- Could not find librt, but found SuiteSparse_config, assuming that SuiteSparse was compiled without timing.
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found SuiteSparse: <toolchain>/include/suitesparse (found suitable version "7.14.1", minimum required is "7.12.2") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config
+-- Found required Ceres dependency: Eigen version 5.0.1 in <toolchain>/share/eigen3/cmake
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.2.0 installed in: <toolchain> with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+-- Found OpenCV: <toolchain> (found version "5.0.0")
+-- Found nlohmann_json: <toolchain>/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.12.0")
+-- Checking for modules 'libbrotlidec;libbrotlicommon'
+--   Found libbrotlidec, version 1.2.0
+--   Found libbrotlicommon, version 1.2.0
+-- Found Brotli (via pkg-config): <toolchain>/include (found version "1.2.0")
+-- Checking for module 'libidn2'
+--   Found libidn2, version 2.3.8
+-- Found Libidn2 (via pkg-config): <toolchain>/include (found version "2.3.8")
+-- Checking for module 'libpsl'
+--   Found libpsl, version 0.21.5
+-- Found Libpsl (via pkg-config): <toolchain>/include (found version "0.21.5")
+-- Checking for module 'libssh2'
+--   Found libssh2, version 1.11.1
+-- Found Libssh2 (via pkg-config): <toolchain>/include (found version "1.11.1")
+-- Checking for module 'libnghttp2'
+--   Found libnghttp2, version 1.70.0
+-- Found NGHTTP2 (via pkg-config): <toolchain>/include (found version "1.70.0")
+-- Checking for module 'libnghttp3'
+--   Found libnghttp3, version 1.18.0
+-- Found NGHTTP3 (via pkg-config): <toolchain>/include (found version "1.18.0")
+-- Checking for modules 'libngtcp2;libngtcp2_crypto_ossl'
+--   Found libngtcp2, version 1.25.0
+--   Found libngtcp2_crypto_ossl, version 1.25.0
+-- Found NGTCP2 (via pkg-config): <toolchain>/include (found version "1.25.0")
+-- Checking for module 'libzstd'
+--   Found libzstd, version 1.5.7
+-- Found Zstd (via pkg-config): <toolchain>/include (found version "1.5.7")
+-- Found CURL: <toolchain>/lib/cmake/CURL/CURLConfig.cmake (found version "8.23.0")
+-- Found TIFF: <toolchain>/lib/libtiff.dll.a (found version "4.7.2")
+-- Found ZLIB: <toolchain>/lib/libz.dll.a (found version "1.3.2")
+-- Found PkgConfig: <toolchain>/bin/pkg-config.exe (found version "3.0.8")
+-- Checking for module 'libzstd'
+--   Found libzstd, version 1.5.7
+-- Checking for module 'liblz4'
+--   Found liblz4, version 1.10.0
+-- Found OpenMP_C: -fopenmp (found version "5.2")
+-- Found OpenMP_CXX: -fopenmp (found version "5.2")
+-- Found OpenMP: TRUE (found version "5.2")
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE
+-- Found SQLite3: <toolchain>/lib/libsqlite3.dll.a (found version "3.54.0")
+CMake Warning at cmake/WindowsPackaging.cmake:22 (message):
+  MSYSTEM_PREFIX is not set — dependency DLLs will not be bundled
+Call Stack (most recent call first):
+  CMakeLists.txt:838 (include)
+
+
+-- Configuring done (491.9s)
+-- Generating done (6.0s)
+-- Build files have been written to: <workspace>/work/growpatch-20261023/build-current

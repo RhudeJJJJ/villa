@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-10-23T20:39:11.713286+00:00",
+  "source_pin": {
+    "argv": [
+      "git",
+      "-C",
+      "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "stdout": "e2254ebe0168a232e5ba7b94997c749b4e6a4544",
+    "stderr": ""
+  },
+  "source_GrowPatch_sha256": "9e126582691f2ee7ac7494024a374ac7f728fb891407d4103b36276b52576282",
+  "candidate_sha256": "eab34f8c0155a423afb82cc738e4e1b9a61a4369b293803e3d7099790bcc2ffa",
+  "cli_source_sha256": "1ba765108a0efd3ad92546536f58f012a60e34c4c1639f2281013a69943e0191",
+  "injection_sha256": "18cfe9dbe37af9bcd1e311109682dc1d68ff13446223a332cb515656fb37f102",
+  "free_bytes_before": 248032448512,
+  "expected_own_raw_bytes_max": 6442450944,
+  "third_party_prefix": "<toolchain>",
+  "prefix_access": "existing installed files read; no install or bootstrap",
+  "environment_overrides": {
+    "AGENTS_AGENT_MODE": "1",
+    "PATH": "<toolchain>\\bin;C:/msys64/ucrt64/bin;C:\\Users\\jonas\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell;C:\\Users\\jonas\\.codex\\tmp\\arg0-windows\\codex-arg0TAuKp7;C:\\Users\\jonas\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin;C:\\Users\\jonas\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\jxrlib\\jxrlib\\bin;C:\\Users\\jonas\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin;C:\\Users\\jonas\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\jonas\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\jonas\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\jonas\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell;C:\\Users\\jonas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\jonas\\.lmstudio\\bin;C:\\Users\\jonas\\AppData\\Local\\Programs\\Ollama;C:\\OpenSSL-Win64\\bin;C:\\Users\\jonas\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback;C:\\Users\\jonas\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin;C:\\Users\\jonas\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd;C:\\Users\\jonas\\AppData\\Local\\OpenAI\\Codex\\bin\\2d8a5d5756dbf318;C:\\Users\\jonas\\AppData\\Local\\OpenAI\\Codex\\bin\\37f54d68e5533a51",
+    "PKG_CONFIG_PATH": "<toolchain>\\lib\\pkgconfig",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "AGENTS_ALLOW_INSTALL_present": false,
+  "build_scope": "Full current core/tracer dependency graph and official CLI source using new headless comparison targets; alternative full GrowPatch TU is a test overlay, not a copied product implementation."
+}

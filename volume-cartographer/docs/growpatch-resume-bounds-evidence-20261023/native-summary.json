@@ -1,0 +1,973 @@
+{
+  "status": "COMPLETED",
+  "completed": true,
+  "planned_native_processes": 22,
+  "verification_protocol_sha256": "0159cb02b2c2e5655939e569f9edb2d942a3a3e9aea34dd524f5ab7de7a45fde",
+  "cases": {
+    "development": {
+      "variants": {
+        "baseline": {
+          "exit_code": 1,
+          "input_bytes_unchanged": true,
+          "profiles": {
+            "fill-zero": {
+              "profile": "fill-zero",
+              "valid_points": 81,
+              "new_points": 56,
+              "outside_requested_grid": 56,
+              "grid_offset": [
+                4,
+                4
+              ],
+              "original_grid_extent_rc": [
+                -2,
+                6,
+                -2,
+                6
+              ],
+              "violations": [
+                "valid points outside requested grid",
+                "zero expansion must preserve all original coordinates exactly"
+              ],
+              "passed": false,
+              "wall_seconds": 103.68700000000172
+            },
+            "right-one": {
+              "profile": "right-one",
+              "valid_points": 40,
+              "new_points": 15,
+              "outside_requested_grid": 10,
+              "grid_offset": [
+                2,
+                2
+              ],
+              "original_grid_extent_rc": [
+                0,
+                4,
+                0,
+                7
+              ],
+              "violations": [
+                "valid points outside requested grid"
+              ],
+              "passed": false,
+              "wall_seconds": 41.56200000000172
+            },
+            "wide-control": {
+              "profile": "wide-control",
+              "valid_points": 81,
+              "new_points": 56,
+              "outside_requested_grid": 0,
+              "grid_offset": [
+                4,
+                4
+              ],
+              "original_grid_extent_rc": [
+                -2,
+                6,
+                -2,
+                6
+              ],
+              "violations": [],
+              "passed": true,
+              "wall_seconds": 182.92199999999866
+            }
+          }
+        },
+        "fixed": {
+          "exit_code": 0,
+          "input_bytes_unchanged": true,
+          "profiles": {
+            "fill-zero": {
+              "profile": "fill-zero",
+              "valid_points": 25,
+              "new_points": 0,
+              "outside_requested_grid": 0,
+              "grid_offset": [
+                2,
+                2
+              ],
+              "original_grid_extent_rc": [
+                0,
+                4,
+                0,
+                4
+              ],
+              "violations": [],
+              "passed": true,
+              "wall_seconds": 1.4530000000013388
+            },
+            "right-one": {
+              "profile": "right-one",
+              "valid_points": 30,
+              "new_points": 5,
+              "outside_requested_grid": 0,
+              "grid_offset": [
+                2,
+                2
+              ],
+              "original_grid_extent_rc": [
+                0,
+                4,
+                0,
+                5
+              ],
+              "violations": [],
+              "passed": true,
+              "wall_seconds": 26.031000000002678
+            },
+            "wide-control": {
+              "profile": "wide-control",
+              "valid_points": 81,
+              "new_points": 56,
+              "outside_requested_grid": 0,
+              "grid_offset": [
+                4,
+                4
+              ],
+              "original_grid_extent_rc": [
+                -2,
+                6,
+                -2,
+                6
+              ],
+              "violations": [],
+              "passed": true,
+              "wall_seconds": 83.43799999999828
+            }
+          }
+        }
+      },
+      "wide_comparison": {
+        "bands": {
+          "x": {
+            "baseline_dtype": "float32",
+            "fixed_dtype": "float32",
+            "baseline_shape": [
+              13,
+              13
+            ],
+            "fixed_shape": [
+              13,
+              13
+            ],
+            "baseline_decoded_sha256": "fc8debf55d8753c2aee03503337d8933c927ebff7279e2eab8d0c183ba7c86f5",
+            "fixed_decoded_sha256": "fc8debf55d8753c2aee03503337d8933c927ebff7279e2eab8d0c183ba7c86f5",
+            "identical_dtype_shape_and_bytes": true,
+            "baseline_tiff_sha256": "8cbe0672db990b2d71aaaba494d01e68753d888b8ec2d594125662c01ec6d431",
+            "fixed_tiff_sha256": "8cbe0672db990b2d71aaaba494d01e68753d888b8ec2d594125662c01ec6d431"
+          },
+          "y": {
+            "baseline_dtype": "float32",
+            "fixed_dtype": "float32",
+            "baseline_shape": [
+              13,
+              13
+            ],
+            "fixed_shape": [
+              13,
+              13
+            ],
+            "baseline_decoded_sha256": "5850a7fd44ba4f7654f8fc406a77ab44bc38bb13f40c14c6b33e4dfa6a40d8f5",
+            "fixed_decoded_sha256": "5850a7fd44ba4f7654f8fc406a77ab44bc38bb13f40c14c6b33e4dfa6a40d8f5",
+            "identical_dtype_shape_and_bytes": true,
+            "baseline_tiff_sha256": "9747102769a180bbfcbfac136eb1392d2f7cb6e4c3771d11090f549b71dc9eaa",
+            "fixed_tiff_sha256": "9747102769a180bbfcbfac136eb1392d2f7cb6e4c3771d11090f549b71dc9eaa"
+          },
+          "z": {
+            "baseline_dtype": "float32",
+            "fixed_dtype": "float32",
+            "baseline_shape": [
+              13,
+              13
+            ],
+            "fixed_shape": [
+              13,
+              13
+            ],
+            "baseline_decoded_sha256": "4a51354df675fed25e9501caafe01065d86077be6329b7b93246d03c1659102f",
+            "fixed_decoded_sha256": "4a51354df675fed25e9501caafe01065d86077be6329b7b93246d03c1659102f",
+            "identical_dtype_shape_and_bytes": true,
+            "baseline_tiff_sha256": "eba69ff8afdfc5502756a0b46eab3b4b02ee82cf4baa43afe88c2898e7566c9b",
+            "fixed_tiff_sha256": "eba69ff8afdfc5502756a0b46eab3b4b02ee82cf4baa43afe88c2898e7566c9b"
+          },
+          "generations": {
+            "baseline_dtype": "uint16",
+            "fixed_dtype": "uint16",
+            "baseline_shape": [
+              13,
+              13
+            ],
+            "fixed_shape": [
+              13,
+              13
+            ],
+            "baseline_decoded_sha256": "395da9aa6aa1180d72af4316a89b78c709aa7a68ed78bc0e59812009d60a8b3e",
+            "fixed_decoded_sha256": "395da9aa6aa1180d72af4316a89b78c709aa7a68ed78bc0e59812009d60a8b3e",
+            "identical_dtype_shape_and_bytes": true,
+            "baseline_tiff_sha256": "c2e491f4d83743ea5539f21cdeb7df80d7da70d0e88f8815e3cb79575332b41a",
+            "fixed_tiff_sha256": "c2e491f4d83743ea5539f21cdeb7df80d7da70d0e88f8815e3cb79575332b41a"
+          }
+        },
+        "grid_offset_equal": true,
+        "scale_equal": true,
+        "passed": true,
+        "scope": "Complete decoded arrays including invalid cells; whole meta.json equality is not required."
+      },
+      "gates": {
+        "baseline_expected_contract_failure": true,
+        "baseline_reproduces_requested_grid_overrun": true,
+        "fixed_all_profiles_pass": true,
+        "baseline_wide_control_pass": true,
+        "paired_wide_decoded_arrays_identical": true,
+        "checker_inputs_unchanged": true
+      },
+      "passed": true
+    },
+    "new-crop-1": {
+      "variants": {
+        "baseline": {
+          "exit_code": 1,
+          "input_bytes_unchanged": true,
+          "profiles": {
+            "fill-zero": {
+              "profile": "fill-zero",
+              "valid_points": 81,
+              "new_points": 56,
+              "outside_requested_grid": 56,
+              "grid_offset": [
+                4,
+                4
+              ],
+              "original_grid_extent_rc": [
+                -2,
+                6,
+                -2,
+                6
+              ],
+              "violations": [
+                "valid points outside requested grid",
+                "zero expansion must preserve all original coordinates exactly"
+              ],
+              "passed": false,
+              "wall_seconds": 137.17199999999866
+            },
+            "right-one": {
+              "profile": "right-one",
+              "valid_points": 40,
+              "new_points": 15,
+              "outside_requested_grid": 10,
+              "grid_offset": [
+                2,
+                2
+              ],
+              "original_grid_extent_rc": [
+                0,
+                4,
+                0,
+                7
+              ],
+              "violations": [
+                "valid points outside requested grid"
+              ],
+              "passed": false,
+              "wall_seconds": 54.5470000000023
+            },
+            "wide-control": {
+              "profile": "wide-control",
+              "valid_points": 81,
+              "new_points": 56,
+              "outside_requested_grid": 0,
+              "grid_offset": [
+                4,
+                4
+              ],
+              "original_grid_extent_rc": [
+                -2,
+                6,
+                -2,
+                6
+              ],
+              "violations": [],
+              "passed": true,
+              "wall_seconds": 117.5
+            }
+          }
+        },
+        "fixed": {
+          "exit_code": 0,
+          "input_bytes_unchanged": true,
+          "profiles": {
+            "fill-zero": {
+              "profile": "fill-zero",
+              "valid_points": 25,
+              "new_points": 0,
+              "outside_requested_grid": 0,
+              "grid_offset": [
+                2,
+                2
+              ],
+              "original_grid_extent_rc": [
+                0,
+                4,
+                0,
+                4
+              ],
+              "violations": [],
+              "passed": true,
+              "wall_seconds": 12.703000000001339
+            },
+            "right-one": {
+              "profile": "right-one",
+              "valid_points": 30,
+              "new_points": 5,
+              "outside_requested_grid": 0,
+              "grid_offset": [
+                2,
+                2
+              ],
+              "original_grid_extent_rc": [
+                0,
+                4,
+                0,
+                5
+              ],
+              "violations": [],
+              "passed": true,
+              "wall_seconds": 41.28099999999904
+            },
+            "wide-control": {
+              "profile": "wide-control",
+              "valid_points": 81,
+              "new_points": 56,
+              "outside_requested_grid": 0,
+              "grid_offset": [
+                4,
+                4
+              ],
+              "original_grid_extent_rc": [
+                -2,
+                6,
+                -2,
+                6
+              ],
+              "violations": [],
+              "passed": true,
+              "wall_seconds": 112.31300000000192
+            }
+          }
+        }
+      },
+      "wide_comparison": {
+        "bands": {
+          "x": {
+            "baseline_dtype": "float32",
+            "fixed_dtype": "float32",
+            "baseline_shape": [
+              13,
+              13
+            ],
+            "fixed_shape": [
+              13,
+              13
+            ],
+            "baseline_decoded_sha256": "005a787854f358da8ddf5e0174d9c37ee41af638534df65bc75ea837178a06c7",
+            "fixed_decoded_sha256": "005a787854f358da8ddf5e0174d9c37ee41af638534df65bc75ea837178a06c7",
+            "identical_dtype_shape_and_bytes": true,
+            "baseline_tiff_sha256": "f2d58b4bf0458601992fe21675ae77692fbb126d383461274ade16dcad28f598",
+            "fixed_tiff_sha256": "f2d58b4bf0458601992fe21675ae77692fbb126d383461274ade16dcad28f598"
+          },
+          "y": {
+            "baseline_dtype": "float32",
+            "fixed_dtype": "float32",
+            "baseline_shape": [
+              13,
+              13
+            ],
+            "fixed_shape": [
+              13,
+              13
+            ],
+            "baseline_decoded_sha256": "94b1aa56defd65b5137bcfdb042441c6a63c7f7146fe28efa8e0951288c8724e",
+            "fixed_decoded_sha256": "94b1aa56defd65b5137bcfdb042441c6a63c7f7146fe28efa8e0951288c8724e",
+            "identical_dtype_shape_and_bytes": true,
+            "baseline_tiff_sha256": "0a74e5737dd5f9c52974bff11d86894679ae9b45f7a35a884bccc3148e381f5a",
+            "fixed_tiff_sha256": "0a74e5737dd5f9c52974bff11d86894679ae9b45f7a35a884bccc3148e381f5a"
+          },
+          "z": {
+            "baseline_dtype": "float32",
+            "fixed_dtype": "float32",
+            "baseline_shape": [
+              13,
+              13
+            ],
+            "fixed_shape": [
+              13,
+              13
+            ],
+            "baseline_decoded_sha256": "825a9aecc43d9059d30c08bfeec7f661146b91688bc77098af40a04baa424e77",
+            "fixed_decoded_sha256": "825a9aecc43d9059d30c08bfeec7f661146b91688bc77098af40a04baa424e77",
+            "identical_dtype_shape_and_bytes": true,
+            "baseline_tiff_sha256": "6dad98af37e824e5fea6f142adfae331335a5ba26895e67caedff28d99f741bc",
+            "fixed_tiff_sha256": "6dad98af37e824e5fea6f142adfae331335a5ba26895e67caedff28d99f741bc"
+          },
+          "generations": {
+            "baseline_dtype": "uint16",
+            "fixed_dtype": "uint16",
+            "baseline_shape": [
+              13,
+              13
+            ],
+            "fixed_shape": [
+              13,
+              13
+            ],
+            "baseline_decoded_sha256": "395da9aa6aa1180d72af4316a89b78c709aa7a68ed78bc0e59812009d60a8b3e",
+            "fixed_decoded_sha256": "395da9aa6aa1180d72af4316a89b78c709aa7a68ed78bc0e59812009d60a8b3e",
+            "identical_dtype_shape_and_bytes": true,
+            "baseline_tiff_sha256": "c2e491f4d83743ea5539f21cdeb7df80d7da70d0e88f8815e3cb79575332b41a",
+            "fixed_tiff_sha256": "c2e491f4d83743ea5539f21cdeb7df80d7da70d0e88f8815e3cb79575332b41a"
+          }
+        },
+        "grid_offset_equal": true,
+        "scale_equal": true,
+        "passed": true,
+        "scope": "Complete decoded arrays including invalid cells; whole meta.json equality is not required."
+      },
+      "gates": {
+        "baseline_expected_contract_failure": true,
+        "baseline_reproduces_requested_grid_overrun": true,
+        "fixed_all_profiles_pass": true,
+        "baseline_wide_control_pass": true,
+        "paired_wide_decoded_arrays_identical": true,
+        "checker_inputs_unchanged": true
+      },
+      "passed": true
+    },
+    "new-crop-2": {
+      "variants": {
+        "baseline": {
+          "exit_code": 1,
+          "input_bytes_unchanged": true,
+          "profiles": {
+            "fill-zero": {
+              "profile": "fill-zero",
+              "valid_points": 81,
+              "new_points": 56,
+              "outside_requested_grid": 56,
+              "grid_offset": [
+                4,
+                4
+              ],
+              "original_grid_extent_rc": [
+                -2,
+                6,
+                -2,
+                6
+              ],
+              "violations": [
+                "valid points outside requested grid",
+                "zero expansion must preserve all original coordinates exactly"
+              ],
+              "passed": false,
+              "wall_seconds": 138.21900000000096
+            },
+            "right-one": {
+              "profile": "right-one",
+              "valid_points": 40,
+              "new_points": 15,
+              "outside_requested_grid": 10,
+              "grid_offset": [
+                2,
+                2
+              ],
+              "original_grid_extent_rc": [
+                0,
+                4,
+                0,
+                7
+              ],
+              "violations": [
+                "valid points outside requested grid"
+              ],
+              "passed": false,
+              "wall_seconds": 15.109000000000378
+            },
+            "wide-control": {
+              "profile": "wide-control",
+              "valid_points": 81,
+              "new_points": 56,
+              "outside_requested_grid": 0,
+              "grid_offset": [
+                4,
+                4
+              ],
+              "original_grid_extent_rc": [
+                -2,
+                6,
+                -2,
+                6
+              ],
+              "violations": [],
+              "passed": true,
+              "wall_seconds": 123.06199999999808
+            }
+          }
+        },
+        "fixed": {
+          "exit_code": 0,
+          "input_bytes_unchanged": true,
+          "profiles": {
+            "fill-zero": {
+              "profile": "fill-zero",
+              "valid_points": 25,
+              "new_points": 0,
+              "outside_requested_grid": 0,
+              "grid_offset": [
+                2,
+                2
+              ],
+              "original_grid_extent_rc": [
+                0,
+                4,
+                0,
+                4
+              ],
+              "violations": [],
+              "passed": true,
+              "wall_seconds": 7.546999999998661
+            },
+            "right-one": {
+              "profile": "right-one",
+              "valid_points": 30,
+              "new_points": 5,
+              "outside_requested_grid": 0,
+              "grid_offset": [
+                2,
+                2
+              ],
+              "original_grid_extent_rc": [
+                0,
+                4,
+                0,
+                5
+              ],
+              "violations": [],
+              "passed": true,
+              "wall_seconds": 14.140999999999622
+            },
+            "wide-control": {
+              "profile": "wide-control",
+              "valid_points": 81,
+              "new_points": 56,
+              "outside_requested_grid": 0,
+              "grid_offset": [
+                4,
+                4
+              ],
+              "original_grid_extent_rc": [
+                -2,
+                6,
+                -2,
+                6
+              ],
+              "violations": [],
+              "passed": true,
+              "wall_seconds": 198.0
+            }
+          }
+        }
+      },
+      "wide_comparison": {
+        "bands": {
+          "x": {
+            "baseline_dtype": "float32",
+            "fixed_dtype": "float32",
+            "baseline_shape": [
+              13,
+              13
+            ],
+            "fixed_shape": [
+              13,
+              13
+            ],
+            "baseline_decoded_sha256": "fa50c707c5b8d79572a19ef067cb09a893c63488aa58227c8ffe87263152d4d4",
+            "fixed_decoded_sha256": "fa50c707c5b8d79572a19ef067cb09a893c63488aa58227c8ffe87263152d4d4",
+            "identical_dtype_shape_and_bytes": true,
+            "baseline_tiff_sha256": "767ea8d1e3cec4156cebc382877188675e0154391fd920eb9c7a502822e060c0",
+            "fixed_tiff_sha256": "767ea8d1e3cec4156cebc382877188675e0154391fd920eb9c7a502822e060c0"
+          },
+          "y": {
+            "baseline_dtype": "float32",
+            "fixed_dtype": "float32",
+            "baseline_shape": [
+              13,
+              13
+            ],
+            "fixed_shape": [
+              13,
+              13
+            ],
+            "baseline_decoded_sha256": "08fa1277ec3d6cc9535cee510933e8c20d00015f2a2b6fd4d2fb7f86ad17c87b",
+            "fixed_decoded_sha256": "08fa1277ec3d6cc9535cee510933e8c20d00015f2a2b6fd4d2fb7f86ad17c87b",
+            "identical_dtype_shape_and_bytes": true,
+            "baseline_tiff_sha256": "bbad1f8f6d3f9c13a963af74aac83a1c261be249134a56e888d5558b63cf37e0",
+            "fixed_tiff_sha256": "bbad1f8f6d3f9c13a963af74aac83a1c261be249134a56e888d5558b63cf37e0"
+          },
+          "z": {
+            "baseline_dtype": "float32",
+            "fixed_dtype": "float32",
+            "baseline_shape": [
+              13,
+              13
+            ],
+            "fixed_shape": [
+              13,
+              13
+            ],
+            "baseline_decoded_sha256": "22f34ea944c762690c5fb0050ea2f8e7dc2c477c03b77297b9663e4124608cb7",
+            "fixed_decoded_sha256": "22f34ea944c762690c5fb0050ea2f8e7dc2c477c03b77297b9663e4124608cb7",
+            "identical_dtype_shape_and_bytes": true,
+            "baseline_tiff_sha256": "822079f0deddde38ad76418c785bc9a33d4b2a90eb16a8431beb08d5c456752c",
+            "fixed_tiff_sha256": "822079f0deddde38ad76418c785bc9a33d4b2a90eb16a8431beb08d5c456752c"
+          },
+          "generations": {
+            "baseline_dtype": "uint16",
+            "fixed_dtype": "uint16",
+            "baseline_shape": [
+              13,
+              13
+            ],
+            "fixed_shape": [
+              13,
+              13
+            ],
+            "baseline_decoded_sha256": "395da9aa6aa1180d72af4316a89b78c709aa7a68ed78bc0e59812009d60a8b3e",
+            "fixed_decoded_sha256": "395da9aa6aa1180d72af4316a89b78c709aa7a68ed78bc0e59812009d60a8b3e",
+            "identical_dtype_shape_and_bytes": true,
+            "baseline_tiff_sha256": "c2e491f4d83743ea5539f21cdeb7df80d7da70d0e88f8815e3cb79575332b41a",
+            "fixed_tiff_sha256": "c2e491f4d83743ea5539f21cdeb7df80d7da70d0e88f8815e3cb79575332b41a"
+          }
+        },
+        "grid_offset_equal": true,
+        "scale_equal": true,
+        "passed": true,
+        "scope": "Complete decoded arrays including invalid cells; whole meta.json equality is not required."
+      },
+      "gates": {
+        "baseline_expected_contract_failure": true,
+        "baseline_reproduces_requested_grid_overrun": true,
+        "fixed_all_profiles_pass": true,
+        "baseline_wide_control_pass": true,
+        "paired_wide_decoded_arrays_identical": true,
+        "checker_inputs_unchanged": true
+      },
+      "passed": true
+    }
+  },
+  "gates": {
+    "all_three_main_crops_pass": true,
+    "supplemental_controls_pass": true,
+    "inputs_and_binaries_unchanged": true,
+    "all_22_native_processes_completed_exit_0": true
+  },
+  "counting_rule": "One contribution is the standalone requested resume-grid guard; multiple cases and processes are technical checks on three crops of one public carrier, not independent scrolls or multiple prize contributions.",
+  "scope": "Three crops of one PHerc0139 mesh/prediction carrier; multiple processes are not independent datasets. No physical-accuracy claim.",
+  "execution_parameters": {
+    "threads": 1,
+    "rng_seed": 2104,
+    "native_timeout_seconds": 600,
+    "growth_scale": 0,
+    "inpaint": false,
+    "resume_opt": "skip"
+  },
+  "supplemental": {
+    "exit_code": 0,
+    "results": {
+      "scope": "One real PHerc0139 fixture; four native processes; no independent-data, physical-accuracy, inpaint, coarse-scale, or full-platform claim.",
+      "completed": true,
+      "results": {
+        "disabled-positive-extra": {
+          "baseline": {
+            "valid_points": 40,
+            "new_points": 15,
+            "permitted_right_column_points": 5,
+            "outside_requested_grid": 10,
+            "grid_offset": [
+              2,
+              2
+            ],
+            "extent_in_original_rc": [
+              0,
+              4,
+              0,
+              7
+            ],
+            "violations": [
+              "valid point outside one permitted right column and zero extra rows"
+            ],
+            "passed": false,
+            "wall_seconds": 62.875
+          },
+          "fixed": {
+            "valid_points": 30,
+            "new_points": 5,
+            "permitted_right_column_points": 5,
+            "outside_requested_grid": 0,
+            "grid_offset": [
+              2,
+              2
+            ],
+            "extent_in_original_rc": [
+              0,
+              4,
+              0,
+              5
+            ],
+            "violations": [],
+            "passed": true,
+            "wall_seconds": 36.0
+          }
+        },
+        "fresh-seed": {
+          "baseline": {
+            "valid_points": 36,
+            "growth_beyond_initial_four_observed": true,
+            "generation_range": [
+              1,
+              3
+            ],
+            "mode": "explicit_seed",
+            "seed": [
+              310.347412109375,
+              244.2255859375,
+              383.3359375
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "violations": [],
+            "passed": true,
+            "wall_seconds": 57.375
+          },
+          "fixed": {
+            "valid_points": 36,
+            "growth_beyond_initial_four_observed": true,
+            "generation_range": [
+              1,
+              3
+            ],
+            "mode": "explicit_seed",
+            "seed": [
+              310.347412109375,
+              244.2255859375,
+              383.3359375
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "violations": [],
+            "passed": true,
+            "wall_seconds": 56.82900000000154
+          }
+        }
+      },
+      "gates": {
+        "baseline_positive_extra_reproduces_bounds_overrun": true,
+        "fixed_positive_extra_contract": true,
+        "baseline_fresh_output_valid": true,
+        "fixed_fresh_output_valid": true,
+        "fresh_raw_tiff_bytes_identical": true,
+        "fresh_decoded_bytes_identical": true,
+        "fresh_scale_identical": true
+      },
+      "fresh_seed": [
+        310.347412109375,
+        244.2255859375,
+        383.3359375
+      ],
+      "rng_seed": 2104,
+      "omp_threads": 1,
+      "fresh_comparison": {
+        "raw_tiff_bytes_equal": {
+          "x": true,
+          "y": true,
+          "z": true,
+          "generations": true
+        },
+        "decoded_dtype_shape_and_bytes_equal": {
+          "x": true,
+          "y": true,
+          "z": true,
+          "generations": true
+        },
+        "scale_equal": true,
+        "metadata_not_compared_wholesale": "UUID, elapsed time, paths and other incidental metadata are not an equality target."
+      },
+      "passed": true,
+      "input_bytes_unchanged": true
+    }
+  },
+  "passed": true,
+  "input_bytes_unchanged": true,
+  "native_processes": [
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\development\\baseline\\fill-zero\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 30164,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\development\\baseline\\right-one\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 30160,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\development\\baseline\\wide-control\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 34888,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\development\\fixed\\fill-zero\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 8928,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\development\\fixed\\right-one\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 34284,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\development\\fixed\\wide-control\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 18740,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\new-crop-1\\baseline\\fill-zero\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 28628,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\new-crop-1\\baseline\\right-one\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 32336,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\new-crop-1\\baseline\\wide-control\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 12332,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\new-crop-1\\fixed\\fill-zero\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 7468,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\new-crop-1\\fixed\\right-one\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 37396,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\new-crop-1\\fixed\\wide-control\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 37052,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\new-crop-2\\baseline\\fill-zero\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 33380,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\new-crop-2\\baseline\\right-one\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 27872,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\new-crop-2\\baseline\\wide-control\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 12876,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\new-crop-2\\fixed\\fill-zero\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 31312,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\new-crop-2\\fixed\\right-one\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 13236,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\main\\new-crop-2\\fixed\\wide-control\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 27900,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\supplemental\\disabled-positive-extra\\baseline\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 38516,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\supplemental\\disabled-positive-extra\\fixed\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 40420,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\supplemental\\fresh-seed\\baseline\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 21624,
+      "timed_out": false
+    },
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs-r2\\supplemental\\fresh-seed\\fixed\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "pid": 29864,
+      "timed_out": false
+    }
+  ],
+  "actual_native_processes_recorded": 22,
+  "actual_native_processes_completed_exit_0": 22
+}

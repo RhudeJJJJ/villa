@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETED",
+  "argv": [
+    "<toolchain>\\bin\\cmake.exe",
+    "--build",
+    "<workspace>\\work\\growpatch-20261023\\build-current",
+    "--parallel",
+    "1",
+    "--target",
+    "vc_grow_seg_from_seed_baseline",
+    "vc_grow_seg_from_seed_fixed"
+  ],
+  "cwd": "<workspace>\\work\\growpatch-20261023",
+  "started_utc": "2026-10-23T20:47:34.663769+00:00",
+  "owner_pid": 35828,
+  "owner_parent_pid": 31924,
+  "log_path": "<workspace>\\work\\growpatch-20261023\\build-receipts\\build.log",
+  "exit_code": 0,
+  "process_pid": 31368,
+  "wall_time_seconds": 2654.094000000001,
+  "completed_utc": "2026-10-23T21:31:48.919012+00:00",
+  "log_bytes": 11609,
+  "log_sha256": "6bd3b2f73c61f9fb394ca9b683095191b9c052690a097957685a1e1877725c7a"
+}

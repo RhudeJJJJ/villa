@@ -1,0 +1,476 @@
+[
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\candidate\\GrowPatch.cpp",
+    "source_sha256": "fd28ac6f9eca5aaa60e637f303256e65a08eac1a6e2c82fcbcec0c4bbe818097",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\CMakeFiles\\vcgrow_requested_bounds.dir\\d97aac435702759fcd347eeb26b001f9\\work\\growpatch-20261023\\candidate\\GrowPatch.cpp.obj",
+    "object_sha256": "f9b9bd3d03a90b70de0960e09e64ae7ddcf93d1128f815be6b7c0fe274016928"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\apps\\src\\vc_grow_seg_from_seed.cpp",
+    "source_sha256": "1ba765108a0efd3ad92546536f58f012a60e34c4c1639f2281013a69943e0191",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\CMakeFiles\\vc_grow_seg_from_seed_baseline.dir\\apps\\src\\vc_grow_seg_from_seed.cpp.obj",
+    "object_sha256": "55ab53f3e43b0b5c719d8174e4fbc2d6bc617c5b5486ce3bf8450722ec9e8362"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\apps\\src\\vc_grow_seg_from_seed.cpp",
+    "source_sha256": "1ba765108a0efd3ad92546536f58f012a60e34c4c1639f2281013a69943e0191",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\CMakeFiles\\vc_grow_seg_from_seed_fixed.dir\\apps\\src\\vc_grow_seg_from_seed.cpp.obj",
+    "object_sha256": "55ab53f3e43b0b5c719d8174e4fbc2d6bc617c5b5486ce3bf8450722ec9e8362"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\build-current\\_deps\\vc_delta3d-src\\src\\codec.cpp",
+    "source_sha256": "849df15f4ecb3b3c215f887ac17fd17dd548cf439cf3ecc22ac9e9cd40331463",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\_deps\\vc_delta3d-build\\CMakeFiles\\vc_delta3d.dir\\src\\codec.cpp.obj",
+    "object_sha256": "933f99e1922c066f9f0ccc9e12ad7e7f6f5ebe7ae8895c0a0890c1638c0d3a35"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\libs\\c3d\\c3d.c",
+    "source_sha256": "22ad4af4c5151d69328c8a31ee6428fa01ad7579e0584731d032620d9f052332",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\libs\\c3d\\CMakeFiles\\c3d.dir\\c3d.c.obj",
+    "object_sha256": "816db59c9b6fb85d44a93be0e619ea3b749f401d1ef68fd87814a965bf90990f"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\libs\\volcomp\\volcomp_lib.c",
+    "source_sha256": "c75892a8486d784d7d1ed2e1544ae54c9d57db88c134946bd6b7b7a816d4dd67",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\libs\\volcomp\\CMakeFiles\\volcomp.dir\\volcomp_lib.c.obj",
+    "object_sha256": "3559fc5a5412143e78632ffb91e24018a779cc954625e48cdb50719afaf929a8"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\utils\\src\\zarr.cpp",
+    "source_sha256": "089b70b25dc78230e01647c5c96fade1a5a147c70dc477e2b5c84e1b9e9c408a",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\utils\\CMakeFiles\\utils.dir\\src\\zarr.cpp.obj",
+    "object_sha256": "e8657f556385655a5fa5f52acd46862144f1400c3769d276cd8d30760068fe2f"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\utils\\src\\Json.cpp",
+    "source_sha256": "13f115e98a4504d1660f8147930b6db5449ecd7367fa7414f2dc2ce97b3d9760",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\utils\\CMakeFiles\\utils.dir\\src\\Json.cpp.obj",
+    "object_sha256": "d825d61d0fb904636d276322def76491a26a48a58fe8c1d8bec71c44d8a614cc"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\utils\\src\\aws_auth.cpp",
+    "source_sha256": "bafe9dfcb7abeee25d8b9b97d44a619755765c830790d24892d6e62bf1a2a087",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\utils\\CMakeFiles\\utils.dir\\src\\aws_auth.cpp.obj",
+    "object_sha256": "282529b1d0402b869fac7d409d69934b837741ea8f659f76fc9e5c3292a64cba"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\utils\\src\\http_fetch.cpp",
+    "source_sha256": "6b14e6f6f2d92e70419e5c178fa1441c5d0226bae1787cc7cf131bd900756ee1",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\utils\\CMakeFiles\\utils.dir\\src\\http_fetch.cpp.obj",
+    "object_sha256": "e0d149bd586e99d95d7b4992dd7d51469c87ae51ccf326c5a6508209b77bd4b3"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\utils\\src\\sftp_fetch.cpp",
+    "source_sha256": "a7d231700ef321c205d9ea3c5f2a6b0f89d697417a10d2004154f3a3529325a2",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\utils\\CMakeFiles\\utils.dir\\src\\sftp_fetch.cpp.obj",
+    "object_sha256": "e1d91238b74ed45d8c47cf2f977c46a8ede9ebac36b853ea760d1ba961e1f97f"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\utils\\src\\c3d_codec.cpp",
+    "source_sha256": "382e2f0f5defb31aee36647ee1896a9e78ca25dc54b0ac1a87f6d2175cb8cd11",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\utils\\CMakeFiles\\utils_c3d_codec.dir\\src\\c3d_codec.cpp.obj",
+    "object_sha256": "9ae779116cf4dbbf5855b55b08699d9e0fe84e443b3700bf2cd274de81b7bc43"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\utils\\src\\volcomp_codec.cpp",
+    "source_sha256": "c3b697e47c76668debeb74ea19f9ff2f908dcd8a9a464a995fcdb9d13ce51d79",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\utils\\CMakeFiles\\utils_volcomp_codec.dir\\src\\volcomp_codec.cpp.obj",
+    "object_sha256": "0a2e38764a1e931b191774c1f0e8d63acd869977bacb1a035c0b35d78f01dd4d"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\PolylineObj.cpp",
+    "source_sha256": "1f7f573dd957e5f3ef76861fd97bf3de2a1c95fbf20c559d97b6d4ad8cba0bf4",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\PolylineObj.cpp.obj",
+    "object_sha256": "dd7f3bb60370abfd11f41fc9b9ed7b8a753b4f006f0267fd15a0d0bd19e68119"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\AtomicFile.cpp",
+    "source_sha256": "634c43a809492e42e899be4fa7bc95c7af9c18114931f0fb066338ba95e3db64",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\AtomicFile.cpp.obj",
+    "object_sha256": "e1c555734ef8aa125cdb18f8978aaff68f5ea759388fbfe084c72ec2346a9f33"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\TexturedMesh.cpp",
+    "source_sha256": "bc35442f85e5a91714120af0ac55088adced0e2c33bd5feb22b1495a238aa541",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\TexturedMesh.cpp.obj",
+    "object_sha256": "84d416f62b6741627eaf8d4b0a17fdaa0bf23189516c27764d9b2af114fe50fc"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\SurfaceTexture.cpp",
+    "source_sha256": "f8beffff8a657421fa782092537bba571e2c62f87b005b572c5a6410963d9485",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\SurfaceTexture.cpp.obj",
+    "object_sha256": "b6ea9a96eac120e82b44a937335df962de7efa0d07713d2711fd2bf6b98966ba"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\GridStore.cpp",
+    "source_sha256": "4cf380e5e3d5be78b6076592411d9b4e28153399570e9028de257c37ac708f0c",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\GridStore.cpp.obj",
+    "object_sha256": "d78a69ec6b690adcfdd570abfffd0849d7262655b4fcc552fb743497eb789e19"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\NormalGridVolume.cpp",
+    "source_sha256": "d2c196bce06066c04f1a1e9bc149c061986a348fae938eb6954918b1241f2bcb",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\NormalGridVolume.cpp.obj",
+    "object_sha256": "3e4e2530b3c374f7c5ad9067653b54777c574766a8c8c850464a2f116d113f3d"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\normalgridtools.cpp",
+    "source_sha256": "4978450ab4edd9355377247819ef1c0ad3f875a828eb2352bd30aea8a4551d9f",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\normalgridtools.cpp.obj",
+    "object_sha256": "3cd491ac84816556cc69fdd7bd45c7b73284a1fea14ae83fa5c6b59f803f2205"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\Segmentation.cpp",
+    "source_sha256": "762a4c883a019a9779a4026d5db2212158a449fcf7cc422b63666a6263ef6e30",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\Segmentation.cpp.obj",
+    "object_sha256": "345b48bdc52b6190391a178b65c3871dbcf6e5395ad7deac399e367c7205eb11"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\Volume.cpp",
+    "source_sha256": "e55765ea147101d33491e8d5316105aa10a238029a624ba151352eaffaac6ab3",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\Volume.cpp.obj",
+    "object_sha256": "b5036e5375fa72108a2f950e25b3bba730821d8e631b1b55a1f2124f32be8fa2"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\VolumePkg.cpp",
+    "source_sha256": "31f07d55a1ff7e66e240094920e8a096b140dd580575a55f7150827ffe916aff",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\VolumePkg.cpp.obj",
+    "object_sha256": "ca77663b1e3cd3f3605e73a26d90845086d86d5faa5a5adf28ef1f555042b7a3"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\SurfacePatchIndex.cpp",
+    "source_sha256": "66e951810be3b5e5dfbc54e9e0d8632156c1ba7440a9ddb011ee307b2b1dea98",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\SurfacePatchIndex.cpp.obj",
+    "object_sha256": "b571ef561ec37e44e5030fe338e79a1266bc28c4136f27754cc12a50ba197431"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\PointIndex.cpp",
+    "source_sha256": "1d437ecaad6ec35924d9fc40c054f9a6b5154170ea5e16be4c4b6a9d22ec9812",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\PointIndex.cpp.obj",
+    "object_sha256": "d8df5301f8527afb4f42cc8d40b9b47819dd1f949ad09b7ff6aff716938b52cc"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\Logging.cpp",
+    "source_sha256": "c7ffbfb7d039dfb21e3218fadac01b149e7c785dc54d6106756d224d5423497a",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\Logging.cpp.obj",
+    "object_sha256": "ad68cadd98a95fb87782d569d1a6061ea5b0c075b021c44a6cd07d14347d69ba"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\CrashHandler.cpp",
+    "source_sha256": "06f1312d098b677fda4a7ee602de0ca8e487783500b10cf4626c00b464d9cd1e",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\CrashHandler.cpp.obj",
+    "object_sha256": "b356e0de15171de11dcc29eccadaaf98a6381fb532c3443c9d23cefacf5230c6"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\MemMap.cpp",
+    "source_sha256": "08501aff061965d331373521d088f4217e4282c974735e7bb40f0b37eb315044",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\MemMap.cpp.obj",
+    "object_sha256": "fe5d164533b989b584801008615b8e07c101279652d7320973f5ac88c2229e7d"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\UnixSocket.cpp",
+    "source_sha256": "fde64be9265578ef3266c6e9d4b6754e77031c4bd9dd42eb4e32614abfde2d6e",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\UnixSocket.cpp.obj",
+    "object_sha256": "3cd101d7086def997aed5869880dbd5d6854dc1fce6682b23ad976d4cf6caf59"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\VolpkgConvert.cpp",
+    "source_sha256": "f22e8df9daeb312c411fed35a85198b7f9f8e9a94bd8ed3f3425aef9ff17e75a",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\VolpkgConvert.cpp.obj",
+    "object_sha256": "44620fbcc9b30e8d44fdfa0896b3159bb61ace43160eca945e29a8185cc13da5"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\VoxelSizeMetadata.cpp",
+    "source_sha256": "19017093c502990f11d479346201dd480b549bfa8e036f397063d664262f7ab0",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\VoxelSizeMetadata.cpp.obj",
+    "object_sha256": "4b44cd6a24d6952f0308a435a46f0d49ed9155e77d9b6b16e55a21d4be48205a"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\SparseChunkSpool.cpp",
+    "source_sha256": "3acfd32a40a64a2a45f4c6e67c1b7482ddfecdcb41d6efc155f0fa367b23ba97",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\SparseChunkSpool.cpp.obj",
+    "object_sha256": "7ee0f468e7d42858229152af96a7c48987aaf24f08716e7e2da9eb522f32dc0a"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\Slicing.cpp",
+    "source_sha256": "b99e250faccfb583317a86251ce5e70724ebf7b9d61344c1a4618d52b3da0019",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\Slicing.cpp.obj",
+    "object_sha256": "1fa3188600023d100cb9e04b523b9cba38b6fa1af6e89766d6a151cf68212f6f"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\Compositing.cpp",
+    "source_sha256": "aac8a996fc3bdd28e15abf41d84c72fa9d14cba9febbd79580e26a3f53af96ec",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\Compositing.cpp.obj",
+    "object_sha256": "3336d436aa343cb8d1e3b3ce25525b7cc10b8ef943433e364b0498c42cd8126e"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\AffineTransform.cpp",
+    "source_sha256": "c717b015dc689743cf15e2910d54b212af80ee40cfc1b836025b3a5c0e1c6626",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\AffineTransform.cpp.obj",
+    "object_sha256": "cc4a372735a3e4363652102d9efd42e4b12611dc96975d926022356333a4b9d5"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\ScaleTifxyz.cpp",
+    "source_sha256": "d9ef55f36b4f073943f85c18444796c2b85933bc73c60805e36fea48d37b6b39",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\ScaleTifxyz.cpp.obj",
+    "object_sha256": "c7e54724e5265ac5bdf15c811bc3cada9b9ca280d70bb5925809fcfcee3fafa2"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\PlaneSurface.cpp",
+    "source_sha256": "ced524687718dd4b434bc6d72e791ed8a7038f0690a100701ccb0283a1c58884",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\PlaneSurface.cpp.obj",
+    "object_sha256": "720d054dc6389157b07f3ce6b764fdc3d8d3df8c5b06e4ceba34a8f110cfc299"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\Surface.cpp",
+    "source_sha256": "d1e6afc0b953ef8565fc8da7ecaa312cfd6baef8bc16faa716a3ac097a3d8c79",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\Surface.cpp.obj",
+    "object_sha256": "4099a071cfcdacf1ca1c347014db54949c88a38d5cd4df0494e53d03fe87b296"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\QuadSurface.cpp",
+    "source_sha256": "3e57a86cd6bc348cd1bab06a6c62b4a6ab4b1bd58253c096e0c7977ca9d16a27",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\QuadSurface.cpp.obj",
+    "object_sha256": "49b97785c90b4504384810f8800da0cf50a983e7afb40b2f267a2f98be532abf"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\Render.cpp",
+    "source_sha256": "86d8d7294fd65e1717c238acb89d750c34120c01089b90059e5227c0c93e518c",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\Render.cpp.obj",
+    "object_sha256": "fbf0eaa44e7c5d790cd2ee30c0fd122b1a37a69d967f939c79a80e5aa7e46664"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\Tiff.cpp",
+    "source_sha256": "cc42abe97be71694bb684503a5ac6667d1bf3cf345911377dee093e831ec3042",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\Tiff.cpp.obj",
+    "object_sha256": "5799028673ecae8e71ef0b45f3a22678758baaf718d0c038971377f10a1cb256"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\Zarr.cpp",
+    "source_sha256": "4fc55439bb43174065933ee69faa768c26c5ad3153fcc1651fba8921960ff7c9",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\Zarr.cpp.obj",
+    "object_sha256": "343da91124c25a47351ef594d7f5546774139f02c20d797bf5590e751070d438"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\VcDataset.cpp",
+    "source_sha256": "a17730ab36fa5feeeff8451582a08facb67872759ad5fa865a61246cbac11b6b",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\VcDataset.cpp.obj",
+    "object_sha256": "6b289b48b00095fcead7947408648986cdbcff0cdd4cd67f35a110c7b8e23190"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\LoadJson.cpp",
+    "source_sha256": "7bf9243c2d658dd55e81921d978eba9ef14011a76b9e07efe178702c820c5ed7",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\LoadJson.cpp.obj",
+    "object_sha256": "ba18968be4d3ad096b2768205e8d83465cc4f09f100dac9bb0f34d05920e9c75"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\RemoteUrl.cpp",
+    "source_sha256": "8ddf9412d8a04b6c7535002f36e53f10fbbb4fb8cb0bb3b612e375c82e296ef2",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\RemoteUrl.cpp.obj",
+    "object_sha256": "e9bf54e1868cda1f6025592ad2b67015806d825b81b0b15a7b74b1adf52a3ac6"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\RemoteFileCache.cpp",
+    "source_sha256": "3195ed17e7d2871f65d2ebf7f9002ee780fd3f30a84bcf0b3305aa5a9cefab3f",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\RemoteFileCache.cpp.obj",
+    "object_sha256": "675e483ad8b8074f27987c4d6b6a74131d0ccb95b8675e40ac2bcb1edf07c5e1"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\RemoteCacheSettings.cpp",
+    "source_sha256": "ad5c4446137e58240249219c1e194a9f156f9e4da51b26cc388ba081cd844d9a",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\RemoteCacheSettings.cpp.obj",
+    "object_sha256": "0f8fd2b77eb81d5b4107cdea1462745791d8615fd9aa5eba7b891f0f130eb910"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\HttpFetch.cpp",
+    "source_sha256": "9ebc8dd1f3f6fecbdb806cb7e1e62534d8e526d7415ed53851e52964a04e9d68",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\HttpFetch.cpp.obj",
+    "object_sha256": "aa6b3bf406b4df8cc3bbb599e69ab9fd6c7a422ddba1fa3f89247ec786fca4c9"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\S3AuthFallback.cpp",
+    "source_sha256": "6ac918a4ada84fb5670bbfe71468c7dbaf5685c28c988d7eb4796f505ec56062",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\S3AuthFallback.cpp.obj",
+    "object_sha256": "f1105691b6f3f77674a7539f1ea72bcd581bd39a8e69698eedae0e723eda1332"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\PostProcess.cpp",
+    "source_sha256": "018541621765ab54fb89fc20d7cccac86080220d8ec292184801c25b3f18c0d5",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\PostProcess.cpp.obj",
+    "object_sha256": "47726c879552078be9133246d802ce5e0392d55f90ecd2ef276d10b635d6aa63"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\Geometry.cpp",
+    "source_sha256": "1f21146c8fc3cdafc0229d213ed1edba26907e899fc0e12062b636f3ea9ab53d",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\Geometry.cpp.obj",
+    "object_sha256": "590606d9e5f9a264c8bdf8cb60cd79f644349be76c61d39542b77439a6cc60d9"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\PointCollections.cpp",
+    "source_sha256": "132ef4b555769fd7bded5f927dd582114df9707a946fa62b37fe1305c9b2fc4c",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\PointCollections.cpp.obj",
+    "object_sha256": "31a66cdc2806582c56ec2591d8b20037a5b6481f1bcd0d1164190151166bdada"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\surface_metrics.cpp",
+    "source_sha256": "5de2509c84828e2fab5dad1bd63e1f44bb30f525660407e68ea9bcdf8329f475",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\surface_metrics.cpp.obj",
+    "object_sha256": "bdee69001a746bf7758e74a121ec487142b25948144e76801359a21366482a77"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\Thinning.cpp",
+    "source_sha256": "578c22f289f9e54f58efb4a9e9fdd193b0a7f21a0b171c2ac0ea507cecd362df",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\Thinning.cpp.obj",
+    "object_sha256": "94c0e03fbdabafab8134d795516928318de934aa237c4d488ff416480337d44f"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\Umbilicus.cpp",
+    "source_sha256": "2623a874573f95f321c29b32e361278ee8782f804a782374023c1ea026b4d0e0",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\Umbilicus.cpp.obj",
+    "object_sha256": "5d2878699a5427df89dbb10f3105a11be57225100db82bb95ee5022b53367f81"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\ScrollUmbilicus.cpp",
+    "source_sha256": "ed7aef7208b2ab11cb97ea9dbfe2e1af7dff04eab4ad1bd7e6e088e7a0d4e37a",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\ScrollUmbilicus.cpp.obj",
+    "object_sha256": "85ce181916a99d27b6baf15501745fb5fda78376c9c053fe3f704ad47419578c"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\render\\ChunkCache.cpp",
+    "source_sha256": "8ac4494780dbb228f6132f33ba67e314e23b46a76afa45139072c5c81d6fed88",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\render\\ChunkCache.cpp.obj",
+    "object_sha256": "6e630ac10f4b0b79d5806271c42a06d5895de9fac228adf8c2235ae880192376"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\render\\ChunkRequestScheduler.cpp",
+    "source_sha256": "4eb0b7cef1bb2a24780f5ad874909fed8ba33d9252056c6d9f20198b998efaac",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\render\\ChunkRequestScheduler.cpp.obj",
+    "object_sha256": "f6740fcdbb89f08707c3c3f7f3690509d2fd884cd647797cefd00e9eae1cf654"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\render\\DecodedChunkCacheBudget.cpp",
+    "source_sha256": "914cc5a3f70b96c3d76daaf1bab68bf00c0e9391ac008c1eb547237621c8a4fa",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\render\\DecodedChunkCacheBudget.cpp.obj",
+    "object_sha256": "1c0b7b15d7b68038ddb83a33e627cef60ccf8ae8795ff1194b7f0a3eab92a796"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\render\\PersistentZarrCacheBudget.cpp",
+    "source_sha256": "90d203dbaa68dce2e02d9fc57807f74b2f5c9a57d7d1d1c10b7657c1cd32d5df",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\render\\PersistentZarrCacheBudget.cpp.obj",
+    "object_sha256": "fefbdf70ed0f280887bf4ba215e30e84a7a8d85227a751dfdaaaf25a19c13224"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\render\\ChunkedPlaneSampler.cpp",
+    "source_sha256": "7838f02d90497835216f81c674710ad67fb134e927c9803909c3af2cc9bfce27",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\render\\ChunkedPlaneSampler.cpp.obj",
+    "object_sha256": "b8478057bac00ef28449003213385a9117556d79a8d27a80de5cc01f34ba2a90"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\render\\PinnedChunkRegion.cpp",
+    "source_sha256": "9bef2ff0151cc3d887b2ede393d286d833d1d3e0aafe239350cd8ff3a26b7c6c",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\render\\PinnedChunkRegion.cpp.obj",
+    "object_sha256": "d759129daf0921d885fd53cada0c570f4fcdc92d52a66ea39670786af613764c"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\render\\SamplingWaitProfile.cpp",
+    "source_sha256": "0ecd3e5be846456be0e0b79fe69be11adc93a9aa7f91b16fd45f5da68b70b24e",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\render\\SamplingWaitProfile.cpp.obj",
+    "object_sha256": "6a2056e21ce27e62b7ffce0347e40656055b7f9266ea1d1bfb6b8364549ac3a6"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\render\\SurfaceCache.cpp",
+    "source_sha256": "8ec68beccc13d8bc1fa8d6ea0d0fa1f54cac0c71389633bffdda55e5eef56b3b",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\render\\SurfaceCache.cpp.obj",
+    "object_sha256": "9edecdce2ab080b624b7441639dbd46c7808c3faf8ab6775fca56093ae1e0cdc"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\render\\Colormaps.cpp",
+    "source_sha256": "8f2d5a81ec72fb6ae4340fb1b4230aed138e9eb1129435a7ef4ce787ed0d3e31",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\render\\Colormaps.cpp.obj",
+    "object_sha256": "598527f83de5f81fc88d38add50ab9203d6a8e62aa0a61ee4a1ac46ff706f4a5"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\render\\PostProcess.cpp",
+    "source_sha256": "bd3553b666febb34d592929c78f1379ea588d704de4d9b93f6f29e220981e242",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\render\\PostProcess.cpp.obj",
+    "object_sha256": "270f826c477b96ae1c4384be85214fe413106b237a471ea2c655b85fdbd57e94"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\render\\ZarrDownloadBenchmark.cpp",
+    "source_sha256": "c2319f4bf988d8eeb958537482795eea88f47e1a236f4d237a687e8c792865a0",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\render\\ZarrDownloadBenchmark.cpp.obj",
+    "object_sha256": "a3cef7b0b711d0aee41cc780388b0bddd7ac20b748a7e3cf18f2a7b15d4bad2c"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\render\\ZarrChunkFetcher.cpp",
+    "source_sha256": "32e3dfc1d708a04e618ec61529b8b8092fb375b7dcd677d36e9fa7310d3a5045",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\src\\render\\ZarrChunkFetcher.cpp.obj",
+    "object_sha256": "d46ae90ecc138fb7fc321764ede9c1709998c170b08ddfdddbf14bb87cdde1b9"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\apps\\src\\vc_merge_tifxyz_grid.cpp",
+    "source_sha256": "050b5eac1cbb8bc2dabbf9cc7beab7c652cb7762ea175e3ffeb079d5e8f81c94",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\__\\apps\\src\\vc_merge_tifxyz_grid.cpp.obj",
+    "object_sha256": "ce8574c7eac7441497ff26f9a181d9341a8a66eeb8e25145366453c7437cf6ba"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\Version.cpp",
+    "source_sha256": "5f6fab48689383322c11df6488e8c04f1117da0bbc4e235d91ba6e486510c0aa",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_core.dir\\Version.cpp.obj",
+    "object_sha256": "1d3d5c83f238d6ec05fef5fba88fb24d468d0a141949933cb9266a98c17fe005"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\ABFFlattening.cpp",
+    "source_sha256": "398c72d16fa942e2df251b9d08f052c0bbc5aa068fbc3a28ae5aea4186945f26",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_flattening.dir\\src\\ABFFlattening.cpp.obj",
+    "object_sha256": "3680945223d60a3c2ddf785b835a2e0f7dc302c0f08b6267f49e7358113366e9"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\GrowPatch.cpp",
+    "source_sha256": "9e126582691f2ee7ac7494024a374ac7f728fb891407d4103b36276b52576282",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_tracer.dir\\src\\GrowPatch.cpp.obj",
+    "object_sha256": "a1fd24770d6d4ca6029a32a4701c508b4b8bb6d534eb98c7138f517147f978b8"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\GrowSurface.cpp",
+    "source_sha256": "8896b58e36cbb62fc5c33398fd30bbb233fb99d7791927bfc3dd5e66621cd6be",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_tracer.dir\\src\\GrowSurface.cpp.obj",
+    "object_sha256": "8dab90788a751782dd7d9eb395a64f5b8883aa512fb8d48180c553a1dfdadbf0"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\SurfTrackerData.cpp",
+    "source_sha256": "4f2e2585652b7d633ad05375400966990b47b7c023b945b3ce78083db55a4168",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_tracer.dir\\src\\SurfTrackerData.cpp.obj",
+    "object_sha256": "8004dd0b1f9ac17d6b23b5743e51ed5ce011bdb600802037c7a3cd7fc1a67132"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\NeuralTracerConnection.cpp",
+    "source_sha256": "871b709c168d219a67e86dfc4757d91608bc6b7ee04e29e0ea65f204b2d2697b",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_tracer.dir\\src\\NeuralTracerConnection.cpp.obj",
+    "object_sha256": "4f51e161050086bcf7b91af55b59b11afac5ea1c1ec9fc3bd14e70e4c63e439c"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\ChunkedTensor.cpp",
+    "source_sha256": "8e8770bf4661498217056e66db68c17b7b43dbdb4399bb78e492dac91e2d3c2e",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_tracer.dir\\src\\ChunkedTensor.cpp.obj",
+    "object_sha256": "0a305034a667018b098aea308f0ef3b8097375eb9634ee1862f58090975b924a"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\growth_strategies\\CandidateOrdering.cpp",
+    "source_sha256": "59b2ea3325223ce3a4de8de5f0a1086f982799572f684b0a64763ad05a737963",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_tracer.dir\\src\\growth_strategies\\CandidateOrdering.cpp.obj",
+    "object_sha256": "bf70cedbf821d3f5edc6a3685178c17d858a708554842918480203e81956b90a"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\growth_strategies\\ComponentPruning.cpp",
+    "source_sha256": "b8ed34d6f5884f5b4c84595a73f386f25ae71ce2c7fd300a4db7f29bcca8c05c",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_tracer.dir\\src\\growth_strategies\\ComponentPruning.cpp.obj",
+    "object_sha256": "643150635b39fff9bd34d9c9d951d89169ae7a13d56f37328ef5af4284ba2638"
+  },
+  {
+    "source": "<workspace>\\work\\growpatch-20261023\\villa\\volume-cartographer\\core\\src\\growth_strategies\\GrowthConfig.cpp",
+    "source_sha256": "23468bce0a144386a79e287af6fb098cf67d84a8804b77b4ed657118d5dd1ef4",
+    "object": "<workspace>\\work\\growpatch-20261023\\build-current\\core\\CMakeFiles\\vc_tracer.dir\\src\\growth_strategies\\GrowthConfig.cpp.obj",
+    "object_sha256": "cfa05f7aec7a972799a046e1aceb95c9335a27decb597e36e8537c12be77c5a1"
+  }
+]

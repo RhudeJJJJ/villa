@@ -1,0 +1,48 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Actual captured CLI output</title><style>body{font:15px system-ui;color:#17232d;margin:28px}pre{white-space:pre-wrap;font:11px monospace;background:#f3f6f8;padding:12px}main{display:grid;grid-template-columns:1fr 1fr;gap:22px}h1{font-size:26px}h2{font-size:18px}</style><h1>Actual captured CLI output: requested zero expansion</h1><p>Baseline: 81 valid saved points, 56 outside request. Guard: 25 valid saved points, zero outside; input XYZ bytes retained. Both native processes exited 0. Counts come from decoded saved outputs. This is a browser rendering of saved stdout, not a terminal-window capture or GUI execution.</p><main><section><h2>baseline / Fill, zero extra cells</h2><p>Captured native stdout; SHA256 662db4dd8c49c2e66530960528a65b92849e64604c079f19770d99293e4c61a2</p><pre>zarr dataset size for scale group 0 [768, 576, 576]
+chunk shape shape [192, 192, 192]
+mode: resume
+step size: 20
+min_area_cm: 0
+voxelsize: 9.362
+tgt_overlap_count: 20
+GrowPatch loss weights:
+  DIST: 1 STRAIGHT: 0.2 DIRECTION: 0 SNAP: 0 NORMAL: 0 NORMAL3DLINE: 0 REFERENCE_RAY: 0 SURFACE_SDT: 0 SPACELINE: 1 SDIR: 1
+empty space tracing
+GrowPatch work grid 55x55 (resume=5x5, extra_cols=0, extra_rows=0, disable_grid_expansion=1)
+Space-line loss EDT enabled (threshold=170, steps=5, invert=0)
+seed val [0, 0, 0] 0
+search &amp; optimization ...lets go! 
+resuime! 
+Resuming from generation 1 with 25 points. Initial loss count: 0
+lets start fringe: 25
+gen 2 processing 24 fringe cands (total done 25 fringe: 25)
+cands 24
+-&gt; done 49 | fringe 24 | area 1.72 mm^2 (0.000002 m^2) | avg speed 0.02 mm^2/s (0.002123 m^2/day) | current speed 0.02 mm^2/s
+gen 3 processing 32 fringe cands (total done 49 fringe: 24)
+cands 32
+-&gt; done 81 | fringe 32 | area 2.84 mm^2 (0.000003 m^2) | avg speed 0.02 mm^2/s (0.001809 m^2/day) | current speed 0.02 mm^2/s
+generated surface 25710.492437 vx^2 (0.022534 cm^2)
+saving &lt;workspace&gt;\work\growpatch-20261023\verification-runs-r2\main\development\baseline\fill-zero\surface
+</pre></section><section><h2>fixed / Fill, zero extra cells</h2><p>Captured native stdout; SHA256 d624968973a825952b3aa8f44e981a1ee9c8d0cb22ce53940437f41f9855bba7</p><pre>zarr dataset size for scale group 0 [768, 576, 576]
+chunk shape shape [192, 192, 192]
+mode: resume
+step size: 20
+min_area_cm: 0
+voxelsize: 9.362
+tgt_overlap_count: 20
+GrowPatch loss weights:
+  DIST: 1 STRAIGHT: 0.2 DIRECTION: 0 SNAP: 0 NORMAL: 0 NORMAL3DLINE: 0 REFERENCE_RAY: 0 SURFACE_SDT: 0 SPACELINE: 1 SDIR: 1
+empty space tracing
+GrowPatch work grid 55x55 (resume=5x5, extra_cols=0, extra_rows=0, disable_grid_expansion=1)
+Space-line loss EDT enabled (threshold=170, steps=5, invert=0)
+seed val [0, 0, 0] 0
+search &amp; optimization ...lets go! 
+resuime! 
+Resuming from generation 1 with 25 points. Initial loss count: 0
+lets start fringe: 25
+gen 2 processing 0 fringe cands (total done 25 fringe: 25)
+cands 0
+-&gt; done 25 | fringe 0 | area 0.88 mm^2 (0.000001 m^2) | avg speed 0.00 mm^2/s (0.000000 m^2/day) | current speed 0.00 mm^2/s
+generated surface 6447.238046 vx^2 (0.005651 cm^2)
+saving &lt;workspace&gt;\work\growpatch-20261023\verification-runs-r2\main\development\fixed\fill-zero\surface
+</pre></section></main></html>

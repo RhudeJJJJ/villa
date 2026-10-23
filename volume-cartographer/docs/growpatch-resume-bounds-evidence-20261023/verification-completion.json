@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETED",
+  "primary": {
+    "native_processes": 22,
+    "all_exit0": true,
+    "all_gates": true,
+    "summary_sha256": "74e1db586f54e2b09f2c3b9dd9a8aa131ae4038b3268401cfcd33c6fe2282421"
+  },
+  "public_forward_replay": {
+    "native_processes": 3,
+    "all_profiles_pass": true,
+    "input_bytes_unchanged": true,
+    "results_sha256": "167a19d8e0b4857a24e8abb2bb7dc62f9e5b3ba3162a46eb21264ebfd8e6da54"
+  },
+  "earlier_incomplete_attempt": {
+    "native_processes": 1,
+    "timed_out_and_reaped": true,
+    "completed_comparisons": 0,
+    "summary_sha256": "cef414fed21a521b4a45eb8690b4779ca057cf20f77d694c8f80d7b6c878ad19"
+  },
+  "counting_rule": "25 completed native processes (22 primary plus 3 same-fixture artifact-forward checks), and 1 preserved earlier incomplete timeout attempt; one contribution, three crops of one carrier. No award or organizer consolidation asserted.",
+  "observed_at_utc": "2026-10-23T22:17:48.893Z"
+}

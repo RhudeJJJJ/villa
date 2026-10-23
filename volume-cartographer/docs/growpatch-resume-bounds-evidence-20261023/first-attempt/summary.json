@@ -1,0 +1,38 @@
+{
+  "status": "INFRASTRUCTURE_ERROR",
+  "completed": false,
+  "planned_native_processes": 22,
+  "verification_protocol_sha256": "70b90b796bcf6bae7dd908a7c2a1a7e21988c26de9180f134877314907ac876f",
+  "cases": {
+    "development": {
+      "variants": {}
+    }
+  },
+  "gates": {
+    "inputs_and_binaries_unchanged": true
+  },
+  "counting_rule": "One contribution is the standalone requested resume-grid guard; multiple cases and processes are technical checks on three crops of one public carrier, not independent scrolls or multiple prize contributions.",
+  "scope": "Three crops of one PHerc0139 mesh/prediction carrier; multiple processes are not independent datasets. No physical-accuracy claim.",
+  "execution_parameters": {
+    "threads": 1,
+    "rng_seed": 2104,
+    "native_timeout_seconds": 120,
+    "growth_scale": 0,
+    "inpaint": false,
+    "resume_opt": "skip"
+  },
+  "passed": false,
+  "error": "RuntimeError: Infrastructure failure in development/baseline",
+  "input_bytes_unchanged": true,
+  "native_processes": [
+    {
+      "record": "<workspace>\\work\\growpatch-20261023\\verification-runs\\main\\development\\baseline\\fill-zero\\process.json",
+      "status": "COMPLETED",
+      "exit_code": 1,
+      "pid": 37192,
+      "timed_out": true
+    }
+  ],
+  "actual_native_processes_recorded": 1,
+  "actual_native_processes_completed_exit_0": 0
+}

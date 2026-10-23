@@ -1,0 +1,10 @@
+{
+  "source_svg_sha256": "c70b2d0f7dde1a85b40d079bf0c6714c246046e595654f7bcb3c727f05236786",
+  "png_sha256": "29a10598e0137cfd3791ef818e91f8e30210aba13b805d1dc02be770e6607d16",
+  "dimensions": [
+    1320,
+    940
+  ],
+  "method": "Pillow rasterization of generated rect/line/circle/text engineering SVG; no browser or HTML execution",
+  "not_a_terminal_screenshot": true
+}

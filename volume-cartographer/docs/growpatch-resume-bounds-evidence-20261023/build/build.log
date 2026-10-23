@@ -1,0 +1,123 @@
+[1/93] Building C object libs/c3d/CMakeFiles/c3d.dir/c3d.c.obj
+[2/93] Building C object libs/volcomp/CMakeFiles/volcomp.dir/volcomp_lib.c.obj
+[3/93] Building CXX object _deps/vc_delta3d-build/CMakeFiles/vc_delta3d.dir/src/codec.cpp.obj
+[4/93] Linking C static library libs\c3d\libc3d.a
+[5/93] Linking C static library libs\volcomp\libvolcomp.a
+[6/93] Building CXX object utils/CMakeFiles/utils.dir/src/zarr.cpp.obj
+[7/93] Building CXX object utils/CMakeFiles/utils.dir/src/Json.cpp.obj
+[8/93] Building CXX object utils/CMakeFiles/utils.dir/src/aws_auth.cpp.obj
+[9/93] Building CXX object utils/CMakeFiles/utils.dir/src/http_fetch.cpp.obj
+[10/93] Building CXX object utils/CMakeFiles/utils.dir/src/sftp_fetch.cpp.obj
+[11/93] Building CXX object utils/CMakeFiles/utils_c3d_codec.dir/src/c3d_codec.cpp.obj
+[12/93] Building CXX object utils/CMakeFiles/utils_volcomp_codec.dir/src/volcomp_codec.cpp.obj
+[13/93] Linking CXX static library _deps\vc_delta3d-build\libvc_delta3d.a
+[14/93] Linking CXX static library utils\libutils.a
+[15/93] Linking CXX static library utils\libutils_c3d_codec.a
+[16/93] Linking CXX static library utils\libutils_volcomp_codec.a
+[17/93] Building CXX object core/CMakeFiles/vc_core.dir/src/PolylineObj.cpp.obj
+[18/93] Building CXX object core/CMakeFiles/vc_core.dir/src/AtomicFile.cpp.obj
+[19/93] Building CXX object core/CMakeFiles/vc_core.dir/src/TexturedMesh.cpp.obj
+[20/93] Building CXX object core/CMakeFiles/vc_core.dir/src/SurfaceTexture.cpp.obj
+[21/93] Building CXX object core/CMakeFiles/vc_core.dir/src/GridStore.cpp.obj
+[22/93] Building CXX object core/CMakeFiles/vc_core.dir/src/NormalGridVolume.cpp.obj
+[23/93] Building CXX object core/CMakeFiles/vc_core.dir/src/normalgridtools.cpp.obj
+[24/93] Building CXX object core/CMakeFiles/vc_core.dir/src/Segmentation.cpp.obj
+[25/93] Building CXX object core/CMakeFiles/vc_core.dir/src/Volume.cpp.obj
+[26/93] Building CXX object core/CMakeFiles/vc_core.dir/src/VolumePkg.cpp.obj
+[27/93] Building CXX object core/CMakeFiles/vc_core.dir/src/SurfacePatchIndex.cpp.obj
+[28/93] Building CXX object core/CMakeFiles/vc_core.dir/src/PointIndex.cpp.obj
+[29/93] Building CXX object core/CMakeFiles/vc_core.dir/src/Logging.cpp.obj
+[30/93] Building CXX object core/CMakeFiles/vc_core.dir/src/CrashHandler.cpp.obj
+[31/93] Building CXX object core/CMakeFiles/vc_core.dir/src/MemMap.cpp.obj
+[32/93] Building CXX object core/CMakeFiles/vc_core.dir/src/UnixSocket.cpp.obj
+[33/93] Building CXX object core/CMakeFiles/vc_core.dir/src/VolpkgConvert.cpp.obj
+[34/93] Building CXX object core/CMakeFiles/vc_core.dir/src/VoxelSizeMetadata.cpp.obj
+[35/93] Building CXX object core/CMakeFiles/vc_core.dir/src/SparseChunkSpool.cpp.obj
+[36/93] Building CXX object core/CMakeFiles/vc_core.dir/src/Slicing.cpp.obj
+[37/93] Building CXX object core/CMakeFiles/vc_core.dir/src/Compositing.cpp.obj
+[38/93] Building CXX object core/CMakeFiles/vc_core.dir/src/AffineTransform.cpp.obj
+[39/93] Building CXX object core/CMakeFiles/vc_core.dir/src/ScaleTifxyz.cpp.obj
+[40/93] Building CXX object core/CMakeFiles/vc_core.dir/src/PlaneSurface.cpp.obj
+<workspace>/work/growpatch-20261023/villa/volume-cartographer/core/src/PlaneSurface.cpp: In function 'cv::Vec3f {anonymous}::rotateAroundAxis(const cv::Vec3f&, const cv::Vec3f&, float)':
+<workspace>/work/growpatch-20261023/villa/volume-cartographer/core/src/PlaneSurface.cpp:102:49: warning: 'cv::MatCommaInitializer_<_Tp> cv::operator<<(const Mat_<_Tp>&, T2) [with _Tp = double; T2 = double]' is deprecated [-Wdeprecated-declarations]
+  102 |         << axis_d[0] * static_cast<double>(angle),
+      |                                                 ^
+In file included from <toolchain>/include/opencv5/opencv2/core/mat.hpp:4159,
+                 from <workspace>/work/growpatch-20261023/villa/volume-cartographer/core/include/vc/core/util/Surface.hpp:7,
+                 from <workspace>/work/growpatch-20261023/villa/volume-cartographer/core/include/vc/core/util/PlaneSurface.hpp:3,
+                 from <workspace>/work/growpatch-20261023/villa/volume-cartographer/core/src/PlaneSurface.cpp:1:
+<toolchain>/include/opencv5/opencv2/core/mat.inl.hpp:3211:27: note: declared here
+ 3211 | MatCommaInitializer_<_Tp> operator << (const Mat_<_Tp>& m, T2 val)
+      |                           ^~~~~~~~
+<workspace>/work/growpatch-20261023/villa/volume-cartographer/core/src/PlaneSurface.cpp:107:52: warning: 'cv::MatCommaInitializer_<_Tp> cv::operator<<(const Mat_<_Tp>&, T2) [with _Tp = double; T2 = float]' is deprecated [-Wdeprecated-declarations]
+  107 |     cv::Mat v = (cv::Mat_<double>(3, 1) << vector[0], vector[1], vector[2]);
+      |                                                    ^
+<toolchain>/include/opencv5/opencv2/core/mat.inl.hpp:3211:27: note: declared here
+ 3211 | MatCommaInitializer_<_Tp> operator << (const Mat_<_Tp>& m, T2 val)
+      |                           ^~~~~~~~
+[41/93] Building CXX object core/CMakeFiles/vc_core.dir/src/Surface.cpp.obj
+[42/93] Building CXX object core/CMakeFiles/vc_core.dir/src/QuadSurface.cpp.obj
+[43/93] Building CXX object core/CMakeFiles/vc_core.dir/src/Render.cpp.obj
+[44/93] Building CXX object core/CMakeFiles/vc_core.dir/src/Tiff.cpp.obj
+[45/93] Building CXX object core/CMakeFiles/vc_core.dir/src/Zarr.cpp.obj
+[46/93] Building CXX object core/CMakeFiles/vc_core.dir/src/VcDataset.cpp.obj
+[47/93] Building CXX object core/CMakeFiles/vc_core.dir/src/LoadJson.cpp.obj
+[48/93] Building CXX object core/CMakeFiles/vc_core.dir/src/RemoteUrl.cpp.obj
+[49/93] Building CXX object core/CMakeFiles/vc_core.dir/src/RemoteFileCache.cpp.obj
+[50/93] Building CXX object core/CMakeFiles/vc_core.dir/src/RemoteCacheSettings.cpp.obj
+[51/93] Building CXX object core/CMakeFiles/vc_core.dir/src/HttpFetch.cpp.obj
+[52/93] Building CXX object core/CMakeFiles/vc_core.dir/src/S3AuthFallback.cpp.obj
+[53/93] Building CXX object core/CMakeFiles/vc_core.dir/src/PostProcess.cpp.obj
+[54/93] Building CXX object core/CMakeFiles/vc_core.dir/src/Geometry.cpp.obj
+[55/93] Building CXX object core/CMakeFiles/vc_core.dir/src/PointCollections.cpp.obj
+[56/93] Building CXX object core/CMakeFiles/vc_core.dir/src/surface_metrics.cpp.obj
+[57/93] Building CXX object core/CMakeFiles/vc_core.dir/src/Thinning.cpp.obj
+[58/93] Building CXX object core/CMakeFiles/vc_core.dir/src/Umbilicus.cpp.obj
+[59/93] Building CXX object core/CMakeFiles/vc_core.dir/src/ScrollUmbilicus.cpp.obj
+[60/93] Building CXX object core/CMakeFiles/vc_core.dir/src/render/ChunkCache.cpp.obj
+<workspace>/work/growpatch-20261023/villa/volume-cartographer/core/src/render/ChunkCache.cpp:30:11: warning: 'NOMINMAX' redefined
+   30 | #  define NOMINMAX
+      |           ^~~~~~~~
+In file included from C:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h:733,
+                 from C:/msys64/ucrt64/include/c++/16.1.0/bits/version.h:51,
+                 from C:/msys64/ucrt64/include/c++/16.1.0/atomic:51,
+                 from <workspace>/work/growpatch-20261023/villa/volume-cartographer/core/include/vc/core/render/DecodedChunkCacheBudget.hpp:3,
+                 from <workspace>/work/growpatch-20261023/villa/volume-cartographer/core/include/vc/core/render/ChunkCache.hpp:3,
+                 from <workspace>/work/growpatch-20261023/villa/volume-cartographer/core/src/render/ChunkCache.hpp:3,
+                 from <workspace>/work/growpatch-20261023/villa/volume-cartographer/core/src/render/ChunkCache.cpp:1:
+C:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/os_defines.h:45:9: note: this is the location of the previous definition
+   45 | #define NOMINMAX 1
+      |         ^~~~~~~~
+[61/93] Building CXX object core/CMakeFiles/vc_core.dir/src/render/ChunkRequestScheduler.cpp.obj
+[62/93] Building CXX object core/CMakeFiles/vc_core.dir/src/render/DecodedChunkCacheBudget.cpp.obj
+[63/93] Building CXX object core/CMakeFiles/vc_core.dir/src/render/PersistentZarrCacheBudget.cpp.obj
+[64/93] Building CXX object core/CMakeFiles/vc_core.dir/src/render/ChunkedPlaneSampler.cpp.obj
+[65/93] Building CXX object core/CMakeFiles/vc_core.dir/src/render/PinnedChunkRegion.cpp.obj
+[66/93] Building CXX object core/CMakeFiles/vc_core.dir/src/render/SamplingWaitProfile.cpp.obj
+[67/93] Building CXX object core/CMakeFiles/vc_core.dir/src/render/SurfaceCache.cpp.obj
+[68/93] Building CXX object core/CMakeFiles/vc_core.dir/src/render/Colormaps.cpp.obj
+[69/93] Building CXX object core/CMakeFiles/vc_core.dir/src/render/PostProcess.cpp.obj
+[70/93] Building CXX object core/CMakeFiles/vc_core.dir/src/render/ZarrDownloadBenchmark.cpp.obj
+[71/93] Building CXX object core/CMakeFiles/vc_core.dir/src/render/ZarrChunkFetcher.cpp.obj
+[72/93] Building CXX object core/CMakeFiles/vc_core.dir/__/apps/src/vc_merge_tifxyz_grid.cpp.obj
+[73/93] Building CXX object core/CMakeFiles/vc_core.dir/Version.cpp.obj
+[74/93] Linking CXX static library core\libvc_core.a
+[75/93] Building CXX object core/CMakeFiles/vc_flattening.dir/src/ABFFlattening.cpp.obj
+[76/93] Linking CXX static library core\libvc_flattening.a
+[77/93] Building CXX object core/CMakeFiles/vc_tracer.dir/src/GrowPatch.cpp.obj
+[78/93] Building CXX object core/CMakeFiles/vc_tracer.dir/src/GrowSurface.cpp.obj
+[79/93] Building CXX object core/CMakeFiles/vc_tracer.dir/src/SurfTrackerData.cpp.obj
+[80/93] Building CXX object core/CMakeFiles/vc_tracer.dir/src/NeuralTracerConnection.cpp.obj
+[81/93] Building CXX object core/CMakeFiles/vc_tracer.dir/src/ChunkedTensor.cpp.obj
+[82/93] Building CXX object core/CMakeFiles/vc_tracer.dir/src/growth_strategies/CandidateOrdering.cpp.obj
+[83/93] Building CXX object core/CMakeFiles/vc_tracer.dir/src/growth_strategies/ComponentPruning.cpp.obj
+[84/93] Building CXX object core/CMakeFiles/vc_tracer.dir/src/growth_strategies/GrowthConfig.cpp.obj
+[85/93] Building CXX object CMakeFiles/vcgrow_requested_bounds.dir/d97aac435702759fcd347eeb26b001f9/work/growpatch-20261023/candidate/GrowPatch.cpp.obj
+[86/93] Linking CXX static library core\libvc_tracer.a
+[87/93] Linking CXX static library libvcgrow_requested_bounds.a
+[88/93] Building CXX object CMakeFiles/vc_grow_seg_from_seed_baseline.dir/apps/src/vc_grow_seg_from_seed.cpp.obj
+[89/93] Building RC object CMakeFiles/vc_grow_seg_from_seed_baseline.dir/vc_utf8_manifest.rc.obj
+[90/93] Building CXX object CMakeFiles/vc_grow_seg_from_seed_fixed.dir/apps/src/vc_grow_seg_from_seed.cpp.obj
+[91/93] Building RC object CMakeFiles/vc_grow_seg_from_seed_fixed.dir/vc_utf8_manifest.rc.obj
+[92/93] Linking CXX executable bin\vc_grow_seg_from_seed_baseline.exe
+[93/93] Linking CXX executable bin\vc_grow_seg_from_seed_fixed.exe
