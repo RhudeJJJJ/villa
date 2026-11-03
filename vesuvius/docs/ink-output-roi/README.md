@@ -1,5 +1,19 @@
 # Context-preserving regional output for flat ink inference
 
+## Upstream status (checked 3 November 2026)
+
+[ScrollPrize/villa PR #2169](https://github.com/ScrollPrize/villa/pull/2169)
+was merged at `2026-11-01T14:22:35Z`. The upstream merge commit is
+[`76d788d9b96db0e4f7ce144c1db1f2952006468d`](https://github.com/ScrollPrize/villa/commit/76d788d9b96db0e4f7ce144c1db1f2952006468d).
+
+The original published evidence snapshot remains available at
+[`937bae870ef41fd60c758f3d4c7f8dcb918ad8be`](https://github.com/RhudeJJJJ/villa/blob/937bae870ef41fd60c758f3d4c7f8dcb918ad8be/vesuvius/docs/ink-output-roi/README.md).
+The measurements and limitations below retain their original scope; this status
+update did not rerun the experiments or expand their claims. The merge records
+upstream integration and does not establish a Progress Prize decision.
+
+## Usage and recorded evidence
+
 Use `--roi ROW_START ROW_STOP COL_START COL_STOP` to write only a selected rectangle without changing its parent CT tiles or normalization. Coordinates are half-open rows/columns at the selected resolution, not XYZ or physical micrometers.
 
 ```bash
