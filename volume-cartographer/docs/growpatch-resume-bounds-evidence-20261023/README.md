@@ -1,5 +1,27 @@
 # GrowPatch: requested bounds for unmasked resume growth
 
+## Upstream status (checked 3 November 2026)
+
+[ScrollPrize/villa PR #2278](https://github.com/ScrollPrize/villa/pull/2278)
+was closed without merge at `2026-11-01T15:06:02Z`. Maintainer bruniss recorded
+the reason as [“fixed in #2133”](https://github.com/ScrollPrize/villa/pull/2278#issuecomment-6559717193).
+
+[PR #2133](https://github.com/ScrollPrize/villa/pull/2133) had merged at
+`2026-10-30T21:44:03Z`, with upstream merge commit
+[`fd1b3a25c5bbb3bec36839d4e9a4be5f96a537bb`](https://github.com/ScrollPrize/villa/commit/fd1b3a25c5bbb3bec36839d4e9a4be5f96a537bb).
+This records the maintainer's disposition of #2278 in favor of that upstream
+fix. It does not establish that #2278's patch was merged or that #2133 was
+rerun against the evidence suite below.
+
+The original evidence snapshot remains available at
+[`3daeb08fc52b8436e9b686d8ca27e4256a401167`](https://github.com/RhudeJJJJ/villa/blob/3daeb08fc52b8436e9b686d8ca27e4256a401167/volume-cartographer/docs/growpatch-resume-bounds-evidence-20261023/README.md).
+The technical report below is retained as the historical evidence record;
+its pre-publication and personal-verification statements describe the state
+at that time. This status update adds no contributor attestation, rerun or
+Progress Prize decision.
+
+## Original technical report
+
 **PASS: 22/22 primary native processes and the separate 3/3 public-fixture forward-replay processes completed with exit zero and their required gates passed; inputs/binaries were unchanged. One earlier incomplete watchdog timeout is retained separately. Acceptance or an award is not implied.**
 
 The small change enforces the already selected extra rows/columns at the shared candidate gate. It retains the 25-cell work-grid context for optimization. The product diff is six inserted lines and one removed declaration; no scheduling or border implementation from PR #2133 or #2134 is incorporated. #2133 already describes the rectangular-path limitation.
