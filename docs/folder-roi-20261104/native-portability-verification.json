@@ -1,0 +1,12 @@
+{
+  "vc_reader/src/cpp/geometry/common.hpp": {
+    "original_sha256": "7af8775f5895e703dd3b71884763f9d02594d6b2256c5264f1d591b90fc13dde",
+    "fixed_and_current_sha256": "2bf340c32413cec280ec990f3bef44a5a73465db74025f70782b95efdcfbaaa7",
+    "original_pinned_text_match": "CRLF-to-LF only; original raw bytes retained"
+  },
+  "vc_reader/src/cpp/bindings.cpp": {
+    "original_sha256": "dc7296680b7ddc0f760aed2e53abc192a134f26bd906c62394f260244beaf010",
+    "fixed_and_current_sha256": "6fbb828e1a83f559d69160a02a709a7b7fc46df92cf74beb0a9d4274e9042026",
+    "original_pinned_text_match": "CRLF-to-LF only; original raw bytes retained"
+  }
+}

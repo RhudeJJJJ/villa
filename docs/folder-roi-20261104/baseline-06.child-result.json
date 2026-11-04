@@ -1,0 +1,304 @@
+{
+  "mode": "baseline",
+  "python_executable": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-env\\Scripts\\python.exe",
+  "python_version": "3.14.8 (main, Oct 14 2026, 01:07:21) [MSC v.1944 64 bit (AMD64)]",
+  "native_imports": {
+    "_catalog": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_catalog.cp314-win_amd64.pyd",
+      "sha256": "984fbee740e4e4952c78641b2c57658c685b7d3bf346197e6d29a6f91c08e952"
+    },
+    "_reader": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_reader.cp314-win_amd64.pyd",
+      "sha256": "978920a0eaa09d5437411cf28395ca49dd5e79042270f2911fe79572bdb23c4b"
+    },
+    "_transforms": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_transforms.cp314-win_amd64.pyd",
+      "sha256": "89f2b4914287bfa14824e40acfb60a997e8cbe00d32b1de85ab77bc7fd50c40f"
+    },
+    "_thinning": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_thinning.cp314-win_amd64.pyd",
+      "sha256": "e887241df3d29f08db3a08b677792dfb1675fdd608451570f90e7ecd7aa9fa25"
+    }
+  },
+  "pytest_exit_code": 1,
+  "collected_nodeids": [
+    "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[None]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[first_roi1]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[None]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[roi1]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_folder_full_image_is_not_skipped_after_roi",
+    "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-False]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-True]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-False]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-True]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_folder_roi_prefix_and_both_directions_have_distinct_outputs",
+    "tests/ink_detection/test_roi_folder_identity.py::test_invalid_folder_roi_is_rejected_even_when_prediction_exists"
+  ],
+  "test_reports": [
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[None]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.10201999999117106
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[None]",
+      "when": "call",
+      "outcome": "failed",
+      "duration": 0.05495839996729046,
+      "longrepr": "folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_diffe...62, 58, 59],\n       [61, 63, 64, ..., 61, 55, 57],\n       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))\nfirst_roi = None\n\n    @pytest.mark.parametrize(\"first_roi\", [None, [3, 66, 5, 73]])\n    def test_different_folder_roi_runs_and_keeps_previous_output(folder_case, first_roi):\n        segment, configured, args, reference = folder_case\n        _run(configured, args, first_roi)\n        first = next((segment / \"preds\").glob(\"*.tif\"))\n        first_bytes = first.read_bytes()\n        expected_first = reference if first_roi is None else reference[3:66, 5:73]\n        np.testing.assert_array_equal(tifffile.imread(first), expected_first)\n        next_roi = [2, 70, 4, 76]\n    \n        _run(configured, args, next_roi)\n    \n        outputs = sorted((segment / \"preds\").glob(\"*.tif\"))\n>       assert len(outputs) == 2\nE       AssertionError: assert 1 == 2\nE        +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_different_folder_roi_runs0/segment/preds/segment_weights_forward_041126.tif')])\n\nvesuvius\\tests\\ink_detection\\test_roi_folder_identity.py:74: AssertionError"
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[None]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00047309999354183674
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[first_roi1]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0583621000405401
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[first_roi1]",
+      "when": "call",
+      "outcome": "failed",
+      "duration": 0.035499899997375906,
+      "longrepr": "folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_diffe...62, 58, 59],\n       [61, 63, 64, ..., 61, 55, 57],\n       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))\nfirst_roi = [3, 66, 5, 73]\n\n    @pytest.mark.parametrize(\"first_roi\", [None, [3, 66, 5, 73]])\n    def test_different_folder_roi_runs_and_keeps_previous_output(folder_case, first_roi):\n        segment, configured, args, reference = folder_case\n        _run(configured, args, first_roi)\n        first = next((segment / \"preds\").glob(\"*.tif\"))\n        first_bytes = first.read_bytes()\n        expected_first = reference if first_roi is None else reference[3:66, 5:73]\n        np.testing.assert_array_equal(tifffile.imread(first), expected_first)\n        next_roi = [2, 70, 4, 76]\n    \n        _run(configured, args, next_roi)\n    \n        outputs = sorted((segment / \"preds\").glob(\"*.tif\"))\n>       assert len(outputs) == 2\nE       AssertionError: assert 1 == 2\nE        +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_different_folder_roi_runs1/segment/preds/segment_weights_forward_041126.tif')])\n\nvesuvius\\tests\\ink_detection\\test_roi_folder_identity.py:74: AssertionError"
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[first_roi1]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005123000591993332
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[None]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.06457060005050153
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[None]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.04522870003711432
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[None]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005015999777242541
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[roi1]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.07271800003945827
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[roi1]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.05154690006747842
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[roi1]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0004550000885501504
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_folder_full_image_is_not_skipped_after_roi",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.06029349996242672
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_folder_full_image_is_not_skipped_after_roi",
+      "when": "call",
+      "outcome": "failed",
+      "duration": 0.032912899972870946,
+      "longrepr": "folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_folde...62, 58, 59],\n       [61, 63, 64, ..., 61, 55, 57],\n       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))\n\n    def test_folder_full_image_is_not_skipped_after_roi(folder_case):\n        segment, configured, args, reference = folder_case\n        _run(configured, args, [3, 66, 5, 73])\n    \n        _run(configured, args, None)\n    \n        full = list((segment / \"preds\").glob(\"segment_weights_forward_*.tif\"))\n        assert len(full) == 1\n>       assert tifffile.imread(full[0]).shape == (80, 80)\nE       assert (63, 68) == (80, 80)\nE         \nE         At index 0 diff: 63 != 80\nE         \nE         Full diff:\nE           (\nE         +     63,\nE         -     80,\nE         ?      -\nE         +     68,\nE         ?     +\nE         -     80,\nE           )\n\nvesuvius\\tests\\ink_detection\\test_roi_folder_identity.py:114: AssertionError"
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_folder_full_image_is_not_skipped_after_roi",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.001222899998538196
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-False]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.07181929994840175
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-False]",
+      "when": "call",
+      "outcome": "failed",
+      "duration": 0.05098289996385574,
+      "longrepr": "folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_u...62, 58, 59],\n       [61, 63, 64, ..., 61, 55, 57],\n       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))\nmonkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x0000018C991A6570>\nmalformed_sidecar = False, old_date = '010101'\n\n    @pytest.mark.parametrize(\"malformed_sidecar\", [False, True])\n    @pytest.mark.parametrize(\"old_date\", [\"010101\", \"041126\"])\n    def test_old_untagged_roi_does_not_satisfy_full_image_request(\n        folder_case, monkeypatch, malformed_sidecar, old_date\n    ):\n        class FixedDate:\n            @staticmethod\n            def now():\n                return datetime(2026, 11, 4)\n    \n        monkeypatch.setattr(infer, \"datetime\", FixedDate)\n        segment, configured, args, reference = folder_case\n        _run(configured, args, [3, 66, 5, 73])\n        roi = next((segment / \"preds\").glob(\"*.tif\"))\n        old = roi.with_name(f\"segment_weights_forward_{old_date}.tif\")\n        roi.rename(old)\n        roi.with_suffix(\".tif.roi.json\").rename(old.with_suffix(\".tif.roi.json\"))\n        if malformed_sidecar:\n            old.with_suffix(\".tif.roi.json\").write_text(\"{malformed\", encoding=\"utf-8\")\n        old_bytes = old.read_bytes()\n        old_metadata = old.with_suffix(\".tif.roi.json\").read_bytes()\n        np.testing.assert_array_equal(tifffile.imread(old), reference[3:66, 5:73])\n    \n        _run(configured, args, None)\n    \n        outputs = list((segment / \"preds\").glob(\"segment_weights_forward_*.tif\"))\n>       assert len(outputs) == 2\nE       AssertionError: assert 1 == 2\nE        +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_untagged_roi_does_not0/segment/preds/segment_weights_forward_010101.tif')])\n\nvesuvius\\tests\\ink_detection\\test_roi_folder_identity.py:145: AssertionError"
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-False]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005194999976083636
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-True]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.06190179998520762
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-True]",
+      "when": "call",
+      "outcome": "failed",
+      "duration": 0.04637560003902763,
+      "longrepr": "folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_u...62, 58, 59],\n       [61, 63, 64, ..., 61, 55, 57],\n       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))\nmonkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x0000018C9957EF10>\nmalformed_sidecar = True, old_date = '010101'\n\n    @pytest.mark.parametrize(\"malformed_sidecar\", [False, True])\n    @pytest.mark.parametrize(\"old_date\", [\"010101\", \"041126\"])\n    def test_old_untagged_roi_does_not_satisfy_full_image_request(\n        folder_case, monkeypatch, malformed_sidecar, old_date\n    ):\n        class FixedDate:\n            @staticmethod\n            def now():\n                return datetime(2026, 11, 4)\n    \n        monkeypatch.setattr(infer, \"datetime\", FixedDate)\n        segment, configured, args, reference = folder_case\n        _run(configured, args, [3, 66, 5, 73])\n        roi = next((segment / \"preds\").glob(\"*.tif\"))\n        old = roi.with_name(f\"segment_weights_forward_{old_date}.tif\")\n        roi.rename(old)\n        roi.with_suffix(\".tif.roi.json\").rename(old.with_suffix(\".tif.roi.json\"))\n        if malformed_sidecar:\n            old.with_suffix(\".tif.roi.json\").write_text(\"{malformed\", encoding=\"utf-8\")\n        old_bytes = old.read_bytes()\n        old_metadata = old.with_suffix(\".tif.roi.json\").read_bytes()\n        np.testing.assert_array_equal(tifffile.imread(old), reference[3:66, 5:73])\n    \n        _run(configured, args, None)\n    \n        outputs = list((segment / \"preds\").glob(\"segment_weights_forward_*.tif\"))\n>       assert len(outputs) == 2\nE       AssertionError: assert 1 == 2\nE        +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_untagged_roi_does_not1/segment/preds/segment_weights_forward_010101.tif')])\n\nvesuvius\\tests\\ink_detection\\test_roi_folder_identity.py:145: AssertionError"
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-True]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0007403999334201217
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-False]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.05773369991220534
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-False]",
+      "when": "call",
+      "outcome": "failed",
+      "duration": 0.04448799998499453,
+      "longrepr": "folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_u...62, 58, 59],\n       [61, 63, 64, ..., 61, 55, 57],\n       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))\nmonkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x0000018C9957F350>\nmalformed_sidecar = False, old_date = '041126'\n\n    @pytest.mark.parametrize(\"malformed_sidecar\", [False, True])\n    @pytest.mark.parametrize(\"old_date\", [\"010101\", \"041126\"])\n    def test_old_untagged_roi_does_not_satisfy_full_image_request(\n        folder_case, monkeypatch, malformed_sidecar, old_date\n    ):\n        class FixedDate:\n            @staticmethod\n            def now():\n                return datetime(2026, 11, 4)\n    \n        monkeypatch.setattr(infer, \"datetime\", FixedDate)\n        segment, configured, args, reference = folder_case\n        _run(configured, args, [3, 66, 5, 73])\n        roi = next((segment / \"preds\").glob(\"*.tif\"))\n        old = roi.with_name(f\"segment_weights_forward_{old_date}.tif\")\n        roi.rename(old)\n        roi.with_suffix(\".tif.roi.json\").rename(old.with_suffix(\".tif.roi.json\"))\n        if malformed_sidecar:\n            old.with_suffix(\".tif.roi.json\").write_text(\"{malformed\", encoding=\"utf-8\")\n        old_bytes = old.read_bytes()\n        old_metadata = old.with_suffix(\".tif.roi.json\").read_bytes()\n        np.testing.assert_array_equal(tifffile.imread(old), reference[3:66, 5:73])\n    \n        _run(configured, args, None)\n    \n        outputs = list((segment / \"preds\").glob(\"segment_weights_forward_*.tif\"))\n>       assert len(outputs) == 2\nE       AssertionError: assert 1 == 2\nE        +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_untagged_roi_does_not2/segment/preds/segment_weights_forward_041126.tif')])\n\nvesuvius\\tests\\ink_detection\\test_roi_folder_identity.py:145: AssertionError"
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-False]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0006069999653846025
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-True]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.08955270005390048
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-True]",
+      "when": "call",
+      "outcome": "failed",
+      "duration": 0.06453849992249161,
+      "longrepr": "folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_u...62, 58, 59],\n       [61, 63, 64, ..., 61, 55, 57],\n       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))\nmonkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x0000018C9942F850>\nmalformed_sidecar = True, old_date = '041126'\n\n    @pytest.mark.parametrize(\"malformed_sidecar\", [False, True])\n    @pytest.mark.parametrize(\"old_date\", [\"010101\", \"041126\"])\n    def test_old_untagged_roi_does_not_satisfy_full_image_request(\n        folder_case, monkeypatch, malformed_sidecar, old_date\n    ):\n        class FixedDate:\n            @staticmethod\n            def now():\n                return datetime(2026, 11, 4)\n    \n        monkeypatch.setattr(infer, \"datetime\", FixedDate)\n        segment, configured, args, reference = folder_case\n        _run(configured, args, [3, 66, 5, 73])\n        roi = next((segment / \"preds\").glob(\"*.tif\"))\n        old = roi.with_name(f\"segment_weights_forward_{old_date}.tif\")\n        roi.rename(old)\n        roi.with_suffix(\".tif.roi.json\").rename(old.with_suffix(\".tif.roi.json\"))\n        if malformed_sidecar:\n            old.with_suffix(\".tif.roi.json\").write_text(\"{malformed\", encoding=\"utf-8\")\n        old_bytes = old.read_bytes()\n        old_metadata = old.with_suffix(\".tif.roi.json\").read_bytes()\n        np.testing.assert_array_equal(tifffile.imread(old), reference[3:66, 5:73])\n    \n        _run(configured, args, None)\n    \n        outputs = list((segment / \"preds\").glob(\"segment_weights_forward_*.tif\"))\n>       assert len(outputs) == 2\nE       AssertionError: assert 1 == 2\nE        +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_untagged_roi_does_not3/segment/preds/segment_weights_forward_041126.tif')])\n\nvesuvius\\tests\\ink_detection\\test_roi_folder_identity.py:145: AssertionError"
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-True]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.000562199973501265
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_folder_roi_prefix_and_both_directions_have_distinct_outputs",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.07722969993483275
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_folder_roi_prefix_and_both_directions_have_distinct_outputs",
+      "when": "call",
+      "outcome": "failed",
+      "duration": 0.1405845999252051,
+      "longrepr": "folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_folde...62, 58, 59],\n       [61, 63, 64, ..., 61, 55, 57],\n       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))\n\n    def test_folder_roi_prefix_and_both_directions_have_distinct_outputs(folder_case):\n        segment, configured, args, reference = folder_case\n        args.output_prefix = \"probe\"\n        args.direction = \"both\"\n    \n        _run(configured, args, [3, 66, 5, 73])\n    \n        outputs = list((segment / \"preds\").glob(\"*.tif\"))\n        assert len(outputs) == 2\n>       assert {path.name.split(\"_roi_r3-66_c5-73_\")[1].split(\"_\")[0]\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                for path in outputs} == {\"forward\", \"reverse\"}\nE       IndexError: list index out of range\n\nvesuvius\\tests\\ink_detection\\test_roi_folder_identity.py:170: IndexError"
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_folder_roi_prefix_and_both_directions_have_distinct_outputs",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0004121999954804778
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_invalid_folder_roi_is_rejected_even_when_prediction_exists",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.06431909999810159
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_invalid_folder_roi_is_rejected_even_when_prediction_exists",
+      "when": "call",
+      "outcome": "failed",
+      "duration": 0.0297359999967739,
+      "longrepr": "folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_inval...62, 58, 59],\n       [61, 63, 64, ..., 61, 55, 57],\n       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))\n\n    def test_invalid_folder_roi_is_rejected_even_when_prediction_exists(folder_case):\n        _, configured, args, _ = folder_case\n        _run(configured, args, None)\n    \n>       with pytest.raises(ValueError, match=\"--roi\"):\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE       Failed: DID NOT RAISE ValueError\n\nvesuvius\\tests\\ink_detection\\test_roi_folder_identity.py:181: Failed"
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_invalid_folder_roi_is_rejected_even_when_prediction_exists",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0006131000118330121
+    }
+  ],
+  "test_source_hashes": {
+    "vesuvius/tests/ink_detection/fixtures/ink_roi_case.json": {
+      "sha256_before": "7c2b5d8b3497764faaf7539b6538ae0b187ecdd9ac5ca559b3cd26be89389309",
+      "sha256_after": "7c2b5d8b3497764faaf7539b6538ae0b187ecdd9ac5ca559b3cd26be89389309"
+    },
+    "vesuvius/tests/ink_detection/fixtures/ink_roi_case.npz": {
+      "sha256_before": "2bd2ef9bfbdd620f1250cda59cf83f2f679cb4a8be9feffefd3e3de32ee503ea",
+      "sha256_after": "2bd2ef9bfbdd620f1250cda59cf83f2f679cb4a8be9feffefd3e3de32ee503ea"
+    },
+    "vesuvius/tests/ink_detection/test_roi_folder_identity.py": {
+      "sha256_before": "90e7a3cafb6a7bc0910db5f852170f67941043e095a39def99184e631eaa1bf8",
+      "sha256_after": "90e7a3cafb6a7bc0910db5f852170f67941043e095a39def99184e631eaa1bf8"
+    },
+    "vesuvius/tests/ink_detection/test_roi_output_metadata.py": {
+      "sha256_before": "903da35f2e4c89f6607b91a032c4ef2c16c04c5acc78bbc41ed2760f0759800b",
+      "sha256_after": "903da35f2e4c89f6607b91a032c4ef2c16c04c5acc78bbc41ed2760f0759800b"
+    }
+  },
+  "upstream_pin": "baf5e605bb42a3d55a62b7c5c728e0908137225c",
+  "dll_directories": [
+    "C:\\Users\\jonas\\Documents\\Codex\\2026-10-16\\hier-in-diesem-chat-wollen-wir\\targets\\VC-GROW-2104\\full-cpp\\prefix\\ucrt64\\bin",
+    "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build"
+  ],
+  "torch": {
+    "version": "2.14.1+cpu",
+    "threads": 2,
+    "interop_threads": 1
+  },
+  "inference_source": {
+    "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\roi-replay-baseline\\infer-source.py",
+    "sha256": "88bb792f8f71278ee1d79ce1c5c95416cede16a5b04acce3df6a763050b07c91",
+    "sha256_before": "88bb792f8f71278ee1d79ce1c5c95416cede16a5b04acce3df6a763050b07c91",
+    "upstream_pin": "baf5e605bb42a3d55a62b7c5c728e0908137225c",
+    "pinned_upstream_blob": "30d7b8f6a7ed283eb13f8f5eccfc0aec0c964e6a",
+    "loaded_filtered_blob": "30d7b8f6a7ed283eb13f8f5eccfc0aec0c964e6a",
+    "source_identity_rule": "Raw SHA-256 retained; git --path text identity allows repository CRLF normalization",
+    "baseline_pin_match": true,
+    "normalization": "CRLF-to-LF only; actual file bytes are not rewritten",
+    "pinned_raw_sha256": "32d1fcb5900a38a10103e6162e8dd8a97d9ab0f2f791e8e251fcdbaa55285522",
+    "canonical_lf_sha256": "32d1fcb5900a38a10103e6162e8dd8a97d9ab0f2f791e8e251fcdbaa55285522",
+    "sha256_after_import": "88bb792f8f71278ee1d79ce1c5c95416cede16a5b04acce3df6a763050b07c91",
+    "sha256_after": "88bb792f8f71278ee1d79ce1c5c95416cede16a5b04acce3df6a763050b07c91"
+  },
+  "pytest_arguments": [
+    "-p",
+    "no:napari",
+    "-m",
+    "not slow and not network",
+    "-vv",
+    "--tb=long",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-test-evidence\\baseline-06\\pytest-tmp",
+    "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vesuvius\\tests\\ink_detection\\test_roi_folder_identity.py"
+  ],
+  "status": "pytest_failed",
+  "wall_seconds": 13.35354839998763
+}

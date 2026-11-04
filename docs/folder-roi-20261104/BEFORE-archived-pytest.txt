@@ -1,0 +1,19 @@
+BEFORE: archived native pytest transcript (baseline-06)
+Log view captured for review on 04 Nov 2026; no new run.
+Real PHerc0139 w035 CT fixture: 17 x 80 x 80; saved model outputs.
+Both runs use the same locally adapted Windows CPU native backend.
+Raw stdout SHA-256: f702aa1ee650b6fe172133eff53c4deb4abd958981a48ca05740cfbd4fefe9e4
+Verbatim excerpts below; see the complete log for every case.
+
+collecting ... collected 11 items
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[None] FAILED [  9%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[None] PASSED [ 27%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_folder_full_image_is_not_skipped_after_roi FAILED [ 45%]
+
+>       assert len(outputs) == 2
+E       AssertionError: assert 1 == 2
+
+========================= 9 failed, 2 passed in 1.74s =========================
+
+The eleven new cases are workflow variants of one real CT fixture.
+No fresh checkpoint inference, new letters or ink-quality claim.

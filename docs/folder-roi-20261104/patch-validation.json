@@ -1,0 +1,30 @@
+{
+  "status": "fresh_forward_application_verified",
+  "commands": [
+    {
+      "command": [
+        "git",
+        "apply",
+        "--check",
+        "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-roi-apply-npgu02cv\\change.patch"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "apply",
+        "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-roi-apply-npgu02cv\\change.patch"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "baseline_pinned_raw_sha256": "32d1fcb5900a38a10103e6162e8dd8a97d9ab0f2f791e8e251fcdbaa55285522",
+  "baseline_saved_raw_sha256": "88bb792f8f71278ee1d79ce1c5c95416cede16a5b04acce3df6a763050b07c91",
+  "baseline_normalization": "Only CRLF-to-LF text normalization; original saved bytes retained",
+  "line_endings": "UTF-8 text equality checked after application; packaged source files retain original bytes"
+}

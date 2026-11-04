@@ -1,0 +1,244 @@
+{
+  "baseline": {
+    "label": "baseline-06",
+    "mode": "baseline",
+    "folder": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-test-evidence\\baseline-06",
+    "collected": 11,
+    "call_outcomes": {
+      "failed": 9,
+      "passed": 2
+    },
+    "case_counts_by_file": {
+      "test_roi_folder_identity.py": 11
+    },
+    "python_version": "3.14.8 (main, Oct 14 2026, 01:07:21) [MSC v.1944 64 bit (AMD64)]",
+    "torch": {
+      "version": "2.14.1+cpu",
+      "threads": 2,
+      "interop_threads": 1
+    },
+    "native_imports": {
+      "_catalog": {
+        "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_catalog.cp314-win_amd64.pyd",
+        "sha256": "984fbee740e4e4952c78641b2c57658c685b7d3bf346197e6d29a6f91c08e952"
+      },
+      "_reader": {
+        "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_reader.cp314-win_amd64.pyd",
+        "sha256": "978920a0eaa09d5437411cf28395ca49dd5e79042270f2911fe79572bdb23c4b"
+      },
+      "_transforms": {
+        "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_transforms.cp314-win_amd64.pyd",
+        "sha256": "89f2b4914287bfa14824e40acfb60a997e8cbe00d32b1de85ab77bc7fd50c40f"
+      },
+      "_thinning": {
+        "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_thinning.cp314-win_amd64.pyd",
+        "sha256": "e887241df3d29f08db3a08b677792dfb1675fdd608451570f90e7ecd7aa9fa25"
+      }
+    },
+    "source": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\roi-replay-baseline\\infer-source.py",
+      "sha256": "88bb792f8f71278ee1d79ce1c5c95416cede16a5b04acce3df6a763050b07c91",
+      "sha256_before": "88bb792f8f71278ee1d79ce1c5c95416cede16a5b04acce3df6a763050b07c91",
+      "upstream_pin": "baf5e605bb42a3d55a62b7c5c728e0908137225c",
+      "pinned_upstream_blob": "30d7b8f6a7ed283eb13f8f5eccfc0aec0c964e6a",
+      "loaded_filtered_blob": "30d7b8f6a7ed283eb13f8f5eccfc0aec0c964e6a",
+      "source_identity_rule": "Raw SHA-256 retained; git --path text identity allows repository CRLF normalization",
+      "baseline_pin_match": true,
+      "normalization": "CRLF-to-LF only; actual file bytes are not rewritten",
+      "pinned_raw_sha256": "32d1fcb5900a38a10103e6162e8dd8a97d9ab0f2f791e8e251fcdbaa55285522",
+      "canonical_lf_sha256": "32d1fcb5900a38a10103e6162e8dd8a97d9ab0f2f791e8e251fcdbaa55285522",
+      "sha256_after_import": "88bb792f8f71278ee1d79ce1c5c95416cede16a5b04acce3df6a763050b07c91",
+      "sha256_after": "88bb792f8f71278ee1d79ce1c5c95416cede16a5b04acce3df6a763050b07c91"
+    },
+    "test_source_hashes": {
+      "vesuvius/tests/ink_detection/fixtures/ink_roi_case.json": {
+        "sha256_before": "7c2b5d8b3497764faaf7539b6538ae0b187ecdd9ac5ca559b3cd26be89389309",
+        "sha256_after": "7c2b5d8b3497764faaf7539b6538ae0b187ecdd9ac5ca559b3cd26be89389309"
+      },
+      "vesuvius/tests/ink_detection/fixtures/ink_roi_case.npz": {
+        "sha256_before": "2bd2ef9bfbdd620f1250cda59cf83f2f679cb4a8be9feffefd3e3de32ee503ea",
+        "sha256_after": "2bd2ef9bfbdd620f1250cda59cf83f2f679cb4a8be9feffefd3e3de32ee503ea"
+      },
+      "vesuvius/tests/ink_detection/test_roi_folder_identity.py": {
+        "sha256_before": "90e7a3cafb6a7bc0910db5f852170f67941043e095a39def99184e631eaa1bf8",
+        "sha256_after": "90e7a3cafb6a7bc0910db5f852170f67941043e095a39def99184e631eaa1bf8"
+      },
+      "vesuvius/tests/ink_detection/test_roi_output_metadata.py": {
+        "sha256_before": "903da35f2e4c89f6607b91a032c4ef2c16c04c5acc78bbc41ed2760f0759800b",
+        "sha256_after": "903da35f2e4c89f6607b91a032c4ef2c16c04c5acc78bbc41ed2760f0759800b"
+      }
+    },
+    "complete_expected_setup_call_teardown": true
+  },
+  "fixed": {
+    "label": "fixed-02",
+    "mode": "fixed",
+    "folder": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-test-evidence\\fixed-02",
+    "collected": 44,
+    "call_outcomes": {
+      "passed": 44
+    },
+    "case_counts_by_file": {
+      "test_roi_folder_identity.py": 11,
+      "test_roi_inference.py": 29,
+      "test_roi_output_metadata.py": 4
+    },
+    "python_version": "3.14.8 (main, Oct 14 2026, 01:07:21) [MSC v.1944 64 bit (AMD64)]",
+    "torch": {
+      "version": "2.14.1+cpu",
+      "threads": 2,
+      "interop_threads": 1
+    },
+    "native_imports": {
+      "_catalog": {
+        "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_catalog.cp314-win_amd64.pyd",
+        "sha256": "984fbee740e4e4952c78641b2c57658c685b7d3bf346197e6d29a6f91c08e952"
+      },
+      "_reader": {
+        "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_reader.cp314-win_amd64.pyd",
+        "sha256": "978920a0eaa09d5437411cf28395ca49dd5e79042270f2911fe79572bdb23c4b"
+      },
+      "_transforms": {
+        "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_transforms.cp314-win_amd64.pyd",
+        "sha256": "89f2b4914287bfa14824e40acfb60a997e8cbe00d32b1de85ab77bc7fd50c40f"
+      },
+      "_thinning": {
+        "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_thinning.cp314-win_amd64.pyd",
+        "sha256": "e887241df3d29f08db3a08b677792dfb1675fdd608451570f90e7ecd7aa9fa25"
+      }
+    },
+    "source": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vesuvius\\src\\vesuvius\\ink_detection\\inference\\infer.py",
+      "sha256": "f88d9ec5ab1bcaa247535266faa0474dc62425a87702c714633d98ae125b9755",
+      "sha256_before": "f88d9ec5ab1bcaa247535266faa0474dc62425a87702c714633d98ae125b9755",
+      "upstream_pin": "baf5e605bb42a3d55a62b7c5c728e0908137225c",
+      "pinned_upstream_blob": "30d7b8f6a7ed283eb13f8f5eccfc0aec0c964e6a",
+      "loaded_filtered_blob": "0428cdf306775f8e597442bc6ca2487ee440b55e",
+      "source_identity_rule": "Raw SHA-256 retained; git --path text identity allows repository CRLF normalization",
+      "sha256_after_import": "f88d9ec5ab1bcaa247535266faa0474dc62425a87702c714633d98ae125b9755",
+      "sha256_after": "f88d9ec5ab1bcaa247535266faa0474dc62425a87702c714633d98ae125b9755"
+    },
+    "test_source_hashes": {
+      "vesuvius/tests/ink_detection/fixtures/ink_roi_case.json": {
+        "sha256_before": "7c2b5d8b3497764faaf7539b6538ae0b187ecdd9ac5ca559b3cd26be89389309",
+        "sha256_after": "7c2b5d8b3497764faaf7539b6538ae0b187ecdd9ac5ca559b3cd26be89389309"
+      },
+      "vesuvius/tests/ink_detection/fixtures/ink_roi_case.npz": {
+        "sha256_before": "2bd2ef9bfbdd620f1250cda59cf83f2f679cb4a8be9feffefd3e3de32ee503ea",
+        "sha256_after": "2bd2ef9bfbdd620f1250cda59cf83f2f679cb4a8be9feffefd3e3de32ee503ea"
+      },
+      "vesuvius/tests/ink_detection/test_roi_folder_identity.py": {
+        "sha256_before": "90e7a3cafb6a7bc0910db5f852170f67941043e095a39def99184e631eaa1bf8",
+        "sha256_after": "90e7a3cafb6a7bc0910db5f852170f67941043e095a39def99184e631eaa1bf8"
+      },
+      "vesuvius/tests/ink_detection/test_roi_inference.py": {
+        "sha256_before": "2d5d47247440159488d7ffde6252bb876cfd3a08dbf79b32bda7b1d64050930b",
+        "sha256_after": "2d5d47247440159488d7ffde6252bb876cfd3a08dbf79b32bda7b1d64050930b"
+      },
+      "vesuvius/tests/ink_detection/test_roi_output_metadata.py": {
+        "sha256_before": "903da35f2e4c89f6607b91a032c4ef2c16c04c5acc78bbc41ed2760f0759800b",
+        "sha256_after": "903da35f2e4c89f6607b91a032c4ef2c16c04c5acc78bbc41ed2760f0759800b"
+      }
+    },
+    "complete_expected_setup_call_teardown": true
+  },
+  "earlier_runs": [
+    {
+      "label": "baseline-01",
+      "available_record_files": [
+        "runner-result.json",
+        "child-result.json",
+        "staging.json",
+        "stdout.txt",
+        "stderr.txt"
+      ],
+      "selected": false,
+      "missing_record_files": []
+    },
+    {
+      "label": "baseline-02",
+      "available_record_files": [
+        "runner-result.json",
+        "child-result.json",
+        "staging.json",
+        "stdout.txt",
+        "stderr.txt"
+      ],
+      "selected": false,
+      "missing_record_files": []
+    },
+    {
+      "label": "baseline-03",
+      "available_record_files": [
+        "runner-result.json",
+        "child-result.json",
+        "staging.json",
+        "stdout.txt",
+        "stderr.txt"
+      ],
+      "selected": false,
+      "missing_record_files": []
+    },
+    {
+      "label": "baseline-04",
+      "available_record_files": [
+        "runner-result.json",
+        "child-result.json",
+        "staging.json",
+        "stdout.txt",
+        "stderr.txt"
+      ],
+      "selected": false,
+      "missing_record_files": []
+    },
+    {
+      "label": "baseline-05",
+      "available_record_files": [
+        "runner-result.json",
+        "child-result.json",
+        "staging.json",
+        "stdout.txt",
+        "stderr.txt"
+      ],
+      "selected": false,
+      "missing_record_files": []
+    },
+    {
+      "label": "baseline-06",
+      "available_record_files": [
+        "runner-result.json",
+        "child-result.json",
+        "staging.json",
+        "stdout.txt",
+        "stderr.txt"
+      ],
+      "selected": true,
+      "missing_record_files": []
+    },
+    {
+      "label": "fixed-01",
+      "available_record_files": [
+        "runner-result.json",
+        "child-result.json",
+        "staging.json",
+        "stdout.txt",
+        "stderr.txt"
+      ],
+      "selected": false,
+      "missing_record_files": []
+    },
+    {
+      "label": "fixed-02",
+      "available_record_files": [
+        "runner-result.json",
+        "child-result.json",
+        "staging.json",
+        "stdout.txt",
+        "stderr.txt"
+      ],
+      "selected": true,
+      "missing_record_files": []
+    }
+  ],
+  "source_pin": "baf5e605bb42a3d55a62b7c5c728e0908137225c"
+}

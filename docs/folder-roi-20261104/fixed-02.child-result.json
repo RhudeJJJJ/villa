@@ -1,0 +1,924 @@
+{
+  "mode": "fixed",
+  "python_executable": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-env\\Scripts\\python.exe",
+  "python_version": "3.14.8 (main, Oct 14 2026, 01:07:21) [MSC v.1944 64 bit (AMD64)]",
+  "native_imports": {
+    "_catalog": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_catalog.cp314-win_amd64.pyd",
+      "sha256": "984fbee740e4e4952c78641b2c57658c685b7d3bf346197e6d29a6f91c08e952"
+    },
+    "_reader": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_reader.cp314-win_amd64.pyd",
+      "sha256": "978920a0eaa09d5437411cf28395ca49dd5e79042270f2911fe79572bdb23c4b"
+    },
+    "_transforms": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_transforms.cp314-win_amd64.pyd",
+      "sha256": "89f2b4914287bfa14824e40acfb60a997e8cbe00d32b1de85ab77bc7fd50c40f"
+    },
+    "_thinning": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_thinning.cp314-win_amd64.pyd",
+      "sha256": "e887241df3d29f08db3a08b677792dfb1675fdd608451570f90e7ecd7aa9fa25"
+    }
+  },
+  "pytest_exit_code": 0,
+  "collected_nodeids": [
+    "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[None]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[first_roi1]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[None]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[roi1]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_folder_full_image_is_not_skipped_after_roi",
+    "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-False]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-True]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-False]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-True]",
+    "tests/ink_detection/test_roi_folder_identity.py::test_folder_roi_prefix_and_both_directions_have_distinct_outputs",
+    "tests/ink_detection/test_roi_folder_identity.py::test_invalid_folder_roi_is_rejected_even_when_prediction_exists",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape0-roi0]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape1-roi1]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape2-roi2]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape3-roi3]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape4-roi4]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape0-roi0]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape1-roi1]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape2-roi2]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape3-roi3]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape4-roi4]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape0-roi0]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape1-roi1]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape2-roi2]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape3-roi3]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape4-roi4]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape0-roi0]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape1-roi1]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape2-roi2]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape3-roi3]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape4-roi4]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi0]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi1]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi2]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi3]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi4]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi5]",
+    "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi6]",
+    "tests/ink_detection/test_roi_inference.py::test_clipped_real_prediction_assembly_and_raw_zero_skip",
+    "tests/ink_detection/test_roi_inference.py::test_roi_cli_does_not_rescale_coordinates",
+    "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[0-None]",
+    "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[0-next_roi1]",
+    "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[1-None]",
+    "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[1-next_roi1]"
+  ],
+  "test_reports": [
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[None]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.1169569999910891
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[None]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.11792160000186414
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[None]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005688000237569213
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[first_roi1]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.06143489992246032
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[first_roi1]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.10493000003043562
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[first_roi1]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005889999447390437
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[None]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.06197140004951507
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[None]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.03735300002153963
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[None]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005330001004040241
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[roi1]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.06412460003048182
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[roi1]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.040658599929884076
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[roi1]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005825000116601586
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_folder_full_image_is_not_skipped_after_roi",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.061060699983499944
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_folder_full_image_is_not_skipped_after_roi",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.06779979995917529
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_folder_full_image_is_not_skipped_after_roi",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005410000449046493
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-False]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.5846194999758154
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-False]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.15911929996218532
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-False]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0006215999601408839
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-True]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.07131140003912151
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-True]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.07690049998927861
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-True]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0011650000233203173
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-False]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.1768688999582082
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-False]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.09784920001402497
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-False]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005416999338194728
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-True]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.07401969993952662
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-True]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.08484180003870279
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-True]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005640999879688025
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_folder_roi_prefix_and_both_directions_have_distinct_outputs",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.06387160008307546
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_folder_roi_prefix_and_both_directions_have_distinct_outputs",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0801729999948293
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_folder_roi_prefix_and_both_directions_have_distinct_outputs",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0008143999148160219
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_invalid_folder_roi_is_rejected_even_when_prediction_exists",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.05999310000333935
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_invalid_folder_roi_is_rejected_even_when_prediction_exists",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.03424439998343587
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_folder_identity.py::test_invalid_folder_roi_is_rejected_even_when_prediction_exists",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005179999861866236
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape0-roi0]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0006984999636188149
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape0-roi0]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0006537999724969268
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape0-roi0]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0008196999551728368
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape1-roi1]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0011418999638408422
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape1-roi1]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0004686000756919384
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape1-roi1]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005711999256163836
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape2-roi2]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0007188000017777085
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape2-roi2]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.00047229998745024204
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape2-roi2]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0004165999125689268
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape3-roi3]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0006707999855279922
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape3-roi3]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0006219999631866813
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape3-roi3]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00046330003533512354
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape4-roi4]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0007254000520333648
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape4-roi4]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0005082000279799104
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape4-roi4]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00040770007763057947
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape0-roi0]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0006742000114172697
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape0-roi0]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0004325000336393714
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape0-roi0]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00038680003490298986
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape1-roi1]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.000969699933193624
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape1-roi1]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0006946000503376126
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape1-roi1]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0004993999609723687
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape2-roi2]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0006919000297784805
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape2-roi2]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0004490000428631902
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape2-roi2]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00040630006697028875
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape3-roi3]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0007320999866351485
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape3-roi3]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0004987999564036727
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape3-roi3]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0004265999887138605
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape4-roi4]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0006548999808728695
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape4-roi4]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.00044490001164376736
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape4-roi4]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0004061999497935176
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape0-roi0]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0006763000274077058
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape0-roi0]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.00043460004962980747
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape0-roi0]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00038810004480183125
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape1-roi1]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0005994000239297748
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape1-roi1]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0003654999891296029
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape1-roi1]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00038980005774647
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape2-roi2]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0006506999488919973
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape2-roi2]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.000582000007852912
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape2-roi2]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.000686699990183115
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape3-roi3]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0008459000382572412
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape3-roi3]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0005093000363558531
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape3-roi3]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0011540999403223395
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape4-roi4]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0010782000608742237
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape4-roi4]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0005160999717190862
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape4-roi4]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00047729990910738707
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape0-roi0]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0007244000444188714
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape0-roi0]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0004760000156238675
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape0-roi0]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00039629999082535505
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape1-roi1]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0006135000148788095
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape1-roi1]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.00039659999310970306
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape1-roi1]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00039840000681579113
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape2-roi2]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0006834999658167362
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape2-roi2]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.00041530001908540726
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape2-roi2]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0003855000250041485
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape3-roi3]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0011748999822884798
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape3-roi3]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0009997999295592308
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape3-roi3]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005147000774741173
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape4-roi4]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0007318999851122499
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape4-roi4]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0004856999730691314
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape4-roi4]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.000430900021456182
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi0]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0005646999925374985
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi0]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.00046929996460676193
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi0]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00038680003490298986
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi1]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0005029999883845448
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi1]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.00038979994133114815
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi1]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00045060005504637957
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi2]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.000573099940083921
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi2]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0004105999832972884
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi2]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0003776000812649727
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi3]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.000499499961733818
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi3]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0004846000811085105
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi3]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00036949990317225456
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi4]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0004983999533578753
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi4]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0004369000671431422
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi4]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005388999124988914
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi5]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0007450999692082405
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi5]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.000668700085952878
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi5]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00045489997137337923
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi6]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0005255000432953238
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi6]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.0004569999873638153
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi6]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0004013000288978219
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_clipped_real_prediction_assembly_and_raw_zero_skip",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.002945199958048761
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_clipped_real_prediction_assembly_and_raw_zero_skip",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.039512400049716234
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_clipped_real_prediction_assembly_and_raw_zero_skip",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0009896999690681696
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_cli_does_not_rescale_coordinates",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0004894000012427568
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_cli_does_not_rescale_coordinates",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.002029299968853593
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_inference.py::test_roi_cli_does_not_rescale_coordinates",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00038590002804994583
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[0-None]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.00295740005094558
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[0-None]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.2219014000147581
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[0-None]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0006964000640437007
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[0-next_roi1]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.004052500007674098
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[0-next_roi1]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.22055189998354763
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[0-next_roi1]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.00048619997687637806
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[1-None]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.003187699941918254
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[1-None]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.09665820002555847
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[1-None]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005121000576764345
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[1-next_roi1]",
+      "when": "setup",
+      "outcome": "passed",
+      "duration": 0.0033724999520927668
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[1-next_roi1]",
+      "when": "call",
+      "outcome": "passed",
+      "duration": 0.19679199997335672
+    },
+    {
+      "nodeid": "tests/ink_detection/test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[1-next_roi1]",
+      "when": "teardown",
+      "outcome": "passed",
+      "duration": 0.0004805999342352152
+    }
+  ],
+  "test_source_hashes": {
+    "vesuvius/tests/ink_detection/fixtures/ink_roi_case.json": {
+      "sha256_before": "7c2b5d8b3497764faaf7539b6538ae0b187ecdd9ac5ca559b3cd26be89389309",
+      "sha256_after": "7c2b5d8b3497764faaf7539b6538ae0b187ecdd9ac5ca559b3cd26be89389309"
+    },
+    "vesuvius/tests/ink_detection/fixtures/ink_roi_case.npz": {
+      "sha256_before": "2bd2ef9bfbdd620f1250cda59cf83f2f679cb4a8be9feffefd3e3de32ee503ea",
+      "sha256_after": "2bd2ef9bfbdd620f1250cda59cf83f2f679cb4a8be9feffefd3e3de32ee503ea"
+    },
+    "vesuvius/tests/ink_detection/test_roi_folder_identity.py": {
+      "sha256_before": "90e7a3cafb6a7bc0910db5f852170f67941043e095a39def99184e631eaa1bf8",
+      "sha256_after": "90e7a3cafb6a7bc0910db5f852170f67941043e095a39def99184e631eaa1bf8"
+    },
+    "vesuvius/tests/ink_detection/test_roi_inference.py": {
+      "sha256_before": "2d5d47247440159488d7ffde6252bb876cfd3a08dbf79b32bda7b1d64050930b",
+      "sha256_after": "2d5d47247440159488d7ffde6252bb876cfd3a08dbf79b32bda7b1d64050930b"
+    },
+    "vesuvius/tests/ink_detection/test_roi_output_metadata.py": {
+      "sha256_before": "903da35f2e4c89f6607b91a032c4ef2c16c04c5acc78bbc41ed2760f0759800b",
+      "sha256_after": "903da35f2e4c89f6607b91a032c4ef2c16c04c5acc78bbc41ed2760f0759800b"
+    }
+  },
+  "upstream_pin": "baf5e605bb42a3d55a62b7c5c728e0908137225c",
+  "dll_directories": [
+    "C:\\Users\\jonas\\Documents\\Codex\\2026-10-16\\hier-in-diesem-chat-wollen-wir\\targets\\VC-GROW-2104\\full-cpp\\prefix\\ucrt64\\bin",
+    "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build"
+  ],
+  "torch": {
+    "version": "2.14.1+cpu",
+    "threads": 2,
+    "interop_threads": 1
+  },
+  "inference_source": {
+    "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vesuvius\\src\\vesuvius\\ink_detection\\inference\\infer.py",
+    "sha256": "f88d9ec5ab1bcaa247535266faa0474dc62425a87702c714633d98ae125b9755",
+    "sha256_before": "f88d9ec5ab1bcaa247535266faa0474dc62425a87702c714633d98ae125b9755",
+    "upstream_pin": "baf5e605bb42a3d55a62b7c5c728e0908137225c",
+    "pinned_upstream_blob": "30d7b8f6a7ed283eb13f8f5eccfc0aec0c964e6a",
+    "loaded_filtered_blob": "0428cdf306775f8e597442bc6ca2487ee440b55e",
+    "source_identity_rule": "Raw SHA-256 retained; git --path text identity allows repository CRLF normalization",
+    "sha256_after_import": "f88d9ec5ab1bcaa247535266faa0474dc62425a87702c714633d98ae125b9755",
+    "sha256_after": "f88d9ec5ab1bcaa247535266faa0474dc62425a87702c714633d98ae125b9755"
+  },
+  "pytest_arguments": [
+    "-p",
+    "no:napari",
+    "-m",
+    "not slow and not network",
+    "-vv",
+    "--tb=long",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-test-evidence\\fixed-02\\pytest-tmp",
+    "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vesuvius\\tests\\ink_detection\\test_roi_folder_identity.py",
+    "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vesuvius\\tests\\ink_detection\\test_roi_inference.py",
+    "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vesuvius\\tests\\ink_detection\\test_roi_output_metadata.py"
+  ],
+  "status": "passed",
+  "wall_seconds": 15.430375500000082
+}

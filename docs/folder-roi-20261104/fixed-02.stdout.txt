@@ -1,0 +1,87 @@
+{
+  "native_imports": {
+    "_catalog": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_catalog.cp314-win_amd64.pyd",
+      "sha256": "984fbee740e4e4952c78641b2c57658c685b7d3bf346197e6d29a6f91c08e952"
+    },
+    "_reader": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_reader.cp314-win_amd64.pyd",
+      "sha256": "978920a0eaa09d5437411cf28395ca49dd5e79042270f2911fe79572bdb23c4b"
+    },
+    "_transforms": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_transforms.cp314-win_amd64.pyd",
+      "sha256": "89f2b4914287bfa14824e40acfb60a997e8cbe00d32b1de85ab77bc7fd50c40f"
+    },
+    "_thinning": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_thinning.cp314-win_amd64.pyd",
+      "sha256": "e887241df3d29f08db3a08b677792dfb1675fdd608451570f90e7ecd7aa9fa25"
+    }
+  },
+  "inference_source": {
+    "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vesuvius\\src\\vesuvius\\ink_detection\\inference\\infer.py",
+    "sha256": "f88d9ec5ab1bcaa247535266faa0474dc62425a87702c714633d98ae125b9755",
+    "sha256_before": "f88d9ec5ab1bcaa247535266faa0474dc62425a87702c714633d98ae125b9755",
+    "upstream_pin": "baf5e605bb42a3d55a62b7c5c728e0908137225c",
+    "pinned_upstream_blob": "30d7b8f6a7ed283eb13f8f5eccfc0aec0c964e6a",
+    "loaded_filtered_blob": "0428cdf306775f8e597442bc6ca2487ee440b55e",
+    "source_identity_rule": "Raw SHA-256 retained; git --path text identity allows repository CRLF normalization",
+    "sha256_after_import": "f88d9ec5ab1bcaa247535266faa0474dc62425a87702c714633d98ae125b9755"
+  },
+  "torch": {
+    "version": "2.14.1+cpu",
+    "threads": 2,
+    "interop_threads": 1
+  }
+}
+============================= test session starts =============================
+platform win32 -- Python 3.14.8, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-env\Scripts\python.exe
+rootdir: C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\villa-upstream\vesuvius
+configfile: pytest.ini
+collecting ... collected 44 items
+
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[None] PASSED [  2%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[first_roi1] PASSED [  4%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[None] PASSED [  6%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[roi1] PASSED [  9%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_folder_full_image_is_not_skipped_after_roi PASSED [ 11%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-False] PASSED [ 13%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-True] PASSED [ 15%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-False] PASSED [ 18%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-True] PASSED [ 20%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_folder_roi_prefix_and_both_directions_have_distinct_outputs PASSED [ 22%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_invalid_folder_roi_is_rejected_even_when_prediction_exists PASSED [ 25%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape0-roi0] PASSED [ 27%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape1-roi1] PASSED [ 29%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape2-roi2] PASSED [ 31%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape3-roi3] PASSED [ 34%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[32-shape4-roi4] PASSED [ 36%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape0-roi0] PASSED [ 38%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape1-roi1] PASSED [ 40%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape2-roi2] PASSED [ 43%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape3-roi3] PASSED [ 45%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[64-shape4-roi4] PASSED [ 47%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape0-roi0] PASSED [ 50%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape1-roi1] PASSED [ 52%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape2-roi2] PASSED [ 54%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape3-roi3] PASSED [ 56%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[96-shape4-roi4] PASSED [ 59%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape0-roi0] PASSED [ 61%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape1-roi1] PASSED [ 63%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape2-roi2] PASSED [ 65%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape3-roi3] PASSED [ 68%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_preserves_exact_parent_schedule[128-shape4-roi4] PASSED [ 70%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi0] PASSED [ 72%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi1] PASSED [ 75%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi2] PASSED [ 77%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi3] PASSED [ 79%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi4] PASSED [ 81%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi5] PASSED [ 84%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_rejects_wrong_or_empty_coordinate_frame[roi6] PASSED [ 86%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_clipped_real_prediction_assembly_and_raw_zero_skip PASSED [ 88%]
+vesuvius\tests\ink_detection\test_roi_inference.py::test_roi_cli_does_not_rescale_coordinates PASSED [ 90%]
+vesuvius\tests\ink_detection\test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[0-None] PASSED [ 93%]
+vesuvius\tests\ink_detection\test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[0-next_roi1] PASSED [ 95%]
+vesuvius\tests\ink_detection\test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[1-None] PASSED [ 97%]
+vesuvius\tests\ink_detection\test_roi_output_metadata.py::test_reused_output_never_retains_old_roi_frame[1-next_roi1] PASSED [100%]
+
+============================= 44 passed in 3.46s ==============================

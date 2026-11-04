@@ -1,0 +1,1196 @@
+{
+  "status": "verified_after_completed_native_build",
+  "count": 198,
+  "headers": [
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\aligned\\common.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\aligned\\common.hpp",
+      "sha256": "96b8c43da5b5589b7496f77bb5a5becf9557c11ab333614cfc89019f5b5b02ab",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\aligned\\plan.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\aligned\\plan.hpp",
+      "sha256": "6d450cc5c3ca0994d752a8c059dbd208a51d9778a31410ea9bcf8f8b5851fa5e",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\array.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\array.hpp",
+      "sha256": "1286b74f959acb31220aa9d319ee4dd97acb54d898a3908d0f9179989fd75931",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\atomic_file.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\atomic_file.hpp",
+      "sha256": "58925dafa126148748ee6c635b15e98604a9066ef856c0b123f7b2be3186402c",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\catalog_io.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\catalog_io.hpp",
+      "sha256": "470fd1ed62c485fc7e4681c1e02deaa17ce97c8fd6bc66037dfe024d948e314a",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\chunk_io.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\chunk_io.hpp",
+      "sha256": "a0cc35b40ab943cb526f311da74cf4f21ca9c3c110318dab1a31b48f5fbe0006",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\codecs.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\codecs.hpp",
+      "sha256": "f675080f5dd447cb220d2bf8fa40373752e6de89e8270605bc07a5cdf6b15294",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\components\\rows.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\components\\rows.hpp",
+      "sha256": "f5ec94b6edcb827cb35d24fc8d9a07ecfa1da6400f5d074442fb6f4673cea87b",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\composite\\reducer.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\composite\\reducer.hpp",
+      "sha256": "03276ceacd596d4f9c9a11d5d23b484c49360eba00238a37454bd49e0aaed633",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\cuda_available.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\cuda_available.hpp",
+      "sha256": "9c4732679de6a83e455ea01a72bd1341515bd10328aba07c3b38f8a536e82a8e",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\cuda_buffer.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\cuda_buffer.hpp",
+      "sha256": "3968cf8d139697c2ab616272378c6d4d24a7dedfe6f453b77f48df1cf9c87ba2",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\cuda_pool.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\cuda_pool.hpp",
+      "sha256": "f729a736741b1eee2dd2d081d1c68a213e21280ee84089e02b52dc6a2c12d897",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\cuda_stream.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\cuda_stream.hpp",
+      "sha256": "4dadfd947f4621c29b704dfdb01e8dabe342503d2aec6e7769af0659e08519f7",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\dense_affine.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\dense_affine.hpp",
+      "sha256": "29735b2ee2eef5be72237ad1a43b1574a0b95a7bd671ab10b73a2109f9982051",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\directional_math.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\directional_math.hpp",
+      "sha256": "b2e255d9945d6b140e546c8a8e4a8a93746443a39d0ef16c74405a65205e254a",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\disk_cache.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\disk_cache.hpp",
+      "sha256": "ef74cd32e91aa264b8390d7fa4d15dbc0b26e12879812e2f7d208671ae4cc36f",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\display\\pixels.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\display\\pixels.hpp",
+      "sha256": "2f7d285fc183dacb44c999116193ccfd37a1e74444108f52f4cd7d0c0f9bd38c",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\display\\slab_pixel.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\display\\slab_pixel.hpp",
+      "sha256": "0a63ec31f6a3c77fd386f0a25e1b82b9c93647a9dbd051eed46e332c30b8daa1",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\distance\\common.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\distance\\common.hpp",
+      "sha256": "c69e6e47b8ae9748d7c873398aa43367ae179dda7d6413ac389db045f8255584",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\element_type.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\element_type.hpp",
+      "sha256": "780263cfcedb080d570f52166a1f634979f36694d3ab6f048bade59cad096d52",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\element_value.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\element_value.hpp",
+      "sha256": "de34d04c4cae1b29ff8f472a6ad94822943a37c05ec2aab5857dab4777755b33",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\geometry\\common.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\geometry\\common.hpp",
+      "sha256": "2bf340c32413cec280ec990f3bef44a5a73465db74025f70782b95efdcfbaaa7",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\geometry\\math.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\geometry\\math.hpp",
+      "sha256": "763585cc4600fcf89c86aa37765980720f26a836a43ffa956b77de9f567c2d76",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\geometry\\plan.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\geometry\\plan.hpp",
+      "sha256": "c98e4cd84c821eeebdb841eb33669b310d6e6c4bf959864b2c932f921db00cfe",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\geometry\\triangle_mesh.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\geometry\\triangle_mesh.hpp",
+      "sha256": "8f0de3b7b762262190fee0b97c1de7da01283310277362209cd3dcb4f39cabdf",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\grid\\cuda.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\grid\\cuda.hpp",
+      "sha256": "5290dcc9c869385b050777f03518e80d603e3fea70ba42143181570886c1be9b",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\grid\\derivatives.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\grid\\derivatives.hpp",
+      "sha256": "cd01ecb1e0d4dec52a26769fdeb1a014bbc1c52bd6d2a7f5a3c42a310cc9c674",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\grid\\level_map.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\grid\\level_map.hpp",
+      "sha256": "44e2d9d20e4d3b4eec65235659ad9486cf808bf719595fab40c50ca3b6d45d28",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\grid\\points.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\grid\\points.hpp",
+      "sha256": "7d721060ca22c8e99aef38cd99ef5c9c7f312b230e4a470a21aa64fb3474b74c",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\http.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\http.hpp",
+      "sha256": "68060650765a3189d2ed57f577c7e9cc5b02d99b1388bf4ed6c6e5386231784d",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\lru.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\lru.hpp",
+      "sha256": "3ed11e0da013203031c0f715bbe7e233808c5184f17b561f123d758799304161",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\lzw.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\lzw.hpp",
+      "sha256": "b35ee77f1f250d14aacf2dd014e0ea21ddec99422235e9d67dc8e06be89a5aba",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\memory_cache.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\memory_cache.hpp",
+      "sha256": "701f4247c3edea5fed84fe8987cb31f291599e258dfd0ae8ce6ff5eaf495f0ce",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\output.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\output.hpp",
+      "sha256": "807f495fc80e36fc213853248361991e8fd2732466825a92dd81cf8467aea2fd",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\output_pool.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\output_pool.hpp",
+      "sha256": "ecbe68e21bf86460b074ba6b92e494da7138285d445638a88150bcf93ba35b18",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\pathfinding\\common.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\pathfinding\\common.hpp",
+      "sha256": "21077affc59f4fd9d5ef879b666bde314010d71c000aeeaa84379583ea1c8e23",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\platform_io.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\platform_io.hpp",
+      "sha256": "50c9c8aa7368f1e4960178e399abf5b2664d6470d6f7dce00796a2fed998e216",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\projection\\common.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\projection\\common.hpp",
+      "sha256": "a6a6c7d21b51221ab24878d037f9e59449f346859636bfccf3a4b9d5b0606f77",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\projection\\mask.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\projection\\mask.hpp",
+      "sha256": "7b20987e4c628194fe5d9510038f09287adb5563d3cd4c351c1fadc20fe494c9",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\projection\\plan.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\projection\\plan.hpp",
+      "sha256": "76190ce3926ea4e321bd49e42853d39b42c57d27aec980377e2bfeb8f1391af5",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\projection\\transfer.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\projection\\transfer.hpp",
+      "sha256": "b6a045454e52ce26da0ef6bb3f61eb2f4fd33317b60f4f3566fbb806600467f4",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\reader_cuda\\reader.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\reader_cuda\\reader.hpp",
+      "sha256": "4b36e15dd277719afa2f391f8c8fa4c00f881a24161acf05e57bd9d6f72d43cd",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\reader_cuda\\types.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\reader_cuda\\types.hpp",
+      "sha256": "68bbd23435c170d01d280119e879df0cf4998a95aa4f2cb45d25f1178b1d56bf",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\reader_types.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\reader_types.hpp",
+      "sha256": "a0b4577efc9b5236d2c9c260d8276b25073c80c5742e2fd1d6946ccf00ada78b",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\rounding.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\rounding.hpp",
+      "sha256": "28d723313f5e772156a065b68010a78af6f007d89855968c2015c652e9b80b27",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\sample_point.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\sample_point.hpp",
+      "sha256": "eca83be6da904ca0748532947ee1bf22605279fecc016222c2de95bb9308e5f2",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\sampling\\resident.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\sampling\\resident.hpp",
+      "sha256": "6ba7434eea27299b8b4914398eda5569e537a99f37773bf8ae0c7deba623e8f7",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\sampling_math.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\sampling_math.hpp",
+      "sha256": "3458d1e22964285e64b6416d3bc6c79e5b380c2f46720d158228842e90c99cc5",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\sftp\\ssh_process.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\sftp\\ssh_process.hpp",
+      "sha256": "fe27bc1c90438f7c2a87fddc0822b45bb8cb94631decf19d33237530fba5ffd6",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\shard_index.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\shard_index.hpp",
+      "sha256": "75589bc856d3a1d1f81c2cce3794a2ce4d4d4488ebc01625435cf480d48f7cb9",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\sheet_normal\\normal.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\sheet_normal\\normal.hpp",
+      "sha256": "dd0981ff5b00d1f51e96cee42c52c785730b05d50a808368b01cf05a04de84e6",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\sheet_normal\\sample.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\sheet_normal\\sample.hpp",
+      "sha256": "e4e6a45f524fd2689a8a04112e828bb58ebeb8abd377ce021117024e7f6450eb",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\sigv4.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\sigv4.hpp",
+      "sha256": "9d30e11dcc96fcdd3401a6bca71e3246db26a0e34bbfeebbb1c59b855023ada0",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\sources\\aligned_internal.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\sources\\aligned_internal.hpp",
+      "sha256": "dbd2d1c98344b2c4998a33d289db58e62571e941a8f6f776a5684b5c7f583778",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\storage_transform.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\storage_transform.hpp",
+      "sha256": "934b67317c0535f92946ab23f43a9810d61bdf7392bcedbbf0a5e98718f91f0f",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\symmetric_eigen.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\symmetric_eigen.hpp",
+      "sha256": "9b593feca9a835f02da0f0dc269c9dd51c554d1a27dcb18248ccb2bf705b1943",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\thinning\\common.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\thinning\\common.hpp",
+      "sha256": "4811992cb7ddde31155dd2ce5683a4ac171b339ee47c6f25eac8106248a03e65",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\thinning\\history.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\thinning\\history.hpp",
+      "sha256": "133d3201ede331594322999c14fb000f30954b7f3d07657c925fa685b724bb91",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\thinning\\rules.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\thinning\\rules.hpp",
+      "sha256": "177383db58eb71da4e76b15664d419ed500f13b7bf60322dc745fcbf3621c789",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\thread_pool.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\thread_pool.hpp",
+      "sha256": "942d8368df3f622c6205d42dafa806f2f50204b877005e1235e3f0bd552c3caa",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\core.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\core.hpp",
+      "sha256": "6d9d17d653a0bfb54b79add7bcd302c4c3a5d8ae2cd56e366b8dcb1f358de6a3",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\additive_noise.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\additive_noise.hpp",
+      "sha256": "0e35e3592f215dac8f0b2ea90a1a7f3c6138ebf7734eb0782e7682d79a4b45b6",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\bias_field.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\bias_field.hpp",
+      "sha256": "e564b2866465a245674fb9f162b6d76ff406b6383761337ee0c4259c17b6fa27",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\channel_misalignment.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\channel_misalignment.hpp",
+      "sha256": "3624b52e2f0b802ebadbc86ae64e3d287e59783a7c7fe43a42a9fac7e54e511f",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\clahe.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\clahe.hpp",
+      "sha256": "563a5cd2bc2904701a6c9176fa8065748ca6caaec81ddd1eeecc32b19948e112",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\coherence_enhancing_diffusion.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\coherence_enhancing_diffusion.hpp",
+      "sha256": "dbbf44b8df3732a24fc9651d743af87f6ddfb3d5926777c6ba4cb623eeb803ff",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\defocus.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\defocus.hpp",
+      "sha256": "59aa10cd2f4b8e8ab46172807d019b62ed98a48b4a1453b989dac35651c53fd1",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\distance_transform.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\distance_transform.hpp",
+      "sha256": "fcd2d2214be9eb1d02aa3814076adfe57e3322b19d5214c2daea8f67395d42bd",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\equalize.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\equalize.hpp",
+      "sha256": "8e75a84334effc670e8186c5a273a0452068395f586b00be2ea09929a931359d",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\foreground_crop.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\foreground_crop.hpp",
+      "sha256": "0a920f826bb8d2af29fc897bd728ca5819b834e4a8f43a6782f54471ff14aa20",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\foreground_dropout.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\foreground_dropout.hpp",
+      "sha256": "3534a470a9283f6347d1299a924927d45b830b7e0a933f13563d4368fa723329",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\fourier_domain_adaptation.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\fourier_domain_adaptation.hpp",
+      "sha256": "264a2c2870b83f202015cd7f04c1172a48c8827c4aa99de095227b337ea24850",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\gibbs_ringing.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\gibbs_ringing.hpp",
+      "sha256": "6d6c2f163f532af2c8188bd907862e4af80f69927dc4bbb51284338cf203c329",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\grid_dropout.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\grid_dropout.hpp",
+      "sha256": "f82369faec6a09e8fd10fd1faf8390f2af76d03ba331bc8c9116e273913efce7",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\histogram_matching.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\histogram_matching.hpp",
+      "sha256": "a4c2b9431396b36ad12ef0ece22a9262c2d7851e5f5a1edab619d961614bc07b",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\illumination.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\illumination.hpp",
+      "sha256": "2d24c389a960695b08e2db4989d697fd4ac559d772ad5e36241e6dfbcb6c3f4a",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\intensity.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\intensity.hpp",
+      "sha256": "dcf208e202b20b67555413d03b71495db6ce99adf610e8c7b1d1f72252ef5dff",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\labels.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\labels.hpp",
+      "sha256": "5ce0c9a7a29818ac0019ace5961a0f6ca27cc899b16a2565aa4a52f6736741a5",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\motion_blur.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\motion_blur.hpp",
+      "sha256": "2c295e54047f412b359e1f1357081a197784ba1ed5d0d2078f1ec4c0172e6593",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\multiplicative_noise.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\multiplicative_noise.hpp",
+      "sha256": "63e19313a1a832e22597f6aee15186e6460e58860b5ee8c914dc23932f79cb38",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\normalization.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\normalization.hpp",
+      "sha256": "092148e0bbc7ba34fc70876ac3a1994e52171789856d7093283fa5b8f6a540ab",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\object_dropout.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\object_dropout.hpp",
+      "sha256": "185716e0a1f3cbd64c1239dad925c7b6967501fbcff632f3b0fa2c6d268a4e36",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\oriented_blur.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\oriented_blur.hpp",
+      "sha256": "eb030398aa51cf3607854478b83da06ecc0931a752eedc4b4a6ce152a438ddf6",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\palette.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\palette.hpp",
+      "sha256": "40bf376eaf9f4b8651ef598ec58c7c1864d6d0d796171bdee98ea2a1972b6e89",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\pixel_distribution_adaptation.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\pixel_distribution_adaptation.hpp",
+      "sha256": "6673651264a8539ce4df90f816f1499aa5eb17e6e52476fc2b55a4278a98a60f",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\plasma_brightness_contrast.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\plasma_brightness_contrast.hpp",
+      "sha256": "4d68206167511c6cc13f9e76d102200be2207476ca9df9e795ac99924d56222f",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\plasma_shadow.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\plasma_shadow.hpp",
+      "sha256": "f390df83d2fbdd7d87c25b4f6297135c645d9efbc787d667c3ef165d874ee48a",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\random_tone_curve.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\random_tone_curve.hpp",
+      "sha256": "3270b5ede0e14d574b3a0414ffb7b559045854da9dc1e9a6181ca7acf121809e",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\ridges.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\ridges.hpp",
+      "sha256": "b4d22ef57d66d687f9e3e6dbbeeadbb88e9f08acc17c40d462e8bdcc3610daa8",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\ringing_overshoot.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\ringing_overshoot.hpp",
+      "sha256": "bc819f16dbd58207c7755f05f9ea3f65fd0ec8516d25c75320e0fb3a5a71da2e",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\salt_and_pepper.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\salt_and_pepper.hpp",
+      "sha256": "435cdcc1660d5cfd9e27a2315c831e31ccaf8a3e05730213d705f7a6c3cc031c",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\shot_noise.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\shot_noise.hpp",
+      "sha256": "639295844178a35719f8b83236d6ba507e933863a0b2a272327736b45e25ec51",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\spatial.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\spatial.hpp",
+      "sha256": "bb80c8eb42d10413dcb904fa00b772f6310f210a4781f84e1b67bc88a288b20f",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\stripe_masking.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\stripe_masking.hpp",
+      "sha256": "1377e1e1479ae328899335851ac769beab2d1ff78c68642981552a0edd1e39fa",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\structure_tensor.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\structure_tensor.hpp",
+      "sha256": "28ab4d9d2781cf4c9eb04a42582e7fbcc30a842111fc33f78c5d25ad48ffbc46",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\tracing.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\tracing.hpp",
+      "sha256": "edd9ff90e1026d17b1e827976b2abb1ad535921e47f0ad212da8438412f3acc0",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\unsharp_mask.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\unsharp_mask.hpp",
+      "sha256": "941e498c8cb3acb4fffef0b30007b8e707abdba65b565e26c725d6bcf23159e0",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\vignetting.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\vignetting.hpp",
+      "sha256": "5b93f22b654ac9baa76b2724da8c864f5fd6257a025364ae51d4ec5ac67e37b5",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cpu\\zoom_blur.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cpu\\zoom_blur.hpp",
+      "sha256": "ef48d1a283ae53f2d69539b1a8d662b2ab87cc0dbf2661b9db1feadb16fde6b1",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\batch_queue.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\batch_queue.hpp",
+      "sha256": "360aeb3325182a4bab2ff6004eab03632cf7c2b3fc605069984534da1fe9672a",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\channel.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\channel.cuh",
+      "sha256": "caa98c4e9723bb5ccbee9d0ac2518cbaed469c23a063ace8486a5e03ef111b6b",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\channel_statistics.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\channel_statistics.cuh",
+      "sha256": "51366c276b82583155dc125d6bf26086747c421cd93ff329007331118f940b34",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\common.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\common.cuh",
+      "sha256": "412717b016b95aac69c591c1de117e1b404e59e51913f2ada801f9e8f152d583",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\components.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\components.cuh",
+      "sha256": "dffa9e499ebd3d2998f591e2bb72a0b4552ddbcfd28cf3ad9c8b5357a9c99c93",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\device_io.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\device_io.hpp",
+      "sha256": "6413ca18fa3d9a6d137aa8b91a61c5786ab7a46522b02295b76a4b4daffe0573",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\device_run.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\device_run.hpp",
+      "sha256": "295d82259f3e2627630a954e03c213bb2a8a105af427c33e5a632ce2c42e1f49",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\dispatch.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\dispatch.hpp",
+      "sha256": "5d13533946ba64784c45d2b8bee66b2aa5aca9947c718e39190699cad569d214",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\dropout_mask.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\dropout_mask.cuh",
+      "sha256": "fc64d294a5998f120b10b056a66d28fa43cb2bafc0a35ff6397745e8cf56cfcf",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\foreground_selection.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\foreground_selection.cuh",
+      "sha256": "d61fb208ed9ee1ae0cd93ef5f0cd34ce6d689d2eb71b7d68d7c8445d9190d2b8",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\fourier.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\fourier.cuh",
+      "sha256": "b49984d76227a8b48a09b5ac766077654dde1049759022fc44fec8a3e5aebf8c",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\gaussian.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\gaussian.cuh",
+      "sha256": "0464b70129c7fc868069b5f59195a1d1b8f576fcfc6c22d3d84dad43b392ce0f",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\geometry.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\geometry.cuh",
+      "sha256": "8d50b90addc80dabfdf689450b5eb726efcf4eee3ae5ae20e3802ec32c5c15fb",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\histogram.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\histogram.cuh",
+      "sha256": "89bc6d96de46428a819205ce93cef5c6ee45dd7f3ec0a3208834c88c56cd48a6",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\label_values.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\label_values.cuh",
+      "sha256": "968fcb9cbc73b355693a33ad01049bbeda4d26597ecdbe3d05e3bc269c4848d2",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\launch.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\launch.cuh",
+      "sha256": "b16d5454b6e13203d2bccc2b605fcf7fae663961be4cd6d831f36808557fe613",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\local_field.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\local_field.cuh",
+      "sha256": "6c6f2651d01a0d1d88ccacfe7e38d3f86cf215c6671026b6eabd1afb50b20118",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\median.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\median.cuh",
+      "sha256": "2535a11d19e5885126e6a3335afd65655345d78116415d1e62729be63e6b7e5e",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\memory.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\memory.cuh",
+      "sha256": "8ad0d75c0e08fbd8b1e37dafe4cc37c7e5ce62e23e78552f569abd2178a06244",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\morphology.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\morphology.cuh",
+      "sha256": "a91dc17c92447b5febb580951cd71ad4713c3f3a67fe9a0d9b0d10e43882ec5b",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\noise.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\noise.cuh",
+      "sha256": "95e86a2d5eb03e4be7b37823f5091c7c97990179bd8acf4466ca397e8fda6fbb",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\pointwise.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\pointwise.cuh",
+      "sha256": "d5c234d6e09a25ea5a30f8f9fa7fa11d71e31cb32583a5920f9fd13923e8a60d",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\random.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\random.cuh",
+      "sha256": "5061b44dc43d5bd75f4858d9a20ceffdcabd9ac99046d40b5b3fb09f0b044848",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\reductions.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\reductions.cuh",
+      "sha256": "925d2eaa4bc9bbc94144b40c6ad6486be5c2f03261a7ef149d1c7fbe733674f9",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\regions.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\regions.cuh",
+      "sha256": "de6b6c8e6607713e621efa91661faa7a72a273019635d42a10b4562572c99f6d",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\resident.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\resident.cuh",
+      "sha256": "1a10a4ccf8f7a94b981a24328b389d91a38ad35ce5ee16573b2fd31425f33dd9",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\scan.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\scan.cuh",
+      "sha256": "e7f775ab777577e691161475cb2365d376ac4ae1509a434dc0a09db12f9afbf4",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\select_indices.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\select_indices.cuh",
+      "sha256": "e39dc3bc92e533f758eff17a73ff827ec93fa1d15caa215970dbf170a88cd8f4",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\separable_filter.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\separable_filter.cuh",
+      "sha256": "9e114462045418b8c0f0d80357539d2674f747c1d99be4e3f13c39856f9f6081",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\sort_keys.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\sort_keys.cuh",
+      "sha256": "c9ed48a4ae9490ccf15ceeb05d08aac51b1a93c8e567079f746ddf7d8af286c0",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\statistics.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\statistics.cuh",
+      "sha256": "c4319d810997cb4b99afd2599ccfb4d821d212e85943f9e132625b7df134c2b9",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\structure_gradients.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\structure_gradients.cuh",
+      "sha256": "e36400d056c585b58a675ac64d402782980a60e4d376f1230c4e1ef091ec9e52",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\cuda\\voxel_transform.cuh",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\cuda\\voxel_transform.cuh",
+      "sha256": "3d6e387796ee2075db2a3f5677bff4a10b5fc93e65aa943d15c903384e4d4e63",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\additive_noise.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\additive_noise.hpp",
+      "sha256": "eb7e52fb0e65208d0520a5ee4112acb7ae4ead2e51607eb4f5e8e9ff31ac8e73",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\bias_field.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\bias_field.hpp",
+      "sha256": "f350f53cc9d5b35149738a9cc95565ac8a38ca0b8d05bbab781fc5677b3997f4",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\channel_misalignment.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\channel_misalignment.hpp",
+      "sha256": "2c7f35f0772aeeb3ca970809eefbaf4d62d6e7cea760663fb2194d02e850142f",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\clahe.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\clahe.hpp",
+      "sha256": "6692f62aa8adae54730d68b06063fe3e68914735617359c464b356ee689e7c19",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\coherence_enhancing_diffusion.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\coherence_enhancing_diffusion.hpp",
+      "sha256": "37d81741c93c1a71ba86fd384d57708e0f1dce65ccbe55cad96b7efc6390ae9c",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\defocus.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\defocus.hpp",
+      "sha256": "d21c4696d3733b15e377ac64bd1c899284017b695e2eacddb092e9359a2ecd31",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\distance_transform.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\distance_transform.hpp",
+      "sha256": "41d40dfbfb2961553e87dc92d0f6de0f57ce0ddf2dd49f04fbc764d8d752d730",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\equalize.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\equalize.hpp",
+      "sha256": "e99fd6c11baa550b511d53d3d93aa341c45759a3727b7e58bad12f64195c61ce",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\foreground_crop.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\foreground_crop.hpp",
+      "sha256": "63f9beaabe9ef4a6aa045b3187bf4d44d1aed1047e754739512e173b418a24e0",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\foreground_dropout.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\foreground_dropout.hpp",
+      "sha256": "5e7123dcf7158826d04ca956a222203fee9b4e2c768c758b9528714e45f6dc5f",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\fourier_domain_adaptation.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\fourier_domain_adaptation.hpp",
+      "sha256": "ef3c4582803bcf3206f5c502f1a245eaec9110975fac9ea7679737d025b250f4",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\gibbs_ringing.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\gibbs_ringing.hpp",
+      "sha256": "e15ea20af0ceb6ab8545c7c5847443a91f9c0309241418b50231d06e59c3858b",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\grid_dropout.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\grid_dropout.hpp",
+      "sha256": "47d51e93a23beab5bd6ffbe4afe4718d1e444f298733837dbeeb5f489b9abe3e",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\histogram_matching.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\histogram_matching.hpp",
+      "sha256": "0d62a4a81781d4a84395bf23b5dcb530878d5b86f4759a73832a5ac93ee4a1c3",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\illumination.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\illumination.hpp",
+      "sha256": "a7a4b22bf9cb9e80d53987d79ec646e0997d96d4514e0458c5970e46dc0a6762",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\intensity.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\intensity.hpp",
+      "sha256": "5490ba2286ff453fe019c4b89f7e04215df47e5ed9c480f41818e6d1acbb545a",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\labels.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\labels.hpp",
+      "sha256": "62eeebe2ad56ba98d2297cbeecc7bf2d284cb70e0e248ea1ad1f0a2eae1342a9",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\motion_blur.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\motion_blur.hpp",
+      "sha256": "1776040f6230b0642ad454fe6f43054088cadc4bd0a8d25cef51e769ee69266a",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\multiplicative_noise.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\multiplicative_noise.hpp",
+      "sha256": "a4ef77548043a2857757967d612ee2ff3f00b1aa1bb15c3acaadbace7bd6bb1e",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\normalization.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\normalization.hpp",
+      "sha256": "af6030f8a9b65d036d533ac3768ac16a7e186777cffa4cdc9b7fe45c82a4b26b",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\object_dropout.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\object_dropout.hpp",
+      "sha256": "0800511bfe94122b88ed94492e4bb7007f77471b1fa94bb9e4e043f83ba4aa11",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\options.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\options.hpp",
+      "sha256": "a35dc838cb87520572842e596ecbefca6dc1e0e4acc33ecc9e425347905b2fd8",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\oriented_blur.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\oriented_blur.hpp",
+      "sha256": "7a29bdf6377e70400c03a1bf349ffe79bbf062bf572d85a715b4cd2db432003a",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\pixel_distribution_adaptation.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\pixel_distribution_adaptation.hpp",
+      "sha256": "e98eb414876b000d78c8eb788f8b305f2dca5da1e4b78dc94f7e1ffdb4e8816c",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\plasma_brightness_contrast.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\plasma_brightness_contrast.hpp",
+      "sha256": "cb490b796d7be7ae463f21388931c06ab4552586545afa15424803e03ccf48ac",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\plasma_shadow.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\plasma_shadow.hpp",
+      "sha256": "97455d6022ad483f6b5360c9245c7ee6c5df5ae4fc919f73a665757cc80c2661",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\random_tone_curve.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\random_tone_curve.hpp",
+      "sha256": "f278ac9c311dcc55e8b456db8f6e7bb5a9db0ae7d22efeb887e850b8c583ed7b",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\ridges.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\ridges.hpp",
+      "sha256": "501b3dc7eff5d443e88e57ad9e5656cac6d591f22565c433e1c91b184e7ed1fa",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\ringing_overshoot.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\ringing_overshoot.hpp",
+      "sha256": "74ada06636abe9a676d9706aedcd24f0502ce026c38809b976f3515d47c61c2a",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\salt_and_pepper.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\salt_and_pepper.hpp",
+      "sha256": "560bf02a0f1e02189cc813298238e3da78b26de7c815bf752503b3dd8a4081e2",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\shot_noise.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\shot_noise.hpp",
+      "sha256": "89fb8de42171c16ce096cc33bd7929e4fe25f7bd131d44042b23a86208104f39",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\spatial.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\spatial.hpp",
+      "sha256": "86c45a66d076471d1392fb93b183fd8450e59c23b9821872fa1a17dfcc8afac8",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\stripe_masking.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\stripe_masking.hpp",
+      "sha256": "9323fecd9121f64eee0cab34d89b82f3750ac4448f52df27ddadeb8fecad4140",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\structure_tensor.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\structure_tensor.hpp",
+      "sha256": "621a208800d09c557196c8f094824e28bb00493e9d29a6bfb5687bcd51576c61",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\tracing.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\tracing.hpp",
+      "sha256": "f28932e9c3420e4f8d5aee4dd0f3648e8b4950ce30ccb40c95f42320f004745c",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\unsharp_mask.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\unsharp_mask.hpp",
+      "sha256": "2906093af6d22b3f1388826a7394c4d87e3cda4f5e02c8dcbb28cbc2fbb91ff0",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\vignetting.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\vignetting.hpp",
+      "sha256": "03938ee592bca871564652f207064c542692018f5393e2846cd753b1bf07c2ff",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\ops\\zoom_blur.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\ops\\zoom_blur.hpp",
+      "sha256": "c317cfb752fd605d02435265abbc73591580877df31fe554ee06aaad2083091e",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\pipeline.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\pipeline.hpp",
+      "sha256": "c2c3438aa384d7d30e869e52c4a13a5d74e0342d3b793458d08bf161a95564ba",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\replay.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\replay.hpp",
+      "sha256": "60a11a23ffb1ea91376d3064997628d8fba842384ca4d6575b97b066bf1f478f",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\channel_requirements.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\channel_requirements.hpp",
+      "sha256": "1bea9f387fdafb6df7c8e47b2aee45c5ae1afbc58c861b3c86829707c1b22b8f",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\coherence_enhancing_diffusion.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\coherence_enhancing_diffusion.hpp",
+      "sha256": "2a162ad1e8f24cb2192c78099aac58ff85998ce9cf846282e57b0b2a8ca3c92d",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\component_traversal.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\component_traversal.hpp",
+      "sha256": "b49eab4a8255e7478d87c9f47287e0fa1833141ebeb53d236fb8e3a2974e58df",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\derived_field.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\derived_field.hpp",
+      "sha256": "5648bc27fe09d5e4bbd36cf7012fa4fd19694b2f7c15586bd5a101b61d6455a2",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\dropout_mask.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\dropout_mask.hpp",
+      "sha256": "67d9193582ec9d05480166b159e38385282944b0a0a9618d3731aca3b0e1f880",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\elastic.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\elastic.hpp",
+      "sha256": "24f0303643ac760e8a1e3efc15b32bbef5e064eb10f866c845e1f816fb0cf771",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\foreground_selection.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\foreground_selection.hpp",
+      "sha256": "1ba9321be7abefab607e775c321b33ca3d52f7dfc87dd9a7f74631285d6c831d",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\fourier.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\fourier.hpp",
+      "sha256": "92e85f3112f9bef1d1b4efa8f00e772d6e029e54faae8e11f5d6cbd016d402be",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\histogram.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\histogram.hpp",
+      "sha256": "8577cc009f459a05913e392b4a327a1067e812493bbec164518ac36246038e0e",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\intensity_fields.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\intensity_fields.hpp",
+      "sha256": "631956438b8c1bdd92e1f980d71d28d50f4d73029e3bc5d4a556c84ce8ca3a31",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\local_field.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\local_field.hpp",
+      "sha256": "3d3a330c788af4ca86636bbcf040b5ef3006250fe2d5e0b76c1778644090bf58",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\median.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\median.hpp",
+      "sha256": "69b75676adbc53830d68e62f626074ffd4380649153165ff1b85d98703a3561c",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\percentile.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\percentile.hpp",
+      "sha256": "a906b17632c00f0fd1bdc443cfceafb49d9dd955c2e87b4381f31c008ec0433c",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\precision.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\precision.hpp",
+      "sha256": "4e89d7dc9be95cf7482a0d7aa37ccbd45c2063cf2f05ec7e5c40c0b1232063d8",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\random_sampling.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\random_sampling.hpp",
+      "sha256": "48a79c8cf0016569a17d3c954d7a9a043499b772bc454d0aab4e45756465a2a4",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\resize_index.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\resize_index.hpp",
+      "sha256": "6bd15a3220eb58bd8f93068266aebb79dbb8f20e45113eaea5aa7c1516388b88",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\resize_plan.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\resize_plan.hpp",
+      "sha256": "c3b06b3c0d3f654033a895689e68c035b2119b99a598af33eb04f7c84d9b9514",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\separable_filter.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\separable_filter.hpp",
+      "sha256": "f75ea4f6272976292e8702e8d5ce68c3b89170c48bc2215d06d237913572d7d7",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\surface_displacement.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\surface_displacement.hpp",
+      "sha256": "b188c9f510557e4f5a7b81a3cf5d7be58adb2b002c9bb8b6ed495a97890928ef",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\volume_grid.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\volume_grid.hpp",
+      "sha256": "7ac46f9bf0c7d39e7e854cd5a33396f95145e611c3ed7dd738a8df62eff2f6bc",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\shared\\voxel_transform.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\shared\\voxel_transform.hpp",
+      "sha256": "1e1de233bf569559281b396b2a0eff13c7c36f3dc7eb6af5eba1a6beeb4a482e",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\transforms\\validate.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\transforms\\validate.hpp",
+      "sha256": "094ea2f7f1391541e0939713a4ca8c0594f8cc37c383b71dbed7ea0944653abf",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\write_behind.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\write_behind.hpp",
+      "sha256": "dfa77b164859e025143320b6fd882db8916081b95c5d6a68b6e00060f60802b8",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\zarr\\files.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\zarr\\files.hpp",
+      "sha256": "9e8cd6c2233a81c4719dbb1550170e3a0050dc0fb0bed7767c9cf2599e3c5709",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\zarr\\format.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\zarr\\format.hpp",
+      "sha256": "695bd319c1c8a931901413a885722dd59cef1d9fd0a0096d31afaf0024e9b153",
+      "samefile": true
+    },
+    {
+      "source": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\villa-upstream\\vc_reader\\src\\cpp\\zarr_storage.hpp",
+      "target": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-build\\include\\vc_reader\\native\\zarr_storage.hpp",
+      "sha256": "abf6dbd883050c045c2ffd23bc34084c0e066139f5560627636ddc5f9568bf06",
+      "samefile": true
+    }
+  ],
+  "source_build_support": "work/native-portability/receipt.json",
+  "limit": "Hash and file identity verify bytes, not numerical/physical validity. One intentional geometry-header alpha rename is separately preserved."
+}

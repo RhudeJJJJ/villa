@@ -1,0 +1,396 @@
+{
+  "native_imports": {
+    "_catalog": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_catalog.cp314-win_amd64.pyd",
+      "sha256": "984fbee740e4e4952c78641b2c57658c685b7d3bf346197e6d29a6f91c08e952"
+    },
+    "_reader": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_reader.cp314-win_amd64.pyd",
+      "sha256": "978920a0eaa09d5437411cf28395ca49dd5e79042270f2911fe79572bdb23c4b"
+    },
+    "_transforms": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_transforms.cp314-win_amd64.pyd",
+      "sha256": "89f2b4914287bfa14824e40acfb60a997e8cbe00d32b1de85ab77bc7fd50c40f"
+    },
+    "_thinning": {
+      "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\native-package\\vc_reader\\_thinning.cp314-win_amd64.pyd",
+      "sha256": "e887241df3d29f08db3a08b677792dfb1675fdd608451570f90e7ecd7aa9fa25"
+    }
+  },
+  "inference_source": {
+    "path": "C:\\Users\\jonas\\Documents\\Codex\\2026-11-04\\wo\\work\\roi-replay-baseline\\infer-source.py",
+    "sha256": "88bb792f8f71278ee1d79ce1c5c95416cede16a5b04acce3df6a763050b07c91",
+    "sha256_before": "88bb792f8f71278ee1d79ce1c5c95416cede16a5b04acce3df6a763050b07c91",
+    "upstream_pin": "baf5e605bb42a3d55a62b7c5c728e0908137225c",
+    "pinned_upstream_blob": "30d7b8f6a7ed283eb13f8f5eccfc0aec0c964e6a",
+    "loaded_filtered_blob": "30d7b8f6a7ed283eb13f8f5eccfc0aec0c964e6a",
+    "source_identity_rule": "Raw SHA-256 retained; git --path text identity allows repository CRLF normalization",
+    "baseline_pin_match": true,
+    "normalization": "CRLF-to-LF only; actual file bytes are not rewritten",
+    "pinned_raw_sha256": "32d1fcb5900a38a10103e6162e8dd8a97d9ab0f2f791e8e251fcdbaa55285522",
+    "canonical_lf_sha256": "32d1fcb5900a38a10103e6162e8dd8a97d9ab0f2f791e8e251fcdbaa55285522",
+    "sha256_after_import": "88bb792f8f71278ee1d79ce1c5c95416cede16a5b04acce3df6a763050b07c91"
+  },
+  "torch": {
+    "version": "2.14.1+cpu",
+    "threads": 2,
+    "interop_threads": 1
+  }
+}
+============================= test session starts =============================
+platform win32 -- Python 3.14.8, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-env\Scripts\python.exe
+rootdir: C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\villa-upstream\vesuvius
+configfile: pytest.ini
+collecting ... collected 11 items
+
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[None] FAILED [  9%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[first_roi1] FAILED [ 18%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[None] PASSED [ 27%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_identical_folder_request_is_still_skipped[roi1] PASSED [ 36%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_folder_full_image_is_not_skipped_after_roi FAILED [ 45%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-False] FAILED [ 54%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-True] FAILED [ 63%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-False] FAILED [ 72%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-True] FAILED [ 81%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_folder_roi_prefix_and_both_directions_have_distinct_outputs FAILED [ 90%]
+vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_invalid_folder_roi_is_rejected_even_when_prediction_exists FAILED [100%]
+
+================================== FAILURES ===================================
+_______ test_different_folder_roi_runs_and_keeps_previous_output[None] ________
+
+folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_diffe...62, 58, 59],
+       [61, 63, 64, ..., 61, 55, 57],
+       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))
+first_roi = None
+
+    @pytest.mark.parametrize("first_roi", [None, [3, 66, 5, 73]])
+    def test_different_folder_roi_runs_and_keeps_previous_output(folder_case, first_roi):
+        segment, configured, args, reference = folder_case
+        _run(configured, args, first_roi)
+        first = next((segment / "preds").glob("*.tif"))
+        first_bytes = first.read_bytes()
+        expected_first = reference if first_roi is None else reference[3:66, 5:73]
+        np.testing.assert_array_equal(tifffile.imread(first), expected_first)
+        next_roi = [2, 70, 4, 76]
+    
+        _run(configured, args, next_roi)
+    
+        outputs = sorted((segment / "preds").glob("*.tif"))
+>       assert len(outputs) == 2
+E       AssertionError: assert 1 == 2
+E        +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_different_folder_roi_runs0/segment/preds/segment_weights_forward_041126.tif')])
+
+vesuvius\tests\ink_detection\test_roi_folder_identity.py:74: AssertionError
+----------------------------- Captured log setup ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_different_folder_roi_runs0\segment\segment.zarr; all tiles will be scheduled
+------------------------------ Captured log call ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_different_folder_roi_runs0\segment\segment.zarr; all tiles will be scheduled
+____ test_different_folder_roi_runs_and_keeps_previous_output[first_roi1] _____
+
+folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_diffe...62, 58, 59],
+       [61, 63, 64, ..., 61, 55, 57],
+       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))
+first_roi = [3, 66, 5, 73]
+
+    @pytest.mark.parametrize("first_roi", [None, [3, 66, 5, 73]])
+    def test_different_folder_roi_runs_and_keeps_previous_output(folder_case, first_roi):
+        segment, configured, args, reference = folder_case
+        _run(configured, args, first_roi)
+        first = next((segment / "preds").glob("*.tif"))
+        first_bytes = first.read_bytes()
+        expected_first = reference if first_roi is None else reference[3:66, 5:73]
+        np.testing.assert_array_equal(tifffile.imread(first), expected_first)
+        next_roi = [2, 70, 4, 76]
+    
+        _run(configured, args, next_roi)
+    
+        outputs = sorted((segment / "preds").glob("*.tif"))
+>       assert len(outputs) == 2
+E       AssertionError: assert 1 == 2
+E        +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_different_folder_roi_runs1/segment/preds/segment_weights_forward_041126.tif')])
+
+vesuvius\tests\ink_detection\test_roi_folder_identity.py:74: AssertionError
+----------------------------- Captured log setup ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_different_folder_roi_runs1\segment\segment.zarr; all tiles will be scheduled
+------------------------------ Captured log call ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_different_folder_roi_runs1\segment\segment.zarr; all tiles will be scheduled
+_______________ test_folder_full_image_is_not_skipped_after_roi _______________
+
+folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_folde...62, 58, 59],
+       [61, 63, 64, ..., 61, 55, 57],
+       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))
+
+    def test_folder_full_image_is_not_skipped_after_roi(folder_case):
+        segment, configured, args, reference = folder_case
+        _run(configured, args, [3, 66, 5, 73])
+    
+        _run(configured, args, None)
+    
+        full = list((segment / "preds").glob("segment_weights_forward_*.tif"))
+        assert len(full) == 1
+>       assert tifffile.imread(full[0]).shape == (80, 80)
+E       assert (63, 68) == (80, 80)
+E         
+E         At index 0 diff: 63 != 80
+E         
+E         Full diff:
+E           (
+E         +     63,
+E         -     80,
+E         ?      -
+E         +     68,
+E         ?     +
+E         -     80,
+E           )
+
+vesuvius\tests\ink_detection\test_roi_folder_identity.py:114: AssertionError
+----------------------------- Captured log setup ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_folder_full_image_is_not_0\segment\segment.zarr; all tiles will be scheduled
+------------------------------ Captured log call ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_folder_full_image_is_not_0\segment\segment.zarr; all tiles will be scheduled
+___ test_old_untagged_roi_does_not_satisfy_full_image_request[010101-False] ___
+
+folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_u...62, 58, 59],
+       [61, 63, 64, ..., 61, 55, 57],
+       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x0000018C991A6570>
+malformed_sidecar = False, old_date = '010101'
+
+    @pytest.mark.parametrize("malformed_sidecar", [False, True])
+    @pytest.mark.parametrize("old_date", ["010101", "041126"])
+    def test_old_untagged_roi_does_not_satisfy_full_image_request(
+        folder_case, monkeypatch, malformed_sidecar, old_date
+    ):
+        class FixedDate:
+            @staticmethod
+            def now():
+                return datetime(2026, 11, 4)
+    
+        monkeypatch.setattr(infer, "datetime", FixedDate)
+        segment, configured, args, reference = folder_case
+        _run(configured, args, [3, 66, 5, 73])
+        roi = next((segment / "preds").glob("*.tif"))
+        old = roi.with_name(f"segment_weights_forward_{old_date}.tif")
+        roi.rename(old)
+        roi.with_suffix(".tif.roi.json").rename(old.with_suffix(".tif.roi.json"))
+        if malformed_sidecar:
+            old.with_suffix(".tif.roi.json").write_text("{malformed", encoding="utf-8")
+        old_bytes = old.read_bytes()
+        old_metadata = old.with_suffix(".tif.roi.json").read_bytes()
+        np.testing.assert_array_equal(tifffile.imread(old), reference[3:66, 5:73])
+    
+        _run(configured, args, None)
+    
+        outputs = list((segment / "preds").glob("segment_weights_forward_*.tif"))
+>       assert len(outputs) == 2
+E       AssertionError: assert 1 == 2
+E        +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_untagged_roi_does_not0/segment/preds/segment_weights_forward_010101.tif')])
+
+vesuvius\tests\ink_detection\test_roi_folder_identity.py:145: AssertionError
+----------------------------- Captured log setup ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_old_untagged_roi_does_not0\segment\segment.zarr; all tiles will be scheduled
+------------------------------ Captured log call ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_old_untagged_roi_does_not0\segment\segment.zarr; all tiles will be scheduled
+___ test_old_untagged_roi_does_not_satisfy_full_image_request[010101-True] ____
+
+folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_u...62, 58, 59],
+       [61, 63, 64, ..., 61, 55, 57],
+       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x0000018C9957EF10>
+malformed_sidecar = True, old_date = '010101'
+
+    @pytest.mark.parametrize("malformed_sidecar", [False, True])
+    @pytest.mark.parametrize("old_date", ["010101", "041126"])
+    def test_old_untagged_roi_does_not_satisfy_full_image_request(
+        folder_case, monkeypatch, malformed_sidecar, old_date
+    ):
+        class FixedDate:
+            @staticmethod
+            def now():
+                return datetime(2026, 11, 4)
+    
+        monkeypatch.setattr(infer, "datetime", FixedDate)
+        segment, configured, args, reference = folder_case
+        _run(configured, args, [3, 66, 5, 73])
+        roi = next((segment / "preds").glob("*.tif"))
+        old = roi.with_name(f"segment_weights_forward_{old_date}.tif")
+        roi.rename(old)
+        roi.with_suffix(".tif.roi.json").rename(old.with_suffix(".tif.roi.json"))
+        if malformed_sidecar:
+            old.with_suffix(".tif.roi.json").write_text("{malformed", encoding="utf-8")
+        old_bytes = old.read_bytes()
+        old_metadata = old.with_suffix(".tif.roi.json").read_bytes()
+        np.testing.assert_array_equal(tifffile.imread(old), reference[3:66, 5:73])
+    
+        _run(configured, args, None)
+    
+        outputs = list((segment / "preds").glob("segment_weights_forward_*.tif"))
+>       assert len(outputs) == 2
+E       AssertionError: assert 1 == 2
+E        +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_untagged_roi_does_not1/segment/preds/segment_weights_forward_010101.tif')])
+
+vesuvius\tests\ink_detection\test_roi_folder_identity.py:145: AssertionError
+----------------------------- Captured log setup ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_old_untagged_roi_does_not1\segment\segment.zarr; all tiles will be scheduled
+------------------------------ Captured log call ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_old_untagged_roi_does_not1\segment\segment.zarr; all tiles will be scheduled
+___ test_old_untagged_roi_does_not_satisfy_full_image_request[041126-False] ___
+
+folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_u...62, 58, 59],
+       [61, 63, 64, ..., 61, 55, 57],
+       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x0000018C9957F350>
+malformed_sidecar = False, old_date = '041126'
+
+    @pytest.mark.parametrize("malformed_sidecar", [False, True])
+    @pytest.mark.parametrize("old_date", ["010101", "041126"])
+    def test_old_untagged_roi_does_not_satisfy_full_image_request(
+        folder_case, monkeypatch, malformed_sidecar, old_date
+    ):
+        class FixedDate:
+            @staticmethod
+            def now():
+                return datetime(2026, 11, 4)
+    
+        monkeypatch.setattr(infer, "datetime", FixedDate)
+        segment, configured, args, reference = folder_case
+        _run(configured, args, [3, 66, 5, 73])
+        roi = next((segment / "preds").glob("*.tif"))
+        old = roi.with_name(f"segment_weights_forward_{old_date}.tif")
+        roi.rename(old)
+        roi.with_suffix(".tif.roi.json").rename(old.with_suffix(".tif.roi.json"))
+        if malformed_sidecar:
+            old.with_suffix(".tif.roi.json").write_text("{malformed", encoding="utf-8")
+        old_bytes = old.read_bytes()
+        old_metadata = old.with_suffix(".tif.roi.json").read_bytes()
+        np.testing.assert_array_equal(tifffile.imread(old), reference[3:66, 5:73])
+    
+        _run(configured, args, None)
+    
+        outputs = list((segment / "preds").glob("segment_weights_forward_*.tif"))
+>       assert len(outputs) == 2
+E       AssertionError: assert 1 == 2
+E        +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_untagged_roi_does_not2/segment/preds/segment_weights_forward_041126.tif')])
+
+vesuvius\tests\ink_detection\test_roi_folder_identity.py:145: AssertionError
+----------------------------- Captured log setup ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_old_untagged_roi_does_not2\segment\segment.zarr; all tiles will be scheduled
+------------------------------ Captured log call ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_old_untagged_roi_does_not2\segment\segment.zarr; all tiles will be scheduled
+___ test_old_untagged_roi_does_not_satisfy_full_image_request[041126-True] ____
+
+folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_u...62, 58, 59],
+       [61, 63, 64, ..., 61, 55, 57],
+       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x0000018C9942F850>
+malformed_sidecar = True, old_date = '041126'
+
+    @pytest.mark.parametrize("malformed_sidecar", [False, True])
+    @pytest.mark.parametrize("old_date", ["010101", "041126"])
+    def test_old_untagged_roi_does_not_satisfy_full_image_request(
+        folder_case, monkeypatch, malformed_sidecar, old_date
+    ):
+        class FixedDate:
+            @staticmethod
+            def now():
+                return datetime(2026, 11, 4)
+    
+        monkeypatch.setattr(infer, "datetime", FixedDate)
+        segment, configured, args, reference = folder_case
+        _run(configured, args, [3, 66, 5, 73])
+        roi = next((segment / "preds").glob("*.tif"))
+        old = roi.with_name(f"segment_weights_forward_{old_date}.tif")
+        roi.rename(old)
+        roi.with_suffix(".tif.roi.json").rename(old.with_suffix(".tif.roi.json"))
+        if malformed_sidecar:
+            old.with_suffix(".tif.roi.json").write_text("{malformed", encoding="utf-8")
+        old_bytes = old.read_bytes()
+        old_metadata = old.with_suffix(".tif.roi.json").read_bytes()
+        np.testing.assert_array_equal(tifffile.imread(old), reference[3:66, 5:73])
+    
+        _run(configured, args, None)
+    
+        outputs = list((segment / "preds").glob("segment_weights_forward_*.tif"))
+>       assert len(outputs) == 2
+E       AssertionError: assert 1 == 2
+E        +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_untagged_roi_does_not3/segment/preds/segment_weights_forward_041126.tif')])
+
+vesuvius\tests\ink_detection\test_roi_folder_identity.py:145: AssertionError
+----------------------------- Captured log setup ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_old_untagged_roi_does_not3\segment\segment.zarr; all tiles will be scheduled
+------------------------------ Captured log call ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_old_untagged_roi_does_not3\segment\segment.zarr; all tiles will be scheduled
+______ test_folder_roi_prefix_and_both_directions_have_distinct_outputs _______
+
+folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_folde...62, 58, 59],
+       [61, 63, 64, ..., 61, 55, 57],
+       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))
+
+    def test_folder_roi_prefix_and_both_directions_have_distinct_outputs(folder_case):
+        segment, configured, args, reference = folder_case
+        args.output_prefix = "probe"
+        args.direction = "both"
+    
+        _run(configured, args, [3, 66, 5, 73])
+    
+        outputs = list((segment / "preds").glob("*.tif"))
+        assert len(outputs) == 2
+>       assert {path.name.split("_roi_r3-66_c5-73_")[1].split("_")[0]
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                for path in outputs} == {"forward", "reverse"}
+E       IndexError: list index out of range
+
+vesuvius\tests\ink_detection\test_roi_folder_identity.py:170: IndexError
+----------------------------- Captured log setup ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_folder_roi_prefix_and_bot0\segment\segment.zarr; all tiles will be scheduled
+------------------------------ Captured log call ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_folder_roi_prefix_and_bot0\segment\segment.zarr; all tiles will be scheduled
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_folder_roi_prefix_and_bot0\segment\segment.zarr; all tiles will be scheduled
+_______ test_invalid_folder_roi_is_rejected_even_when_prediction_exists _______
+
+folder_case = (WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_inval...62, 58, 59],
+       [61, 63, 64, ..., 61, 55, 57],
+       [61, 65, 66, ..., 62, 59, 60]], shape=(80, 80), dtype=uint8))
+
+    def test_invalid_folder_roi_is_rejected_even_when_prediction_exists(folder_case):
+        _, configured, args, _ = folder_case
+        _run(configured, args, None)
+    
+>       with pytest.raises(ValueError, match="--roi"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+vesuvius\tests\ink_detection\test_roi_folder_identity.py:181: Failed
+----------------------------- Captured log setup ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_invalid_folder_roi_is_rej0\segment\segment.zarr; all tiles will be scheduled
+------------------------------ Captured log call ------------------------------
+WARNING  vesuvius.ink_detection.inference.infer:infer-source.py:1331 No low-resolution occupancy scan is available for C:\Users\jonas\Documents\Codex\2026-11-04\wo\work\native-test-evidence\baseline-06\pytest-tmp\test_invalid_folder_roi_is_rej0\segment\segment.zarr; all tiles will be scheduled
+=========================== short test summary info ===========================
+FAILED vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[None] - AssertionError: assert 1 == 2
+ +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_different_folder_roi_runs0/segment/preds/segment_weights_forward_041126.tif')])
+FAILED vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_different_folder_roi_runs_and_keeps_previous_output[first_roi1] - AssertionError: assert 1 == 2
+ +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_different_folder_roi_runs1/segment/preds/segment_weights_forward_041126.tif')])
+FAILED vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_folder_full_image_is_not_skipped_after_roi - assert (63, 68) == (80, 80)
+  
+  At index 0 diff: 63 != 80
+  
+  Full diff:
+    (
+  +     63,
+  -     80,
+  ?      -
+  +     68,
+  ?     +
+  -     80,
+    )
+FAILED vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-False] - AssertionError: assert 1 == 2
+ +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_untagged_roi_does_not0/segment/preds/segment_weights_forward_010101.tif')])
+FAILED vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[010101-True] - AssertionError: assert 1 == 2
+ +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_untagged_roi_does_not1/segment/preds/segment_weights_forward_010101.tif')])
+FAILED vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-False] - AssertionError: assert 1 == 2
+ +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_untagged_roi_does_not2/segment/preds/segment_weights_forward_041126.tif')])
+FAILED vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_old_untagged_roi_does_not_satisfy_full_image_request[041126-True] - AssertionError: assert 1 == 2
+ +  where 1 = len([WindowsPath('C:/Users/jonas/Documents/Codex/2026-11-04/wo/work/native-test-evidence/baseline-06/pytest-tmp/test_old_untagged_roi_does_not3/segment/preds/segment_weights_forward_041126.tif')])
+FAILED vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_folder_roi_prefix_and_both_directions_have_distinct_outputs - IndexError: list index out of range
+FAILED vesuvius\tests\ink_detection\test_roi_folder_identity.py::test_invalid_folder_roi_is_rejected_even_when_prediction_exists - Failed: DID NOT RAISE ValueError
+========================= 9 failed, 2 passed in 1.74s =========================

@@ -1,0 +1,36 @@
+diff --git a/vc_reader/src/cpp/bindings.cpp b/vc_reader/src/cpp/bindings.cpp
+index 67ea6c3..52d931e 100644
+--- a/vc_reader/src/cpp/bindings.cpp
++++ b/vc_reader/src/cpp/bindings.cpp
+@@ -179,8 +179,16 @@ NB_MODULE(_reader, m)
+             nb::object cls = nb::module_::import_("vc_reader.errors").attr("LowDiskSpaceError");
+             PyErr_SetString(cls.ptr(), e.what());
+         } catch (const std::filesystem::filesystem_error& e) {
++#ifdef _WIN32
++            PyObject* filename = PyUnicode_FromWideChar(e.path1().c_str(), -1);
++            if (filename == nullptr) return;
++            errno = e.code().value();
++            PyErr_SetFromErrnoWithFilenameObject(PyExc_OSError, filename);
++            Py_DECREF(filename);
++#else
+             errno = e.code().value();
+             PyErr_SetFromErrnoWithFilename(PyExc_OSError, e.path1().c_str());
++#endif
+         }
+     });
+ 
+diff --git a/vc_reader/src/cpp/geometry/common.hpp b/vc_reader/src/cpp/geometry/common.hpp
+index 398eac8..40c673a 100644
+--- a/vc_reader/src/cpp/geometry/common.hpp
++++ b/vc_reader/src/cpp/geometry/common.hpp
+@@ -86,8 +86,8 @@ VCR_GEOMETRY_HD inline void closest(const CurvesView& c,V p,std::int64_t curve,f
+         if(box_distance(p,n)>best)continue;
+         if(n.left>=0){
+             float a=box_distance(p,c.nodes[n.left]),b=box_distance(p,c.nodes[n.right]);
+-            int near=n.left,far=n.right;if(a>b){near=n.right;far=n.left;float t=a;a=b;b=t;}
+-            if(b<=best)stack[top++]=far;if(a<=best)stack[top++]=near;
++            int near_node=n.left,far_node=n.right;if(a>b){near_node=n.right;far_node=n.left;float t=a;a=b;b=t;}
++            if(b<=best)stack[top++]=far_node;if(a<=best)stack[top++]=near_node;
+         }else for(int j=n.begin;j<n.end;++j){
+             int i=c.order[j],id=c.owners[i];V a=vector(c.points+std::size_t(3)*i),q=a;float t=0;
+             if(!c.vertices&&i+1<c.offsets[id+1])q=closest_segment(p,a,vector(c.points+std::size_t(3)*(i+1)),t);

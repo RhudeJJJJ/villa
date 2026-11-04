@@ -1,0 +1,15 @@
+Local native validation, 04 November 2026
+
+Tested upstream Python baseline: baf5e605bb42a3d55a62b7c5c728e0908137225c.
+Windows; CPython3.14.8; Torch2.14.1+cpu; GCC/UCRT; real CPU vc_reader modules.
+Baseline-06: 11 collected; setups/teardowns pass; 9 failed calls, 2 passed.
+Fixed-02: 44 collected; all setup/call/teardown phases pass.
+These are already completed runs. Screenshots show archived-log excerpts in an editor; they are not captures of a new run. Complete stdout and per-case child-result records are supplied.
+
+Both Python variants used identical hashes of _catalog/_reader/_transforms/_thinning. The Python baseline matches the pinned Git blob; raw CRLF file identity is kept distinct from LF text identity. The product commit contains only infer.py and its new folder-ROI test.
+
+This is a locally adapted Windows native build, not an unmodified upstream Windows build. The separate windows-build-support.patch changes only local near/far variable names in geometry/common.hpp (Windows macro collision) and Unicode filename error reporting under _WIN32 in bindings.cpp. Native numerical calculation was not changed. The build also needed 198 generated SDK headers to be byte-identical hardlinks to their current local sources, applied after CMake's final configuration. The retained post-build receipt verifies that identity. Build phase build_windows_links completed with exit0.
+
+New tests use one PHerc0139-w035 CT fixture (17x80x80) and saved model outputs. They exercise real native CT I/O, folder/single-volume dispatch and TIFF/sidecar output. The model and selected clock/skip controls are test doubles. There is no fresh checkpoint CLI inference, new ink score, new letters, training or performance claim. Single-segment folder entry only; no general parent-layout discovery guarantee. Linux/macOS/CUDA and concurrent-writer/crash recovery are untested. Other folder-identity omissions remain outside this patch.
+
+The evidence branch keeps this support separate from the two-file product PR. It is a source/evidence bundle, not a complete offline runtime installation.
