@@ -1,0 +1,55 @@
+name: Controlled CI comparison 2443
+on:
+  push:
+    branches: ['diagnostic/ci2443-controlled-20261117']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  controlled:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 70
+    env:
+      UV_PYTHON: '3.14.10'
+      CMAKE_BUILD_PARALLEL_LEVEL: '2'
+    steps:
+      - name: Checkout diagnostic driver
+        uses: actions/checkout@v4
+        with:
+          path: diagnostic
+          persist-credentials: false
+      - name: Checkout exact baseline
+        uses: actions/checkout@v4
+        with:
+          repository: RhudeJJJJ/villa
+          ref: baf5e605bb42a3d55a62b7c5c728e0908137225c
+          path: source
+          persist-credentials: false
+      - name: Fetch exact PR head
+        working-directory: source
+        run: git fetch --no-tags --depth=2 origin 62327ddd67c48ece198dbb5ff0e25dc6af962025
+      - name: Install native dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends build-essential curl git libblosc-dev libboost-dev libceres-dev libcurl4-openssl-dev libeigen3-dev liblz4-dev libopencv-contrib-dev libopencv-dev libsuitesparse-dev libjpeg-dev libpng-dev libtiff-dev libzstd-dev ninja-build nlohmann-json3-dev pkg-config qt6-base-dev zlib1g-dev
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v10.3.3
+        with:
+          enable-cache: false
+      - name: Build one fixed environment
+        working-directory: source/vesuvius
+        run: |
+          uv sync --frozen --extra all --python 3.14.10
+          uv pip install 'zarr==2.18.7'
+          mkdir -p "$GITHUB_WORKSPACE/results"
+          uv pip freeze > "$GITHUB_WORKSPACE/results/packages.txt"
+      - name: Execute controlled comparisons
+        run: source/vesuvius/.venv/bin/python diagnostic/tools/ci2443_compare.py "$GITHUB_WORKSPACE/source" "$GITHUB_WORKSPACE/results"
+      - name: Upload complete logs even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ci2443-controlled-20261117
+          path: results/
+          if-no-files-found: warn
+          retention-days: 30

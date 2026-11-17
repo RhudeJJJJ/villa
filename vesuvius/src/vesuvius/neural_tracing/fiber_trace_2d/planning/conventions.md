@@ -1,4 +1,0 @@
-- never do inversions of some forward transform if not explicitely instructed
-    - no brute-force search
-    - no optimizing inversions
-    - even analytic only if explicitely requested - default should always be to have the fw/bw paths both exist by construction

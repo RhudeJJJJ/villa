@@ -1,6 +1,0 @@
-config.json
-saved/
-wandb/
-scroll*/
-lightning_logs/
-overlapp_threshold.yaml

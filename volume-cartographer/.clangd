@@ -1,6 +1,0 @@
-CompileFlags:
-  Add: [-ferror-limit=100]
-Index:
-  Background: Build
-Diagnostics:
-  UnusedIncludes: None

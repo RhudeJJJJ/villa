@@ -1,5 +1,0 @@
-numpy
-open3d
-webknossos==0.16.2
-networkx
-tqdm

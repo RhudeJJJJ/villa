@@ -1,8 +1,0 @@
-vc-reader  # monorepo-only until published
-numpy
-scipy
-tqdm
-opencv-python-headless>=4.5.0
-huggingface_hub>=0.23.0
-psutil
-#webknossos==0.16.2

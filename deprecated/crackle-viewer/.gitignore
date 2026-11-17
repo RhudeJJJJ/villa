@@ -1,6 +1,0 @@
-build/
-dist/
-original*/
-*.txt
-!requirements.txt
-.vscode/
